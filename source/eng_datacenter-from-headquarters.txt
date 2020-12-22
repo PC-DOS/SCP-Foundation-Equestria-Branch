@@ -1,0 +1,6 @@
+[[=]]
+[[size 125%]]Please wait while we are redirecting you to the[[/size]]
+[[size 125%]]English Database of SCP Foundation Equestria Branch[[/size]]
+[[/=]]
+
+[[module Redirect destination="/eng:scp-eq-database"]]

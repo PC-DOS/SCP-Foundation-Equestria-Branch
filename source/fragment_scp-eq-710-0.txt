@@ -1,0 +1,118 @@
+[[module css]]
+.footnoteref{
+color: #FF5555;
+}
+.danke{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+width: 100%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.agent{
+background-color:#002200;
+border: 3px solid #55AA55;
+color: #77CC77;
+}
+
+.site{
+background-color:#222200;
+border: 3px solid #AAAA55;
+color: #DDDD77;
+}
+[[/module]]
+[[=]]
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
+##ff5c48|[[size 150%]] **警告：下列文件为3级机密** [[/size]]##
+----
+[[size larger]] **无3级权限马员禁止访问。
+违规访问将被记录，违规马员将被处以纪律处分。**[[/size]]
+----
+**当前登录信息**
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+登录名：Clouded Sky
+[[/cell]]
+[[cell]]
+职位：助理研究员
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+职员ID：2107-00202-00995
+[[/cell]]
+[[cell]]
+安保权限等级：3
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+就职地点：Site-EQ-202 模因部
+[[/cell]]
+[[cell]]
+数据库账号激活状态：是
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+[[size larger]] **检测到3级权限，准许访问。**[[/size]]
+[[/div]]
+[[/=]]
+@@@@
+[[collapsible show="SCP-EQ-710 [3级安保权限]" hide="SCP-EQ-710 [3级安保权限]"]]
+
+[[include :scp-wiki-cn:component:anomaly-class-bar-source
+
+|lang= cn
+
+|item-number= EQ-710
+
+|clearance= 3
+
+|container-class= keter
+
+|secondary-class= none
+
+|disruption-class= keneq
+
+|risk-class= 需谨慎
+
+]]
+
+**特殊收容措施：**基金会记录与信息安全管理部启用互联网云端同步方式储存已收容异常的统计学信息，并定期交由马工智能和/或不知情随机文书工作马员进行数据比对，如出现数据误差，则应视为SCP-EQ-710的一次发生。
+
+经过反模因/反逆模因训练的机动特遣队MTF-诚实-4（“[[span class="ruby"]]别给咱扯谎[[span class="rt"]]Ah don't take no lyin'[[/span]][[/span]]”）被任命负责在SCP-EQ-710发生时对受影响异常及其数据进行调查，并着蹄执行重收容工作。执行任务期间，根据需要，MTF-诚实-4成员最高可被暂时提供5级安保权限。
+
+任何设施、部门、马员如对数据库内容有异议，应及时上报记录与信息安全管理部，以确认SCP-EQ-710的存在。
+[需要4级权限]
+
+**描述：**SCP-EQ-710是一可能为模因和/或逆模因的、发生于基金会数据库及设施的异常。
+
+目前对于SCP-EQ-710的性质，有如下两种假说：
+
+* SCP-EQ-710是一逆模因及其引发的现象。SCP-EQ-710会造成已收容异常及其相关信息丢失（包括但不限于电子数据、纸质文档、记忆、录音或录像）。根据此假说，SCP-EQ-710目前至少已经造成了██起收容失效；
+
+* SCP-EQ-710是一系列模因及认知危害。SCP-EQ-710在基金会职员中传播，携带有虚假记忆及肌肉记忆，内容均为“已收容异常消失”，并观察到前文所述之“异常”实际存在的依据。
+
+根据研究员Better Safe的提议，出于安全考虑，目前对SCP-EQ-710的收容以第一种假说为依据，同时对两种假说的可能性展开调查。
+
+[需要4级权限]
+
+**附录EQ-710.1：可能因SCP-EQ-710导致收容失效的异常摘录**
+
+> **推测项目编号：**SCP-EQ-1763
+> **相关马员：**Hidden Stool
+> **推测项目等级：**Safe（声称为Keter）
+> **推测性质：**实体，外形为木质坐凳，任何智能生物身体与其表面接触后，接触处均会感染不明微生物，造成急性败血症死亡。
+
+> [需要4级权限]
+
+[[div class="danke agent"]]
+[[size larger]] **基金会记录与信息安全管理部的提醒** [[/size]]
+
+您当前查阅的是 SCP-EQ-710 的 3 级安保权限文档。
+如需查阅更高等级的文档，请[/scp-eq-710/offset/1 验证权限]。
+[[/div]]
+
+[[/collapsible]]

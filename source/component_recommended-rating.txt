@@ -1,0 +1,8 @@
+[[>]]
+[[div class="heritage-rating-module"]]
+[[module Rate]]
+[[div class="heritage-emblem"]]
+[[image /component:recommended-rating/recommended-emblem.png link="recommended-entries"]]
+[[/div]]
+[[/div]]
+[[/>]]

@@ -1,0 +1,31 @@
+[[=image http://scp-equestria.wdfiles.com/local--files/about-the-scp-foundation/SCPLogo_Grey_Resize.png width="245px" height="245px"]]
+
+[[div class="unmargined" style="font-size: 250%; font-weight: bold; margin: 5px 0 5px;text-align: center;"]]
+基金会信息安全管理部公告
+[[/div]]
+
+[[div class="unmargined" style="font-size: 150%; margin: 25px 0 5px;text-align: center;"]]
+本文档系由与基金会敌对的组织插入基金会数据库
+
+且含有已确认有害的模因危害
+
+本文档已被禁止访问，且将被移除
+[[/div]]
+
+[[div style="text-align: center; margin-top: 25px;"]]
+[[iframe http://home.helenbot.com/tools/timer.html?time=1570930200000&type=WILL%20DELETE%20THIS%20DOCUMENT%20IN style="width: 400px; height: 250px; border: 0; margin: 0 auto;"]]
+[[/div]]
+
+[[div class="unmargined" style="font-size: 115%; margin: 125px 0 5px;text-align: center;"]]
+##darkred|错误：无法向任务计划数据库插入移除本文档的任务计划##
+
+[[size 75%]]若您是管理马员或希望向管理马员汇报此错误，请附上此错误代码：**OPERATION_FAILED**[[/size]]
+@@ @@
+##orange|警告：与任务计划服务通讯时发生错误，排定的定时器过期后可能无法自动执行移除操作##
+[[/div]]
+
+[[div style="text-align: center; margin-top: 245px; margin-bottom: 245px;"]]
+[[size 90%]]提示：您当前的登录凭据可以申请存取本文档[[/size]]
+@@ @@
+[[a href="/scp-eq-926/offset/1" class="button" style="font-size: 125%; padding: 5px 15px 5px 15px;"]]申请存取文档[[/a]]
+[[/div]]

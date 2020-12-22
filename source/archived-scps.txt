@@ -1,0 +1,76 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+#breadcrumbs {
+  display: none;
+}
+[[/module]]
+
+[[module CSS]]
+.scp-eq-datacenter-menu {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.scp-eq-datacenter-menu a {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   width: 100%;
+   font-size: 110%;
+   font-weight: bold;
+   text-decoration: none !important;
+   color: #555 !important;
+   background: transparent;
+}
+.scp-eq-datacenter-menu a:hover {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   width: 100%;
+   font-size: 110%;
+   font-weight: bold;
+   text-decoration: none !important;
+   color: #555 !important;
+   background: rgba(238,238,238,0.5);
+}
+[[/module]]
+
+[[div style="background-image: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png); background-position:-150px 50%; background-repeat: no-repeat; width: 100;"]]
+
+[[div class="scp-eq-datacenter-menu" style="width:100%; text-align: left; margin-left: 0px;"]]
+[[[special-scps | <<回到特殊SCP项目列表首页]]]
+[[/div]]
+
+[[div class="unmargined" style="margin-left: 10px;"]]
+[[div class="unmargined" style="color: #555; font-size: 150%; font-weight: bold; margin: 0px 0 0px;"]]
+SCP基金会小马国分部特殊SCP项目资料库
+[[/div]]
+[[div class="unmargined" style="color: #555; font-size: 245%; font-weight: bold; margin: 5px 0 0px;"]]
+被归档的SCP项目
+[[/div]]
+[[/div]]
+
+[[div style="border-bottom:1px solid #555; margin-bottom:1px; margin-top: 25px;"]]
+[[/div]]
+[[div style="border-bottom:2px solid #555; "]]
+[[/div]]
+
+[[/div]]
+
+-ARC（即Archived，被归档）的SCP项目可能已经因为种种原因被从SCP项目资料库移除的SCP项目。可能的原因包括丢失、损毁、已向公众公开等。这些SCP项目占用的编号理论上已经被释放了，但是由于其被别的SCP项目或文档引用，因此其其相关文档未被移除而是进行了归档。
+
+常规SCP和SCP-ARC主要有两个地方不同：
+
+* 第一，-ARC后辍。所有被标为-ARC的SCP的标题须在其编号后加注“-ARC”。
+
+* 第二，归档原因。被标为-ARC的SCP项目通常而言应注明被归档的原因，但这并不是一个强制选项。
+
+**被归档的SCP项目列表**
+
+[[module ListPages category="*" separate="yes" tags="被归档" perPage="50" order="updated_at desc"]]
+**%%title_linked%%**
+[[/module]]

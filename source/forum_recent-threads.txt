@@ -1,0 +1,27 @@
+[[module FrontForum category="4785940;4786595;4785941;4786596;4786597;4785942" limit="50"]]
+
+[[size 125%]]**%%linked_title%%**[[/size]]
+[[size 95%]]发布于 %%category%%[[/size]]
+
+摘要：%%description%%
+
+[[table style="width:100%; margin-top: 10px;"]]
+[[row style="width:100%;"]]
+[[cell style="width:35%; border-right:1.5px solid black;"]]
+%%author%%
+[[/cell]]
+[[cell style="width:50%; border-right:1.5px solid black;"]]
+发布时间 %%date|%Y-%m-%d %R|agohover%%
+[[/cell]]
+[[cell style="width:15%; text-align:right;"]]
+%%comments%%
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div style="border-bottom: 1.5px solid black; margin-top: 10px; margin-bottom: 25px; width: 100%;"]]
+[[/div]]
+
+[[/module]] 
+
+[!-- please do not alter this page if you want to keep your forum working --]

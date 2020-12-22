@@ -1,0 +1,69 @@
+//2020年5月1日//
+
+[[div class="content-panel centered standalone" style="padding-top: 10px; padding-bottom: 10px;"]]
+[[collapsible show="展开疫情统计信息" hide="收起疫情统计信息"]]
+[[html]]
+<div class="bingwidget" data-type="covid19" data-market="zh-cn" data-language="zh-cn"></div>
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+[[/html]]
+[[/collapsible]]
+[[/div]]
+
+-----
+
+//2020年3月22日//
+
+[[div class="content-panel centered standalone" style="background-color:rgb(245,75,75); color: rgb(245,245,245);"]]
+[[div class="unmargined" style="font-size: 245%;"]]
+✚
+[[/div]]
+[[div class="unmargined" style="font-size: 110%;"]]
+**近日疫病流行，请注意卫生防疫与自我保护，保持关注公共卫生部门发布的资讯，必要时及时前往医疗部门就诊。谨祝安康祥和。**
+[[/div]]
+[[/div]]
+
+-----
+
+//2020年1月23日//
+
+[[div class="content-panel centered standalone" style="background-color:rgb(245,50,0); color: rgb(245,225,0);"]]
+[[div class="unmargined" style="font-size: 125%;"]]
+**月映独窗旧岁去，风叩重门新元开**
+[[/div]]
+[[div class="unmargined" style="font-size: 110%;"]]
+**SCP基金会小马国分部诚祝诸位新年诸事顺遂，幸福安康。**
+@@ @@
+**近日疫病流行，请注意卫生防疫与自我保护，保持关注公共卫生部门发布的资讯，必要时及时前往医疗部门就诊。谨祝安康祥和。**
+[[/div]]
+[[/div]]
+
+-----
+
+//2020年1月1日//
+
+[[div class="content-panel centered standalone" style="background-color:rgb(245,50,0); color: rgb(245,225,0);"]]
+[[div class="unmargined" style="font-size: 125%;"]]
+**月映独窗旧岁去，风叩重门新元开**
+[[/div]]
+[[div class="unmargined" style="font-size: 110%;"]]
+**SCP基金会小马国分部诚祝诸位新年诸事顺遂，幸福安康。**
+[[/div]]
+[[/div]]
+
+-----
+
+//2019年11月5日//
+
+[[div class="content-panel centered standalone" style="background-color:rgb(50,175,75); color: white;"]]
+[[div class="unmargined" style="font-size: 120%;"]]
+SCP基金会小马国分部网站已启用新域名**{{SCP-EQ.ORG}}**。
+
+原域名仍可正常使用。
+
+详情请[[a href="*http://scp-eq.org/forum/t-12444441/" style="color:rgb(255,255,255); font-weight: bold;"]]点击这里[[/a]]
+[[/div]]
+[[/div]]
+
+-----
+
+//先前的历史资料已不可考//

@@ -1,0 +1,52 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+[[div class="meta-title"]]
+%%title%%
+[[/div]]
+[[/module]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+__简体中文__ | [[[cht:scp-eq-710 | 繁體中文]]] | [[[eng:scp-eq-710 | English]]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[module Rate]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+发布时间：2019年4月5日
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[=]]
+<< [[[SCP-EQ-709]]] | SCP-EQ-710 | [[[SCP-EQ-711]]] >>
+[[/=]]

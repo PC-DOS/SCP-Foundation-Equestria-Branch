@@ -1,0 +1,14 @@
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div style="display:none"]]
+[!-- * 您可以在此加入子页面的地址作为今后修改时的备忘。 * --]
+段落页面地址如下：
+http://scp-eq.org/fragment:eternity-blazekingdom-01
+http://scp-eq.org/fragment:eternity-blazekingdom-02
+[[/div]]

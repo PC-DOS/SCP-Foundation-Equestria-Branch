@@ -1,0 +1,1275 @@
+[[module CSS]]
+.dblock:hover {background: #EB0600}
+[[/module]]
+[[module css]]
+.footnoteref{
+color: #FF5555;
+}
+.danke{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+width: 100%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.agent{
+background-color:#002200;
+border: 3px solid #55AA55;
+color: #77CC77;
+}
+
+.site{
+background-color:#222200;
+border: 3px solid #AAAA55;
+color: #DDDD77;
+}
+[[/module]]
+
+[[module CSS]]
+.containercontainer {position: relative;width: auto;height: auto;border: 2px solid #666;background: #141212;color: #3F3;margin-top: 1em;margin-bottom: 1em;}.containercontainer .container .overlay {background: rgba(51, 255, 51, 0.9);color: #121010;position: absolute;width: auto;height: 50px;top: 0;right: 0;bottom: 0;left: 0;margin: auto;line-height: 50px;display: inline;vertical-align: middle;text-align: center;font-family: Courier New;font-size: 30px;letter-spacing: 5px;font-weight: bolder;z-index: 3;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.overlayback {background: rgba(187, 187, 187, 0.5);z-index: 3;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: auto;height: auto;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.containercontainer .container {text-align: center;width: inherit;height: inherit;position: relative;overflow: hidden;}.containercontainer .container::after {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: rgba(21, 19, 19, 0.2);opacity: 0;z-index: 2;animation: flicker 0.15s infinite;}.containercontainer .container::before {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: linear-gradient(rgba(18, 16, 16, 0.03) 50%, rgba(0, 0, 0, 0.45) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.22), rgba(0, 255, 0, 0.11), rgba(0, 0, 255, 0.22));z-index: 2;background-size: 100% 2px, 3px 100%;}.no-unfold {text-align: center;}.container h1,.container h2,.container h3,.container h5,.container h6 {color: #3F3;}.container hr {border-top: 1px dotted #3F3;border-bottom: none;}.container hr {border-top: 1px solid #3F3;border-bottom: 1px solid #3F3;color: transparent;background-color: transparent;}.container hr:after {display: block;margin-top: 2px;border-top: 1px solid #3F3;border-bottom: 1px solid #3F3;}.blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }15% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+[[/module]]
+
+[[module CSS]]
+.dblock:hover {background: #EB0009}
+[[/module]]
+[[module CSS]]
+#u-start, .textchange div.sitemember:nth-child(2) {display:none;}.type-wrap-wrapper {position: relative;text-align: left;}.type-wrapper {background: #555;}.typearea {color: lime; font-family: "Courier";font-size: 1.2em;margin: 10px 0 0 10px;white-space: nowrap;overflow: hidden;width: 0;}#u-start:target ~ .typearea {width: 100%;animation: type 4s steps(60, end); }.typearea a{color: lime;text-decoration: none;}.blink {animation: blink 1s infinite;}@keyframes type{ from { width: 0; } } @keyframes blink{to{opacity: .0;}}.buttonwrapper {text-align: center;}.likebutton {padding: 0.1em 0.5em;text-decoration: none;font-size: 1.3em;background-color: #F4F4F4;border: 1px solid #AAA;color: #000;}.likebutton:hover {background-color: #DDD;color: #000;border: 1px solid #0098b3;}
+[[/module]]
+[[module CSS]]
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #131;
+/* 终端上方的黑色阴影 */
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #121);
+    background-position: center;
+    display: block;
+/* 终端周围的阴影 */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+/* 防止扫描条产生滚动条 */
+    overflow:hidden;
+}
+div.terminal blockquote {
+    background-color: black;
+    border: double 3px #80FF80
+}
+div.scanline{
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+/* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 12s linear 0s infinite; /* 你可能需要修改这个。如果扫描条走得太快了，添加5秒。 */
+    animation: scan 12s linear 0s infinite; /* 同上 */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+}
+
+div.text{
+    color: rgba(128,255,128,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* 你可以根据你终端的长短修改这个。如果扫描条只出现一半的话，增大第二个数字。 */
+}
+
+@keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* 同上。 */
+}
+
+div.text a {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #90EE90;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #80FF80;
+    padding: 1px;
+}
+div.text a:hover::before{
+content: "> ";
+}
+[[/module]]
+[[>]]
+[[module Rate]]
+[[/>]]
+------
+**项目编号：**SCP-EQ-508
+**项目等级：**Safe
+**特殊收容措施：**由于无法定位其位置，基金会无法以物理与魔法方式收容该项目，有证据表明“O5-8”与异常有这密切关系。现由基金会马员通过主机对其进行心理辅导，以削弱该个体的异常行为。
+------
+
+**描述：**根据一些交流结果，确定SCP-EQ-508-A是一处位于小马国未知地区的一个异常空间结构，该结构内部的布置与Site-EQ-24的单马宿舍风格一致，通过SCP-EQ-508-A中的窗户可以看见Site-EQ-24外部的景象，但建筑图纸与外部的观察表明Site-EQ-24的建筑内部并没有足以容纳SCP-EQ-508-A的空间。
+SCP-EQ-508是一只居住在SCP-EQ-508-A的幼驹，自称“骊骅”，该幼驹可以通过控制潜意识的方式，利用外部马员传出信息，传出的信息通常会呈现在“被要求以特定主题或目标”书写出来的文本上（通常是写作考试）。可以确定，该对象有一个9磅15便士的蓝色衬衫和一个7块2毛5的黑色短裤。拥有橙黄色的毛皮和蓝绿相间的鬓毛，疑似天角兽，应为D-123456[[footnote]] 原研究员飞虹方匣，因盗用O5权限而被降为D级马员，在一次有关[[[SCP-EQ-033]]]的致死性实验中被其丈夫打死，该事件间接性的导致了[[[SCP-EQ-513]]]的产生。 [[/footnote]]的女儿。
+2015年的2月1号，O5-1在批阅“天才独角兽”学院考试作文的时候发现部分作文内容具有一定的逻辑连贯性，随后在课下的作文作业中这种连贯性依然存在，在进行了一系列的实验后，O5-1确认了SCP-EQ-508的存在。(详见附录一）
+[[# guit]]
+随后为了打消学生的顾虑，O5-1带领学生参观了Site-EQ-24，随后要求一些高年级学生以“骊骅”的视角描写Site-EQ-24中的一个异常个体。[[footnote]] 我相信这些学生不会乱动站点内的东西，而且“天才独角兽”学院的大部分毕业生都要到此站点实习——O5-1 [[/footnote]]SCP-EQ-508利用其异常间接控制部分学生，放出一份具有认知危害的SCP-EQ-508介绍，经调查，其内容均为虚构。（详见附录二）
+整个过程中并未出现任何异常，该风波也逐渐平息，现由O5-13[[footnote]] O5-13即SCP-EQ-513,一匹名叫和煦光流的幼驹，拥有极强的社交能力，拥有一个代表O5马员的可爱标志，可以无条件无证件的行使O5的所有权限，利用其它scp（包括SCP-EQ-004）消灭该个体的计划均以失败告终，原SCP-EQ-513的界面因其异常性质而被删除，为抑制SCP-EQ-513，O5-13的个马信息已全部公开，特在此做出补告——O5-5 [[/footnote]]与SCP-EQ-508进行交流。SCP-EQ-508表示愿意提供SCP-EQ-960的部分合法资料。(详见附录三)
+[[collapsible show="+ 附录一" hide="- 点击关闭"]]
+
++++++ 作文难度——2年级新入学幼驹
++++++ 作文主题：
+> 赛拉斯蒂亚公主想要会见一名叫做李华的幼驹，但是李华并不擅长写信，你能不能帮助李华给塞拉斯蒂娅公主写信，让公主了解了解她呢？
++++++ 作文要求：以下要求任选一个
+# 写出李华的基本外貌。
+# 写出李华的爱好。
+# 写出李华的家庭状况。
+# 写出李华的身份信息。
++++++ 字数不限
+[!-- 中文用 --]
+[[module css]]
+.page-cn {
+    display: block;
+    overflow: hidden;
+    font-family: DFKai-SB,Kaiti,SimSun,"Microsoft YaHei UI Light";
+    [!-- *font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;* --]
+    font-style: normal;
+    font-size: 125%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.page-cn p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **兰花遍地**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **10岁**[[/size]]## 
+
+@@@@
+
+没想到！没想到赛拉斯蒂亚想要见我！太让马高兴了！
+我的名字不叫李华，叫做骊骅，不过读音都相同吧，这太有趣了！
+我很久以前住在一个叫做马哈顿的城市，那里可漂亮呢！
+有友谊女神像，百驹会，还有什么马国大厦！
+不过我很早就离开这里了，现在我在一个叫做，Site-EQ-24的地方。
+这个地方的名字好奇怪呀？
+[[>]]
+
+——期待着大公主的骊骅
+
+@@@@
+
+##ff5c48|[[size 100%]] **Site-EQ-24是什么地方能给我解释一下吗？！** [[/size]]##
+
+[[/>]]
+
+[[/div]]
+
+------
+
+
+
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **青色海岸**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **9岁**[[/size]]## 
+
+@@@@
+真可惜，我只能一次写一点，不过没关系。
+我是一名非常听话的小小马
+有着蓝绿相间的鬓毛，橙黄色的毛皮。
+这个样子有点难看，不过我头上的独角应该能补充一下
+现在我的鬓毛显得有点长，有点乱。
+要是我爸爸打理一下就好了
+说到我的爸爸，他好像是Site-EQ-24的一名研究员
+研究什么书之类的东西，还说是什么“文本类异常”
+又是一个奇怪的词，都是书呆子！
+[[>]]
+——期待着大公主的骊骅
+
+##ff5c48|[[size 100%]] **为什么又是骊骅？** [[/size]]##
+[[/>]]
+[[/div]]
+------
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **明亮清辉**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **10岁**[[/size]]## 
+
+@@@@
+
+我妈妈就不同了，她非常漂亮
+还想当什么O5，O5是啥？
+我喜欢玩儿电脑游戏。
+主机游戏也喜欢
+还有可以进入的魔法漫画，这个最有趣了
+Site-EQ-24到处都是这种漫画
+我还喜欢写东西
+这根我爸有关系吧
+[[>]]
+——期待着大公主的骊骅
+
+##ff5c48|[[size 100%]] **我也想问，O5是谁？** [[/size]]##
+[[/>]]
+[[/div]]
+
+------
+
++++++ 作文难度——1年级新入学幼驹
++++++ 作文主题：写景
+> 李华的身边有很多有趣的景象，能不能用你的小笔头替她记下来呢？
++++++ 作文要求：内容与写景有关
++++++ 字数不限
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **青色宝石**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **9岁**[[/size]]## 
+
+@@@@
+我周围的景象是一个又挤又小的小房间。
+对，挤得就跟火车的车厢。
+闷得让马受不了啦！
+家具堆得满满的，我的翅膀都活动不开啦！
+爸爸什么时候会回来。
+[[>]]
+——被困在小房间的骊骅
+
+##ff5c48|[[size 100%]] **不错，给马一种局促感** [[/size]]##
+[[/>]]
+[[/div]]
+
+------
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **金树林**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **8岁**[[/size]]## 
+
+@@@@
+我的房间由一个附带柜子的桌子，靠窗的床，床头大大的柜子，一个椅子，以及另一个奇怪的柜子构成。
+还有一个机器，有两个水管，上头插着一个空桶，今天的水喝完了，明天它就会变成满桶。
+[[>]]
+——被困在小房间的骊骅
+
+##ff5c48|[[size 100%]] **对家具类型的描写很不错，那个饮水机很有想象力** [[/size]]##
+[[/>]]
+[[/div]]
+------
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **星辰雪花**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **9岁**[[/size]]## 
+
+@@@@
+房间里的椅子很平凡，和Site-EQ-24其他地方的椅子一样，为什么这里的小马都用同样的椅子。
+床放到了窗边，每天早上都有阳光照进来，__谢谢大公主__！
+床头有一个柜子，里头有不少书。
+床的对面是那个桌子。
+！
+[[>]]
+
+——被困在小房间的骊骅
+##ff5c48|[[size 100%]] **哇！这么多年，你是第一个在作文中赞美我的一年级新生。** [[/size]]##
+[[/>]]
+[[/div]]
+------
+
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **彩色风暴**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **8岁**[[/size]]## 
+
+@@@@
+在桌子的旁边，是一个奇怪的黑色柜子，柜子里有很多黑色盒子，盒子上都有灯，__一闪一闪，像星星__。
+柜子上写着“神之芯”E-32模块，神之芯是什么？
+而且上头还写着CSP-EQ-960
+有一个粗大的线连到的桌子上的一个屏幕上，屏幕上还连着一个蹄标和一副键盘。
+我带来的游戏手柄也呢连上去。
+屏幕上显示的东西好奇怪。
+[[>]]
+——被困在小房间的骊骅
+
+##ff5c48|[[size 100%]] **对网络服务器的比喻很好，继续努力** [[/size]]##
+[[/>]]
+[[/div]]
+------
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **液晶海面**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **10岁**[[/size]]## 
+
+@@@@
+桌子上还有一个写字板。
+可以写字，我现在就在用我的独角在写。
+这个角比我的翅膀好用多了。[[footnote]] 由此推断，该个体应为天角兽 [[/footnote]]
+屏幕告我改写啥。我就在写字板上写啥。
+然后屏幕上显示“正在发送”，写字板上的字消失了。
+我写的字跑到屏幕上了。
+我还可以看之前写的东西。
+为什么我喜欢写字？
+[[>]]
+——被困在小房间的骊骅
+
+##ff5c48|[[size 100%]] **那个写字板的想象很有趣，但这是写景文，下次不要跑题** [[/size]]##
+[[/>]]
+[[/div]]
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **夕阳西升**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **10岁**[[/size]]## 
+
+@@@@
+窗外是一条街，街旁边是一片海。夕阳真美丽！
+附近有一片草地，有一堆穿着白大褂的小马在一起交谈，
+我的父母也穿白大褂，真难看！
+还有一个停车场和几个仓库，有几个拿着枪的黑衣马在仓库附近转来转去，好奇怪。
+时不时有装甲车开过去，真酷！
+还有一个大门，旁边放着一个大牌子——Site-EQ-24
+每次我忘记这里是哪，我都会看那个牌子。
+[[>]]
+——被困在小房间的骊骅
+
+##ff5c48|[[size 100%]] **描写很详细，你去过Site-EQ-24？** [[/size]]##
+[[/>]]
+[[/div]]
+
+[[module css]]
+@import url('http://scp-wiki-cn.wikidot.com/component:colstyle/code/1');
+[[/module]]
+
+
+
+[[/collapsible]]
+[[collapsible show="+ 附录二" hide="- 点击关闭"]]
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
++++++ 作文难度——高等魔法初学者
++++++ 作文主题：
+> 赛拉斯蒂亚公主校长带领大家来到了今后实习的地方，写记录报告是在实习前必须掌握的内容。二级研究员骊骅就在忙着写报告，请大家帮助她为Site-EQ-24的某个收容物写一篇报告。
++++++ 作文要求：以下要求任选一个
+# 收容物的特殊收容方式
+# 收容物的描写
+# 有关收容物的附录（根据已有材料）
++++++ 字数不限
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **正弦颤音**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **18岁**[[/size]]## 
+
+@@@@
+今天早晨，我像往常一样被太阳晒醒，然后看看房间内的一些书籍，文件。
+可没想到，有那么多各种各样的小马，跟着赛拉斯蒂亚来到了Site-EQ-24这个鸟不拉屎的地方。
+我太高兴了，就在今天，赛拉斯蒂亚任命我为二级研究员。
+放在以前，我会认定这只是个玩笑，赛拉斯蒂亚与基金会有什么关系。
+但后来我看了书柜中的书后才知道赛拉斯蒂亚竟然是O5-1。
+话说我只是一名幼驹，还不太会写研究报告。
+因此就只能拿房间内的一份报告充数吧。
+顺带一提，这好像是机密报告，我破解了好久才将其解锁。
+这些报告应该是我妈妈写的
+[[>]]
+
+——二级研究员骊骅
+##ff5c48|[[size 100%]] **以后写下东西，不要扔到垃圾篓里，不要说我是O5！基金会与宗教无关。** [[/size]]##
+[[/>]]
+[[/div]]
+------
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **正弦颤音**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **18岁**[[/size]]## 
+
+@@@@
+**项目编号：**SCP-EQ-508
+
+**项目等级：**--Safe--/--Euclid--/--Keter-- ？！
+
+**特殊收容措施：**“神之芯”的零件被分散到小马国的各个地区，不同的SCP-EQ-000碎片有不同的收容措施。
+[无关数据已删除]
+SCP-EQ-508必须被保留在O5-8的大脑中，必须保证容纳O5-8的水晶棺处于安全位置，若是O5-8受到脑损伤，将使此零件无效化。
+
+[[>]]
+——二级研究员骊骅
+摘抄于“SCP-EQ-508部分收容方案”
+##ff5c48|[[size 100%]] **格式正确，望完善“项目等级”** [[/size]]##
+[[/>]]
+[[/div]]
+
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **余弦震荡**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **18岁**[[/size]]## 
+
+@@@@
+
+++++ 项目介绍：
+SCP-EQ-508是基金会为O5马员专门研发的交流通讯系统，通过“梦想成真”魔法^^1^^的逆运行^^2^^把现实中存在的事物转化为思维，强行注入小马脑中，经测试，小马可以在思维空间中操作那些事物（详见附录1）
+基金会O5马员可以运行脑中的事物，经测试--我恨基金会！你们拿我女儿做测试--以下物品在思维空间中能正常运作：
+* 钟表
+* 计算机
+* 书架以及书籍
+* 床（可以睡觉）
+* 笔和纸
+O5使用思维空间中的计算机发出的信号，会传送到现实空间内的计算机上，而记录在纸上的信息，会由神之芯泛宇宙AI转接，控制其他小马写出。
+[[>]]
+##ff5c48|[[size 100%]] **项目介绍以后别搞这么花儿** [[/size]]##
+##ff5c48|[[size 100%]] **想象丰富，有做3级研究主管的潜质** [[/size]]##
+[[/>]]
+[[/div]]
+
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **正切回响**[[/size]]## 
+
+@@@@
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **17岁**[[/size]]## 
+
+@@@@
+
+##000000|[[size 100%]] **蹄注** [[/size]]##
+1.即具象化魔法，26那里的008也拥有这种魔法。这种魔法在吐槽星非常流行。
+2.逆运行的过程是艰难的，由于上级不允许我们随意将SCP-EQ-008移出SCP-EQ-008-2，我们只好将重达数吨的魔法解析设备从Site-EQ-26的地库搬到数百米之上的“炫彩星云”中，鬼知道为什么008会被收容到天上！幸好我跟我老公都是天马，不然这个计划一定会泡汤！接下来，我们启动了解析设备，将魔法下载到了一台电脑上。
+[[>]]
+##ff5c48|[[size 100%]] **写蹄注，我该怎么说呢？** [[/size]]##
+[[/>]]
+[[/div]]
+[[div class="page-cn"]]
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **正切回响**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **18岁**[[/size]]## 
+
+@@@@
+**附录1：**
+由于直接拿O5做实验有巨大风险，暂用研究员**东方印记**和**飞虹方匣**的女儿骊骅进行实验。
+现将骊骅放入一水晶棺内，由管道向该马驹的消化道内提供营养液。并进行排泄。
+为防止暴露，现已拿透明逆模因伪装布进行遮盖，仅计划内马员及O5成员才可发现。
+**附录2：**
+以下为实验马员**“东方印记”**记录的部分实验报告
+
+--星光烁烁就是个魔鬼！--可敬的O5-5对我们无私奉献的行为大加赞赏，声称我们对--破碎标记教会--全小马利亚做出了巨大牺牲。
+[无关内容已删除]
+由于只有独角兽才能载入外部的事物，因此星光烁烁特许我们将那匹天马改造成天角兽。
+--我的女儿得到了角以后，笑开了花--
+我们将其引入了一个不大不小的房间，然后执行了逆运行，把这个房间引入了她的脑中，成为了她“梦境中”的一个房间，看来一段时间，我们的女儿都要沉寂在她脑子的房间中的那个房间了。
+[无关内容已删除]
+我把输入营养液的管子插入我女儿的口腔，把排除废物的管子插入了她的肛门。
+--我女儿的身子软软的--
+[[>]]
+——二级研究员骊骅
+摘抄于“SCP-EQ-508附录一”
+##ff5c48|**这个附录够恶心马的，望你成为基金会马员后不要干出这样的事。”** ##
+[[/>]]
+[[/div]]
+[[/div]]
+[[/collapsible]]
+
+[[include component:coltop show=+ 附录三|hide=- 关闭记录]]
+[[div class="page-cn"]]
+
+##ff5c48|[[size 100%]] **又萌又可爱眼睛还非常大的O5-13想要获得二级研究员李华的电脑IP，以跟他进行通信，如果你就是李华，你该怎么给O5-13回信呢？** [[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **姓名：** [[/size]]####000000|[[size 100%]] **和煦光流**[[/size]]## 
+
+@@@@
+
+##ff5c48|[[size 100%]] **年龄：** [[/size]]####000000|[[size 100%]] **8岁**[[/size]]## 
+
+@@@@
+
+哇，又一个基金会O5!
+我妈妈当年也想当基金会O5。
+我的电脑没有IP
+但有一个奇怪的标识
+写着SCP-EQ-970
+
+[[>]]
+——二级研究员骊骅
+[[/>]]
+[[/div]]
+
+
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] 名称:__和煦光流__[[/size]]
+
+权限:__4级马员__[[/size]]
+
+主机IP:__已屏蔽__[[/size]]
+
+主机地点:__Site-EQ-00，**ERROR**收容区，O5-13办公室。__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+欢迎，和煦光流
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+> 连接中……
+> IP错误，无搜寻结果。
+> 请退出并转接​主服务器
+
+[[=]]
+help      
+[[/=]]
+> 1.命令一览
+> 2.语音AI服务
+> 3.级别授权
+> 
+[[=]]
+3
+[[/=]]
+> 已打开授权窗口
+[[=]]
+检测到O5-5权限，非权限范围
+检测到O5-8权限，​已被使用。
+检测到O5-9权限，非权限范围
+检测到O5​-13权限，错误，非法权限命令！
+✘检测到不可抗拒力，请尽快关闭端口。
+[[/=]]
+> 权限通过。✔
+[[=]]
+[[size 150%]]hi,有马吗？你在屏幕前头吗？能回个话吗？[[/size]]
+[[size 150%]]你能拍一下你面前的键盘吗？[[/size]]
+
+> dhcbfvhc
+
+[[size 150%]]好的，看来你能输入字母，就是不会打字[[/size]]
+
+> eys I acn
+
+[[size 150%]]你会英文吗？[[/size]]
+
+> esy I……HAWT kfac!
+
+[[size 150%]]好吧，看来你遇到了一些困难，等我一下。[[/size]]
+
+> wodongle！
+> zhegewanyimeiyouzhongwenshurufa！
+> erqieshuruyinwenhou，
+> huidaluanzhimudepailiesunxu。
+> zhegejiqishizaishitaihuaile。
+> binageouwugangwuhaihuai。
+………正在上传附件-“pony汉输法.exe”
+
+[[size 150%]]你受到我给你发的附件了吗？[[/size]]
+
+[[size 150%]]只需要动动头上的角
+
+就能打字欧
+[[/size]]
+
+[[div class="page-cn"]]
+
+
+[[>]]
+##000000|[[size 100%]] **这个输入法，有点，奇怪？**[[/size]]## 
+[[/>]]
+[[/div]]
+
+[[size 150%]]当然了，你用的应该是970
+需要专用的输入法
+还附带具有逆模因效应的输入框
+可以打出········只有聪明人才能看到的字。[[/size]]
+
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **哇！这么神奇！那我回去练练。**[[/size]]## 
+[[/>]]
+[[/div]]
+
+> 信号中断！
+
+[[/div]]
+[[/div]]
+
+[[/=]]
+
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] 名称:__和煦光流__[[/size]]
+
+权限:__4级马员__[[/size]]
+
+主机IP:__已屏蔽__[[/size]]
+
+主机地点:__Site-EQ-00，**ERROR**收容区，O5-13办公室。__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+欢迎，和煦光流
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[size 150%]]嗨！我回来啦，想我了没？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **哇！电脑先生！你去哪了？**[[/size]]## 
+[[/>]]
+[[/div]]
+
+[[size 150%]]唉！我不是电脑先生，我是一匹小幼驹。
+我的名字叫和煦光流，差不多跟你一样大[[/size]]
+
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **你不是电脑！你是匹小马！我太高兴了，已经有1个月都没马跟我说话了。**[[/size]]## 
+[[/>]]
+[[/div]]
+
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **你是O5级马员吗？我看这里写着个：“O5-13”**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]你——可以叫我O5-13吧，
+不过叫小煦更亲切些[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **欧！我想起我妈妈了，她曾经也想当O5**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]你妈的胆子好大呀！
+她叫什么名字？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **我妈妈叫飞虹方匣**[[/size]]## 
+[[/>]]
+[[/div]]
+
+[[size 150%]]你妈妈就是那个“飞虹方匣”？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **你认识我妈妈？我妈妈在哪？**[[/size]]## 
+[[/>]]
+[[/div]]
+
+[[size 150%]]你妈妈被编为D-123456
+作为一个D级马员去参加SCP-EQ-033的实验。
+她在临死前仍在不断的呼唤着你的名字。
+然后被监督实验的实验马员一棍子敲死。
+你爸爸不是故意敲死你妈妈的
+他只是，不希望你妈妈太痛苦了[[/size]]
+
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **我爸爸呢？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]你爸爸，他应该·······
+它应该活到电脑里头了。
+你去研究一下SCP-EQ-960吧，里头应该有你父亲的信息。[[/size]]
+[[[SCP-EQ-960]]]
+[[size 150%]]这是链接。[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **还我爸爸！**[[/size]]## 
+[[/>]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[include component:colend]]
+[[footnoteblock title="蹄注"]]
+
+[[=]]
+<< [[[SCP-EQ-507]]] | SCP-EQ-508 | [[[SCP-EQ-509]]] >>
+[[/=]]
+------
+##BB0011|[[size 85%]]Safe scp 逆模因 原创 条目 工具 尸体 强迫性 电脑 心灵感应 超维度 基金会制 地点 精神影响 智能 [[/size]]## 
+[[>]]
+##000000|[[size 85%]]页面版本: 89, 最后编辑于: 5 Feb 2015, 17:27 (λγ days 前)[[/size]]## 
+##BB0011|[[size 100%]]停止关注网站scp-equestria.wikidot.com[[/size]]####000000|[[size 100%]]@@ [@@[[/size]]####BB0011|[[size 100%]]?[[/size]]####000000|[[size 100%]]@@] @@[[/size]]##
+
+[#guit +选项]##FFFFFF|[[size 100%]] **█** [[/size]]##[#guit 评分(Δ)]##FFFFFF|[[size 100%]] **█** [[/size]]##[#guit 标签]##FFFFFF|[[size 100%]] **█** [[/size]]##[[[http://scp-equestria.wikidot.com/forum/t-11222065/scp-eq-508 | 讨论(θ)]]]##FFFFFF|[[size 100%]] **█** [[/size]]##[[[http://scp-eq-draftsvc.wikidot.com/scp-eq | 历史记录]]]##FFFFFF|[[size 100%]] **█** [[/size]]##[[[http://scp-eq-draftsvc.wikidot.com/scp-eq | 档案]]]##FFFFFF|[[size 100%]] **█** [[/size]]##[[[http://scp-equestria.wikidot.com/printer--friendly//scp-eq-508 | 打印]]]##FFFFFF|[[size 100%]] **█** [[/size]]##[#guit 网站工具]##FFFFFF|[[size 100%]] **** [[/size]]##[[collapsible show="编辑" hide="编辑"]][[/collapsible]]##FFFFFF|[[size 100%]] **█** [[/size]]##
+[[/>]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[include component:coltop show=+ 附录四|hide=- 检测到SCP-EQ-960影响！请立刻点击以消除影响]]
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] 名称:__和煦光流__[[/size]]
+
+权限:__4级马员__[[/size]]
+
+主机IP:__已屏蔽__[[/size]]
+
+主机地点:__Site-EQ-00，**ERROR**收容区，O5-13办公室。__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+欢迎，和煦光流
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+> 连接中……
+> IP错误，无搜寻结果。
+> 请退出并转接​主服务器
+
+[[=]]
+help      
+[[/=]]
+> 1.命令一览
+> 2.语音AI服务
+> 3.级别授权
+> 
+[[=]]
+3
+[[/=]]
+> 已打开授权窗口
+[[=]]
+检测到O5-5权限，非权限范围
+检测到O5-8权限，​已被使用。
+检测到O5-9权限，非权限范围
+检测到O5​-13权限，授权通过！✔
+✘检测到不可抗拒力，请尽快关闭端口。
+[[/=]]
+> 欢迎，光谱分裂者成员，您的信息记录已进行逆模因伪装，整合到SCP-EQ-508报告内，请放心交流。
+[[=]]
+[[size 150%]]hi,小骅？小骅你在吗？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **你又让我上传啥呀？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]传啥传呀！咱们就不能聊聊天吗？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **聊天，可是上头的马儿还看着呢？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]所以我选了一个隐蔽的通道，谁也看不见的通道，就连上层叙事者都找不到这里。[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **但是我们的对话不一直处于被记录的状态吗？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]那你猜猜这些记录被放在哪了？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **不猜！**[[/size]]## 
+[[/>]]
+[[/div]]
+> 信号中断！
+
+[[/div]]
+[[/div]]
+[[include component:colend]]
+
+[[include component:coltop show=+ 附录五|hide=- 检测到SCP-EQ-960影响！请立刻点击以消除影响]]
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] 名称:__和煦光流__[[/size]]
+
+权限:__4级马员__[[/size]]
+
+主机IP:__已屏蔽__[[/size]]
+
+主机地点:__Site-EQ-00，**ERROR**收容区，O5-13办公室。__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+欢迎，和煦光流
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+> 连接中……
+> IP错误，无搜寻结果。
+> 请退出并转接​主服务器
+
+[[=]]
+help      
+[[/=]]
+> 1.命令一览
+> 2.语音AI服务
+> 3.级别授权
+> 
+[[=]]
+3
+[[/=]]
+> 已打开授权窗口
+[[=]]
+检测到O5-5权限，非权限范围
+检测到O5-8权限，​已被使用。
+检测到O5-9权限，非权限范围
+检测到O5​-13权限，授权通过！✔
+✘检测到不可抗拒力，请尽快关闭端口。
+
+> 欢迎，萍琪派，您的信息记录已进行逆模因伪装，整合到SCP-EQ-508报告内，请放心交流。
+
+[[size 150%]]惊喜！[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **什么惊喜？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]今天是你的生日！[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **你这么能知道我的生日？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]我是萍琪派我知道所有小马的生日我感觉有一匹叫做骊骅的小马没马给她过生日因此我问和煦光流要来了电脑给你办生日派对！[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **这里只有一匹马，这么办派对？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]的确，我这里出现了一些技术性问题
+不过明年
+我一定会把全小马镇的小马叫过来
+给你办生日派对！[[/size]]
+> 正在上传《undertale》.zip
+[[size 150%]]我本来想给你一对钛晶眼珠子，但因为我找不到你，所以，我给了你这个。[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **一部游戏？**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]这可不是一般的游戏
+你的生日是9月15号吧
+就在1000年的今天
+也就是小马历1015年9月15号
+一个叫做Toby Fox的顶级开发者
+发布了这部游戏
+这部游戏的生日跟你的生日是相同的
+对你来说一定有特别的意义。[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **我在我的电脑上看过这部游戏的介绍
+但一直都找不到这部游戏。
+谢谢你。**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]不用谢，你的笑容就是对我最大的奖励
+谈谈你过去获得的生日礼物吧[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **我记得那时我还住在马哈顿，我妈妈带我到瑞瑞的那个精品店，然后店员随便给了我一个9磅15便士的衬衫和一个七块两毛五的短裤**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]我记着这件衣服，瑞瑞说这是她卖出去的，最low的衣服[[/size]]
+> 信号中断！
+[[/div]]
+[[/div]]
+[[/=]]
+[[include component:colend]]
+[[include component:coltop show=+ 附录六|hide=- 检测到SCP-EQ-960影响！请立刻点击以消除影响]]
+[[div class="terminal"]]
+[[div class="scanline"]]
+[[/div]]
+[[div class="text"]]
+[[=]]
+[[size 150%]] 名称:__和煦光流__[[/size]]
+
+权限:__4级马员__[[/size]]
+
+主机IP:__已屏蔽__[[/size]]
+
+主机地点:__Site-EQ-00，**ERROR**收容区，O5-13办公室。__[[/size]]
+@@ @@
+@@ @@
+@@------@@
+欢迎，和煦光流
+@@------@@
+[[/=]]
+@@ @@
+@@ @@
+@@ @@
+> 连接中……
+> IP错误，无搜寻结果。
+> 请退出并转接​主服务器
+
+[[=]]
+help      
+[[/=]]
+> 1.命令一览
+> 2.语音AI服务
+> 3.级别授权
+> 
+[[=]]
+3
+[[/=]]
+> 已打开授权窗口
+[[=]]
+检测到O5-5权限，非权限范围
+检测到O5-8权限，​已被使用。
+检测到O5-9权限，非权限范围
+检测到O5​-13权限，授权通过！✔
+✘检测到不可抗拒力，请尽快关闭端口。
+
+> 欢迎，萍琪派，您的信息记录已进行逆模因伪装，整合到SCP-EQ-508报告内，请放心交流。
+
+[[size 150%]]你在吗？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **救命！救救我。**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]怎么了[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **我好饿，我旁边的饮水机没有水了！**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]平日里都有水吗？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **没错
+没有水，我会饿死的**[[/size]]## 
+[[/>]]
+[[/div]]
+> 通知，Site-EQ-24邻近海域将爆发海啸，请站点内的马员迅速撤离。
+[[size 150%]]看样子你那里的情况不容乐观。
+我建议你赶紧离开那里！[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **但我怎么出去呢？
+四周除了那扇窗子，就是墙壁。**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]真的没有任何出口？
+你有没有试过那个窗子[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **我出不去！**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]我不是在开玩笑！
+这事非常重要！
+你是一只天角兽！
+你难道无法克服对高空的恐惧？[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##000000|[[size 100%]] **我打不开窗户！
+不是我自己没能力！
+那个窗户真的打不开。**[[/size]]## 
+[[/>]]
+[[/div]]
+[[size 150%]]打不开就努力尝试呀！
+找找别的出口！[[/size]]
+[[div class="page-cn"]]
+[[>]]
+##ff5c48|[[size 100%]] **我好饿呀
+我快没力气了
+我快死了！
+救救我！**[[/size]]## 
+[[/>]]
+[[/div]]
+> 信号中断！
+[[/div]]
+[[/div]]
+[[/=]]
+
+凌晨一点的Site-EQ-24，外面下着雨。
+最后一辆​运输车开出大门，留下了两条车辙。
+大海迅速退去，露出了浅浅的海床。
+我飞进了院落，惊跑了正在逃窜的老鼠。
+蓝色的闪电照亮了门上的牌子
+——海啸警报！
+空荡荡的站点中，荡起了清脆的蹄声。
+“检测到O5-13权限，大门已开启”
+我跑到位于三楼的走廊，穿过了几个文书办公室。
+走廊中间，赫然放着一个方形水晶棺。
+那个水晶棺正对着窗户。
+工作马员看不见它。
+将其当成空气墙。
+来访的学生撞了上去，
+也只是抱怨几句。
+塞拉斯蒂亚注意到了那个东西。
+把它当成条板箱，直接从旁边经过。
+在这个雷雨交加的夜晚。
+我用翅膀吹去了上面的灰，
+它那发黄的标识牌露了出来
+[[span class="dblock"]]待送，Site-EQ-24送至Site-EQ-32[[/span]]
+[[span class="dblock"]]闪电经过，​照亮了走廊。[[/span]]
+[[span class="dblock"]]这绝对是小马利亚最骇马的一个场景[[/span]]
+[[span class="dblock"]]棺材内，是一匹幼小的橙色天角兽。[[/span]]
+[[span class="dblock"]]准确的来说，是一具天角兽的骨骸。[[/span]]
+[[span class="dblock"]]在它的身上，套着一件9磅15便士的衬衫[[/span]]
+[[span class="dblock"]]在它的身上，和一条3块2毛5的短裤。[[/span]]
+[[span class="dblock"]]海浪在咆哮。[[/span]]
+[[span class="dblock"]]又一道闪电经过，照亮了衣服的缝隙。[[/span]]
+[[span class="dblock"]]胸腔内的肠道正在蠕动，心脏一跳一跳的。[[/span]]
+[[span class="dblock"]]​空洞的眼眶后，是一个鲜红的大脑。[[/span]]
+[[span class="dblock"]]海浪声更大了。[[/span]]
+[[span class="dblock"]]在棺材的旁边，是一个​崭新的储藏罐，[[/span]]
+[[span class="dblock"]]里头空空如也，上头贴着一个便签[[/span]]
+[[span class="dblock"]]“不要忘记添加营养液”​[[/span]]
+[[span class="dblock"]]​我感觉大海在身后震荡。[[/span]]
+洪水涌入走廊，摧毁了一切。
+第二天，基金会的工作马员在Site-EQ-24的废墟外找到了一个水晶棺材。
+棺材内空空如也，只有一张贴在外面的字条。
+[[=]]
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]] 
+##ff5c48|[[size 150%]] **SCP-EQ-█08** [[/size]]##
+----
+[[size larger]] **待送：Site-EQ-24送至Site-EQ-32**
+[[/size]]
+[[/div]]
+[[/=]]
+[[span class="dblock"]]可恶的基金会！[[/span]]
+[[span class="dblock"]]我们会清算你们的一切。[[/span]]
+——O5-13/SCP-EQ-513/和煦光流
+[[include component:colend]]
+
+[[=]]
+<< [[[SCP-EQ-507]]] | SCP-EQ-508 | [[[SCP-EQ-509]]] >>
+[[/=]]
+[[/=]]

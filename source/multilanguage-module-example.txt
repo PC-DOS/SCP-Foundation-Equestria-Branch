@@ -1,0 +1,45 @@
++++ 默认多语言模块
+[[module ListPages name="="]]
+[[include component:multi-language pagename=%%name%%]]
+[[/module]]
+
++++ 位于左边的多语言模块
+[[module ListPages name="="]]
+[[include component:multi-language pagename=%%name%% | align=left]]
+[[/module]]
+
++++ 位于右边的多语言模块
+[[module ListPages name="="]]
+[[include component:multi-language pagename=%%name%% | align=right]]
+[[/module]]
+
++++ 位于中间的多语言模块
+[[module ListPages name="="]]
+[[include component:multi-language pagename=%%name%% | align=center]]
+[[/module]]
+
+-----
+
+**源代码**
+
+[[div class="code"]]
+@@+++ 默认多语言模块@@
+@@[[module ListPages name="="]]@@
+@@[[include component:multi-language pagename=%%name%%]]@@
+@@[[/module]]@@
+@@ @@
+@@+++ 位于左边的多语言模块@@
+@@[[module ListPages name="="]]@@
+@@[[include component:multi-language pagename=%%name%% | align=left]]@@
+@@[[/module]]@@
+@@ @@
+@@+++ 位于右边的多语言模块@@
+@@[[module ListPages name="="]]@@
+@@[[include component:multi-language pagename=%%name%% | align=right]]@@
+@@[[/module]]@@
+@@ @@
+@@+++ 位于中间的多语言模块@@
+@@[[module ListPages name="="]]@@
+@@[[include component:multi-language pagename=%%name%% | align=center]]@@
+@@[[/module]]@@
+[[/div]]

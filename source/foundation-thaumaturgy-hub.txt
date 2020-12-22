@@ -1,0 +1,97 @@
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[=]]
+[[image Foundation_Thaumaturgy_Logo.png]]
+[[/=]]
+@@@@
+@@@@
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+您好，基金会职员%%title%%。
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+您好，探索者。
+[[/div]]
+[[/div]]
+
+作为一名生活在小马利亚这片自无始以来就为魔法笼罩的国土之上的居民，您或许会诧异：对于魔法的种种研究成果已是卷帙浩繁，仅坎特拉图书馆的公开资料就已够一名学者穷其数生去阅读与研究，为何基金会要抛下这宝库，有些自大地另立所谓“基金会魔法学”？
+
+其实不然，所谓基金会魔法学，更多的是遵从我们已有的魔法学成果，并在它们的基础上加以拓展并在研究和收容等工作中加以运用。若是如此看来，所谓基金会魔法学不过是个幌子。但是，水晶魔镜的另一边，也就是基金会总部所在的人类世界，同样拥有“魔法”以及在这基础上建立起来的魔法学理论体系。
+
+需要强调的是，在人类世界——至少在基金会总部所在的那个人类世界——之中，魔法常常会被一般人视为“超自然的”和“异常的”，对于它们的研究也主要由基金会和它的同行组织进行。另外，我们与人类对魔法进行研究的方法是有很大出入的。
+
+此外，由于种种历史因素，小马利亚普遍接受的“魔法”事实上包括了两个部分：奇术以及现实扭曲术。粗略看起来，这两个部分大体相同，这也就是我们的先贤和历代的魔法学研究者——包括“基金会魔法学”这个称呼本身——将它们混为一谈的原因，但若是具体看来，它们是大相径庭的。
+
+在这里，您可以找到来自基金会总部的文献，从人类的视角来审视我们的魔法学。您也可以找到由基金会小马利亚分部对于魔法学的研究成果。希望基金会魔法学能为现今魔法学的研究提供一些新的思路和方法。
+
+[[>]]
+——SCP基金会小马国分部魔法研究部负责马，Dr.███████████
+[[/>]]
+
+[[div class="content-panel centered standalone"]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+@@@@
+@@@@
+[[div class="content-panel standalone series"]]
++ 来自SCP基金会总部的文献
+
+这些文件直接来源于基金会总部的资料库，展示了总部及人类世界对于魔法学的研究成果。
+
+需要注意的是，由于宇宙之间的差异性，这些论述均从人类角度出发写就，可能与我们所在的宇宙的实际情况以及现有的魔法学著作及相关文献存在冲突和/或差异。因此，这些文献仅供参考之用。
+
+-----
+
+++ 奇术部分
+* [[[goc-supplemental-thaumatology |]]]
+* [[[goc-supplemental-arad |]]]
+* [[[goc-supplemental-thaumworkings |]]]
+* [[[goc-supplemental-qanda |]]]
+* [[[magic-system |]]]
+* [[[to-see-the-world-in-a-grain-of-sand |]]]
+* [[[and-a-heaven-in-a-wild-flower |]]]
+* [[[hold-infinity-in-the-palm-of-your-hand |]]]
+* --[[[and eternity in an hour |奇术中的使用概念详解]]]--（等待解密）
+* [[[type-silver |]]]
+* [[[type-blue-1 |]]]
+* [[[type-blue-2 |]]]
+* [[[thaumaturgy-history-first |]]]
+* [[[thaumaturgy-history-supplement-first |]]]
+* [[[thaumaturgy-history-supplement-second |]]]
+* [[[thaumaturgy-history-second |]]]
+* [[[thaumaturgy-history-third |]]]
+* [[[thaumaturgy-subject-first |]]]
+* [[[thaumaturgy-subject-first-a |]]]
+* [[[thaumatology-and-sra |]]]
+* [[[the-lecture-of-quantum-thaumatology |]]]
+* [[[array-thaumatology-lecture |]]]
+++ 现实扭曲术与休谟理论部分
+* [[[dr-clef-reality-benders-and-you |]]]
+* [[[clef-excerpts |]]]
+* [[[and-this-one-explains-humes |]]]
+* [[[an-faq-part-two-or-your-hume-questions-answered |]]]
+* [[[be-bended-and-low-hume-1|]]]
+* [[[be-bended-and-low-hume-2|]]]
+* [[[how-to-recognize-low-humers|]]]
+[[/div]]
+
+[[div class="content-panel standalone series"]]
++ 来自SCP基金会小马国分部的文献
+
+这些文件大多是基金会小马国分部的职员撰写的，也有一些文件记载了不在基金会工作的魔法学学者的研究成果。
+
+-----
+
+++ 奇术部分
+* [[[dr-sunflower-8 |]]]
+* [[[harmoneyandmagic|]]]
+++ 现实扭曲术与休谟理论部分
+* [[[a-new-method-of-distinguishing-reality-bending |]]]
+[[/div]]

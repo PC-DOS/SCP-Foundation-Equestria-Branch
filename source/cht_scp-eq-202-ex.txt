@@ -1,0 +1,729 @@
+[[module css]]
+@import url(/component:theme/code/1);
+
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+
+#header h1 a {
+    display: block;
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0px;
+    max-height: 0px;
+    color: #eee;
+    background: transparent;
+    font-family: BauhausLTDemi, Arial, sans-serif;
+    font-size: 180%;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 0.9px;
+}
+
+#header h1 a::before{
+    content: "SCP基金會小馬國分部";
+    color: #eee;
+}
+
+#header h1 a span{
+    display: block;
+    content: "";
+    visibility: hidden;
+}
+
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+
+#header h2 span::before {
+    content: "控制 · 收容 · 保護";
+    display: block;
+    margin: 0;
+    padding: 0px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: #f0f0c0;
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+/* viewport */
+ 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* IE viewport */
+@-ms-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* opera viewport */
+@-o-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* chrome viewport - maybe it isn't work... */
+@-webkit-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* firefox viewport - maybe it isn't work too... */
+@-moz-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* webkit scrollbar */
+::-webkit-scrollbar
+{
+    width: 9px;    /* for vertical scrollbars */
+    height: 9px; /* for horizontal scrollbars */
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-round: 0.5px;
+}
+ 
+::-webkit-scrollbar-track
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+ 
+::-webkit-scrollbar-thumb
+{
+    background: rgba(50, 50, 50, 0.3);
+}
+ 
+.page-source {
+word-break: break-all;
+}
+ 
+/* Responsive Web Design */
+img, embed, video, object, iframe, table {
+    max-width: 100%;
+}
+ 
+#page-content div, #page-content div table {
+    max-width: 100%;
+}
+ 
+#edit-page-comments {
+    width: 100%;
+}
+ 
+/* basic Query for mobile devices */
+ 
+@media (max-width: 767px) {
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div a.btn-primary {
+    width: 100%;
+    float: left;
+}
+ 
+.mobile-top-bar ul li:last-of-type ul {
+    right: 0;
+}
+ 
+span, a {
+word-break: break-all;
+}
+}
+ 
+/* Mobile Media Query */
+@media (max-width: 479px) { 
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+#header h1 a {
+    font-size: 100%;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+ 
+#header {
+    background-position: 0 5.5em;
+    background-size: 55px 55px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+ 
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) { 
+/*
+#search-top-box-input {
+    width: 7em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+#header h1 a {
+    font-size: 120%;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header {
+    background-position: 0.5em 4.5em;
+    background-size: 66px 66px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) { 
+/*
+#search-top-box-input {
+    width: 8em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+#header h1 a {
+    font-size: 140%;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 77px 77px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+#header h1 a {
+    font-size: 160%;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 88px 88px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(184, 134, 134);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+__[[[http://scp-equestria.wikidot.com/scp-eq-202-ex | 简体中文]]]__ | 繁體中文 | [[[http://scp-equestria.wikidot.com/eng:scp-eq-202-ex | English]]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+請為原作品評分。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+發佈時間：2019年1月31日
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+
+[[div style="color: black; border: solid 1px #000000; background:#a2b2c2 url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; padding:15px; margin-bottom: 10px; "]]
+[[=]]
+++ **基金會資訊管理部門提示**
+本文檔所描述的異常已於LE[[footnote]]Luna's Exile，逐月曆，使用于現行的月歸曆前1000年。[[/footnote]]839/12/21被重分級為Explained，目前已無收容措施。
+本文檔僅被歸檔作為參考，所描述的內容可能存在錯誤與過時。
+如你閱讀後有疑惑，請聯繫你所工作站點的心理輔導馬員。
+[!--
+或者，如果你是上層敘事的個體，也可以問問作者。
+--]
+[[/=]]
+[[/div]]
+
+**項目編號：**--SCP-202-EQ-- --SCP-EQ-202-- SCP-EQ-202-EX
+
+**項目等級：**--Unsafe--[[footnote]]此分級曾經用於具有威脅的異常，現已被Euclid取代。[[/footnote]] --Euclid-- --Keter-- Explained
+
+**已歸檔的特殊收容措施：**
+
+[[collapsible show="顯示已於LE588/06/01歸檔的特殊收容措施" hide="收容方案（設置於LE502/09/23）："]]
+所有已被確認的SCP-202-EQ-a應當被收容於Site-5-EQ內。目前，負責確認、收容SCP-202-EQ-a的行動小組為SRS[[footnote]]Strategic Reaction Squadron，戰略反應小組，基金會曾用編制，現已廢除。[[/footnote]]-Beta-2（“巡夜明燈”）。
+[[/collapsible]]
+
+[[collapsible show="顯示已於LE724/11/32歸檔的特殊收容措施" hide="收容措施（設置於LE588/06/01）："]]
+所有已被查明的SCP-EQ-202-1應當被收容於Site-EQ-13的異常小馬收容區內，使用CRS[[footnote]]Crystal Resonance Suppressor，水晶共振抑制器，曾用於抑制魔法和現實扭曲，由於事故率過高，已停止使用。[[/footnote]]對其現實扭曲能力進行抑制。目前，負責確認、收容、掩蓋SCP-EQ-202-1的機動特遣隊為MTF-Alpha-4（“巡夜燈火”）。
+[[/collapsible]]
+
+[[collapsible show="顯示已於LE823/01/16歸檔的特殊收容措施" hide="特殊收容措施（設置於LE724/11/32）："]]
+所有已被查明的SCP-EQ-202-1應當被收容於Site-EQ-13的馬形異常收容翼內，使用[[[scp-eq-025 | SCP-EQ-025]]]對其異常的魔法能力進行抑制。目前，負責確認、收容、掩蓋SCP-202-EQ-a的機動特遣隊為MTF-Alpha-4（“夜之眼”）。必要時，允許連同目擊者一併收容，並使用適當的掩蓋故事，以避免引起公眾恐慌。
+[[/collapsible]]
+
+[[collapsible show="顯示已於LE839/12/20歸檔的特殊收容措施" hide="特殊收容措施（設置於LE723/01/16）："]]
+所有已被查明的SCP-EQ-202-1應當被收容於Site-EQ-202的馬形異常收容翼內，使用SCP-EQ-025對其異常的魔法能力進行抑制。目前，負責確認、收容、掩蓋SCP-202-EQ-a的機動特遣隊為MTF-忠誠-11（“撥雲見霧”）。必要時，允許使用記憶刪除魔法Ennui-β2[[footnote]]即現在的記憶刪除魔法。[[/footnote]]。
+[[/collapsible]]
+
+[[collapsible show="顯示已於LE839/12/21歸檔的特殊收容措施" hide="特殊收容措施（設置於LE839/12/20）："]]
+--所有已被查明的SCP-EQ-202-1應當被處決，使用記憶刪除魔法掩蓋。--[[footnote]]已判明是前O5-7在SCP-EQ-███的作用下作出的錯誤決斷。[[/footnote]]
+[[/collapsible]]
+
+**描述：**SCP-EQ-202是一種作用于陸馬（//Terra Equinothro//）的異常效應。
+SCP-EQ-202的受影響個體（下稱SCP-EQ-202-1），會在受到異常作用後，於30~90天內產生生理學、魔法生理學上的一系列異常轉變，包括但不限於：
+* 體重下降；SCP-EQ-202-1個體的平均體重約為正常陸馬的70%，而略高於天馬。
+* 對菊苣屬（//Lactuceae Cass.//）植物毒性的抵抗能力。
+* 肌肉張力、耐力和爆發力的顯著下降。
+* 骨骼結構改變，產生[因帷幕協定VoR-202移除]，柔韌性明顯提高。
+* 腦部結構改變，[因帷幕協定VoR-202移除]；在EOI測試[[footnote]]Equestrian Ordinary Intelligence Test，小馬國常規智力測試。[[/footnote]]中，SCP-EQ-202-1個體在空間想像能力和記憶力兩部分的平均得分分別為134.2和150.1[[footnote]]作為參考，坎特洛皇家大學LE762年數學系學生的平均得分分別為117.9和104.2。[[/footnote]]。
+（詳情見增補資料EQ-202-A02）
+SCP-EQ-202的傳播方式不明，目前受影響的小馬群體約占陸馬馬口總數的--0.02%-- --0.94%-- --3.87%-- --16.54%-- 42.36%。
+SCP-EQ-202-1在受到影響後，會表現出異常的魔法能力，包括但不限於：
+* 隔地促動。
+* 產生光亮。
+* --創造病原體。--（已證明為訛傳）
+* 製造暫時性空間異常。
+（詳情見增補資料EQ-202-A03）
+@@@@
+**附錄EQ-202.1：**
+SCP-EQ-202個體的性別比例為（雌:雄）2.71:1，略高於馬口統計資料的平均值（2.48:1）。
+[餘下內容因帷幕協定VoR-202移除]
+@@@@
+@@@@
+@@@@
+[[collapsible show="訪問附錄EQ-202ex.0[訪問需要5級許可權]" hide="附錄EQ-202ex.0："]]
+@@@@
+[[=]]
+**關於執行帷幕協定VoR-202的投票**
+||~ **##green|同意##** ||~ **##red|否決##** ||~ **##grey|棄權##** ||
+|| O5-1 || O5-3 || O5-2 ||
+|| O5-5 || O5-4 || O5-13 ||
+|| O5-6 || O5-7 || ##fcfcfc|O5-14## ||
+|| O5-8 || O5-9 || ##fcfcfc|不要## ||
+|| O5-11 || O5-10 || ##fcfcfc|忘記## ||
+|| O5-12 ||  || ##fcfcfc|我。## ||
+||||||~ 倫理道德委員會意見 ||
+||||||= **##green|同意 YEA##** ||
+||~ 結果 |||| **##green|通過 APPROVED##** ||
+[[/=]]
+[[div style="background:#ffeeff; border: dotted 1px #500050; padding:15px"]]
+[[<]]
+@@      @@基金會，我們輸了。
+@@@@
+@@      @@我們幾百年來一直想要解明SCP-EQ-202，想要阻止它繼續擴散，但它已經永遠地改變了小馬這個種族，曾經只在O5-1身上具有的異常器官和能力，在我寫下這段文字時，已經出現在了近三分之一的小馬身上。他們只要揮一揮自己的魔法獨角，就能輕易做到各種讓我們陷入焦慮當中的事情；更不用說有幾個SCP-EQ-202-1表現出的能力，幾乎能和我們曾見過的高危現實扭曲者相比。
+@@@@
+@@      @@我很害怕。
+@@@@
+@@      @@我們更害怕的，是大眾陷入對未知的恐懼。
+@@@@
+@@      @@所以，議會最終決定執行帷幕協定VoR-202，又叫做“忽怠協定”，在小馬國全體公民身上，使用我們最新的記憶刪除技術，然後銷毀掉證明202是異常的全部證據。我原本極力反對這樣做，基金會應當和異常戰鬥到底，不能就這樣用謊言掩蓋真相；但當我幾天前發現，就連躲藏在025之間的我，也開始長獨角的時候，我明白了，我們別無選擇。或許，是我太自私了。
+@@@@
+@@      @@我向議會提交了辭呈，這次協議執行後，我將再也不是O5-2。原諒我，這一次我想滿足自己的私心：我寧願無知地活下去，也不願意看著這個世界變得陌生。
+[[/<]]
+[[=]]
+從此以後，小馬國有四種小馬。
+基金會依然會存在。
+**我們控制。我們收容。我們保護。**
+[[/=]]
+[[>]]
+//原O5-2，Twilight Twinkle
+LE839/12/21//
+[[/>]]
+[[/div]]
+[[/collapsible]]
+
+[[footnoteblock title="蹄注"]]

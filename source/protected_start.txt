@@ -1,0 +1,115 @@
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[div style="text-align: center; color: #600;"]]
+[[div class="unmargined"]]
+[[size 125%]]警告: SCP基金会资料库属于[[/size]]
+[[/div]]
+[[div class="unmargined" style="font-size: 400%; font-weight: bold; margin: 10px 0 10px;"]]
+高 度 机 密
+[[/div]]
+[[div class="unmargined"]]
+[[size 125%]]严禁未经授权的访问[[/size]]
+@@@@
+[[size 125%]]肇事者将被监控、定位并处理[[/size]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel centered standalone" ]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+
+[[div class="content-panel centered standalone" style="background-color:rgb(0,0,0)"]]
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+[[size 115%]]##00ff00|身份认证已通过，欢迎回来，基金会职员%%title%%。##[[/size]]
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+[[size 115%]]##red|身份认证未通过，请检查您的身份识别。##[[/size]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel centered standalone" style="background-color:rgb(245,75,75); color: rgb(245,245,245);"]]
+[[div class="unmargined" style="font-size: 245%;"]]
+✚
+[[/div]]
+[[div class="unmargined" style="font-size: 110%;"]]
+**近日疫病流行，请注意卫生防疫与自我保护，保持关注公共卫生部门发布的资讯，必要时及时前往医疗部门就诊。谨祝安康祥和。**
+[[/div]]
+[[/div]]
+
+[[div class="content-panel centered standalone" style="padding-top: 10px; padding-bottom: 10px;"]]
+[[collapsible show="展开疫情统计信息" hide="收起疫情统计信息"]]
+[[html]]
+<div class="bingwidget" data-type="covid19" data-market="zh-cn" data-language="zh-cn"></div>
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+[[/html]]
+[[/collapsible]]
+[[/div]]
+
+[[div class="content-panel centered standalone"]]
+[[size 120%]]D级马匹火热招募中! 待遇优厚，更有希望成为研究员哦! [[[system:join|有意者请点击此处]]]。[[/size]]
+
+强烈建议您先前往[*http://scp-wiki-cn.wikidot.com/guide-hub 人类世界的基金会指导中心的镜像站]，熟悉一下相关的规矩、守则和建议。
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+最近新增的条目
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="-fragment" order="created_at desc" rating="> -4" limit="15" separate="no" tags="条目 -管理 -段落 -来自总部" ]]
+%%linked_title%%
+[[/module]]
+[[/div]]
+[[div class="panel-footer"]]
+[[[protected:most-recently-created | 最近新增的条目一览]]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+最近新增的SCP文档
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="-fragment" order="created_at desc" rating="> -4" limit="10" separate="no" tags="scp -管理 -段落 -来自总部" ]]
+%%linked_title%%
+[[/module]]
+[[/div]]
+[[div class="panel-footer"]]
+[[[protected:most-recently-created-scp | 最近新增的SCP文档一览]]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+推荐阅读的条目
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="-fragment" order="created_at desc" limit="10" separate="no" tags="推荐" ]]
+%%linked_title%%
+[[/module]]
+[[/div]]
+[[div class="panel-footer"]]
+[[[protected:recommended-entries | 推荐阅读的条目一览]]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+创建新页面
+[[/div]]
+[[div class="panel-body"]]
+您可以在此创建一个新页面，请在下方输入新页面的名字并点击 [创建新页面] 按钮。
+[[module NewPage size="50" button="​​创建新页面"]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]

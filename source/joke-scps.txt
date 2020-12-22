@@ -1,0 +1,76 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+#breadcrumbs {
+  display: none;
+}
+[[/module]]
+
+[[module CSS]]
+.scp-eq-datacenter-menu {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.scp-eq-datacenter-menu a {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   width: 100%;
+   font-size: 110%;
+   font-weight: bold;
+   text-decoration: none !important;
+   color: #555 !important;
+   background: transparent;
+}
+.scp-eq-datacenter-menu a:hover {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   width: 100%;
+   font-size: 110%;
+   font-weight: bold;
+   text-decoration: none !important;
+   color: #555 !important;
+   background: rgba(238,238,238,0.5);
+}
+[[/module]]
+
+[[div style="background-image: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png); background-position:-150px 50%; background-repeat: no-repeat; width: 100;"]]
+
+[[div class="scp-eq-datacenter-menu" style="width:100%; text-align: left; margin-left: 0px;"]]
+[[[special-scps | <<回到特殊SCP项目列表首页]]]
+[[/div]]
+
+[[div class="unmargined" style="margin-left: 10px;"]]
+[[div class="unmargined" style="color: #555; font-size: 150%; font-weight: bold; margin: 0px 0 0px;"]]
+SCP基金会小马国分部特殊SCP项目资料库
+[[/div]]
+[[div class="unmargined" style="color: #555; font-size: 245%; font-weight: bold; margin: 5px 0 0px;"]]
+搞笑SCP项目
+[[/div]]
+[[/div]]
+
+[[div style="border-bottom:1px solid #555; margin-bottom:1px; margin-top: 25px;"]]
+[[/div]]
+[[div style="border-bottom:2px solid #555; "]]
+[[/div]]
+
+[[/div]]
+
+-J（即Joke，搞笑）SCP项目是一种特殊的SCP项目，它们的运作和表现形式等等显得过于有趣以至于将其归入通常的SCP项目资料库会显得过于滑稽。一些搞笑SCP项目也有可能根本不存在——它们可能只是一些基金会员工写出来供大家娱乐和消遣的。是的，搞笑SCP本身可能只是一个基金会员工之间的玩笑。
+
+常规SCP和SCP-J主要有两个地方不同：
+
+* 第一，-J后辍。所有被标为-J的SCP的标题须在其编号后加注“-J”。
+
+* 第二，足够搞笑。是的，一个搞笑SCP，尤其是那种基金会员工写出来消遣的搞笑SCP，必须足够的搞笑。如果您随便用了些流行元素写了篇很随意的搞笑SCP，别的基金会员工可能不会买账。
+
+**搞笑SCP项目列表**
+
+[[module ListPages category="*" separate="yes" tags="搞笑" perPage="50" order="updated_at desc"]]
+**%%title_linked%%**
+[[/module]]

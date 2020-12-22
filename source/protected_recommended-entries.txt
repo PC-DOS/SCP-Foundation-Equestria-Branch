@@ -1,0 +1,171 @@
+[[module CSS]]
+.heritage-notice {
+border: dashed 2px #b00010;
+border-radius: 10px;
+width: 500px;
+margin: 0 auto;
+padding: 0 20px;
+background: #fcfcf0 url(/local--files/recommended-entries/hatch-black10i.png);
+color: #331010;
+min-height: 116px;
+}
+
+table.heritage {
+  border: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 600px;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+table.heritage td {
+  vertical-align: top;
+}
+
+table.heritage td.title,
+table.heritage td.label {
+  border-right: solid 1px #999;
+  font-size: 16pt;
+  color: #999;
+  width: 200px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+table.heritage td.label {
+  font-size: 20pt;
+}
+
+table.heritage td.title {
+  padding-bottom: 20px;
+}
+table.heritage td.label {
+  font-weight: bold;
+}
+
+table.heritage td.entry {
+  padding: 6px 0 20px 10px;
+}
+
+table.heritage div.description {
+  font-size: 14pt;
+}
+table.heritage div.snippet {
+  font-style: italic;
+  font-size: 8pt;
+  color: #666;
+}
+table.heritage div.date {
+  font-weight: normal;
+  font-size: 7pt;
+}
+table.heritage div.snippet p {
+  margin: 5px 0;
+}
+table.heritage div.description p,
+table.heritage div.date p {
+  margin: 0;
+}
+
+@media (max-width: 599px) {
+.heritage-notice {
+padding: 0;
+}
+
+table.heritage {
+width: 100%;
+}
+
+table.heritage td.title, table.heritage td.label {
+width: 40%;
+}
+
+table.heritage td.label {
+font-size: 15pt;
+}
+}
+[[/module]]
+
+[[module CSS]]
+.content-panel .content-type-title > p {
+  margin: 0;
+}
+.content-panel .content-type-title {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: #666;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.8),
+    inset 0 15px 1px rgba(255,255,255,.2),
+    inset 0 15px 10px rgba(255,255,255,.2);
+}
+.content-panel .content-type-description {
+padding: 0 20px;
+text-align: justify;
+}
+.content-panel.content-row .content-type-description {
+padding: 5px 20px;
+}
+.content-panel.content-row .content-type-description-2 {
+padding: 0 20px;
+text-align: justify;
+}
+[[/module]]
+
+[[div class="heritage-notice"]]
+[[table style="width: 100%; margin: 5px;"]]
+[[row stye="width: 100%;"]]
+[[cell style="width: 25%;"]]
+[[image recommended-emblem.png style="width: 100%;"]]
+[[/cell]]
+[[cell style="width: 75%; padding-right: 5px;"]]
+**推荐条目**
+被推荐的文档由基金会管理马员选出，这些文档被认为拥有良好的格式与内容，并被推荐给所有员工阅读。
+建议新入职的员工通过阅读这些文档，在实际体验中了解基金会文档的写作风格与内容格式。
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[=]]
++ 推荐条目一览
+[[/=]]
+
+-----
+
+[[table style="width: 100%;"]]
+[[row style="font-weight: bold; color: #fff; background-color: #b00010;"]]
+[[cell style="padding: 0 2px; width: 40%; font-size: 115%""]]
+名称
+[[/cell]]
+[[cell style="padding: 0 2px; width: 15%; text-align: center; font-size: 115%""]]
+评分
+[[/cell]]
+[[cell style="padding: 0 2px; width: 15%; text-align: center; font-size: 115%""]]
+评论数
+[[/cell]]
+[[cell style="padding: 0 2px; width: 30%; text-align: center; font-size: 115%""]]
+作者
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[module ListPages order="rating desc" category="-fragment" tags="+推荐" perPage="50" prependLine="[[include component:listpages-table-alt]]" appendLine="[[/table]]" separate="no"]]
+[[row]]
+[[cell style="vertical-align: top; background-color: #fcfcf0; font-size: 115%"]]
+%%title_linked%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: center; background-color: #fcfcf0; font-size: 115%"]]
+%%rating%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: center; background-color: #fcfcf0; font-size: 115%"]]
+%%comments%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: center; background-color: #fcfcf0; font-size: 115%"]]
+[[*user %%created_by%%]]
+[[/cell]]
+[[/row]]
+[[/module]]

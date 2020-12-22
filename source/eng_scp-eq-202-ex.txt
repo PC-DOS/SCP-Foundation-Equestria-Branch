@@ -1,0 +1,729 @@
+[[module css]]
+@import url(/component:theme/code/1);
+
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+
+#header h1 a {
+    display: block;
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0px;
+    max-height: 0px;
+    color: #eee;
+    background: transparent;
+    font-family: BauhausLTDemi, Arial, sans-serif;
+    font-size: 125%;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 0.9px;
+}
+
+#header h1 a::before{
+    content: "SCP Foundation Equestria Branch";
+    color: #eee;
+}
+
+#header h1 a span{
+    display: block;
+    content: "";
+    visibility: hidden;
+}
+
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+
+#header h2 span::before {
+    content: "Secure · Contain · Protect";
+    display: block;
+    margin: 0;
+    padding: 0px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: #f0f0c0;
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+/* viewport */
+ 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* IE viewport */
+@-ms-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* opera viewport */
+@-o-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* chrome viewport - maybe it isn't work... */
+@-webkit-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* firefox viewport - maybe it isn't work too... */
+@-moz-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* webkit scrollbar */
+::-webkit-scrollbar
+{
+    width: 9px;    /* for vertical scrollbars */
+    height: 9px; /* for horizontal scrollbars */
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-round: 0.5px;
+}
+ 
+::-webkit-scrollbar-track
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+ 
+::-webkit-scrollbar-thumb
+{
+    background: rgba(50, 50, 50, 0.3);
+}
+ 
+.page-source {
+word-break: break-all;
+}
+ 
+/* Responsive Web Design */
+img, embed, video, object, iframe, table {
+    max-width: 100%;
+}
+ 
+#page-content div, #page-content div table {
+    max-width: 100%;
+}
+ 
+#edit-page-comments {
+    width: 100%;
+}
+ 
+/* basic Query for mobile devices */
+ 
+@media (max-width: 767px) {
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div a.btn-primary {
+    width: 100%;
+    float: left;
+}
+ 
+.mobile-top-bar ul li:last-of-type ul {
+    right: 0;
+}
+ 
+span, a {
+word-break: break-all;
+}
+}
+ 
+/* Mobile Media Query */
+@media (max-width: 479px) { 
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+#header h1 a {
+    font-size: 50%;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+ 
+#header {
+    background-position: 0 5.5em;
+    background-size: 55px 55px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+ 
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) { 
+/*
+#search-top-box-input {
+    width: 7em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+#header h1 a {
+    font-size: 60%;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header {
+    background-position: 0.5em 4.5em;
+    background-size: 66px 66px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) { 
+/*
+#search-top-box-input {
+    width: 8em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+#header h1 a {
+    font-size: 75%;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 77px 77px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+#header h1 a {
+    font-size: 100%;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 88px 88px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(184, 134, 134);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+__[[[http://scp-equestria.wikidot.com/scp-eq-202-ex | 简体中文]]]__ | [[[http://scp-equestria.wikidot.com/cht:scp-eq-202-ex | 繁體中文]]] | English
+[[/cell]]
+[[cell style="text-align: right;"]]
+Please rate the original one. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+Published at: Jan 31st, 2019
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+
+[[div style="color: black; border: solid 1px #000000; background:#a2b2c2 url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat; padding:15px; margin-bottom: 10px; "]]
+[[=]]
+++ **NOTICE FROM THE FOUNDATION INFORMATION ADMINISTRATION**
+The anomaly described in the following document has been reclassified as Explained since L.E.[[footnote]]Luna's Exile, used before Luna's Return, which is currently used in Equstria. [[/footnote]]21/12/839; no containment procedure is needed currently. 
+The following document is archieved only for reference. It may contain incorrect or outdated contents. 
+If you feel confused after reading, contact psychological counsellor stationed at your site. 
+[!--
+Or simply ask the writer if you are from higher narrative layer. 
+--]
+[[/=]]
+[[/div]]
+
+**Item #:**  --SCP-202-EQ-- --SCP-EQ-202-- SCP-EQ-202-EX
+
+**Object Class:** --Unsafe--[[footnote]]A former classification used for threatening anomalies. It has been displaced by Euclid. [[/footnote]] --Euclid-- --Keter-- Explained
+
+**Archieved Special Containment Procedures:** 
+
+[[collapsible show="Archieved since L.E.01/06/588" hide="Containment Project (Established on L.E.23/09/502): "]]
+All confirmed SCP-202-EQ-a shall be contained at Site-5-EQ, responsible for whose confirmation and containment is SRS[[footnote]]Strategic Reaction Squadron, a former establishment similiar to Mobile Task Forces. [[/footnote]]-Beta-2 ("Night Searchlight"). 
+[[/collapsible]]
+
+[[collapsible show="Archieved since L.E.32/11/724" hide="Containment Procedures (Established on L.E.01/06/588): "]]
+All confirmed SCP-EQ-202-1's should be contained in Anomalous Pony Containment Centre at Site-EQ-13. The usage of CRS[[footnote]]Crystal Resonance Suppressor, a device used for neutralization of magic and reality bending. Removed from all sites due to its high rate of accident. [[/footnote]] is allowed for countering reality bending abilities. Currently, the MTF responsible for the confirmation, containment and concealment of SCP-EQ-202-1 is MTF-Alpha-4 ("Night Light"). 
+[[/collapsible]]
+
+[[collapsible show="Archieved since L.E.16/01/823" hide="Special Containment Procedures (Established on L.E.32/11/724): "]]
+All confirmed instances of SCP-EQ-202-1 are to be contained in Ponynoid Anomaly Containment Wing at Site-EQ-13. [[[http://scp-equestria.wikidot.com/scp-eq-025 | SCP-EQ-025]]][[footnote]]{{Translator's note: SCP-EQ-025 is an anomaly substance secreted by a drone rank of changelings. It is used as SRA in establishments of Equestrian branch. }}[[/footnote]] is to be used to neutralize their anomolous magic abilities. The confirmation, containment and concealment of SCP-EQ-202-1 is carried out by MTF-Alpha-4 ("Eye of Night"). To prevent public terror, it is allowed to contain eye-witnesses and use fake information for concealment. 
+[[/collapsible]]
+
+[[collapsible show="Archieved since L.E.20/12/839" hide="Special Containment Procedures (Established on L.E.16/01/823): "]]
+All confirmed instances of SCP-EQ-202-1 are to be contained in Ponynoid Anomaly Containment Wing at Site-EQ-13. SCP-EQ-025 is to be used to neutralize their anomolous magic abilities. The confirmation, containment and concealment of SCP-EQ-202-1 is carried out by MTF-Loyal-11 ("Uncloudification"). Experimental amnestic spell Ennui-β2[[footnote]]Now Amnestic spell. [[/footnote]] is to be used if necessary. 
+[[/collapsible]]
+
+[[collapsible show="Archieved since L.E.21/12/839" hide="Special Containment Procedures (Established on L.E.20/21/839): "]]
+--All confirmed instances of SCP-EQ-202-1 are to be terminated. Amnestic spells are to be used.--[[footnote]]Determined as misjudgement of O5-7, under the influence of SCP-EQ-███. [[/footnote]] 
+[[/collapsible]]
+
+**Description:** SCP-EQ-202 is a an anomalous biological effect on Earth ponies (//Terra Equinothro//). 
+Individuals effected by SCP-EQ-202 (hereafter referred to as SCP-EQ-202-1) will go through a series of biological and arcansiological changes, including but not limited to: 
+* Decrease in body mass. The average body mass of SCP-EQ-202-1 is approximately 70% of common Earth ponies, which is slightly higher than pegasi (//Pegasum Equinothro//). 
+* Toxicity resistance of chicory plants (//Lactuceae Cass.//). 
+* Significant decrease of muscle tone, endurance and explosiveness. 
+* Changes in skeletal structure, which forms [REDACTED PER //PROTOCOL VoR-202//] and increases flexibility significantly. 
+* Changes in cerebral structure, [REDACTED PER //PROTOCOL VoR-202//]. The average EOIT[[footnote]]Equestrian Ordinary Intelligence Test. [[/footnote]] scores in Saptial Visualization and Memory are respectively 134.2 and 150.1[[footnote]]For reference, the average scores of mathematics undergraduates in Canterlot Royal University (L.E. 762) in the aforementioned two subjects are respectively 117.9 and 104.2. [[/footnote]]. 
+(Details are displayed in supplementary File EQ-202-A02)
+The method of propagation of SCP-EQ-202 is currently unconfirmed. Instances of SCP-EQ-202-1 make up --0.02%-- --0.94%-- --3.87%-- --16.54%-- 42.36% of the total population of Earth ponies. 
+SCP-EQ-202-1, after a certain but undetermined point of changes, show anomalous magic abilities, including but not limited to: 
+* Telekinetsis. 
+* Generation of fluorescent illumination. 
+* --Production of pathogens.-- (Determined as misrepresentation)
+* Generation of --temporal-- nonpersistent saptial anomalies. 
+(Details are displayed in supplementary File EQ-202-A03)
+@@@@
+**Appendum EQ-202.1:** 
+The gender ration (F:M) of instances of SCP-EQ-202 is 2.71:1, which is slightly higher than average of population (2.48:1). 
+[FOLLOWING CONTENTS ARE REDACTED PER //PROTOCOL VoR-202//]
+@@@@
+@@@@
+@@@@
+[[collapsible show="Access Appendum EQ-202ex.0 [LEVEL 5 CLEARANCE REQUIRED]" hide="Appendum EQ-202ex.0: "]]
+[[=]]
+@@@@
+{{**COUNCIL VOTE SUMMARY, REGARDING THE EXECUTION OF //PROTOCOL VoR-202//**}}
+||~ {{**##green|YEA##**}} ||~ {{**##red|NAY##**}} ||~ {{**##grey|ABSTAIN##**}} ||
+||= {{O5-1}} ||= {{O5-3}} ||= {{O5-2}} ||
+||= {{O5-5}} ||= {{O5-4}} ||= {{O5-13}} ||
+||= {{O5-6}} ||= {{O5-7}} ||= {{##fcfcfc|O5-14##}} ||
+||= {{O5-8}} ||= {{O5-9}} ||= {{##fcfcfc|DON'T##}} ||
+||= {{O5-11}} ||= {{O5-10}} ||= {{##fcfcfc|FORGET##}} ||
+||= {{O5-12}} ||=  ||= {{##fcfcfc|ME. ##}} ||
+||||||~ {{ETHICS COMMITTEE}} ||
+||||||= {{**##green|YEA##**}} ||
+||~ {{STATUS}} ||||= {{**##green|APPROVED##**}} ||
+[[/=]]
+[[div style="background:#ffeeff; border: dotted 1px #500050; padding:15px"]]
+[[<]]
+@@      @@We have lost, Foundation. 
+@@@@
+@@      @@For hundreds of years, we have tried to explain SCP-EQ-202, to prevent it from spreading. Yet it has already changed ponykind; the abnormal appendage and ability that once was only seen on O5-1, at the moment of my writing this, has appeared on about one third of ponies. With a mere whip of their magical horns, they can put us in anxiety with ease. Not to mention some of the SCP-EQ-202-1, who have proved as dangerous as some high-hazard reality benders. 
+@@@@
+@@      @@I am afraid. 
+@@@@
+@@      @@And we should be afraid that the public may be terrified into doom. 
+@@@@
+@@      @@This is why the Council evnetually decided to execute //Protocol Veil of Reality 202//, or //Protocol Ennui//, as some of us call it; we will cast our latest amnestic spells on creatures all across the planet of Equis, and make sure no one knows better. I once strenuously objected doing so, as I believed Foundation should fight against anomalies till the end instead of covering them. But, when I began growing my horn, among all those 025's, I realized that there were no choices. Call me selfish for it. 
+@@@@
+@@      @@I have submitted my resignation to the Council. No longer will I be O5-2 after the execution of the protocol. Please forgive me for my selfishness; rather than live in a world that is not mine, I prefer being oblivious. 
+[[/<]]
+[[=]]
+Hereafter, there are four races of ponies on Equis. 
+Foundation stands. 
+**We Secure. We Contain. We Protect.** 
+[[/=]]
+[[>]]
+//Former O5-2, Twilight Twinkle
+L.E.21/12/839//
+[[/>]]
+[[/div]]
+[[/collapsible]]
+
+[[footnoteblock title="HOOFNOTE"]]

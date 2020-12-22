@@ -1,0 +1,309 @@
+[!-- 英文用 --]
+[[module css]]
+.page-en {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+    font-size: 125%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.page-en p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[!-- 中文用 --]
+[[module css]]
+.page-cn {
+    display: block;
+    overflow: hidden;
+    font-family: DFKai-SB,Kaiti,SimSun,"Microsoft YaHei UI Light";
+    [!-- *font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;* --]
+    font-style: normal;
+    font-size: 125%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.page-cn p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]]**##red|来自安保主管的通知##**[[/size]]
+N/A年N/A月N/A日
+火
+
+//第3571268624次送信。//
+
+**我通过破碎入口送信给你，信息已受保护**
+[[size larger]]**务必信我**[[/size]]
+----
+此地Area-EQ-17-Ω，
+此为永燃之国，
+此处，是SCP基金会。
+
+而我——Dr.Seven、最后一马，
+守门在此。
+
+**控制，收容，保护**
+[[size larger]] [[collapsible show="不死不休" hide=" "]]//**##red|吾会回来##**//[[/collapsible]][[/size]]
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年3月15日
+雨
+@@ @@
+站点主管送我一包咖啡，味道不错。
+站点里进了一批新型的锚机零件，今晚上得安装一下。
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年3月16日
+雨
+@@ @@
+这些锚机竟是全手动的，若非主管告知我是最新型，我会以为这些破烂是上个世纪的古董。
+我日后的工作量又被增加。
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年3月19日
+雨
+@@ @@
+主管送我的咖啡比想象多，应该能再喝几天。
+这破烂的参数需我手动计算设置，糟心。
+我得把一些数记在这，
+休谟权重:0.67/逆流时点:267/反射常模:7.1/目标实参:100，
+呵，上面这些名词，若非我看过斯克兰顿的论文，鬼知道是什么意思。
+从昨天开始我康德计就偶尔乱响。隔壁就是锚机室，不可能有什么东西，估计是坏了。
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+||~ **送信方:** Seven ||~ **收信方:** 站点主管 ||
+||~ **主题:** 康德计 ||~ **发送日期:** ███4年█月█日 ||
+|||| 主管，我康德计有毛病，得换一个。 _
+（也可能站点又出事） _
+谢谢咖啡。||
+
+||~ **送信方:** 站点主管 ||~ **收信方:** Seven ||
+||~ **主题:** 肯定是坏了 ||~ **发送日期:** ███4年█月█日 ||
+|||| 别吓我啊∑(OдO；)，我可不希望站点又出啥事。。。 _
+我已经让后勤部给你送了一个新的过去。 _
+咖啡你喜欢就好。♪(´▽｀)||
+
+||~ **送信方:** Seven ||~ **收信方:** 站点主管 ||
+||~ **主题:** 已收到 ||~ **发送日期:** ███4年█月█日 ||
+|||| 放心，出事有我。 _
+康德计收到了。||
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年3月22日
+阴
+@@ @@
+不能让任何马知道，
+康德计出毛病的原因在我自己。
+咖啡喝不完也是因为我。
+还好锚机就在隔壁，应不会太快被发现。
+休谟权重:0.71/逆流时点:269/反射常模:7.1/目标实参:78
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+----
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年3月30日[[collapsible show="晴" hide="常态将至"]] [[/collapsible]]
+这梦预示什么，一个梦魇，想带我坠入深渊？
+小伎俩，我又不是小女生，会被这种东西吓到。
+不过依然值得注意，让守卫加强戒备了。
+休谟权重:0.83/逆流时点:271/反射常模:7.1/目标实参:60
+我休谟下降这么快？
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年4月10日[[collapsible show="高温预警" hide="异常将死"]] [[/collapsible]]
+今天有收容突破，受了点伤。
+一个绿型搞破坏，被我搞定了，说垃圾话的废物。
+
+休谟权重:0.90/逆流时点:278/反射常模:7.1/目标实参:52
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年5月23日[[collapsible show="高温" hide="悔改罢"]] [[/collapsible]]
+该死的废物，把老子变绿型的事供出去了。
+我现在成了收容物，还好有主管撑腰。
+也不是没有绿型当高层的先例，就只是身后有俩守卫跟着很烦，还要每天审阅我的日记。
+算了，让他们给我端茶倒水。
+现在你们知道你们该干啥了吧？
+
+休谟权重:0.90/逆流时点:277/反射常模:7.1/目标实参:46
+让收容物去调锚机，真没人性（苦笑）。
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███4年12月25日[[collapsible show="低温" hide="永昼将降临"]] [[/collapsible]]
+三十年整纪念日，还是圣诞节，
+主管这群家伙趁我出去躲我收容间给我这收容物搞什么惊喜。
+跟我的那个年轻守卫吓到开枪，还好我能捏住子弹，否则主管挂了。
+就说你呢，小年轻。
+不过以我目前曲力，把主管复活应该也没问题。
+休谟权重:0.90/逆流时点:280/反射常模:7.1/目标实参:40
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="page-cn"]]
+███5年6月4日[[collapsible show="高温" hide="燃烧吧，罪人"]] [[/collapsible]]
+气温这么高，有什么不太对劲...
+
+休谟权重:1/逆流时点:999/反射常模:7.1/目标实参:15
+不可能，权重归1时点超限...
+外面出事了!我得出去
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+----
+@@ @@
+@@ @@
+@@ @@
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:84%; padding:1px 15px; margin: 10px 10px 10px 40px"]]
+= **音频记录**
+----
+= //<开始录音>//
+记录时点两千[杂音]年六月四日十九点二十三分，
+[燃烧声]未知录音设备，
+记录者赛文，记录地点[杂音] 易扣幺七欧米伽
+[轰鸣声]发生了一系列爆炸，站点遭损毁，跟着我的两个孩子也死了，
+站点发生全面收容突破...还没见到过生还者...好像有马被埋住了
+[振动声夹杂杂音]是主管，他死了，我得[剧烈杂音]
+失败了，(情绪激动)为什么不复活！
+再试[剧烈杂音]
+不行，失败了
+[燃烧声]操[[collapsible show="我得跑了" hide="地狱叩响汝门扉"]] [[/collapsible]]
+= //<记录结束>//
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div style="display: inline-block; border:dashed 1px #999999; background:#F5F5F5; float:center; width:84%; padding:1px 15px; margin: 10px 10px 10px 40px"]]
+= **音频记录**
+----
+= //<开始录音>//
+记录时点无所谓，不重要了。
+[燃烧声]接下来的内容才十分重要，听清楚。
+我将此信息也包含我的日志发送给你，
+任何收到信息的马，请务必将此信息传递给基金会上层。
+[燃烧声]此现实已确认发生K级情景，情景发生原因来自于每个站点部署的III型共振式斯克兰顿现实稳定锚，
+此种锚机的构型为[消音处理]，此种锚机已被某外围存在侵入，致作用范围内[内容不可辨认]。
+我因极低休谟而暂时未死，与它在此抗争多年。
+勿制造任何此种锚机[燃烧声]。
+[剧烈杂音]
+我正尝试用我的现实扭曲能力重建世界多年，但仍未成功。
+若我成功，你们也将不会记得这几年曾发生过的事。[[collapsible show="我亦会带走所有锚机。" hide="汝等无处可逃"]] [[/collapsible]]
+= //<记录结束>//
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@

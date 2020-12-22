@@ -1,0 +1,50 @@
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[div style="font-size: 350%; font-weight: bold; margin: 2px 0 5px;"]]
+[[=]]
+CMC部分派系介绍
+[[/=]]
+----
+[[/div]]
+[[div class="content-panel standalone" style="width: auto; padding: 10px 30px; margin: 20px auto; background: url(http://www.scp-wiki.net/local--files/about-the-scp-foundation/bg-marble.png) repeat; text-shadow: 1px 1px 1px rgba(0,0,0,.25)"]]
+**文件概览：**CMC是一个分部范围非常广的同行组织，自第三代开始分裂为很多个动机，目的等不同的派系，下面一一介绍CMC的部分派系。
+[[/div]]
+
+----
+[[=]]
+[[toc]]
+[[/=]]
+[[/div]]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ “CMC基金会”
+
+**概述：**CMC基金会是由同行组织CMC中分裂出的一个派系。该派系的总部（被CMC该派系称之为"CMC-Site-00"）位于马哈顿，对外伪装成一家动漫公司。该派系的宗旨是“通过收容，控制，保护的方式将异常隐藏在公众眼中，并获得与收容异常相关的可爱标志”该派系成员大多数都是对收容异常有浓厚兴趣的幼驹，目前基金会与其保持合作关系，并对CMC基金会提供技术援助。
+
+[[div style="text-align:right"]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ “幼权至上”
+
+**概述：**“幼权至上”是由同行组织CMC中分裂出的一个派系。该派系的总部位于甜苹果园经过空间异常改造的一间小木屋内，小木屋内部的大小约等于一座基金会站点的大小。该派系一致认为“幼驹无法获得可爱标志是成年马对幼驹的管教导致的”，宗旨是：“推翻成年马的统治，建立幼驹政权，让每个幼驹都能脱离成年马管教，并获得可爱标志”。
+
+该派系与CMC基金会，基金会以及ESPI，Rainbow解放者等组织保持敌对关系。
+
+[[div style="text-align:right"]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ “速达者”
+
+**概述：**“速达者”是同行组织CMC中分裂出的一个派系。该派系的详细资料未知，基金会缺乏对该派系的了解。该派系结构，成员数量，成员特性等未知。唯一已知的是该派系的宗旨：“想尽一切办法用最快的速度获取可爱标志”。该派系曾多次袭击基金会站点，试图从基金会蹄中抢走部分项目，特别是与可爱标志有关的项目如：[[[SCP-EQ-075]]] 。
+
+该派系对基金会抱有极大敌意，同时似乎与“地狱之子”保持合作关系。
+
+[[div style="text-align:right"]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]

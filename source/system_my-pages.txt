@@ -1,0 +1,9 @@
+[[module ListPages pagetype="*" category="*" created_by="@URL" order="created_at" limit="1"]]
+**共 %%total%% 个页面**
+[[/module]]
+
+[[module ListPages pagetype="*" category="*" created_by="@URL" order="created_at"]]
+**%%title_linked%%**
+创建于: {{%%created_at|%Y-%m-%d %H:%M|agohover%%}}
+页面版本: {{%%revisions%%}}, 最后编辑于: {{%%updated_at|%Y-%m-%d %H:%M|agohover%%}}
+[[/module]]

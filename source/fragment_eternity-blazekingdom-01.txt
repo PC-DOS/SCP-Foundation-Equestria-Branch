@@ -1,0 +1,110 @@
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[table style="width:100%"]]
+[[row style="width:100%"]]
+[[cell]]
+[[image http://scp-equestria.wdfiles.com/local--files/about-the-scp-foundation/SCP_LogoWith_Text.png width="120px"]]
+[[/cell]]
+
+[[cell]]
+[[>]]
+[[size 175%]]##darkred|**机密 - 仅供O5议会成员存取**##[[/size]]
+[[size 125%]]##darkred|[C: 5-00001-T]##[[/size]]
+[[/>]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div style="border-bottom:2px solid #777; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
+
+[[=]]
+@@@@
+[[image http://scp-equestria.wdfiles.com/local--files/about-the-scp-foundation/SCPLogo_Grey_Resize.png width="245px"]]
+@@@@
++* ##darkred|**警告：存取该文档需要O5议会成员权限。**##
+++* ##darkred|**未经授权的访问者将被监控、定位并处理。**##
+-----
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
++++* ##red|正在进行虹膜扫描...##
++++* ##red|请勿移动视线##
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
++++* ##red|正在验证您的身份和权限……##
+@@@@
+@@@@
+@@@@
+@@@@
++++* ##darkred|FORCED_PERMISSION_INJECTING……##
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
++++* ##green|身份及权限验证已通过，欢迎您，基金会职员%%title%%。##
+[[/div]]
+[[/module]]
+@@@@
+@@@@
+++* ##green|**[/eternity-blazekingdom/offset/1 点此开启文档]**##
+----
+[[/=]]

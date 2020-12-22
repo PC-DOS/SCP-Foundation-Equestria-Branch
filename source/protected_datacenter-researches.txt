@@ -1,0 +1,68 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+#breadcrumbs {
+  display: none;
+}
+[[/module]]
+
+[[module CSS]]
+.scp-eq-datacenter-menu {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.scp-eq-datacenter-menu a {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   width: 100%;
+   font-size: 110%;
+   font-weight: bold; 
+   text-decoration: none !important;
+   color: #555 !important;
+   background: transparent;
+}
+.scp-eq-datacenter-menu a:hover {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   width: 100%;
+   font-size: 110%;
+   font-weight: bold; 
+   text-decoration: none !important;
+   color: #555 !important;
+   background: rgba(238,238,238,0.5);
+}
+[[/module]]
+
+[[div style="background-image: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png); background-position:-150px 50%; background-repeat: no-repeat; width: 100;"]]
+
+[[div class="scp-eq-datacenter-menu" style="width:100%; text-align: left; margin-left: 0px;"]]
+[[[protected:datacenter | <<回到数据中心首页]]]
+[[/div]]
+
+[[div class="unmargined" style="margin-left: 10px;"]]
+[[div class="unmargined" style="color: #555; font-size: 150%; font-weight: bold; margin: 0px 0 0px;"]]
+SCP基金会小马国分部文献与档案数据中心
+[[/div]]
+[[div class="unmargined" style="color: #555; font-size: 245%; font-weight: bold; margin: 5px 0 0px;"]]
+研究与报告
+[[/div]]
+[[/div]]
+
+
+[[div style="border-bottom:1px solid #555; margin-bottom:1px; margin-top: 25px;"]]
+[[/div]]
+[[div style="border-bottom:2px solid #555; "]]
+[[/div]]
+
+[[/div]]
+
+[[module ListPages category="*" separate="yes" tags="讲座 研究 -来自总部" perPage="50" order="updated_at desc"]]
+**%%title_linked%%**
+[[size 90%]]###555|作者：[[user %%created_by%%]]##[[/size]]
+[[/module]]

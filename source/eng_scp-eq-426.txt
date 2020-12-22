@@ -1,0 +1,694 @@
+[[module css]]
+@import url(/component:theme/code/1);
+
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+
+#header h1 a {
+    display: block;
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0px;
+    max-height: 0px;
+    color: #eee;
+    background: transparent;
+    font-family: BauhausLTDemi, Arial, sans-serif;
+    font-size: 125%;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 0.9px;
+}
+
+#header h1 a::before{
+    content: "SCP Foundation Equestria Branch";
+    color: #eee;
+}
+
+#header h1 a span{
+    display: block;
+    content: "";
+    visibility: hidden;
+}
+
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+
+#header h2 span::before {
+    content: "Secure · Contain · Protect";
+    display: block;
+    margin: 0;
+    padding: 0px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: #f0f0c0;
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+/* viewport */
+ 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* IE viewport */
+@-ms-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* opera viewport */
+@-o-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* chrome viewport - maybe it isn't work... */
+@-webkit-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* firefox viewport - maybe it isn't work too... */
+@-moz-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* webkit scrollbar */
+::-webkit-scrollbar
+{
+    width: 9px;    /* for vertical scrollbars */
+    height: 9px; /* for horizontal scrollbars */
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-round: 0.5px;
+}
+ 
+::-webkit-scrollbar-track
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+ 
+::-webkit-scrollbar-thumb
+{
+    background: rgba(50, 50, 50, 0.3);
+}
+ 
+.page-source {
+word-break: break-all;
+}
+ 
+/* Responsive Web Design */
+img, embed, video, object, iframe, table {
+    max-width: 100%;
+}
+ 
+#page-content div, #page-content div table {
+    max-width: 100%;
+}
+ 
+#edit-page-comments {
+    width: 100%;
+}
+ 
+/* basic Query for mobile devices */
+ 
+@media (max-width: 767px) {
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div a.btn-primary {
+    width: 100%;
+    float: left;
+}
+ 
+.mobile-top-bar ul li:last-of-type ul {
+    right: 0;
+}
+ 
+span, a {
+word-break: break-all;
+}
+}
+ 
+/* Mobile Media Query */
+@media (max-width: 479px) { 
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+#header h1 a {
+    font-size: 50%;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+ 
+#header {
+    background-position: 0 5.5em;
+    background-size: 55px 55px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+ 
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) { 
+/*
+#search-top-box-input {
+    width: 7em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+#header h1 a {
+    font-size: 60%;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header {
+    background-position: 0.5em 4.5em;
+    background-size: 66px 66px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) { 
+/*
+#search-top-box-input {
+    width: 8em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+#header h1 a {
+    font-size: 75%;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 77px 77px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+#header h1 a {
+    font-size: 100%;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 88px 88px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(184, 134, 134);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+__[[[http://scp-equestria.wikidot.com/scp-eq-426 | 简体中文]]]__ | [[[http://scp-equestria.wikidot.com/cht:scp-eq-426 | 繁體中文]]] | English
+[[/cell]]
+[[cell style="text-align: right;"]]
+Please rate the original one. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+Published at: Feb 2nd, 2019
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+----
+
+**Item #:** SCP-EQ-426
+
+**Classification:** Safe
+
+**Special Containment Procedure:** --You are stored in a vault in Low-Menace Object Containment Apartment at Site-EQ-51. The key to the aforementioned vault is under Dr. █████████'s possession. Contacting you without the protection of Mental Preservation Spell M246RIS is prohibited.-- 
+As of Incident SCP-EQ-426-ACD-01 and researches following it, you are contained in a 2m*2m*2m underground room at Site-EQ-51. The aforementioned room is at least one (1) metre from any establishments. No sapient being is to enter the containment room of yours without the protection of Mental Preservation Spell M246RIS or permission. 
+
+**Description:** You are an enchanted colour pencil which can draw a rainbow pattern in a single stroke. Your anonmalous feature consists of two (2) parts: 
+* Any sapient being, when trying to mention you, describes you in second pony. 
+* Any sapient being that has been within two (2) metres of you for more than twenty (20) seconds (hereafter referred to as SCP-EQ-426-A) perceives the sapient being closest to them (hereafter referred to as SCP-EQ-426-B) as a pencil and tries to use SCP-EQ-426-B for painting. However, due to SCP-EQ-426-B's not being pencils, this progress usually results in various incidents. Amnesiacs removes your anomalous effect remains. 
+
+You were first recovered from ██████████'s table. Foundation Agent ██████ noticed her neighbour's long stay indoor and later discovered that ██████████ was //being sharpened// by his mother with a peeling knife. Agent ██████ discovered you later and reported you to Foundation. Foundation later developed a spell for countering your anomaly and contained you. However, Foundation cannot counter your secondary effect as of yet. 
+
+**APPENDUM:** 
+[[collapsible show="+ Incident SCP-426-ACD-01" hide="- Fold Incident SCP-426-ACD-01"]]
+[[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:96.5%; padding:10px"]]
+**Video Log:** Vicinity of vault for containment of you, Site-EQ-51
+
+**Date:** ██/██/20██
+
+-----
+
+[Log begins]
+
+**Dr. █████████:** Let's see. SCP-EQ-███ is... here! 
+
+//Dr. █████████ opens a vault adjacent to yours and retrieved an unrecorded anomalous object from it//
+
+**Dr. █████████:** Yeah, this is it. 
+
+//D-0079 approaches//
+
+**D-0079:** Doctor, you called me? 
+
+**Dr. █████████:** Yes. I want you to help me test this new anomalous object. It is very safe, just with a tiny little bit abnormal physical property. 
+
+（Note: meanwhile, Dr. █████████ has been within 2 metres of you for 20 seconds）
+
+//Dr. █████████ looks at D-0079 and later lifts D-0079 and tries to use D-0079 to paint something, during which D-0079 is squirming and shouting. After failing to paint, Dr. █████████ tries to sharpen D-0079's hooves. Later, security, upon hearing the shouting, comes and separates them; however, they all stay within 2 metres of you for over 20 seconds and becomes affected by you. This results in 2 researchers, 3 securities and D-0079 trying to// use //one another and caused physical traumas to all.// 
+[End of record]
+
+[[/div]]
+[[/collapsible]]
+
+[[collapsible show="+ Experiment logs regarding you" hide="- Fold"]]
+
+**Experiment Log 426-1**
+**Date:** ██/██/████
+**Subjects:** D/426/1 (Unicorn former citizen, entered Foundation through standard recruitment)
+**Procedure:** D/426/1 was asked to describe what he believed was contained in your chamber. They were not informed about your identity or properties.
+**Results:** D/426/1 described their assumption regarding you with second pony. D/426/1 remained oblivious to their usage of second pony. 
+
+*Experiment Log 426-2**
+**Date:** ██/██/████
+**Subjects:** D/426/2 (Griffon, arrested for multiple accusations of robbery in Appleloosa), D/426/3 (Pegasus, a former member of //Rainbow Liberator//, murderer memory inserted after being memory redacted)
+**Procedure:** D/426/2 and D/426/3 were placed in your chamber. No communication between D-class ponynels was permitted. Multiple cameras were situated for constant observation of the D-class ponynels. All of you remained sealed until your secondary property took effects. You were placed in your vault so that you were outside of the field of vision of cameras. 
+**Results:** After 20 seconds within two meters of you, D/426/2 and D/426/3 both perceived one another as you, tried to paint with one another, and tried to sharpen one another. They both eventually died of haemorrhage. 
+
+**Experiment Log 426-3**
+**Date:** ██/██/████
+**Subjects:** D/426/4 (Pegasus, a former member of //Rainbow Liberator//, murderer memory inserted after an unintended memory redaction), D/426/5 (Pegasus, ditto)
+**Procedure:** D/426/4 and D/426/5 were placed in a temporal utility room. You were placed on a remote-control vehicle five (5) metres from the utility room which approaches the room for a quarter (0.25) metre between every thirty (30) seconds of pausing. 
+**Results:** After you were approximately two (2) metres within the utility room, the events same to the result of Experiment Log 426-2 happened in the room. 
+
+**Summary:** Your anomalous properties takes effects on sapient beings after being within two (2) metres of them for at least twenty (20) seconds. 
+
+[[/collapsible]]

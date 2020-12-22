@@ -1,0 +1,552 @@
+[!-- * 本模板为一般性SCP条目模板，您也可以从模板选单中选择没有注释的简洁版 * --]
+
+[!-- * 如果您需要引入CSS代码，您可以书写在此，但是也可以在正文部分嵌套CSS模块。 * --]
+[[module CSS]]
+[!-- * 请在这里书写CSS代码。 * --]
+[[module CSS]]
+.CCAV{}
+.containercontainer {position: relative;width: auto;height: auto;border: 2px solid #transparent;background: #00FFFF;color: #FF0000;margin-top: 1em;margin-bottom: 1em;}.containercontainer .container .overlay {background: rgba(255, 0, 0, 0.9);color: #00FFFF;position: absolute;width: auto;height: 50px;top: 0;right: 0;bottom: 0;left: 0;margin: auto;line-height: 50px;display: inline;vertical-align: middle;text-align: center;font-family: Courier New;font-size: 30px;letter-spacing: 5px;font-weight: bolder;z-index: 3;animation: overlay-anim 2s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.overlaybackA {background: rgba(255, 0, 0, 0.2) ;z-index: 3;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: auto;height: auto;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}overlaybackB {background: transparent;z-index: 3;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: auto;height: auto;animation: overlay-anim 10s linear;animation-fill-mode: forwards;animation-iteration-count: infinite;}.containercontainer .container {width: inherit;height: inherit;position: relative;overflow: hidden;}.containercontainer .container::after {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: rgba(255, 0, 0, 0.2);opacity: 0;z-index: 2;animation: flicker 0.15s infinite;}.containercontainer .container::before {content: " ";display: block;position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: linear-gradient(rgba(255, 16, 16, 0.03) 50%, rgba(0, 0, 255, 0.45) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.22), rgba(0, 255, 0, 0.11), rgba(0, 0, 255, 0.22));z-index: 2;background-size: 100% 2px, 3px 100%;}.no-unfold {text-align: left;}.container h1,.container h2,.container h3,.container h5,.container h6 {color: #3F3;}.container hr {border-top: 1px dotted #3F3;border-bottom: none;}.container hr {border-top: 1px solid #FF0000;border-bottom: 1px solid #FF0000;color: FF0000;background-color: FF0000;}.container hr:after {display: block;margin-top: 2px;border-top: 1px solid #FF0000;border-bottom: 1px solid #FF0000;}.blinkbar {animation: blink 1.5s infinite; letter-spacing: -0.13em;}@keyframes blink{to{opacity: .0;}}@keyframes flicker {0% {opacity: 0.9890; }5% {opacity: 0.5842; }10% {opacity: 0.9865; }15% {opacity: 0.0412; }20% {opacity: 0.6255; }25% {opacity: 0.3157; }30% {opacity: 0.7328; }35% {opacity: 0.4654; }40% {opacity: 0.9128; }45% {opacity: 0.2449; }50% {opacity: 0.5485; }55% {opacity: 0.6438; }60% {opacity: 0.1180; }65% {opacity: 0.9085; }70% {opacity: 0.0266; }75% {opacity: 0.6795; }80% {opacity: 0.7812; }85% {opacity: 0.0117; }90% {opacity: 0.2239; }95% {opacity: 0.8897; }100% {opacity: 0.2260; }}@keyframes overlay-anim {0% {visibility: hidden; }10% {visibility: hidden; }11% {visibility: visible; }50% {visibility: hidden; }100% {visibility: hidden; }}
+[[/module]]
+
+
+
+
+
+
+[[module CSS]]
+
+div.terminal{
+    border: 1px solid black;
+    border: solid 3px #BBBBBB;
+    border-radius: 16px;
+    background-color: #FF0000;
+/* 终端上方的黑色阴影 */
+    background-image: 
+        radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #00FFFF);
+    background-position: center;
+    display: block;
+/* 终端周围的阴影 */
+    box-shadow: inset 0 0 10em 1em rgba(0,0,0,0.5);
+/* 防止扫描条产生滚动条 */
+    overflow:hidden;
+}
+div.terminal blockquote {
+    background-color: #0000FF;
+    border: double 3px #80FF80
+}
+div.scanline{
+    margin-top: -40%;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    pointer-events: none;
+/* Safari 4.0 - 8.0 */
+    -webkit-animation: scan 5s linear 0s infinite; /* 你可能需要修改这个。如果扫描条走得太快了，添加5秒。 */
+    animation: scan 12s linear 0s infinite; /* 同上 */
+    background: linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(0,255,255,0.1)) !important;
+}
+
+div.text{
+    color: rgba(0,255,0,0.8);
+    padding-left: 2em;
+    padding-top: 40%;
+    font-family: monospace;
+    font-size: 1.2em;
+    }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* 你可以根据你终端的长短修改这个。如果扫描条只出现一半的话，增大第二个数字。 */
+}
+
+@keyframes scan{
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);} /* 同上。 */
+}
+
+div.text a {
+    color: #FF0000;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a.newpage {
+    color: #FF0000;
+    text-decoration: none;
+    background: transparent;
+}
+div.text a:hover {
+    color: #131;
+    text-decoration: underline;
+    background-color: #FF0000;
+    padding: 1px;
+}
+div.text a:hover::before{
+content: "> ";
+}
+[[/module]]
+
+[!-- * 评分模块，一般来说这是必要的。 * --]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[!-- * 请从这里开始撰写正文。 * --]
+**项目编号：**SCP-EQ-201 
+ 
+**项目等级：**Euclid/Neutralized 
+
+**特殊收容措施：**--该项目仅仅为跟人类基金会交流而制造，项目的所有技术均源于小马国已知的科技，仅此并不需要特殊的收容条例，允许二级马员进行操作研究。每日仅需要维持项目的正常运转，保持项目的清洁即可。--事故SCP-EQ-201-A后，任何有关SCP-EQ-201的实验，都必须在递交一份正式申请，--且从设施主管获得准许的研究马员--[[footnote]] 4级马员近期有一些争斗现象[[/footnote]]，并经过O5议会的同意方可在Dr.Himmler的监督下进行实验。SCP-EQ-201应保存在Site-EQ-09的研究单元PD-05，且至少有5名安保马员看守，且在实验时必须有3名安保马员伴随并协助监督进行。任何极度危险的或者与申请不符的实验将会终止且研究马员将会强制性带出PD-05。
+警告：因为事故SCP-EQ-201-A出现，现已禁止任何涉及到会对时间线造成影响的实验。同时现在只允许包括Dr.Himmler在内的几名研究员对该项目进行接触，同时PD-05的安保已经被提升到最高级！
+
+
+
+**描述：**SCP-EQ-201是一台占地50平方米的巨型装置，由一台大型计算机阵列（蹄注：由20台电子显示屏和总重大约1吨的10台大型集成电路计算机组成）、5台以一定规律摆放在机器周围的特斯拉线圈和一个操控台（蹄注：由一台20世纪70年代的老式计算机和一把固定的椅子构成。为安全期间，在上方加盖一个隔电防护间）组成。电路系统的构成及其复杂，包括且不限于有30%硅晶、50%的铁、5%的稀有元素和15%的未知物质。
+当操纵者在电脑上输入相应时间线的数据时，可以观察到该时间线的详细情况（包括但不限于该时间线所有可能的叙事排列，“虚叙事”修改节点分部，错误容差域，甚至还包涵一部分叙事更改痕迹。）。同时操纵者可以直接“进入”他所观察的时间线，同时甚至可通过【数据删除】来进行【数据删除】。
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+=  [[size larger]] **##45b97c|**项目制作者给项目编写的寄语**##** [[/size]]
+异常项目竟然还有寄语！这在基金会真是闻所未闻！不过小马国已经够奇怪的了，拥有超时空效应的魔法比我们有一大堆，把201当成是一个异常，那也是为了留存我的一个念想而已。
+记得很久以前我居住在纽约市，在爱迪生手下工作。爱迪生跟我打赌，说只要我帮他改进直流发电机，就给我5万美元的奖励。我日日夜夜的研究发电机，挤出时间来撰写改进方案，但爱迪生却告我五万美元的奖励只是个美式幽默，仅仅将我每日的薪水提高一些，草草了事。
+我离开了爱迪生的公司，转而建立了自己的电气公司，发展交流电。很显然，作为一个可以远距离运输的能源，交流电要明显优于直流电。爱迪生败下阵来，一气之下派人烧毁了我原先的实验室。我本以为爱迪生是世界上最无耻，最刻薄的人，但后来我才明白，他只是一个垄断资本家的缩影罢了。
+一次偶然的机会，我无意中将线圈排列，并昏睡了过去。在梦中我看到了一个充满彩色小马的奇幻世界，不过醒来后我并没有把这个梦境当回事，觉得它最多也不过是灵感的迸发而已。
+我把那几个线圈通上电，放到床头，希望着这个设备能给我带来更多的灵感，让我万万没想到的是，我开始不断的梦到那个世界。那个世界的生物甚至有自己的记忆，他们称呼我为“彩云微电”，好像我真的有那么一个名字似的！
+我认为那台机器是一种精神鸦片，并将其遗弃。
+这个世界不断的打压我的耐性！我试图开发一种无线能源传输技术，但我的投资方只注重信息的传输，反对我的实验方案，并终止了资金的投入，让实验不了了之。现如今人类在信息科技上登峰造极，但在能源传输方面依然在用我100多年前发明的交流电。对于这个笨重的老古董我并不会引以为豪，我只会嘲笑人类的愚蠢。想想看吧，一根根电线横跨一座座云中工厂，天马迟早要让高压电给电死。
+另一方面，我建立起了一个完美的大统一论，依靠“以太”和“唯灵论”来解释世界的运作。显然爱因斯坦在用他的“相对论”打我的脸，但是这个大统一论跟梦境中的世界是那么的贴合，就好像一件细腰围宽胸围的紧身衣穿到了曼哈顿的酒吧女郎的身上。我再次燃起了对那个世界的兴趣，在纽约租了两个酒店房间，专门进行你们这个世界的研究。
+同时我还提出了一个粒子束武器的设想，五角大楼对这个武器产生了兴趣，他们邀请我到一个更棒的环境工作，并完善这个想法。但我明白，这种武器发射出的所谓“死亡射线”，还不如一匹独角兽幼驹无意间发射出的奇术波强。
+我躺在了旅馆的床上，把那个神奇的小机器通上电。让我感到欣慰的是，我的灵魂永远的留在了你们这个世界，而我原先的身体再也没有醒来。再后面我接受了“彩云微电”这个名称，娶妻生女，创立云中城工业集团和小马国果蔬银行，培养出一群[[[http://scp-equestria.wikidot.com/scp-eq-010|同样跟我一样厌恶人类的畜生]]]，我把的自己的发明创造都扔到了“圣殿”[[footnote]] 代指Site-EQ-09 [[/footnote]]里，不过那是另外一个故事。
+后来我从人类的互联网上得知，美国方面宣布我死于心脏衰竭，对我的“遗体”进行了火化，并把我的研究手稿当成不可多得的珍宝。其实那只是我根据小马国的分析而得出的研究资料，所包含的内容在小学就能学到。那些理论在没有以太的世界根本不适用，对于人类来说只是一堆烂纸。
+不过我放在床头的原型机被奉为“帮助人类睡眠”的电磁波助眠器，被大量的厂家纷纷复制，使得越来越多的人类接触并进入了你们这个世界。[[[http://scp-equestria.wikidot.com/dr-dashiedashie-and-dr-jixiangniao-manhua-s-proposal|一个玩具公司将这个世界的居民做成了梳毛玩具，并制作了一系列动画，从这个动画中还衍生出一个亚文化圈]]]，引发了你们这个世界的恐慌。
+OB传媒意识到了那台机器对保密工作的破坏，给人类世界的SCP基金会施压。最终人类分部宣布我那个“电磁波助眠器”是一个Euclid级异常，并要求我协助调查。这也勾起了我对往事的回忆。
+我制造了一部更大，更完美的机器，加强了该设计原有的性能，让Dr.Himmler负责机器的运行，然后给这台机器象征性的贴了个Euclid标签，并宣布其无效化。
+201输出的度数向我们展现了一个并不光明的未来。但那些人类来到你们这个世界，成为这个世界小马驹的原因，正是出于对人类世界的厌恶，正是出于对美好生活的向往！我希望咱们马国分部的成员能团结起来，一起应对可能要到来的危机，一起为我们小马国的未来而不懈奋斗！
+
+[[>]]
+
+——SCP基金会小马国分部-O5-█
+[[/>]]
+[[/div]]
+[[include component:coltop show=+ 事故-SCP-EQ-201-A|hide=- 点击折叠]]
+
+**附录：**
+
+[[div style="border:solid 1px #FF4B4B; background:#000000; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]] **##FF4B4B|EQ3000-31叙事域##** [[/size]]
+ 
+[[size x-large]]**##FF4B4B|特别记录##**[[/size]]
+
+
+
+[[/=]]
+**##00FE00|事件概况：##**
+**##00FE00|201▇年4月18日，演绎部4级职员Dr.Illusory Character[[footnote]] 以下简称“IC博士” [[/footnote]]忽然以“防止跨叙事入侵”为由关闭了位于Area-EQ-00的“EQ-3000-31下层叙事域”，并对其进行了格式化。随后发生了两个事件，引发了演绎部对IC博士的注意。随后O5议会下达了“禁止IC博士接触和操作SCP-EQ-201”的指令。##**
+
+##00FE00|事件1：位于下层叙事域EQ3000-31的幻符博士成功的在格式化前通过SCP-EQ-10▇来到了本层叙事，但位于本层的IC博士和位于下层的IC博士似乎相互敌视。##**
+
+**##FF4B4B|她一定是Rainbow解放者的间谍！##**
+ **##FF4B4B|——Dr.Illusory Character ##**
+
+
+##00FE00|事件2：Dr.Picsell Dois调查了位于下层叙事域EQ3000-31黑匣子区的个马电脑，发现一份诡异的可疑视频，与SCP-EQ-201有关。根据对文件可以得出，位于本层的IC博士，妄图通过位于下层叙事的SCP-EQ-201所产生的超形上学效应，杀死位于下层的叙事的Dr.Picsell Dois。IC博士否认了文件内容，鉴于记录下层叙事的历史记录已经删除，对于文件的真实性无从考究。##**
+[[include component:coltop show=+ 视频文件|hide=- 点击折叠]]
+
+= ##FFFFFF|**视频记录**##
+----
+##FFFFFF|**日期：推测为4月18日** ##
+
+##FFFFFF|**笔记：视频画面较为模糊，需要修复** ##
+----
+@@@@
+##FFFFFF|[记录开始]##
+##FFFFFF|**时间：00:00:00**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+@@@@
+@@@@
+= [[span class="blinkbar"]][[size 100px]]##FF2AEF|记录开始##[[/size]] [[/span]]
+@@@@
+@@@@
+> [[size 20px]]##2AFF42|**地点：Site-EQ-09的研究单元PD-05**##[[/size]]
+@@@@
+> [[size 20px]]##2AFF42|**时间：20♂❀年4月☢日**##[[/size]]
+@@@@
+> [[size 20px]]##2AFF42|**操作者：Dr.Himmler**##[[/size]]
+@@@@
+> [[size 20px]]##2AFF42|**安保等级：四级**##[[/size]]
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■██**##**##FFFFFF| ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■##**[[/size]][[/span]] [[size 20px]]##FFFFFF|00:00:00##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+----
+
+##FFFFFF|**时间：00:00:05**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+[[size 15px]]##00C500|从镜头的右侧中可以看见一个较为古老的操作台，推测是SCP-EQ-201的一部分，一台较为现代的基金会台式机不自然的接到了操作台上。左侧是SCP-EQ-201标志性的5个大线圈，Dr.Himmler正在检查线圈的完整性。##[[/size]]
+> Dr.Himmler：好了，正在启动供能系统，正在校准坐标中心点，正在启动悖论抵消协议……
+
+> 扬声器：叙事导入系统，是否跟观察通道正确连接？
+[[size 15px]]##00C500|Dr.Himmler来到操作台前，检查了连接台式机和操作台的那几根线缆。##
+> Dr.Himmler:“IC”博士，你给我的机器没有问题，接口连接正确，没有松动。[[/size]]
+[[size 15px]]##00C500|Dr.Himmler来到了操作台前，拉下几根拉杆，并摁了几个按钮，然后向右走去，离开了画面。##
+[[size 15px]]##00C500|机器忽然发出了巨大的电流声，线圈开始发出青色的光。##
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■██**##**##FFFFFF| ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:00:05##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+##FFFFFF|**时间：00:10:12**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+[[size 15px]]##00C500|Dr.Himmler拿着一个椅子返回了画面，并将椅子搬到台式机前，背对着摄像头启动了台式机，台式机屏幕正对着摄像头，可以很清楚的看清屏幕上的内容。##[[/size]]
+> Dr.Himmler:系统启动完毕，Illusory Character博士，现在你可以进行实验了。
+
+> 扬声器：好的，现在我会给那台机器发送一条叙事流片段，片段的内容与你无关，你只需要维护机器的稳定性即可。
+[[size 15px]]##00C500|另一名实验马员进入画面，确定是Dr.Himmle的助手███████，该马员拿着一个写字板，一边观察某个摄相机视野外的东西，一边在写字板上做记录。根据其观测的方位判断，应该是SCP-EQ-201的运算机组与屏幕阵列。##[[/size]]
+> 扬声器：我想你应该接收到我给你发送的文件了，现在点开桌面上一个名为“Dr.llusory Character为Dr.Picsell Dois制作的播放器”的一个应用程序，然后用那个应用程序打开我给你发送的文件。
+
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■■■■■■██**##**##FFFFFF| ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:10:12##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size x-large]]##000000|❤##[[/size]][[/size]]||[[size x-large]]##000000|>>##[[/size]][[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+----
+##FFFFFF|**时间：00:10:45**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+[[size 15px]]##00C500|Dr.Himmler点开了那个名为“Dr.llusory Character为Dr.Picsell Dois制作的播放器”的应用程序，同时打开了电子邮箱，并登录了一个账号，值得注意的是在本层叙事并没有这个邮箱账号，该账号应该是下层叙事独自创建的。##[[/size]]
+[[size 15px]]##00C500|Dr.Himmler从邮箱中下载了一个名为“EQ3000-31叙事域8号新增叙事流”的片段，确认是本层Dr.llusory Character制作的可导入叙事流文件，随后Dr.Himmler预览了该叙事流。##[[/size]]
+
+
+> Dr.Himmler:IC博士，你跟Picsell Dois博士有仇吗？怎么整出这么一个叙事来。
+
+> 扬声器:仇恨倒是算不上，主要是我需要拿SCP-EQ-044做一个有关抽象叙事域的实验，但PC-DOS那边总是不断的进行干预，因此我打算绕过这个“障碍”，最好搞出一个没有演绎部的叙事域来。
+
+> Dr.Himmler:那你侵害本层的Dr.Picsell Dois干嘛？难道就不能搞一个下层叙事域进行实验？
+
+> 扬声器：我就跟你直说吧，这里就是下层叙事域。
+
+> Dr.Himmler:你是上层的IC博士？那你为什么不直接用你的神力去消灭Picsell Dois？
+
+> 扬声器：闭嘴！就你问题多！信不信我直接把一段“Dr.Himmler将叙事压印后立刻自杀并身亡”的叙事流直接压印到你身上！
+
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■■■■■■■■■■■■██**##**##FFFFFF| ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:10:45##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+------
+##FFFFFF|**时间：00:20:14**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+> Dr.Himmler:得得得，我听你的，行吧？
+[[size 15px]]##00C500|Dr.Himmler让助手出去，查看了叙事文件的代码，按照正确操作执行了压印程序，然后坐到操作台前，往机器内部输入了一些数据。值得注意的是，叙事流文件中的“Rainbow解放者袭击Site-EQ-25，并杀死当地站点主管”，被改为了“Rainbow解放者袭击Area-EQ-32，并杀死当地站点主管”##[[/size]]
+> Dr.Himmler：这不可能怎么会产生【数据删除】，现在我们遭到了【数据删除】。该死的操作被终止了【数据删除】。
+
+> 我发现Area-EQ-32站点出现了一些异样，你这小子在打什么歪主意？
+
+> 这里是Dr.Himmler我们现在遭遇了【数据删除】现在我命令整个设施处于应急状态并执行5号协议！
+
+> 扬声器：现在。。。。。。
+
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■██**##**##FFFFFF| ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:20:14##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+------
+##FFFFFF|**时间：00:23:21**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+
+> Dr.Himmler：（打断）现在我们必须做好最坏的打算了，目前整个矩阵的设施处于瘫痪状态，而且最重要的事整个时间线已经处于临界值状态。目前如果系统无法修复的话我们必须摧毁整个机器来阻止时间崩溃。
+
+> 扬声器：我现在可以利用叙事制导来使时间线处于稳定……
+
+> Dr.Himmler：（直接插入）不行！如果在这种情况下使用任何牵扯到时间线的魔法都会令时间线崩溃，我现在正试着以回复矩阵系统的方式来进行纠正……还有IC博士你帮我盯着左边的示波器，并检查打印出的每一份表单……
+
+> 扬声器:你赶紧想办法，给我提供些支援！我的设施很有可能撑不过你那老长的时间！
+
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■██**##**##FFFFFF| ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:23:21##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+
+
+
+------
+##FFFFFF|**时间：00:25:43**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+
+> Dr.Himmler：好吧！MTF-金属-03这里是至高大导师Dr.Himmler我现在命令个个大导师——抽出25%的部队以最快速度支援Area-EQ-32！
+
+> Dr.Himmler：正在执行纠错协议……开始进入应急系统正在执行阻断协议……好了但愿可以吧……但愿可以……
+
+> 扬声器:希姆莱博士我希望你可以解释这情况到底是怎么回事！
+
+> Dr.Himmler：唉。。。。。。本身这台机器就有大的缺陷,一旦在操作过程中出错就会产生毁灭性的后果。况且整台机器本身就不太稳定自然【数据删除】
+
+> 扬声器:我好像明白问题出在哪了。
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■██**##**##FFFFFF| ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:25:43##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+------
+##FFFFFF|**时间：00:27:34到00:42:54之间**##
+[[div class="no-unfold"]]
+[[div class="containercontainer"]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[span_ class="overlay"]]
+数据遗失！
+[[/span]]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:5px; margin-bottom: 0px;"]]
+@@@@
+@@@@
+@@@@
+[[/div]]
+[[div style="border:solid 1px #999999; background:#FF0000; padding:5px; margin-bottom: 0px;"]]
+@@@@
+@@@@
+@@@@
+[[/div]]
+[[div style="border:solid 1px #999999; background:#FF00FF; padding:5px; margin-bottom: 0px;"]]
+@@@@
+@@@@
+@@@@
+[[/div]]
+[[div style="border:solid 1px #999999; background:#00FF00; padding:5px; margin-bottom: 0px;"]]
+@@@@
+@@@@
+@@@@
+[[/div]]
+[[div style="border:solid 1px #999999; background:#00FFFF; padding:5px; margin-bottom: 0px;"]]
+@@@@
+@@@@
+@@@@
+[[/div]]
+[[div style="border:solid 1px #999999; background:#FFFF00; padding:5px; margin-bottom: 0px;"]]
+@@@@
+= [[span class="blinkbar"]]请咨询基金会信息修复部[[/span]]
+@@@@
+[[/div]]
+
+[[/div]]
+[[/div]]
+[[/div]]
+
+------
+##FFFFFF|**时间：00:42:54**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+[[size 17px]]##FF0000|**镜头溅满了血渍，该类血渍应该充满了整个房间。但可以隐约看见Dr.Himmler侧躺在一片血摊中，肠道的一部分被拖了出来并挂到了椅背上。两条后腿被切断并分别挂到了SCP-EQ-201的两个线圈中。背上的翅膀被卡到了机器的一个排风口中使得他无法动弹。连接SCP-EQ-201操作台的基金会主机处于黑屏状态，推测SCP-EQ-201已经短路并停机。**##[[/size]]
+[[size 17px]]##FF0000|**Dr.Himmler依然有生命迹象，可以看见他的蹄子中握着一部蹄机，并用极其虚弱的语气跟蹄机交流。**##[[/size]]
+
+> 蹄机：我是Illusory Character，刚才我在跟Picsell Dois进行视频交流的时候，Picsell Dois的秘书突然跑了过来，告诉Picsell Dois说：“Himmler那边好像被上层叙事扭曲了”，紧接着Picsell Dois的脑子就突然炸开了，异常恐怖！隔得屏幕都能闻到血腥味儿。话说你那边到底怎么了？
+
+> Dr.Himmler：块……离开这……个……叙事域。上层的……IC……博士想……要摧毁整……个……演绎……
+
+> 蹄机:希姆莱博士！到底怎么了？还有！为什么Area-EQ-32忽然发生了暴乱！
+
+
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■██**##**##FFFFFF| ■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:42:54##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+------
+
+##FFFFFF|**时间：00:42:54**##
+
+[[div class="off-unfold"]]
+[[div class="containercontainer "]]
+[[div class="container"]]
++* [!-- 不要删除此"+*"。 --]
+[[div_ class="overlaybackB"]]
+[[/div]]
+[[div style="border:solid 1px #999999; background:#0000FF; padding:0px; margin-bottom: 0px;"]]
+||[[size 21px]]##FFFFFF|Dr.llusory Character为Dr.Picsell Dois制作的播放器##[[/size]]||[[size 20px]]##C8C8C8|**▬**##[[/size]]||[[size 35px]]##C8C8C8|**▣**##[[/size]]||[[size 35px]]##FF0000|**☒**##[[/size]]||
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+[[size 25px]]##000000||文件|编辑|格式|查看|压印|导流|设置|##[[/size]]
+[[/div]]
+
+> Dr.Himmler：我……我要留下……一些……信息……
+
+[[size 15px]]##00C500|**Dr.Himmler用悬浮魔法从屏幕外拖来一个操作面板，该面板与研究单元PD-05的监控操作面板极其相似**##[[/size]]
+
+> 蹄机：妈的！？彩虹解放者第六分队，我这里遭受到了叛徒的攻击，快点来支援我！
+
+[[size 15px]]##00C500|**Dr.Himmler选择了面板中的“发送监控视频”功能，将发送目标选择为“Dr.Picsell Dois”的主机**##[[/size]]
+
+> = [[size 40px]]##00C500|**记录结束！**##[[/size]]
+
+
+[[div style="border:solid 1px #999999; background:#FFB800; padding:0px; margin-bottom: 0px;"]]
+[[span class="blinkbar"]][[size 10px]]##000000|**■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■██**##**##FFFFFF| ■■■■■##**[[/size]] [[/span]][[size 20px]]##FFFFFF|00:42:54##[[/size]]
+[[/div]]
+[[div style="border:solid 2px #000000; background:#BABABA; padding:-1px; margin-bottom: -1px;"]]
+||[[size 25px]]##000000|<<##[[/size]]||[[size 25px]]##000000|■##[[/size]]||[[size 25px]]##000000|▶##[[/size]]||[[size 25px]]##000000|❤##[[/size]]||[[size 25px]]##000000|>>##[[/size]]||
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+------
+
+##FFFFFF|[记录结束]##
+
+[[include component:colend]]
+
+ **##FF4B4B|这一定是Rainbow解放者制造的伪造文件！##**
+ **##FF4B4B|——Dr.Illusory Character ##**
+**##00FE00|本层叙事域的Dr.Himmler表示，SCP-EQ-201并不会出现视频中所展现的事故情况，下层叙事域的Dr.Himmler应该是通过SCP-EQ-201的操作面板对“EQ3000-31叙事域8号新增叙事流”文件进行了修改，并谎称机器出现了故障。有关Dr.Illusory Character 与Rainbow解放者的关联正在调查中。##**
+[[/div]]
+
+
+
+[[include component:colend]]
+
+
+[!-- * 蹄注（脚注）模块。 * --]
+[[footnoteblock title="蹄注"]]
+
+[!-- * SCP条目导航模块，请将XXX替换为您的SCP条目编号，YYY替换为前一条目编号，ZZZ替换为后一条目编号。 * --]
+[[=]]
+<< [[[SCP-EQ-200]]] | SCP-EQ-201| [[[SCP-EQ-202]]] >>
+[[/=]]

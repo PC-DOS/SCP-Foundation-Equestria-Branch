@@ -1,0 +1,40 @@
+**项目编号：**SCP-EQ-001
+
+**项目分级：**N/A
+
+**特殊收容措施：**所有SCP-EQ-001个体无需也不可能被收容。对于由SCP-EQ-001个体投影到本层产生的实体，应向其授予“叙事者”权限并尝试通过其与上层叙事实体交流。
+
+**描述：**SCP-EQ-001是一群上层叙事实体的统称，他们是“SCP基金会小马国分部”网站的作者和读者，该网站在SCP-EQ-001个体所在叙事层的互联网中所用主域名为：[*http://scp-equestria.wikidot.com/ http://scp-equestria.wikidot.com/]，同时拥有[*http://scp-eq.wikidot.com/ http://scp-eq.wikidot.com/]、[*http://scp-wiki-eq.wikidot.com/ http://scp-wiki-eq.wikidot.com/]、[*http://scp-eq-draftsvc.wikidot.com/ http://scp-eq-draftsvc.wikidot.com/]三个子站点。
+
+目前已证明所有SCP-EQ-001均掌握了本叙事层的部分文字制导，包含元虚构部分与模板部分，这些上层叙事实体对文字制导的变更会直接作用于本叙事层。
+
+[[collapsible show="+ 文字制导动作与结果对照" hide="- 文字制导动作与结果对照"]]
+||~ 动作 ||~ 潜在结果 ||
+|| 添加 || 在本叙事层产生新实体、历史发生扭曲并产生新记录、现实被扭曲、末日情景 ||
+|| 修改 || 本层已有实体之属性发生变更、历史和/或现实扭曲、末日情景 ||
+|| 删除 || 本层已有实体消失、历史和/或现实发生扭曲、末日情景 ||
+以上动作的综合结果可能导致多种后果叠加，极端情况下可能引发叙事自循环和/或叙事崩坏。亦可能导致本叙事层之叙事基调发生改变。
+[[/collapsible]]
+
+SCP-EQ-001个体具有将其自身投影到本叙事层中并制造投影实体的能力，投影而成的实体大多在基金会中持有较高权限且具备和与其对应的上层叙事实体进行部分交流的能力。
+
+[[collapsible show="+ 目前已知的投影实体列表" hide="- 目前已知的投影实体列表"]]
+||~ 姓名 ||~ 投影者名称 ||
+|| Dr.Picsell Dois || [[*user PC-DOS]] ||
+|| Dr.White || [[*user TAH-AWBW]] ||
+|| Dr.Justajar || [[*User JustAswellJar Pepper]] ||
+|| Dr.Qzuser || [[*User Qzuser]] ||
+|| Dr.Minkie Dash || [[*User Minkie Dash]] ||
+|| Dr.MoonTrace || [[*User MoonTrace]] ||
+[[/collapsible]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[module ListUsers users="."]]
+[[note]]
+[/dr-picsell-dois-s-proposal/offset/4 您也是SCP-EQ-001个体之一啊]
+[[/note]]
+[[/module]]

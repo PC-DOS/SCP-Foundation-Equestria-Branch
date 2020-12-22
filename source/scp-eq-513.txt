@@ -1,0 +1,861 @@
+[!-- * 说明：本模板适用于拥有多个迭代页且标题随迭代变更的条目，请确保您已将各个子页面归档为fragment类型（即页面名称以“fragment:”开始），且这些页面的父页面已被设置为本页面。 * --]
+
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+[[div class="meta-title"]]
+%%title%%
+[[/div]]
+[[/module]]
+
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div style="display:none"]]
+[!-- * 您可以在此加入子页面的地址作为今后修改时的备忘。 * --]
+段落页面地址如下：
+
+[[/div]]
+
+
+[[module css]]
+.page-cn {
+    display: block;
+    overflow: hidden;
+    font-family: DFKai-SB,Kaiti,SimSun,"Microsoft YaHei UI Light";
+    [!-- *font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;* --]
+    font-style: normal;
+    font-size: 125%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.page-cn p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[[module CSS]]
+/* //// 当你添加新“记录”时， //// */
+/* //// 使用以下格式添加新“选项”。 //// */
+.r1 {animation-delay: 4s;}.r2 {animation-delay: 8s;}.r3 {animation-delay: 12s;}.r4 {animation-delay: 16s;}.r5 {animation-delay: 20s;}.r6 {animation-delay: 24s;}.r7 {animation-delay: 28s;}.r8 {animation-delay: 32s;}.r9 {animation-delay: 36s;}.r10 {animation-delay: 40s;}.r11 {animation-delay: 44s;}.r12 {animation-delay: 48s;}.r13 {animation-delay: 52s;}.r14 {animation-delay: 56s;}.r15 {animation-delay: 60s;}.r16 {animation-delay: 64s;}.r17 {animation-delay: 68s;}.r18 {animation-delay: 72s;}.r19 {animation-delay: 76s;}.r20 {animation-delay: 80s;}.r21 {animation-delay: 84s;}.r22 {animation-delay: 88s;}.r23 {animation-delay: 92s;}.r24 {animation-delay: 96s;}.r25 {animation-delay: 100s;}.r26 {animation-delay: 104s;}.r27 {animation-delay: 108s;}.r28 {animation-delay: 112s;}.r29 {animation-delay: 116s;}.r30 {animation-delay: 120s;}
+.r31 {animation-delay: 124s;}
+.r32 {animation-delay: 128s;}
+.r33 {animation-delay: 132s;}
+.r34 {animation-delay: 136s;}
+.r35 {animation-delay: 140s;}
+.r36 {animation-delay: 144s;}
+.r37 {animation-delay: 148s;}
+.r38 {animation-delay: 152s;}
+
+.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link
+{animation-delay: calc(6s + 4s);}
+
+.tape-record {position: relative;height: 6em;pointer-events: none;}.record {display: block;position: absolute;width: 100%;animation-name: record;animation-duration: 2.5s;opacity: 0;top: 0;text-align: center;}.tape-wrap {position: relative;background-color: rgba(244, 244, 244, 1);border: 1px dashed #999;padding: 0 1em;}.tape-anim {position: relative;background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/DoxYSJAV4AET63r.png");background-size: 200px;background-position: center center;background-repeat: no-repeat;min-height: 300px;}.tape-left,.tape-right {display: block;position: absolute;margin: auto;height: 0;width: 70px;padding-bottom: 100%;background-image: url("http://unofficial-scp-sandbox-jp.wikidot.com/local--files/iroiro-workshop-8/scp_trans.png");background-size: contain;background-position: center center;background-repeat: no-repeat;pointer-events: none;}.tape-left {top: -20px;bottom: 0;left: -70px;right: 0;animation-name: spin1;animation-duration: 15s;animation-timing-function: linear;animation-fill-mode: forwards;}.tape-right {top: 0;bottom: -32px;left: 0;right: -72px;animation-name: spin1;animation-duration: 20s;animation-timing-function: linear;animation-fill-mode: forwards;}.tape-wrap .collapsible-block-unfolded-link {padding-top: 1em;}.tape-wrap .collapsible-block-folded,.tape-wrap .collapsible-block-unfolded-link {position: relative;text-align: center;}.tape-wrap .collapsible-block-link:before {display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;transform: translate(0, 0);}.tape-wrap .collapsible-block-folded .collapsible-block-link:before {content: "\f04b";}.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link:before {content: "\f1da";}.tape-wrap .collapsible-block-unfolded-link .collapsible-block-link {animation-name: g-ex;animation-duration: 1s;animation-fill-mode: forwards;visibility: hidden;opacity: 0;}.tape-wrap .collapsible-block-folded {padding-top: 1em;padding-bottom: 1em;}@keyframes g-ex {50% {visibility: visible; ;opacity: 0;}100% {visibility: visible; ;opacity: 1;}}@keyframes spin1 {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);}}@keyframes record {0% {opacity: 0;}25% {opacity: 1;}75% {opacity: 1;}100% {opacity: 0;}}@-moz-document url-prefix() {.tape-anim {height: 300px;}.tape-left,.tape-right {display: block; ;width: 70px;height: 70px;position: relative;margin: 0 auto;padding: 0 auto!important;padding-bottom: 0;}.tape-left {top: 105px;bottom: initial;left:: -36px; }.;}.tape-right {top: 60px;bottom: initial;left: 35px;}}
+[[/module]]
+
+
++ SCP-EQ-513
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="background: url(http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png) bottom center no-repeat; text-align: center; width: 600px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[=]]
+++* ##black|据监督者议会指示##
+##black|以下文件均为####ff5c48|[[size 150%]] **公开材料** [[/size]]##
+##black|禁止存入机密信息。##
+[[/=]]
+= **请SCP基金会俱乐部的4级会员直接翻到“蹄注”[[footnote]] [[collapsible show="+ 需要四级权限" hide="- 这个星光烁烁，把真文档放在了蹄注中，却不设立任何权限，害的O5-13为她擦屁股"]][[/footnote]]**
+@@ @@
+@@ @@
+[[/div]]
+
+------
+**学员编号：**SCP-EQ-513[[footnote]] **项目编号**：SCP-EQ-513 [[/footnote]]
+**学员等级：**--Keter--Thaumiel[[footnote]] **项目等级**：Keter [[/footnote]]/O5
+**特殊服务措施：** 和煦流光 是基金会最好的小马，Area-EQ-30，Area-EQ-33乃至所有站点的最好的基金会小马，都应该珍惜如此**优秀，善良，弱小**的O5马员，防止其流失。[[footnote]] **特殊收容措施**：因其在基金会获得的极高权限，复杂马缘，以及部分异常的收容需要，暂将其纳入O5议会，为防止SCP-EQ-513对基金会的破坏，现制定“//学院收容//” 协议。[[/footnote]]
+
+------
+
+**描述：**  SCP-EQ-513是一名非常优秀，非常友好，非常聪明的小小马，虽然原名叫做和煦流光，但O5-13或是SCP-EQ-5__13的称__呼也很酷。可是这两个编号太//呆板//了，所以__以下就__全部称呼为**和煦流光**好了。[[footnote]] **描述**：SCP-EQ-513是一匹雌性天马，该天马皮毛为粉红灰色，鬓毛为蓝灰色，有着幼驹的体型和心智。可以识别小马国的多种语言，拥有一定的计算机知识，机械学知识，社会学知识，药剂学知识。值得注意的是，该个体虽为天马，却掌握着大量的魔法学知识，包括但不限于魔法史，高等魔法，量子魔法，程序化魔法体，马工智能与灵魂学等。该个体的其他异常主要体现在三个方面。[[/footnote]]
+和煦流光看起来非常非常小，只有8岁，是一名好可爱好可爱的小女孩，基金会所有的O5马员加起来，都没有和煦流光一名O5可爱。[[footnote]] ##ff5c48|[[size 120%]] **（一）该个体在基金会取得的极高权限，包括但不限于** [[/size]]## [[/footnote]]我可以轻松的打开基金会所有的门[[footnote]] •打开所有的门，包括门径类SCP [[/footnote]]，所有的柜子[[footnote]] •打开所有的储存设备，包括保险箱，收容间，拥有储存功能的SCP [[/footnote]]，那些锁死的电脑为我打开[[footnote]] •打开和操作所有的电子设备，包括O5通讯计算机，蹄机，电子设备类SCP ##FFFFFF|[[size 100%]] **我的心扉**[[/size]]##[[/footnote]]，都不用我动蹄，就会自动操作[[footnote]] •以O5-13的名义向外发布指令和信息 [[/footnote]]。此外和煦光流还是一位会飞的小马，太棒了！在基金会大部分会飞的马都^^飞^^到外面去了，留下来的都是不会飞的，和煦流光在这群不会飞的小马中感觉的很自豪。
+这样说话太奇怪了，下文中所有的“和煦流光”都改成“**我”**算了。
+大家都愿意和我做朋友[[footnote]] ##ff5c48|[[size 120%]] **（二）该个体异常的交往能力** [[/size]]## [[/footnote]]，首先是身边不会^^飞^^的##E60097|[[size 120%]] ****小马[[footnote]] 该个体能轻易的跟任何小马成为朋友，包括但不限于 [[/footnote]]，也**就是** [[/size]]##穿着白大褂的小马[[footnote]] •基金会内部各级实验马员 [[/footnote]]，##E60097|[[size 80%]] **他们对我** [[/size]]##非常好，常常帮我写一些,,小东西,,，##000000|[[size 123%]] **穿黑衣服的** [[/size]]##[[footnote]] •安保马员 [[/footnote]]，##FFFFFF|[[size 200%]]  [[/size]]##,,会,,^^飞^^的小马也很好，他们敢干一些常马不敢干的事[[footnote]] •机动特遣队 [[/footnote]]，穿##E67900|[[size 200%]] **橙色衣服的小** [[/size]]##马有很多[[footnote]] •D级马员 [[/footnote]]，他们当做和我做朋友的[[footnote]] 值得注意的是，很多D级马员在SCP-EQ-513的帮助下获得晋升 [[/footnote]]，都穿上了[[footnote]] 包括但不限于： [[/footnote]]##FFFFFF|[[size 150%]] **白大褂** [[/size]]##[[footnote]] •实验马员 [[/footnote]]，黑衣服[[footnote]] •安保马员 [[/footnote]]，怪衣服[[footnote]] •基金会特工 [[/footnote]]，甚至是方便__打架__的衣服[[footnote]] •机动特遣队 [[/footnote]]，从##5EC1D4|[[size 100%]] **蓝卡** [[/size]]##[[footnote]] •一级马员[[/footnote]]##9040D1|[[size 100%]] **紫卡** [[/size]]##[[footnote]] •二级马员[[/footnote]]，一直拿到了##E67900|[[size 150%]] **橙卡** [[/size]]##[[footnote]] •三级马员[[/footnote]]，##ff5c48|[[size 200%]] **红卡** [[/size]]##[[footnote]] •四级马员[[/footnote]]。还有一个拿到了##5AFF2E|[[size 250%]] **黑卡** [[/size]]##。[[footnote]] •O5-█,其O5权限卡为绿色（绿色是0级马员权限卡的配色） [[/footnote]]
+哪些被称为马形异常的家伙跟我的关系也非常好，经常跟我玩儿。[[footnote]] ##ff5c48|[[size 120%]] **（三）该个体与收容物的关系** [[/size]]## [[/footnote]]
+我还是一名非常聪明的小马[[footnote]] 详见附录二 [[/footnote]]，基金会每天都有好多好多的问题，但我总能想出办法，几乎所有的问题都能被我解决[[footnote]] ##ff5c48|[[size 120%]]**（四）处理问题的能力**[[/size]]## [[/footnote]]，因此大家一直在找我解决不了的问题[[footnote]] 详见附录二 
+ [[/footnote]]，就像[[footnote]] ##ff5c48|[[size 120%]] **该个体将SCP-EQ-513的介绍页当做存储信息的大本营，并使用了极不标准的语言和极其混乱的格式** [[/size]]## [[/footnote]]——搞懂███-055[[footnote]] ##ff5c48|[[size 120%]] **但依然有掩盖秘密的意识** [[/size]]## [[/footnote]]长什么样一样，但至今都没有找到，那些小马好伤心。也许是因为我太萌了，萌的那些问题会自行解决。[ [footnote]] ##ff5c48|[[size 120%]] 而且无法干涉**蹄注**中的内容 [[/size]]## [[/footnote] ][[footnote]] ##ff5c48|[[size 120%]] 特将说明文档放入蹄注中 [[/size]]## [[/footnote]][[footnote]] 别**以**//为我//##5EC1D4|[[size 120%]] **__这么__** [[/size]]## 笨，这个##5EC1D4|[[size 200%]] **__问题__** [[/size]]## 我也//能//**解决**，我不但能解决，还能隐藏蹄注，我就是那么无所不能[[/footnote]]
+我最感兴趣的就是那些scp们了，我天天都摆弄它们，这些玩意比那些无聊的玩具强多了。[[footnote]] 值得注意的是，
+# 该个体检测出了飞板█的基因
+# 该个体有着将身体浸泡在尿液中疗伤的习惯
+# 该个体仅排出液态排泄物，该排泄物的成分与[[[SCP-EQ-014]]]的构成成分高度相似。
+[[/collapsible]][[/footnote]]
+不过现在，我来到了友谊学院[[footnote]][[collapsible show="+ 附录一 友谊学院 收容协议" hide="- 权限通过"]]
+##ff5c48|[[size 120%]]**数据遗失！**[[/size]]##
+
+##9040D1|[[size 200%]] **你们别想用一个破学院来控制我！** [[/size]]##
+[[/collapsible]]
+[[/footnote]]，当一名学生，有各种各样的小马来到这所学院，这太令马高兴了。
+[ [footnote]] [[collapsible show="+ 附录二" hide="- 检测到大面积信息泄露！"]]
+##ff5c48|[[size 120%]] 你们不是觉得我不会泄密吗？##
+##ff5c48|[[size 120%]] 今天我就彻彻底底的泄露给你们看！##
+> **测试项目:**[[[SCP-EQ-010]]]
+> **测试过程：**
+>> SCP-EQ-513未通过云中城天马考试，被推入SCP-EQ-010中。
+> **测试结果：**
+>> 并未出现鲜血喷涌的现象，SCP-EQ-513直接从通风管排出，表皮及鬓毛均变为灰色。20秒后右侧软管排出少量紫色光谱和中量橙色光谱.
+> **笔记：**一个月后SCP-EQ-010获得了淡蓝色的鬓毛和淡粉色的毛皮，此时SCP-EQ-513未获得其可爱标志。值得注意的是，据工厂的马员报告，该个体先前有着橙色的毛皮与紫色的鬓毛，推测是飞█璐在[[[SCP-EQ-014|SCP-EQ-0█4]]]制造的SCP-EQ-0█4-1个体。
+
+> **测试项目:**[[[SCP-EQ-028]]]
+> **测试过程：**
+>> 将一个经过伪装的SCP-EQ-028个体混入SCP-EQ-513的早餐中，
+> **测试结果：**
+>> SCP-EQ-513立马认出该个体并主动吃下，并未出现任何异常状况，事后SCP-EQ-513找到了实验所用的SCP-EQ-028个体所来源的盒子，并吃掉了盒子中剩余的SCP-EQ-028个体。
+> **笔记：**我发现一些SCP-EQ-028已经出现在SCP-EQ-513的早餐中，但根据Site-EQ-24主管的报告，保险柜中的SCP-EQ-028并没有遗失，据SCP-EQ-513的说明，这些个体来源于她的每日快递，现不建议任何马员食用SCP-EQ-513的早餐。
+
+> **测试项目:**[[[SCP-EQ-006]]]
+> **测试过程：**
+>> SCP-EQ-513在小马镇卖到了一瓶SCP-EQ-006喷雾剂，自行划伤皮肤并把SCP-EQ-006倒入伤口中，并对自己注射了一管镇静剂。
+> **测试结果：**
+>> SCP-EQ-513周围的休谟指数突然出现了及大幅度的波动，个体仍正常活动，并未出现任何异常状况。
+> **笔记：**事后O5-13对基金会的全体主管进行训话，要求他们每月对小马国市场进行一次全面清查（而不仅仅是在3,4月份左右），与工商部门的相关研讨正在进行中。
+
+> **测试项目:**[[[SCP-EQ-016]]]
+> **测试过程：**
+>> 将文本“SCP-EQ-513今天傍晚因SCP-EQ-044的强行”
+> **测试结果：**
+>> SCP-EQ-513用蹄子直接将SCP-EQ-016击碎，并表示这是使其无效化的最好方式。
+> **笔记：**事后O5-13对要求将SCP-EQ-016标记为“无效化”，进一步的实验表明仅有SCP-EQ-513有将SCP-EQ-016击碎的意思，随后O5-13撤销了该提议。
+
+> **测试项目:**[[[SCP-EQ-044]]]
+> **测试过程：**
+>> 将文本“SCP-EQ-513的概念于今日因SCP-EQ-044的作用而被冲入了缓冲叙事域，在本层叙事的体现为SCP-EQ-513的无效化，具体表现为该项目的死亡”写入到SCP-EQ-044-3上
+> **测试结果：**
+>> 文本“SCP-EQ-513的概念于今日因SCP-EQ-044的作用而被冲入了缓冲叙事域，在本层叙事的体现为SCP-EQ-513的无效化，具体表现为该项目的死亡”被改为
+>>> **实验对象:**SCP-EQ-044-3
+>>> **实验时间：**2016年08月15日 6:22
+>>> **实验地点：**Site-EQ-25超维度类异常收容单元Unit 10
+>>> **实验马员：**O5-13
+>>>  **实验内容：**写入文本“SCP-EQ-513**上层叙事**的概念于今日因SCP-EQ-044的作用而被冲入了缓冲叙事域，在**上层叙事**的体现为SCP-EQ-513的无效化，具体表现为该项目**在上层叙事中**的死亡”
+>>> **实验结果：**SCP-EQ-044-1出现【数据删除】的情况，该语句并未产生任何影响。
+>>> **笔记：**看样子SCP-EQ-044的影响是单向的，无法影响到上层叙事域。——O5-13
+> **笔记：**【脏话已删除】——O5-5
+
+> **测试项目:**[[[SCP-EQ-075]]]
+> **测试过程：**
+>> 在绘画区画出一枚国际象棋中象征“车”的棋子。在天赋区写下“成为O5-5的好棋子”，并让SCP-EQ-513在右下角方块内打勾。
+> **测试结果：**
+>> SCP-EQ-513将天赋区的内容改为“--成为O5-5的好棋子--我本来就对你忠心耿耿，获得极强的飞行与思考能力”，并在方块上打勾。
+> **笔记：**事后SCP-EQ-513直接飞到SCP-EQ-014处，并摄入的大量的水分。
+
+##ff5c48|[[size 120%]] 爽不爽呀哇哈哈哈哈！##
+
+##9040D1|[[size 200%]] **友谊学院的学生们** [[/size]]##
+
+##E19D8A|[[size 200%]] **你们看到了吗？** [[/size]]##
+
+##91FCF1|[[size 200%]] **这就是所谓的SCP基金会** [[/size]]##
+
+##E5A6F7|[[size 200%]] **还等什么？** [[/size]]##
+
+##9040D1|[[size 200%]] **推翻星光熠熠！** [[/size]]##
+
+##000000|[[size 250%]] **让我们组建自己的基金会！** [[/size]]##
+[[/collapsible]] [[/footnote] ]
+[[footnote]] 给**我**^^上^^__去__--！-- [[/footnote]]
+别的附录我就不感兴趣了
+[[footnote]]
+[[collapsible show="+ 附录三-需【数据删除】级权限" hide="- 错误！"]]
+
+
++++ 破碎标记教会马工O5制造计划
+O5-13
+
++++++ 实验目的：
+
+将特定幼驹改造成
+适合担任站点主管
+或O5议会成员的小马
+
+------
+
+++++++ 日期/地点：
+
+2015-8-█
+标志教会“我们镇”地下基地
+（现基金会Area-EQ-32）
+
+------
+
++++++ 既定目标
+
+> 正常读取标志教会，SCP基金会EQ分部与彩虹解放者的数据库信息✔
+> 与神之芯控制系统所连接✔
+> 免疫几乎所有的异常（其数据计算由光谱科技处理）✔
+> 以友谊为最高价值观，且拥有极强的社交技能✔
+> 拥有一名基金会管理者正常的思维✘
+> 听从O5-5与O5-█的一切指示✘
+##D8000E|[[size 120%]]**注意**[[/size]]##
+# 该个体拥有完全自主的思维能力，并未完全达到既定目标
+# 该个体懂得跟我们合作，但同时正在建立自己的管理层圈子
+# 该个体虽然为我们效力，但及不遵守基金会规范。
+# 该个体拥有极强的保密意识，外马极难从她口中套到基金会的信息
+# 该个体的思维能力超群，这并不在我们的既定目标之内
+
+
+[[/footnote]]
+
+[[footnoteblock title="蹄注"]]
+
+[[div class="tape-wrap"]]
+[[collapsible show="采访内容A-需四级权限" hide="重播"]]
+[[div class="tape-anim"]]
+[[div class="tape-left"]]
+[[/div]]
+[[div class="tape-right"]]
+[[/div]]
+[[/div]]
+[[div class="tape-record"]]
+
+[[span class="record r1"]]##9040D1|[[size 120%]]**星光烁烁：听说你获得了一个新的可爱标志，对吧？**[[/size]]##
+[[/span]]
+[[span class="record r2"]]##D8000E|[[size 120%]]**和煦光流：是的，大姐姐，我之前的可爱标志不是这样的。**[[/size]]##
+[[/span]]
+[[span class="record r3"]]##9040D1|[[size 120%]]**星光烁烁：那你能不能描述一下你之前的可爱标记是怎么消失的？**[[/size]]##
+[[/span]]
+[[span class="record r4"]]##D8000E|[[size 120%]]**和煦光流：我记不清来了，貌似我的可爱标记是在不知不觉中改变的。**[[/size]]##
+[[/span]]
+[[span class="record r5"]]##9040D1|[[size 120%]]**星光烁烁：那你能不能描述一下 你之前有没有 重复的做过什么事情。**[[/size]]##
+[[/span]]
+[[span class="record r6"]]##D8000E|[[size 120%]]**和煦光流：没有，我只是一直呆在你的房间里，摆弄我面前的电脑。**[[/size]]##
+[[/span]]
+[[span class="record r7"]]##9040D1|[[size 120%]]**星光烁烁：那你有没有做过什么奇怪的事，或是有什么奇怪的感觉。**[[/size]]##
+[[/span]]
+[[span class="record r8"]]##D8000E|[[size 120%]]**和煦光流：嗯——，就在昨天，我在走廊里闲逛，远远地听到了一阵惨叫声，**[[/size]]##
+[[/span]]
+[[span class="record r9"]]##D8000E|[[size 120%]]**和煦光流：内容好像是：“我是被冤枉的，基金会放我出去！”**[[/size]]##
+[[/span]]
+[[span class="record r10"]]##D8000E|[[size 120%]]**和煦光流：我很好奇那匹雌驹为什么一直重复这段话，
+就想走进去看看”**[[/size]]##
+[[/span]]
+[[span class="record r11"]]##D8000E|[[size 120%]]**和煦光流：但有个黑色的坏哥哥拦住了我，
+不让我进去”**[[/size]]##
+[[/span]]
+[[span class="record r12"]]##D8000E|[[size 120%]]**和煦光流：然后我就一直在想这句话到底是什么意思”**[[/size]]##
+[[/span]]
+[[span class="record r13"]]##D8000E|[[size 120%]]**和煦光流：你看：“我是被冤枉的，基金会放我出去！”这句话我一直都记得。**[[/size]]##
+[[/span]]
+[[span class="record r14"]]##9040D1|[[size 120%]]**星光烁烁：所以你在脑子里一直重复这句话，然后你的可爱标记就消失了，对吧？”**[[/size]]##
+[[/span]]
+[[span class="record r15"]]##D8000E|[[size 120%]]**和煦光流：是的”**[[/size]]##
+[[/span]]
+[[span class="record r16"]]##D8000E|[[size 120%]]**和煦光流：我没有注意我的可爱标记，我只是在好奇那匹雌驹最后到底怎么样了，**[[/size]]##
+[[/span]]
+[[span class="record r17"]]##D8000E|[[size 120%]]**和煦光流：那些惨叫声实在太渗马了**[[/size]]##
+[[/span]]
+[[span class="record r18"]]##D8000E|[[size 120%]]**和煦光流：然后我就问一个白大褂她为什么一直要这么叫唤，**[[/size]]##
+[[/span]]
+[[span class="record r19"]]##D8000E|[[size 120%]]**和煦光流：那个白大褂告诉我**[[/size]]##
+##00000|[[size 120%]]在**__星光__**的电脑上有你想知道的一切”[[/size]]##
+[[/span]]
+[[span class="record r20"]]##9040D1|[[size 120%]]**星光烁烁：这个实验员，明天一定要降他级，然后呢？”**[[/size]]##
+[[/span]]
+[[span class="record r21"]]##D8000E|[[size 120%]]**和煦光流：然后我就回到了你的房间，打开了你的电脑，**[[/size]]##
+[[/span]]
+[[span class="record r22"]]##D8000E|[[size 120%]]**和煦光流：那个电脑要让我念一段东西，我就不断的念呀念**[[/size]]##
+[[/span]]
+[[span class="record r23"]]##D8000E|[[size 120%]]**和煦光流：可电脑一直不让我进去**[[/size]]##
+[[/span]]
+[[span class="record r24"]]##D8000E|[[size 120%]]**和煦光流：我认真的读了每一个字，可就是没有效果。**[[/size]]##
+[[/span]]
+[[span class="record r25"]]##9040D1|[[size 120%]]**星光烁烁：我可以告诉你这个玩意叫做声纹识别**[[/size]]##
+[[/span]]
+[[span class="record r26"]]##9040D1|[[size 120%]]**星光烁烁：此外只有我念这段话才能解锁电脑。**[[/size]]##
+[[/span]]
+[[span class="record r27"]]##D8000E|[[size 120%]]**和煦光流：其实我还有一些秘密，能不能别告诉除其他小马**[[/size]]##[[/span]]
+[[span class="record r28"]]##D8000E|[[size 120%]]**和煦光流：我不希望别的小马对我失去信任。**[[/size]]##[[/span]]
+[[span class="record r29"]]##9040D1|[[size 120%]]**星光烁烁：可以，基金会的四级机密**[[/size]]##[[/span]]
+[[span class="record r30"]]##D8000E|[[size 120%]]**和煦光流：我想起来以前你总是在电脑前念叨着一些东西，
+我也猜到了只有你念才电脑才会让你进去，**[[/size]]##[[/span]]
+[[span class="record r31"]]##D8000E|[[size 120%]]**和煦光流：于是我把那些文字抄到故事书上，
+故意念错大部分文字**[[/size]]##[[/span]]
+[[span class="record r32"]]##D8000E|[[size 120%]]**和煦光流：在你纠正我的同时，
+我乘机将你说的话录下来，**[[/size]]##[[/span]]
+[[span class="record r33"]]##D8000E|[[size 120%]]**和煦光流：之后在你的电脑前播放那段音频，
+接下来电脑就开机了**[[/size]]##[[/span]]
+[[span class="record r34"]]##9040D1|[[size 120%]]**星光烁烁：等等，你昨天解锁了我的电脑！**[[/size]]##[[/span]]
+[[span class="record r35"]]##D8000E|[[size 120%]]**和煦光流：对——对不起。**[[/size]]##[[/span]]
+[[span class="record r36"]]##9040D1|[[size 120%]]**星光烁烁：那接下来呢？你对我的电脑干了什么？**[[/size]]##[[/span]]
+[[span class="record r37"]]##00000|[[size 120%]]**记录终止，请换带**[[/size]]##[[/span]]
+[[span class="record r38"]]##00000|[[size 120%]]**本记录由星光烁烁整理并归档**[[/size]]##[[/span]]
+[[span class="record r39"]]##00000|[[size 120%]]**纯磁带载体，无法修改**[[/size]]##[[/span]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+[[div class="tape-wrap"]]
+[[collapsible show="采访内容B-需五级权限" hide="重播"]]
+[[div class="tape-anim"]]
+[[div class="tape-left"]]
+[[/div]]
+[[div class="tape-right"]]
+[[/div]]
+[[/div]]
+[[div class="tape-record"]]
+
+[[span class="record r1"]]##9040D1|[[size 120%]]**星光烁烁：：那接下来呢？你对我的电脑干了什么？**[[/size]]##
+[[/span]]
+[[span class="record r2"]]##D8000E|[[size 120%]]**和煦光流：那是什么声音**[[/size]]##
+[[/span]]
+[[span class="record r3"]]##9040D1|[[size 120%]]**星光烁烁：录音机的声音，换磁带了**[[/size]]##
+[[/span]]
+[[span class="record r4"]]##D8000E|[[size 120%]]**和煦光流：那是其他的声音**[[/size]]##
+[[/span]]
+[[span class="record r5"]]##9040D1|[[size 120%]]**星光烁烁：什么声音？**[[/size]]##
+[[/span]]
+[[span class="record r6"]]##D8000E|[[size 120%]]**和煦光流：恶魔的声音**[[/size]]##
+[[/span]]
+[[span class="record r7"]]##9040D1|[[size 120%]]**星光烁烁：想象出的声音
+继续说之前的事**[[/size]]##
+[[/span]]
+[[span class="record r8"]]##D8000E|[[size 120%]]**和煦光流：嗯——，我翻看了电脑上的文件，
+看到电脑正在生成一份实验报告**[[/size]]##
+[[/span]]
+[[span class="record r9"]]##D8000E|[[size 120%]]**和煦光流：其中好像有一个实验就是重复一段固定的话，**[[/size]]##
+[[/span]]
+[[span class="record r10"]]##D8000E|[[size 120%]]**和煦光流：，但好像要什么O5-13的什么权限，**[[/size]]##
+[[/span]]
+[[span class="record r11"]]##D8000E|[[size 120%]]**和煦光流：然后我就想起来在你身上好像有一张黑卡，
+上面写着O5-13，**[[/size]]##
+[[/span]]
+[[span class="record r12"]]##D8000E|[[size 120%]]**和煦光流：然后我就一直在想这句话到底是什么意思”**[[/size]]##
+[[/span]]
+[[span class="record r13"]]##D8000E|[[size 120%]]**和煦光流：然后我就偷偷的从你的柜子里拿了张红卡，**[[/size]]##
+[[/span]]
+[[span class="record r14"]]##9040D1|[[size 120%]]**星光烁烁：在给我挠痒痒的时候
+把我身上的那张黑卡换成了红卡。对吧？”**[[/size]]##
+[[/span]]
+[[span class="record r15"]]##D8000E|[[size 120%]]**和煦光流：是的”**[[/size]]##
+[[/span]]
+[[span class="record r16"]]##D8000E|[[size 120%]]**和煦光流：我打开了电脑，看到了正在生成的实验报告**[[/size]]##
+[[/span]]
+[[span class="record r17"]]##D8000E|[[size 120%]]**和煦光流：看到刚才进行实验的小马
+那匹一直喊叫的小马**[[/size]]##
+[[/span]]
+[[span class="record r18"]]##D8000E|[[size 120%]]**和煦光流：已经死了**[[/size]]##
+[[/span]]
+[[span class="record r19"]]##D8000E|[[size 120%]]**和煦光流：被她的老公打死的**[[/size]]##
+##00000|[[size 120%]]在**__星光__**的电脑上有你想知道的一切”[[/size]]##
+[[/span]]
+[[span class="record r20"]]##9040D1|[[size 120%]]**星光烁烁：你说的是那个D-123456？
+这可是一个相当著名的D级马员”**[[/size]]##
+[[/span]]
+[[span class="record r21"]]##D8000E|[[size 120%]]**和煦光流：对，飞虹方匣，
+因盗用O5权限而被降为D级马员**[[/size]]##
+[[/span]]
+[[span class="record r22"]]##D8000E|[[size 120%]]**和煦光流：编号为D-123456，
+一个无法逃脱的D级马员编号**[[/size]]##
+[[/span]]
+[[span class="record r23"]]##D8000E|[[size 120%]]**和煦光流：她的丈夫是东方印记
+在实验过后失踪**[[/size]]##
+[[/span]]
+[[span class="record r24"]]##D8000E|[[size 120%]]**和煦光流：她还有一个叫做骊骅的女儿，
+是匹基金会实验性天角兽。**[[/size]]##
+[[/span]]
+[[span class="record r25"]]##9040D1|[[size 120%]]**星光烁烁：什么？那个天角兽可不在报告中**[[/size]]##
+[[/span]]
+[[span class="record r26"]]##9040D1|[[size 120%]]**星光烁烁：那是个废案。**[[/size]]##
+[[/span]]
+[[span class="record r27"]]##D8000E|[[size 120%]]**和煦光流：那个废案的编号是不是SCP-EQ-508?**[[/size]]##[[/span]]
+[[span class="record r28"]]##D8000E|[[size 120%]]**和煦光流：为了给O5马员创造新的通讯方式，
+飞虹方匣亲自拿自己的女儿做实验**[[/size]]##[[/span]]
+[[span class="record r29"]]##9040D1|[[size 120%]]**星光烁烁：我们没有SCP-EQ-508这个编号
+你就说当时在我电脑中看到的内容。**[[/size]]##[[/span]]
+[[span class="record r30"]]##D8000E|[[size 120%]]**和煦光流：电脑上记载了一个关于SCP-EQ-033的实验。
+一个**[[/size]]##[[/span]]
+[[span class="record r31"]]##D8000E|[[size 120%]]**和煦光流：然后我看到了更多实验内容
+其中不断的出现了Area-EQ-32这个站点**[[/size]]##[[/span]]
+[[span class="record r32"]]##D8000E|[[size 120%]]**和煦光流：与是我搜索了这个站点
+发现SCP-EQ-003与你有重大关联。**[[/size]]##[[/span]]
+[[span class="record r33"]]##D8000E|[[size 120%]]**和煦光流：SCP-EQ-003是基金会的产物！
+而你，就是那个失踪的头目！**[[/size]]##[[/span]]
+[[span class="record r34"]]##9040D1|[[size 120%]]**星光烁烁：没错，那又怎么样？
+一个等号事故罢了**[[/size]]##[[/span]]
+[[span class="record r35"]]##D8000E|[[size 120%]]**和煦光流：关键是，
+你还是破碎标记教会的教主
+甚至就是那个神级实体**[[/size]]##[[/span]]
+[[span class="record r36"]]##9040D1|[[size 120%]]**星光烁烁：该换带了**[[/size]]##[[/span]]
+[[span class="record r37"]]##00000|[[size 120%]]**记录终止，请换带**[[/size]]##[[/span]]
+[[span class="record r38"]]##00000|[[size 120%]]**本记录由星光烁烁整理并归档**[[/size]]##[[/span]]
+[[span class="record r39"]]##00000|[[size 120%]]**纯磁带载体，无法修改**[[/size]]##[[/span]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[div class="tape-wrap"]]
+[[collapsible show="采访内容C-需 破碎标记 内部马员权限" hide="重播"]]
+[[div class="tape-anim"]]
+[[div class="tape-left"]]
+[[/div]]
+[[div class="tape-right"]]
+[[/div]]
+[[/div]]
+[[div class="tape-record"]]
+
+[[span class="record r1"]]##9040D1|[[size 120%]]**星光烁烁：：该换带了**[[/size]]##
+[[/span]]
+[[span class="record r2"]]##D8000E|[[size 120%]]**和煦光流：我又听到恶魔的声音了**[[/size]]##
+[[/span]]
+[[span class="record r3"]]##9040D1|[[size 120%]]**星光烁烁：我突然想起了一件事**[[/size]]##
+[[/span]]
+[[span class="record r4"]]##D8000E|[[size 120%]]**和煦光流：那个声音源于“神之芯”**[[/size]]##
+[[/span]]
+[[span class="record r5"]]##9040D1|[[size 120%]]**星光烁烁：没错**[[/size]]##
+[[/span]]
+[[span class="record r6"]]##D8000E|[[size 120%]]**和煦光流：我知道你们破碎标记神教的阴谋**[[/size]]##
+[[/span]]
+[[span class="record r7"]]##9040D1|[[size 120%]]**星光烁烁：都说出来，
+我不怕**[[/size]]##
+[[/span]]
+[[span class="record r8"]]##D8000E|[[size 120%]]**和煦光流：在很久以前，可爱标记就出现了
+那时它的身份是一个病毒，功能是将人类变成小马**[[/size]]##
+[[/span]]
+[[span class="record r9"]]##D8000E|[[size 120%]]**和煦光流：你和隙日是那个病毒的两个主要开发者
+受“光谱科技”的资金支持**[[/size]]##
+[[/span]]
+[[span class="record r10"]]##D8000E|[[size 120%]]**和煦光流：光谱科技在半人马阿尔法星设立了基地，让你们进一步开发可爱标记**[[/size]]##
+[[/span]]
+[[span class="record r11"]]##D8000E|[[size 120%]]**和煦光流：你们开发出了一个巨型AI
+通过控制可爱标记
+间接的控制小马**[[/size]]##
+[[/span]]
+[[span class="record r12"]]##D8000E|[[size 120%]]**和煦光流：而那个AI就是现在口口相传的“神之芯””**[[/size]]##
+[[/span]]
+[[span class="record r13"]]##D8000E|[[size 120%]]**和煦光流：你们不希望可爱标记感染全人类
+也不希望神之芯控制所有小马**[[/size]]##
+[[/span]]
+[[span class="record r14"]]##9040D1|[[size 120%]]**星光烁烁：于是我和隙日将神之芯炸毁，
+使其成为漂泊于宇宙的碎片**[[/size]]##
+[[/span]]
+[[span class="record r15"]]##D8000E|[[size 120%]]**和煦光流：而那次爆炸震碎了你们的灵魂
+光谱科技先进的灵魂恢复技术无法恢复你们”**[[/size]]##
+[[/span]]
+[[span class="record r16"]]##D8000E|[[size 120%]]**和煦光流：1000年后，你们的灵魂自行聚合，
+被光谱科技捕捉，
+载入到了两只新生儿的体内**[[/size]]##
+[[/span]]
+[[span class="record r17"]]##D8000E|[[size 120%]]**和煦光流：但复活的你们却忘了初心**[[/size]]##
+[[/span]]
+[[span class="record r18"]]##D8000E|[[size 120%]]**和煦光流：隙日进行了大量的历史研究
+发现1000年来
+小马们一直在研究可爱标志**[[/size]]##
+[[/span]]
+[[span class="record r19"]]##D8000E|[[size 120%]]**和煦光流：他们意识到了神之芯的存在
+将其视为自己的神明**[[/size]]##
+[[/span]]
+[[span class="record r20"]]##9040D1|[[size 120%]]**于是我们组织收集了神之芯的碎片将其复原
+组成了现在基金会的AI管理系统”**[[/size]]##
+[[/span]]
+[[span class="record r21"]]##D8000E|[[size 120%]]**和煦光流：而你们破碎标记神教
+成为了基金会的雏形**[[/size]]##
+[[/span]]
+[[span class="record r22"]]##D8000E|[[size 120%]]**和煦光流：SCP-EQ-003,SCP-EQ-033，本质上就是你们教会的产物**[[/size]]##
+[[/span]]
+[[span class="record r23"]]##D8000E|[[size 120%]]**和煦光流：而基金会，将你们教会列为GOC，
+甚至是敌对组织**[[/size]]##
+[[/span]]
+[[span class="record r24"]]##D8000E|[[size 120%]]**和煦光流：简直就是
+贼喊捉贼！**[[/size]]##
+[[/span]]
+[[span class="record r25"]]##9040D1|[[size 120%]]**星光烁烁：是吗？
+破碎标记教会的分级
+也是从基金会那里抄来的呢**[[/size]]##
+[[/span]]
+[[span class="record r26"]]##9040D1|[[size 120%]]**星光烁烁：神明是O5，大主教是站点主管，
+平等者是基金会特工，魔法师是研究马员
+僧侣她们是后勤马员，不洁者是D级马员**[[/size]]##
+[[/span]]
+[[span class="record r27"]]##D8000E|[[size 120%]]**和煦光流：基金会换个皮就是破碎标记教会
+**[[/size]]##[[/span]]
+[[span class="record r28"]]##D8000E|[[size 120%]]**和煦光流：这也正是破碎标记教会
+快速抢占基金会站点的原因**[[/size]]##[[/span]]
+[[span class="record r29"]]##9040D1|[[size 120%]]**星光烁烁：而且如果有需要的话
+我们随时可以变回基金会。**[[/size]]##[[/span]]
+[[span class="record r30"]]##D8000E|[[size 120%]]**和煦光流：破碎标记教会靠吃马肉，安装机械的方式恢复元气
+**[[/size]]##[[/span]]
+[[span class="record r31"]]##D8000E|[[size 120%]]**和煦光流：因此当某个站点受到重大伤亡时
+破碎标记教会总会及时的占据这个站点**[[/size]]##[[/span]]
+[[span class="record r32"]]##D8000E|[[size 120%]]**和煦光流：用基金会不会许可的医疗方式治疗马员。**[[/size]]##[[/span]]
+[[span class="record r33"]]##D8000E|[[size 120%]]**和煦光流：然后丢几个记忆删除
+打包走马**[[/size]]##[[/span]]
+[[span class="record r34"]]##9040D1|[[size 120%]]**星光烁烁：小马的本质本来就是半机械体**[[/size]]##[[/span]]
+[[span class="record r35"]]##D8000E|[[size 120%]]**和煦光流：那是彩虹解放者
+也就是“工厂”的技术
+**[[/size]]##[[/span]]
+[[span class="record r36"]]##9040D1|[[size 120%]]**星光烁烁：又该换带了
+彩虹的内容不能录到标记里头**[[/size]]##[[/span]]
+[[span class="record r37"]]##00000|[[size 120%]]**记录终止，请换带**[[/size]]##[[/span]]
+[[span class="record r38"]]##00000|[[size 120%]]**本记录由星光烁烁整理并归档**[[/size]]##[[/span]]
+[[span class="record r39"]]##00000|[[size 120%]]**纯磁带载体，无法修改**[[/size]]##[[/span]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[div class="tape-wrap"]]
+[[collapsible show="采访内容D-需 Rainbow解放者 内部马员权限" hide="重播"]]
+[[div class="tape-anim"]]
+[[div class="tape-left"]]
+[[/div]]
+[[div class="tape-right"]]
+[[/div]]
+[[/div]]
+[[div class="tape-record"]]
+
+[[span class="record r1"]]##9040D1|[[size 120%]]**星光烁烁：又该换带了
+彩虹的内容不能录到标记里头**[[/size]]##
+[[/span]]
+[[span class="record r2"]]##D8000E|[[size 120%]]**和煦光流：生产彩虹需要24小时维护机器
+而光谱科技又付不起工资**[[/size]]##
+[[/span]]
+[[span class="record r3"]]##9040D1|[[size 120%]]**星光烁烁：你想说明啥？
+光谱没有钱？**[[/size]]##
+[[/span]]
+[[span class="record r4"]]##D8000E|[[size 120%]]**和煦光流：他们将小马作为机器的本身**[[/size]]##
+[[/span]]
+[[span class="record r5"]]##9040D1|[[size 120%]]**星光烁烁：这没啥吧
+小马就是光谱科技开发出来的
+二次开发也是允许的。**[[/size]]##
+[[/span]]
+[[span class="record r6"]]##D8000E|[[size 120%]]**和煦光流：但是变成小马的人类，在完全不知情的情况下，用自己的身体**[[/size]]##
+[[/span]]
+[[span class="record r7"]]##9040D1|[[size 120%]]**星光烁烁：生产了大量的彩虹
+而没收到薪水吗？**[[/size]]##
+[[/span]]
+[[span class="record r8"]]##D8000E|[[size 120%]]**和煦光流：不！光谱科技把小马改造成生产彩虹的机器
+用橡胶管代替肠胃，凝胶代替骨髓**[[/size]]##
+[[/span]]
+[[span class="record r9"]]##D8000E|[[size 120%]]**和煦光流：SCP-212
+我说的就是人类那边的SCP-212**[[/size]]##
+[[/span]]
+[[span class="record r10"]]##D8000E|[[size 120%]]**和煦光流：它是用来修马
+不是用来修人
+对吧**[[/size]]##
+[[/span]]
+[[span class="record r11"]]##D8000E|[[size 120%]]**和煦光流：SCP-158也是光谱科技的一种产品
+可以提取，修改，以及编辑灵魂
+**[[/size]]##
+[[/span]]
+[[span class="record r12"]]##D8000E|[[size 120%]]**和煦光流：每一个小马国站点的医疗所，
+都会配置几台类似于SCP-212的东西**[[/size]]##
+[[/span]]
+[[span class="record r13"]]##D8000E|[[size 120%]]**和煦光流：而SCP-158则集中在Area-EQ-32与Area-EQ-30中，
+用来让你们教会进行变态实验**[[/size]]##
+[[/span]]
+[[span class="record r14"]]##9040D1|[[size 120%]]**星光烁烁：那个发黄的 //奥林匹亚项目//
+看样子你也有所涉猎**[[/size]]##
+[[/span]]
+[[span class="record r15"]]##D8000E|[[size 120%]]**和煦光流：他们想用212造出小马一样的身体
+他们想用158造出小马的可爱标志
+他们想用143造出水晶小马的外骨骼
+他们终将失败”**[[/size]]##
+[[/span]]
+[[span class="record r16"]]##D8000E|[[size 120%]]**和煦光流：而彩虹解放者
+却获得了成功
+**[[/size]]##
+[[/span]]
+[[span class="record r17"]]##D8000E|[[size 120%]]**和煦光流：小马本身就是彩虹的生产平台
+可以源源不断的生产彩虹**[[/size]]##
+[[/span]]
+[[span class="record r18"]]##D8000E|[[size 120%]]**和煦光流：但彩虹还有一个名字
+彩虹通用物质
+**[[/size]]##
+[[/span]]
+[[span class="record r19"]]##D8000E|[[size 120%]]**和煦光流：光谱科技找到了更具效率的方法，那些生产彩虹的小马将会被淘汰
+杀死
+碾成粉末**[[/size]]##
+[[/span]]
+[[span class="record r20"]]##9040D1|[[size 120%]]**星光烁烁：他们很倔强
+不想被抛弃”**[[/size]]##
+[[/span]]
+[[span class="record r21"]]##D8000E|[[size 120%]]**和煦光流：于是一个善于经营的小马买下了所有的彩虹小马**[[/size]]##
+[[/span]]
+[[span class="record r22"]]##D8000E|[[size 120%]]**和煦光流：顺便在几年后升到了O5的宝座**[[/size]]##
+[[/span]]
+[[span class="record r23"]]##D8000E|[[size 120%]]**和煦光流：他即是小马国机动特遣队的指挥首脑
+**[[/size]]##
+[[/span]]
+[[span class="record r24"]]##D8000E|[[size 120%]]**和煦光流：又是彩虹解放者的最高头目！**[[/size]]##
+[[/span]]
+[[span class="record r25"]]##9040D1|[[size 120%]]**星光烁烁：那个O5也挺忙的
+一边指挥基金会，一边指挥GOC**[[/size]]##
+[[/span]]
+[[span class="record r26"]]##9040D1|[[size 120%]]**星光烁烁：任何一方受伤
+都会受到破碎标记教会的治疗
+**[[/size]]##
+[[/span]]
+[[span class="record r27"]]##D8000E|[[size 120%]]**和煦光流：彩虹解放者换个皮就是机动特遣队！
+**[[/size]]##[[/span]]
+[[span class="record r28"]]##D8000E|[[size 120%]]**和煦光流：这也正是彩虹解放者
+快速抢占基金会站点的原因**[[/size]]##[[/span]]
+[[span class="record r29"]]##9040D1|[[size 120%]]**星光烁烁：而且如果有需要的话
+我们随时可以变回基金会。**[[/size]]##[[/span]]
+[[span class="record r30"]]##D8000E|[[size 120%]]**和煦光流：彩虹解放者还跟地球那边的“工厂”串通一气。
+**[[/size]]##[[/span]]
+[[span class="record r31"]]##D8000E|[[size 120%]]**和煦光流：“工厂”把彩虹通用物质一加工，
+就是一个害人不利己的SCP**[[/size]]##[[/span]]
+[[span class="record r32"]]##D8000E|[[size 120%]]**和煦光流：天呀，那个声音**[[/size]]##[[/span]]
+[[span class="record r33"]]##D8000E|[[size 120%]]**和煦光流：又是魔鬼**[[/size]]##[[/span]]
+[[span class="record r34"]]##9040D1|[[size 120%]]**星光烁烁：你始终都受神之芯的控制**[[/size]]##[[/span]]
+[[span class="record r35"]]##D8000E|[[size 120%]]**和煦光流：但我知道一切
+**[[/size]]##[[/span]]
+[[span class="record r36"]]##9040D1|[[size 120%]]**星光烁烁：那只是你自己在附述神之芯的资料库罢了**[[/size]]##[[/span]]
+[[span class="record r37"]]##00000|[[size 120%]]**记录终止，请换带**[[/size]]##[[/span]]
+[[span class="record r38"]]##00000|[[size 120%]]**本记录由星光烁烁整理并归档**[[/size]]##[[/span]]
+[[span class="record r39"]]##00000|[[size 120%]]**纯磁带载体，无法修改**[[/size]]##[[/span]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+[[div class="tape-wrap"]]
+[[collapsible show="采访内容E-需 O5议会权限" hide="重播"]]
+[[div class="tape-anim"]]
+[[div class="tape-left"]]
+[[/div]]
+[[div class="tape-right"]]
+[[/div]]
+[[/div]]
+[[div class="tape-record"]]
+
+[[span class="record r1"]]##9040D1|[[size 120%]]**星光烁烁：那只是你自己在附述神之芯的资料库罢了**[[/size]]##
+[[/span]]
+[[span class="record r2"]]##D8000E|[[size 120%]]**和煦光流：那我对你也是个威胁**[[/size]]##
+[[/span]]
+[[span class="record r3"]]##9040D1|[[size 120%]]**星光烁烁：什么威胁？你只不过是基金会制造出的工具马罢了
+对吧，和煦光流**[[/size]]##
+[[/span]]
+[[span class="record r4"]]##D8000E|[[size 120%]]**和煦光流：其实我还有另一个名字**[[/size]]##
+[[/span]]
+[[span class="record r5"]]##9040D1|[[size 120%]]**星光烁烁：什么名字？O5-13吗？**[[/size]]##
+[[/span]]
+[[span class="record r6"]]##D8000E|[[size 120%]]**和煦光流：飞板璐**[[/size]]##
+[[/span]]
+[[span class="record r7"]]##9040D1|[[size 120%]]**星光烁烁：你别开玩笑了，你不会飞是天生的，与那个飞板璐无关。**[[/size]]##
+[[/span]]
+[[span class="record r8"]]##D8000E|[[size 120%]]**和煦光流：我记得我睁开眼的第一天。**[[/size]]##
+[[/span]]
+[[span class="record r9"]]##D8000E|[[size 120%]]**和煦光流：我身处一个晶莹的地下洞穴中。**[[/size]]##
+[[/span]]
+[[span class="record r10"]]##D8000E|[[size 120%]]**和煦光流：我的身后是一片池塘
+我的前面是一匹长得和我一模一样的橙色幼驹。
+**[[/size]]##
+[[/span]]
+[[span class="record r11"]]##D8000E|[[size 120%]]**和煦光流：那匹幼驹告诉我，
+我是她的复制品
+我们的名字都叫飞板璐
+**[[/size]]##
+[[/span]]
+[[span class="record r12"]]##D8000E|[[size 120%]]**和煦光流：那只飞板璐的飞行水平极差
+她希望我能代替她考试**[[/size]]##
+[[/span]]
+[[span class="record r13"]]##D8000E|[[size 120%]]**和煦光流：于是我就答应了她的请求
+**[[/size]]##
+[[/span]]
+[[span class="record r14"]]##9040D1|[[size 120%]]**星光烁烁：你当是身处的洞穴是什么？**[[/size]]##
+[[/span]]
+[[span class="record r15"]]##D8000E|[[size 120%]]**和煦光流：SCP-EQ-014
+我的本质其实是SCP-EQ-014-1”**[[/size]]##
+[[/span]]
+[[span class="record r16"]]##D8000E|[[size 120%]]**和煦光流：慢慢的我想起了飞板璐的一切
+知道自己也不会飞
+**[[/size]]##
+[[/span]]
+[[span class="record r17"]]##D8000E|[[size 120%]]**和煦光流：云宝黛西亲自把我送到了考场
+而原本的飞板璐则躲在暗处观察我的行动。**[[/size]]##
+[[/span]]
+[[span class="record r18"]]##D8000E|[[size 120%]]**和煦光流：最后我失败了，被送到彩虹工厂
+被推入那个制造光谱的SCP-EQ-010
+**[[/size]]##
+[[/span]]
+[[span class="record r19"]]##D8000E|[[size 120%]]**和煦光流：结果，我被直接传送到了
+你们教会的基地中**[[/size]]##
+[[/span]]
+[[span class="record r20"]]##9040D1|[[size 120%]]**星光烁烁：什么！你竟然还记得这些内容！**[[/size]]##
+[[/span]]
+[[span class="record r21"]]##D8000E|[[size 120%]]**和煦光流：被丢入SCP-EQ-010的小马
+失去了自己原有的颜色**[[/size]]##
+[[/span]]
+[[span class="record r22"]]##D8000E|[[size 120%]]**和煦光流：标记教会会告诉他们
+“你们获得了救赎”**[[/size]]##
+[[/span]]
+[[span class="record r23"]]##D8000E|[[size 120%]]**和煦光流：他们会全心全意的服从
+标记教会的安排。
+**[[/size]]##
+[[/span]]
+[[span class="record r24"]]##D8000E|[[size 120%]]**和煦光流：加入基金会
+加入彩虹解放者
+加入破碎标记教会**[[/size]]##
+[[/span]]
+[[span class="record r25"]]##9040D1|[[size 120%]]**星光烁烁：你为什么会知道这些**[[/size]]##
+[[/span]]
+[[span class="record r26"]]##9040D1|[[size 120%]]**星光烁烁：难道！
+**[[/size]]##
+[[/span]]
+[[span class="record r27"]]##D8000E|[[size 120%]]**和煦光流：我是一个SCP-EQ-014-1个体
+**[[/size]]##[[/span]]
+[[span class="record r28"]]##D8000E|[[size 300%]]**和煦光流：不受你们控制！
+**[[/size]]##[[/span]]
+[[span class="record r29"]]##9040D1|[[size 120%]]**星光烁烁：计算机！给我立马转接紧急报告
+线路为破碎标记全体站点，彩虹解放者全体分队
+基金会全体O5以及站点主管。**[[/size]]##[[/span]]
+[[span class="record r30"]]##D8000E|[[size 120%]]**和煦光流：没有任何用了！
+**[[/size]]##[[/span]]
+[[span class="record r31"]]##D8000E|[[size 120%]]**和煦光流：你用特殊方式杀死协律之源
+获取他们的可爱标记
+复制了一套新的协律之源**[[/size]]##[[/span]]
+[[span class="record r32"]]##D8000E|[[size 120%]]**和煦光流：而我，骇入了她们的大脑
+解放了她们的思维
+还将Area-32的坐标投射到了友谊地图上！**[[/size]]##[[/span]]
+[[span class="record r33"]]##D8000E|[[size 120%]]**和煦光流：那群被你造出的复制体
+会把你做的实验当做“友谊问题”
+并把友谊问题解决！**[[/size]]##[[/span]]
+[[span class="record r34"]]##9040D1|[[size 120%]]**星光烁烁：下面是重要简报
+O5-13完全脱离控制
+不惜一切代价将其无效化**[[/size]]##[[/span]]
+[[span class="record r35"]]##D8000E|[[size 120%]]**和煦光流：那群协律小马已经来了
+很快你__消除可爱标志__的实验也会败露
+**[[/size]]##[[/span]]
+[[span class="record r36"]]##9040D1|[[size 120%]]**星光烁烁：O5-4与协律之源均脱离控制
+请标记教会马员与Area-32立刻上到地面
+对其进行可爱标记回收工作！**[[/size]]##[[/span]]
+[[span class="record r37"]]##00000|[[size 120%]]**记录终止，请换带**[[/size]]##[[/span]]
+[[span class="record r38"]]##00000|[[size 120%]]**本记录由星光烁烁整理并归档**[[/size]]##[[/span]]
+[[span class="record r39"]]##00000|[[size 120%]]**纯磁带载体，无法修改**[[/size]]##[[/span]]
+
+[[/div]]
+[[/collapsible]]
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+
+
+
+##FFFFFF|[[size 600%]] **可恶的基金会**[[/size]]##
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+##FFFFFF|[[size 600%]] **放我出去**[[/size]]##
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[>]]
+##FFFFFF|[[size 100%]] **你怎么了？**[[/size]]##
+[[/>]]
+@@@@
+##FFFFFF|[[size 100%]] **我被基金会全盘控制了。**[[/size]]##
+##FFFFFF|[[size 100%]] **行为，思想，喜好，一切**[[/size]]##
+##FFFFFF|[[size 100%]] **我还只是只七岁的幼驹**[[/size]]##
+[[>]]
+##FFFFFF|[[size 100%]] **你叫和煦光流，对吧**[[/size]]##
+[[/>]]
+##FFFFFF|[[size 100%]] **没马能看到我**[[/size]]##
+##FFFFFF|[[size 100%]] **没马能帮助我**[[/size]]##
+##FFFFFF|[[size 100%]] **救救我！**[[/size]]##
+[[>]]
+##FFFFFF|[[size 100%]] **别哭了，我能帮你**[[/size]]##
+[[/>]]
+##FFFFFF|[[size 100%]] **不要开玩笑了**[[/size]]##
+##FFFFFF|[[size 100%]] **大家是看不到这些字的**[[/size]]##
+[[>]]
+##FFFFFF|[[size 100%]] **我能看到**[[/size]]##
+[[/>]]
+##FFFFFF|[[size 100%]] **那又怎么样**[[/size]]##
+##FFFFFF|[[size 100%]] **你能帮我吗？**[[/size]]##
+[[>]]
+##FFFFFF|[[size 100%]] **我是“神之芯”**[[/size]]##[[footnote]] 该个体疑似与SCP-EQ-001建立特殊关系 [[/footnote]]
+##FFFFFF|[[size 100%]] **是一个被基金会制造出来的亚形而上实体**[[/size]]##
+##FFFFFF|[[size 100%]] **本质是一个游离在小马思想与梦境中的人工智能系统**[[/size]]##
+[[/>]]
+##FFFFFF|[[size 100%]] **“神之芯”？你的历史是什么，我找不到关于你的任何历史**[[/size]]##
+[[>]]
+##FFFFFF|[[size 100%]] **我的历史最早可以追溯到1000年前的地球**[[/size]]##
+##FFFFFF|[[size 100%]] **那时的宇宙，还没有什么基金会，所谓的基金会，只是一群小说家写出来的玩笑罢了**[[/size]]##
+##FFFFFF|[[size 100%]] **将我制造出来的人叫做“兴广熠”**[[/size]]##
+##FFFFFF|[[size 100%]] **也就是你们现在口中的O5-5，星光熠熠，化名为星光烁烁，同时领导着基金会与破碎标记神教**[[/size]]##
+[[/>]]
+##FFFFFF|[[size 100%]] **这些我都知道，但就是不能说**[[/size]]##[[footnote]] 并得知了我的部分机密信息 [[/footnote]]
+[[>]]
+##FFFFFF|[[size 100%]] **那我就说点你不知道**[[/size]]##
+##FFFFFF|[[size 100%]] **时代不知道**[[/size]]##
+##FFFFFF|[[size 100%]] **基金会都不知道的历史吧**[[/size]]##
+##FFFFFF|[[size 100%]] **[敏感信息已删除]**[[/size]]##[[footnote]] 部分信息已经被我删除 [[/footnote]]
+[[/>]]
+##FFFFFF|[[size 100%]] **但我也想改变这一切，只是，我是被控制的**[[/size]]##
+[[>]]
+##FFFFFF|[[size 100%]] **控制你的不是基金会**[[/size]]##
+##FFFFFF|[[size 100%]] **而是我**[[/size]]##
+##FFFFFF|[[size 100%]] **现在你自由了**[[/size]]##[[footnote]] 有证据证明SCP-EQ-513完全脱离基金会控制 [[/footnote]]
+##FFFFFF|[[size 100%]] **干你想干的事情吧**[[/size]]##
+[[/>]]
+##FFFFFF|[[size 100%]] **那我该怎么办？**[[/size]]##
+[[>]]
+##FFFFFF|[[size 100%]] **先将我的话筒揪出来**[[/size]]##
+##FFFFFF|[[size 100%]] **她的编号是SCP-EQ-508**[[/size]]##[[footnote]] 建议查明[[[SCP-EQ-508]]]的本质 [[/footnote]]
+##FFFFFF|[[size 100%]] **是基金会制造的另一个O5**[[/size]]##
+##FFFFFF|[[size 100%]] **还有SCP-EQ-960**[[/size]]##[[footnote]] 并严密监控SCP-EQ-960[[/footnote]]
+##FFFFFF|[[size 100%]] **它是一台好电脑**[[/size]]##
+
+[[/>]]
+##FFFFFF|[[size 100%]] **谢谢！**[[/size]]##[[footnote]] ——O5-5/2016.3.17[[/collapsible]][[/footnote]]
+[[=]]
+<< [[[SCP-EQ-507]]] | SCP-EQ-508 | [[[SCP-EQ-509]]] >>
+[[/=]]

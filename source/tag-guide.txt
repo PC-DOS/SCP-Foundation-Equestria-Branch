@@ -1,0 +1,376 @@
+[[tabview]]
+[[tab 关于标签]]
+++ 关于标签
++++ 什么是标签，还有它们是干什么的？
+标签是无等级的关键词或分配某项物品的信息（如互联网书签，数字图像，或计算机档案）。这样的数据有助于说明一个项目，并允许它再次发现浏览或搜寻。
+
++++ 标签在哪里找？
+去页面的底部。在整页的左下角，侧边栏的右边，您会看到一串小字。那些就是标签了。您能点击它们去找到和该标签有关的页面列表
+
++++ 我应怎样为页面打上标签？
+# 在页底按“标签”。
+# 在对话框里输入和该页有关的标签（用空格隔开）。
+# 按“储存标签”
+ 
++++ 我一定要为自己的页面上标签吗?
+当然了！如果您对为页面打上标签没有信心（或者有马告诉您打错了），那就去找精通此道的马（例如管理者）去帮您做。如果找不到的话，那就先别加上标签，在讨论页呼叫支持吧。
+
++++ 那其他马的页面呢？
+不要乱为其他马的页面上标签，除非那马说明要求帮助，而且得到管理者的许可。如果他们说不要这样做，那就别做。
+
++++ 我怎知道要加上什么标签呢？
+看完这篇指导。如果看见什么标签合用就加进去。别自制新标签。另外所有标签都是简体字，使用繁体字的用户请注意不要用错繁体标签。
+
+[[/tab]]
+[[tab 主要标签]]
+++ 主要标签
+这是所有"主要"的页面标签列表，还有它们应该怎样用。在SCP资料库里应该有一个或以上的主要标签去描述页面的性质。这些标签和//内容//无关，只是在网站上这些页面的定位。
+
+* [/system:page-tags/tag/scp scp] - 在所有的SCP项目页面使用的标签，包括[[[scp-eq-001|SCP-EQ-001提案]]]，//搞笑//(-J)，被归档(-ARC)、已解明(-EX)、以及小马国分部的//原创//(-EQ-)SCP项目。
+
+* [/system:page-tags/tag/条目 条目] - 在所有的数据库条目项目页面使用的标签，包括SCP项目、文档等。
+
+* [/system:page-tags/tag/goi格式 goi格式]//(goi-format)// - 以特定格式从特定相关组织的视角撰写异常或SCP。独立于//故事//及//scp//之外的标签。
+
+* [/system:page-tags/tag/safe safe] / [/system:page-tags/tag/euclid euclid] / [/system:page-tags/tag/keter keter] / [/system:page-tags/tag/thaumiel thaumiel] / [/system:page-tags/tag/无效化 无效化]//(neutralized)// / [/system:page-tags/tag/机密分级 机密分级]//(esoteric-class)// - 所有被打上//scp//标签的SCP条目也应该加上它们对应的项目等级，或是在其没有/无法在文档中被确定/为非标准分级时加上//机密分级//的标签。如果是双分级(像safe/euclid)条目就一起加上；不过这种分级方法不再被容许，并正逐步取缔中。
+
+* [/system:page-tags/tag/被归档 被归档]//(archived)// / [/system:page-tags/tag/搞笑 搞笑]//(joke)//  - 用于//scp//页面的副分类标签，应该要和标准分级或//机密分级//（在其没有/无法在文档中被确定/为非标准分级时）标签一起使用。
+
+* [/system:page-tags/tag/已解明 已解明]//(explained)// - [[[scp-ex|已解明]]]SCPs是一种特殊的//scp//副分类，并且带有-EX后辍。同样应该要和上面的分级标签一起使用。
+
+* [/system:page-tags/tag/001提案 001提案]//(001-proposal)// - 被加上本标签的条目都是可能的[[[scp-eq-001|SCP-EQ-001]]]项目。需与其他的分级标签一起使用，或在有必要时使用//机密分级//标签。
+
+* [/system:page-tags/tag/补充材料 补充材料]//(supplement)// - //补充材料//页面通常在附属页面上见到，对于SCP项目的补充，有时候会是实验/探索日志/事故报告，或者是其他和//scp//页面有联系而且离不开它们的页面。这些页面应该拥有相关条目的亲页面以维持相关性并自动创建面包屑导航。一个//补充材料//页面应该是由相关的//scp//页面的原作者亲自或授权建立。如果该实验/探索日志/事故报告不是任何SCP项目的补充，那应该标签为//故事//而不是//补充材料//。
+
+* [/system:page-tags/tag/段落 段落]//(fragment)// - //段落//页面是应用了Listpage语法的文档子页面（迭代页面），用途和//补充材料//相同，但不需要添加评分模组。区别于//补充材料//。
+
+* [/system:page-tags/tag/实验 实验]//(experiment)// - 仅用于//补充材料//页面中主要由实验日志构成的页面。这标签**不应该**用在//scp//页面上，即使里面有实验记录也是如此。
+
+* [/system:page-tags/tag/探索 探索]//(exploration)// - 仅用于//补充材料//页面中主要由对SCP的探索报告构成的页面。这标签**不应该**用在//scp//页面上，即使里面有探索报告也是如此。
+
+* [/system:page-tags/tag/事故 事故]//(incident)// - 仅用于//补充材料//页面中主要由事故/事件报告构成的页面。这标签**不应该**用在//scp//页面上，即使里面有事故报告也是如此。
+
+* [/system:page-tags/tag/采访 采访]//(interview)// - 仅用于 //补充材料//页面中主要由对项目/马员进行的访谈记录构成的页面。这标签**不应该**用在//scp//页面上，即使里面有访谈记录也是如此。
+
+* [/system:page-tags/tag/来自总部 来自总部]//(from-headquarters)// - 来自基金会总部的文档。与//条目//配合使用。
+
+* [/system:page-tags/tag/讲座 讲座]//(lecture)//* - 讲座的抄录、转写等。与//条目//和//文章//配合使用，部分情况可与//研究//配合使用。
+
+* [/system:page-tags/tag/研究 研究]//(research)//* - 研究的独立成果报告，包含综述、论文、讲座等。与//条目//和//文章//配合使用，部分情况可与//讲座//配合使用。
+ 
+* [/system:page-tags/tag/掩藏页 掩藏页]//(splash)// - //掩藏页//是用来为了展现出一种需要授权的效果，掩盖文档的主要内容 。
+
+* [/system:page-tags/tag/故事 故事]//(tale)// - //故事// 页面是以非正式语言撰写的故事，以及和任何//scp//页面没有直接关系的实验，访谈以及探索记录。它们不是官方文档，可能在多个背景下叙述，有相当的独立性。而且不一定要和任何//scp//有关。
+
+* [/system:page-tags/tag/音频 音频]//(audio)// - //音频// 页面包含了一个或以上的音频文件。
+
+* [/system:page-tags/tag/合作 合作]//(collaboration)// - //合作//页面开放予所有成员添加内容，但注意的是职员和原作者有权修改或删除其中欠佳的内容。//合作//是一个副标签，应该和//故事//或//scp//一起用。
+
+* [/system:page-tags/tag/合著 合著]//(co-authored)// - //合著//页面是由两名以上的写手合力写成的成果，但**不开放予其他成员以添加内容**。此为与上述的//合作//标签的分别。//合著//是一个副标签，应该和//故事//或//scp//一起用。
+
+* [/system:page-tags/tag/竞赛 竞赛]//(contest)// - //竞赛//页面是用于站点内的写作竞赛活动上。此标签应该和//中心//一起用在条目列表页里，并不应该用在各相关页面上。这些竞赛应只能在工作马员的批准下建立。
+
+* [/system:page-tags/tag/艺术作品 艺术作品]//(artwork)// - //艺术作品//页面包含社区成员创作的与基金会有关的艺术作品合集。标有//艺术作品//的页面可以被社区成员投票和删除。
+
+* [/system:page-tags/tag/作者 作者]//(author)// - 此标签用在作者的个马页面上。每名符合资格的会员应只能有一个作者页。
+
+* [/system:page-tags/tag/指导 指导]//(guide)// - 指导性的文档，帮助您了解网站规则，基础设定和写作方法。指导只能在工作马员的批准下才能标签上去。请参阅//文章//。
+
+* [/system:page-tags/tag/文章 文章]//(essay)// - //文章//是一些情况介绍、写作指导等对作者的写作有帮助的教学，和//指导//的差别在于，文章带有主观性，并反映出作者的个马意见。
+
+* [/system:page-tags/tag/中心 中心]//(hub)// - //中心//页面会给出进入多个页面的链接。所有SCP系列，//故事//，以及一些页面皆是//中心//页。//故事//系列的索引页以及//竞赛//文章列表也是//中心//页。
+
+* [/system:page-tags/tag/站点 站点]//(site)// - //站点//页面是特定的基金会设施的中心页，提供了站点收容项目、站点历史、在职马员等信息。
+
+* [/system:page-tags/tag/草稿 草稿]//(sandbox)// -该页面仅具有参考价值或者是站点成员的草稿。主站的草稿存放点已经整体移动到[http://scp-eq-draftsvc.wikidot.com/ 另一站点]，所以此标签目前只留作后用并作为实验用途，只供工作马员使用。
+
+* [/system:page-tags/tag/工房 工房]//(workbench)//  - //工房//页面是基金会管理层建立来管理特定页面的页面。您可以在您的作者页随意使用这些模块，但请不要创建一个工房页，除非您是管理层职员。
+
+* [/system:page-tags/tag/样版 样版]//(template)// - //样版//页面是仅用于内置wiki架构的。此标签不应用于文章。
+
+* [/system:page-tags/tag/版式 版式]//(theme)// - 应用了CSS代码的//样版//页面。
+
+* [/system:page-tags/tag/管理 管理]//(admin)// - //管理//页正如其名，用于重要或带历史意义的页面。只供工作马员使用。
+
+* [/system:page-tags/tag/新闻 新闻]//(news)// - 新闻页面包括最广泛意义上关于SCP基金会好的新闻，从爱好者所做的艺术作品到最近发布的成功文章，及期间的所有内容。也可能用在工作马员的正式通告上（只要它们未在主页面或者讨论帖发布完成）
+
+* [/system:page-tags/tag/推荐 推荐]//(recommended)// - 被指定为推荐文档的文档会由管理马员加上这一标签。这些具有此标签的文档被认为拥有良好的格式与内容，并被推荐给所有员工阅读。建议新入职的员工通过阅读这些文档，在实际体验中了解基金会文档的写作风格与内容格式。请注意：该标签只能由管理马员或得到管理马员授权的马员添加在被评选推荐文档的文档中，私自在文档中添加该标签可能受到惩罚。
+
+[[/tab]]
+
+[[tab 特性标签]]
+++ 特性标签
+下列为特性标签，或是说是SCP条目的次要标签。当您为条目选择标签时，记住您要让这列表越短越好；比起自创一个新标签，您应该以选择一个已有的标签为目标。
+
+以下标签为SCP条目的特性标签，并应该**只能**用于SCP而不是故事页面：
+
++++ A
+
+**[/system:page-tags/tag/声音 声音]//(acoustic)//** - 由声音构成/触发或者影响/发出声音的SCP。与//听觉影响//和//震动//有分别。
+**[/system:page-tags/tag/适应性 适应性]//(adaptive)//** - 以异常方式适应外界刺激的SCP。
+**[/system:page-tags/tag/成瘾性 成瘾性]//(addictive)//** - 使得受影响对象上瘾的SCP。
+**[/system:page-tags/tag/天空 天空]//(airborne)//** -生活在空气中或者通过空气传播/移动的SCP。
+**[/system:page-tags/tag/活物 活物]//(alive)//** - 该SCP为活物，即代表它拥有//代谢//，//反应//以及//生殖//的特点。
+**[/system:page-tags/tag/无定形 无定形]//(amorphous)//** - 没有固定形态或者形态持续改变的SCP。与 //形态改变//有所冲突，并普遍适用于被定义为“软泥”，“云”，或“未分化质量”的SCP。
+**[/system:page-tags/tag/动物 动物]//(animal)//** - 本身为动物或带有动物特性的SCP。
+**[/system:page-tags/tag/逆模因 逆模因]//(antimemetic)//** - 本身为或涉及到能抑制包括本身在内的理念或概念被了解并/或理解的逆模因的SCP，与//模因//有所冲突。
+**[/system:page-tags/tag/蜜蜂 蜜蜂]//(apian)//** - 本身为蜂类或带有蜂类特性，或类蜜蜂动物的SCP。可以与//动物//或//昆虫//配合使用。
+**[/system:page-tags/tag/家用物品 家用物品]//(appliance)//** -日常或家用电器设备或有类似用途的SCP。可以与//电力//或//电子//配合使用。
+**[/system:page-tags/tag/水生 水生]//(aquatic)//** - 在水中栖息/移动/传播的SCP。
+**[/system:page-tags/tag/蜘蛛 蜘蛛]//(arachnid)//** - 本身为蛛形纲或拥有蛛形纲特性，或类蛛形纲动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/树木 树木]//(arboreal)//** -本身为树木或拥有树木特性，或类树木植物的SCP。可以与//植物//配合使用。
+**[/system:page-tags/tag/节肢动物 节肢动物]//(arthropod)//** - 本身为节肢动物或拥有节肢动物特性，或带有外骨骼，分节身体和连接附肢的动物SCP
+**[/system:page-tags/tag/艺术性 艺术性]//(artistic)//** - 本身为艺术品或者展现了艺术特性的SCP。能被 //音乐性//，//雕塑//或//雕像//所取代。
+**[/system:page-tags/tag/马造物品 马造物品]//(artifact)//** - 由马类或曾是马类创造的SCP。能被//家用物品//，//工具//，//武器//，//载具//等所取代并与其有所冲突。
+**[/system:page-tags/tag/听觉影响 听觉影响]//(auditory)//** - 由听觉触发或影响听觉的SCP。 不同于//声音//。
+**[/system:page-tags/tag/机器马 机器马]//(automaton)//** - 该SCP是一台设计作单独运作的装置或结构。应该用于任何能被描述为一台"机器马"的东西。
+**[/system:page-tags/tag/自主 自主]//(autonomous)//** - 以自己的异常方式激活运行SCP。只适用于一般不会自己激活的项目。与//活物//有所冲突。
+**[/system:page-tags/tag/鸟类 鸟类]//(avian)//** - 本身为鸟类或带有鸟类特性，或类鸟类动物的SCP。可以与//动物//配合使用。
+
++++ B-C
+
+**[/system:page-tags/tag/细菌 细菌]//(bacteria)//** -本身为细菌或带有细菌特性，或类细菌的SCP。适用的话可取代//传染性//。
+**[/system:page-tags/tag/生物危害 生物危害]//(biohazard)//** - 会对马类或者环境造成生物性危害或者本身即为生物危害的SCP。
+**[/system:page-tags/tag/生物性 生物性]//(biological)//** - 拥有生物特性的SCP。
+**[/system:page-tags/tag/牛类 牛类]//(bovine)//** - 本身为牛类或带有牛类特性，或类牛类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/建筑 建筑]//(building)//** -本身是建筑或建筑的一部分或与建筑有关或会影响建筑的现象的SCP，专指供马类活动的建筑。此标签与//structure//合并。
+**[/system:page-tags/tag/尸体 尸体]//(cadaver)//** - 本身为，影响尸体，兽体，或任何死去组织，或与之有关的SCP。可以与//骨骼//或//复活//配合使用。
+**[/system:page-tags/tag/仙马掌 仙马掌]//(cactaceous)//** - 本身为仙马掌或仙马掌科植物，或带有其特性的SCP。可以与//植物//配合使用。
+**[/system:page-tags/tag/骆驼 骆驼]//(camelid)//** - 本身为骆驼或带有骆驼特性，或类骆驼动物的SCP。亦包括羊驼和美洲驼。可以与//动物//配合使用。
+**[/system:page-tags/tag/犬类 犬类]//(canine)//** - 本身为犬类或带有犬类特性，或类犬类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/肉食性 肉食性]//(carnivorous)//** - 肉食性动物或带有相关特性的SCP。
+**[/system:page-tags/tag/鹿类 鹿类]//(cervine)//** - 本身为鹿类或带有鹿类特性，或类鹿类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/头足类动物 头足类动物]//(cephalopodic)//** - 本身为头足类动物或带有头足类动物，或者是包括墨鱼，章鱼以及鱿鱼在内的动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/鲸类 鲸类]//(cetacean)//** - 本身为鲸类或带有鲸类特性，或类鲸类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/龟类 龟类]//(chelonian)//** - 本身为龟类或带有龟类特性，或类鳖，陆龟或龟类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/化学性 化学性]//(chemical)//** - 本身为异常化学物质或者以异常方式出产化学物质的SCP。
+**[/system:page-tags/tag/城市 城市]//(city)//** - 本身为城市，市镇或其他供马类居住的定居点的SCP。只能在城市的显着部份被认为是异常时使用
+**[/system:page-tags/tag/泥土 泥土]//(clay)//** - 主要或明显由泥土构成的SCP。
+**[/system:page-tags/tag/发条 发条]//(clockwork)//** - 主要通过发条运转的SCP，特指由齿轮组成并/或以发条驱动的机械。取代//机械//。
+**[/system:page-tags/tag/衣物 衣物]//(clothing)//** - 主要用来穿着以得到舒适或保护的马造物SCP，包括盔甲和头盔在内。取代//马造物品//，与//饰品//有所冲突。
+**[/system:page-tags/tag/认知危害 认知危害]//(cognitohazard)//** - 被传统五感感知到时带来危害的SCP。应与//听觉影响//，//味觉影响//，//嗅觉影响//或//视觉性//配合使用。
+**[/system:page-tags/tag/强迫性 强迫性]//(compulsion)//** - 强迫被影响对象做出某些行动，或做一些平时不会做的事的SCP。
+**[/system:page-tags/tag/电脑 电脑]//(computer)//** - 本身是电子计算机设备或者对其进行影响的SCP。应与//电子//或//机械//配合使用。取代//马造物品//及//家用物品//。
+**[/system:page-tags/tag/概念 概念]//(concept)//** - 本身是或会影响某种完全非实质的概念的SCP。不应和描述物理性质的标签一起使用。
+**[/system:page-tags/tag/传染性 传染性]//(contagion)//** - 本身是传染媒介，或表现出传染性扩散的SCP。能被//细菌//，//模因//或//病毒//取代。
+**[/system:page-tags/tag/容器 容器]//(container)//** - 能够托着或装着其他物质或物品的SCP，包括花瓶和其他类似的物体。取代//马造物品// 。
+**[/system:page-tags/tag/腐蚀性 腐蚀性]//(corrosive)//** - 具有腐蚀特性的SCP。
+**[/system:page-tags/tag/货币 货币]//(currency)//** - 本身是货币，与货币有关，能影响货币或能透过金钱或其他主要用来作交易媒介的对象激活的SCP。
+**[/system:page-tags/tag/晶体 晶体]//(crystalline)//** - 本身是晶体或表现出晶体特性的SCP。
+**[/system:page-tags/tag/立方体 立方体]//(cube)//** - SCP是立方体。应只用于整体是立方体或者完全由立方体组成的SCP，而不是用在只有一个或以上的组件是立方体的SCP。
+
++++ D-F
+
+**[/system:page-tags/tag/恐龙 恐龙]//(dinosaurian)//** - 是或与非鸟类的恐龙有关的SCP。
+**[/system:page-tags/tag/文件 文件]//(document)//** - 包括书籍在内的文件性SCP。
+**[/system:page-tags/tag/反熵 反熵]//(ectoentropic)//** - 违背第一和/或第二[http://zh.wikipedia.org/wiki/%E7%83%AD%E5%8A%9B%E5%AD%A6 热力学]定律的SCP，能够直接改变熵值，以无法解释的方式产生物质和/或能量。一般会与//超维度//相冲突。
+**[/system:page-tags/tag/电力 电力]//(electrical)//** - 产生、储存或者使用电力的SCP。
+**[/system:page-tags/tag/电磁 电磁]//(electromagnetic)//** - 产生或使用电磁能量或电磁场的SCP。
+**[/system:page-tags/tag/电子 电子]//(electronic)//** -本身是或类电子设备的SCP。
+**[/system:page-tags/tag/移情作用 移情作用]//(empathic)//** - 能够读取或传达感情或感受的SCP，与//心灵感应//有分别。
+**[/system:page-tags/tag/印刻 印刻]//(engraved)//** - 本身是或拥有印刻或雕刻的SCP。
+**[/system:page-tags/tag/熵 熵]//(entropic)//** - 本身是，带有熵的衰变特性或与熵的衰变相关的SCP。
+**[/system:page-tags/tag/交换 交换]//(exchange)//** - 涉及或通过某种形式的交换实体或无形的商品，包括但不限于以物易物和货币交易触发的SCP。
+**[/system:page-tags/tag/超维度 超维度]//(extradimensional)//** - 来自超维度，能跨维度地移动或传播，又或者能够进行/提供跨维度旅行的SCP。一般会与//反熵//相冲突。
+**[/system:page-tags/tag/星际 星际]//(extraterrestrial)//** - 起源于太空或者在太空中找到的 SCP， 又或者能够进行/提供星际旅行。
+**[/system:page-tags/tag/肢体 肢体]//(extremity)//** - 本身为或影响特定肢体的SCP。使用时不拘物种。
+**[/system:page-tags/tag/猫科 猫科]//(feline)//** - 本身为猫科或与猫科有关，或类猫动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/火 火]//(fire)//** - 由火组成，与火关联或者能促成燃烧过程的SCP。
+**[/system:page-tags/tag/食物 食物]//(food)//** - 主要作为一种可食用物体或物质的SCP。
+**[/system:page-tags/tag/蚂蚁 蚂蚁]//(formic)//** - 本身为蚂蚁或带有蚂蚁特性，或类蚂蚁动物的SCP。可以与//动物//或//昆虫//配合使用。
+**[/system:page-tags/tag/基金会制 基金会制]//(foundation-made)//** - 由SCP基金会本身有意无意地制造出来的SCP。要注意的是只有明确是因基金会作出的行为的直接结果而产生出来的项目才能算数。并不包括由于曝露于大量已收容异常下而在基金会站点中自然形成的现象。
+**[/system:page-tags/tag/真菌 真菌]//(fungus)//** - 本身是或拥有真菌特性的SCP
+**[/system:page-tags/tag/家具 家具]//(furniture)//** -本身是或类一件家具的SCP。
+**[/system:page-tags/tag/未来 未来]//(future)//** - 来自未来或以其他方式被暂时从较后的时间段移到较早时候的SCP。通常和//时间影响//配合使用。
+
++++ G-K
+
+**[/system:page-tags/tag/游戏 游戏]//(game)//** - 该SCP本身是一个游戏或者在游戏中使用，或者是通过游戏激活，或是与一个或以上的游戏有关的SCP，特指以技巧，力量或运气决定胜败的游玩或运动方式 -- 尤其带有竞争性的游戏。可以与//体育//配合使用。
+**[/system:page-tags/tag/气体 气体]//(gaseous)//** - 本身为气体或者会排出气体的SCP。
+**[/system:page-tags/tag/基因 基因]//(genetic)//** -和基因相关，或者其功能主要透过基因的编码和解码运作的SCP。
+**[/system:page-tags/tag/地质 地质]//(geological)//** - 属于自然地质结构(洞穴，悬崖，山脉，峡谷，火山等)或者影响其形成的SCP，又或者是重大地质性事件（地震，滑坡，地陷等）。能被//星球//所取代。
+**[/system:page-tags/tag/玻璃 玻璃]//(glass)//** - 主要或明显由玻璃构成的SCP。
+**[/system:page-tags/tag/重力影响 重力影响]//(gravity)//** - 影响重力或者受重力额外影响的SCP。
+**[/system:page-tags/tag/味觉影响 味觉影响]//(gustatory)//** - 影响味觉或者由味觉触发或激活的SCP。
+**[/system:page-tags/tag/幻觉 幻觉]//(hallucination)//** - 会使对象产生幻觉的SCP。通常会与//听觉影响//或//视觉性//配合使用。
+**[/system:page-tags/tag/历史性 历史性]//(historical)//** - 影响历史或者在历史事件中十分突出，或者有重大历史意义的SCP。
+**[/system:page-tags/tag/蜂巢意识 蜂巢意识]//(hive-mind)//** - 具有群体性思维特性的SCP。
+**[/system:page-tags/tag/敌意 敌意]//(hostile)//** - 对项目或马员展现出本能反应和掠食性为以外敌意的SCP。
+**[/system:page-tags/tag/人类 人类]//(human)//** - 本身是或与人类有关的SCP。
+**[/system:page-tags/tag/不可移动 不可移动]//(immobile)//** - 无法被基金会以任何已知手段移动的SCP。
+**[/system:page-tags/tag/不可摧毁 不可摧毁]//(indestructible)//** - 无法被基金会以任何已知手段摧毁的SCP。
+**[/system:page-tags/tag/信息危害 信息危害]//(infohazard)//** - 被描述或提及时，展现出危害的SCP。
+**[/system:page-tags/tag/互动性 互动性]//(interactive)//** - 具有要求用户输入或互动的SCP或是文章。
+**[/system:page-tags/tag/昆虫 昆虫]//(insect)//** - 本身是或与昆虫有关的SCP。（要注意蜘蛛**不是**昆虫，应标签为//蜘蛛//。）可以与//动物//配合使用。
+**[/system:page-tags/tag/题写 题写]//(inscribed)//** - 题写有铭文的SCP，通常以文字或数字的形式出现。能被//印刻//和//文件//取代。
+**[/system:page-tags/tag/铭文 铭文]//(inscription)//** - 以书写或者刻画的文字或数字形式存在的铭文SCP。
+**[/system:page-tags/tag/仪器 仪器]//(instrument)//** - 该SCP是用于精细测量或科学研究的器械。在主站使用同样标签的乐器及演奏器械应使用//乐器//标签。
+**[/system:page-tags/tag/无形 无形]//(intangible)//** - 无形的SCP，气体不包括在内。
+**[/system:page-tags/tag/无脊椎动物 无脊椎动物]//(invertebrate)//** - 拥有无脊椎动物特性或没有脊椎的动物SCP。能被专有的无脊椎动物标签，像//节肢动物//或//昆虫//所取代。
+**[/system:page-tags/tag/饰品 饰品]//(jewelry)//** - 主要以装饰目的穿戴在身的SCP物品。取代//马造物品//并与//衣物//相冲突。
+**[/system:page-tags/tag/k级情景 k级情景]//(k-class-scenario)//** - 涉及或能够触发一个或多个K级情景的SCP。只有在明确指出了一种K级情景命名的SCP项目中才能使用。
+**[/system:page-tags/tag/钥匙 钥匙]//(key)//** - 本身为标准的钥匙，或用来解开一个或以上的装置或容器的SCP。
+**[/system:page-tags/tag/知识 知识]//(knowledge)//** - 以异常方式拥有，吸收，储存，产生，给予知识或者知识本身为异常的SCP。包括能够进行准确预言的SCP。与//心灵感应//有分别。
+
++++ L-Me
+
+**[/system:page-tags/tag/语言 语言]//(language)//** - 传授或表现出异常语言的SCP。
+**[/system:page-tags/tag/鳞翅目 鳞翅目]//(lepidopteran)//** - 鳞翅目昆虫有关的蝴蝶蛾子一类SCP。可以与//活物//和//昆虫//配合使用。
+**[/system:page-tags/tag/兔类 兔类]//(leporine)//** - 本身为兔类或带有兔类特性，或类兔类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/光照影响 光照影响]//(light)//** - 透过可照光触发，激活，传播或与可见光存在与否有关的SCP。
+**[/system:page-tags/tag/液体 液体]//(liquid)//** - 本身是或者产生液体的SCP。
+**[/system:page-tags/tag/地点 地点]//(location)//** - 该SCP是独特的地理位置。能被//城市//取代。
+**[/system:page-tags/tag/循环 循环]//(loop)//** - 呈现或进行重复的循环活动的SCP。
+**[/system:page-tags/tag/磁性 磁性]//(magnetic)//** - 带有磁性或带有磁荷以及/或吸力特性的。
+**[/system:page-tags/tag/地图 地图]//(map)//** - 该SCP是一张地图，拥有地图，或以地图形式呈现出来的视觉表现。
+**[/system:page-tags/tag/数学性 数学性]//(mathematical)//** - 该SCP是，或会影响一个数字、数字系统、数学公式，或具有数学意义。
+**[/system:page-tags/tag/机械 机械]//(mechanical)//** - 本身是机械，或主要以机械的形式运行的SCP。能被//发条//所取代。
+**[/system:page-tags/tag/媒体 媒体]//(media)//** - 本身是，或储藏于一个或以上的的固定或可动仿真或数字媒体的SCP，包括磁带、唱片、光盘或硬盘等。取代//马造物品//。
+**[/system:page-tags/tag/医学性 医学性]//(medical)//** - 本身是或拟用作医疗装置，或具有病理以外的医学意义的SCP。
+**[/system:page-tags/tag/模因 模因]//(memetic)//** - 该SCP是模因媒介，或拥有[[[Understanding-Memetics|模因传播]]]的特性。取代//传染性//并与//认知危害//配合使用。
+**[/system:page-tags/tag/记忆影响 记忆影响]//(memory-affecting)//** - 给予，改变或删除有知觉存在，如马类对象的记忆的SCP。不同于//精神影响//。
+**[/system:page-tags/tag/meta meta]** - 该SCP影响文件或者被其文件影响，又或者其收容措施与其被记录的方式相关。
+**[/system:page-tags/tag/金属 金属]//(metallic)//** - 本身是金属，或完全或明显由金属或金属性质的物质构成的SCP。
+**[/system:page-tags/tag/形态改变 形态改变]//(metamorphic)//** - 该SCP会改变自身形状或形态，通常是为了模仿其他物品或实体的形态。与 //无定形//相冲突，通常用于描述“变形者”或“模仿者”。
+**[/system:page-tags/tag/气象 气象]//(meteorological)//** - 本身是或影响气象现象，或者受气象因素影响的SCP。
+
++++ Mi-O
+
+**[/system:page-tags/tag/微观 微观]//(microscopic)//** - 太细小所以裸眼无法观测的SCP。
+**[/system:page-tags/tag/军事 军事]//(military)//** - 本身是军队单位的军用装备，部件或成员之一，或具有军事意义的SCP。可以与//武器//配合使用。
+**[/system:page-tags/tag/拟态 拟态]//(mimetic)//** - 拥有异常拟态的SCP。可以与//听觉影响//、//形态改变//、//视觉性//或其他感官特性配合使用。
+**[/system:page-tags/tag/精神影响 精神影响]//(mind-affecting)//** - 能影响对象的思考，引导他们的行为以及整体智慧的SCP。不同于 //记忆影响//。
+**[/system:page-tags/tag/微型 微型]//(miniature)//** - 是对应物品的微缩版本的SCP。
+**[/system:page-tags/tag/异常移动 异常移动]//(mobile)//** - 能够以异常方式移动的SCP。一般只用于正常来说无法移动的项目或实体。不同于//传送//。
+**[/system:page-tags/tag/月球 月球]//(moon)//** - 属于、有关、或影响自然卫星或是月球（可能是或不是我们星球的月球）的SCP。合适的话与//卫星//配合使用。
+**[/system:page-tags/tag/鼠类 鼠类]//(murine)//** - 本身为鼠类或带有鼠类特性，或类鼠类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/音乐性 音乐性]//(musical)//** - 本身为音乐，创造音乐，或透过音乐创作产生的SCP。能完全取代//艺术性//。
+**[/system:page-tags/tag/叙述性 叙述性]//(narrative)//** - 本身是叙述性信息或文件，或与其有关或透过叙述性信息或文件传播的SCP。
+**[/system:page-tags/tag/神经性 神经性]//(neurological)//** - 直接或间接影响对象神经系统的SCP，必须是在这一影响确定，只是单纯改变对象的行为的情况下才可使用。不同于//精神影响//。
+**[/system:page-tags/tag/夜间活动 夜间活动]//(nocturnal)//** - 在夜间触发或激活，或其他只能在夜晚活跃的SCP。
+**[/system:page-tags/tag/观察影响 观察影响]//(observational)//** - 能被直接或间接观察引发或压制某些特质的SCP。这些特性可能也是//认知危害//。
+**[/system:page-tags/tag/眼睛 眼睛]//(ocular)//** - 与眼睛关联，相似或者影响眼睛的SCP。
+**[/system:page-tags/tag/嗅觉影响 嗅觉影响]//(olfactory)//** - 散发出异常味道的，透过嗅觉传播或者影响嗅觉的SCP。
+**[/system:page-tags/tag/杂食性 杂食性]//(omnivorous)//** - 拥有杂食性特性的SCP。
+**[/system:page-tags/tag/线上 线上]//(online)//** - 能接上，依赖或利用互联网的SCP。可以与//电脑//或//电子//配合使用。
+**[/system:page-tags/tag/本质促动 本质促动]//(ontokinetic)//** - 能通过异常方式操纵现实（即“现实扭曲”）的SCP，取代//反熵//。
+**[/system:page-tags/tag/蛇类 蛇类]//(ophidian)//** -本身为蛇类或带有蛇类特性，或类蛇类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/有机 有机]//(organic)//** - 具有有机体性质或以有机体构成的SCP。
+**[/system:page-tags/tag/羊类 羊类]//(ovine)//** - 本身为羊类或带有羊类特性，或类羊类动物的SCP。可以与//动物//配合使用。
+
++++ P-R
+
+**[/system:page-tags/tag/悖论 悖论]//(paradox)//** - 制造、出现或涉及矛盾的活动或状况的SCP。
+**[/system:page-tags/tag/寄生性 寄生性]//(parasitic)//** - 表现出寄生或寄生生物特性的SCP。
+**[/system:page-tags/tag/表演 表演]//(performance)//** - 作为或用于表演艺术的SCP，像舞蹈或演出。
+**[/system:page-tags/tag/相啸魔 相啸魔]//(pattern-screamer)//** - 是或与相啸魔有关的SCP。
+**[/system:page-tags/tag/摄像 摄像]//(photographic)//** - 作为处理摄像或是相片为主要异常一部分的SCP。
+**[/system:page-tags/tag/反物理定律 反物理定律]//(physics)//** - 影响或者违背特定物理定律的SCP。一般可以被//反熵//、//电力//、//磁性//等所取代。
+**[/system:page-tags/tag/鱼类 鱼类]//(piscine)//** - 本身为鱼类或带有鱼类特性，或类鱼类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/植物 植物]//(plant)//** - 拥有植物特性的SCP。
+**[/system:page-tags/tag/星球 星球]//(planet)//** - 本身是，类似或影响一颗星球的SCP，未必是我们身处的星球。
+**[/system:page-tags/tag/多面体 多面体]//(polyhedral)//** - 本身为多面体或具有平面和直边的三维形状的SCP。能被//立方体//所取代。
+**[/system:page-tags/tag/门径 门径]//(portal)//** - 本身是一个开口或表现出不一致连通性的门径的SCP。通常与//超维度//和//时空//配合使用。
+**[/system:page-tags/tag/马形生物 马形生物]//(ponyoid)//** - 该SCP是马形生物，或拥有马形生物的特性。
+**[/system:page-tags/tag/掠食性 掠食性]//(predatory)//** - 拥有掠食性行为的SCP。
+**[/system:page-tags/tag/预测性 预测性]//(predictive)//** - 能够传达资信或行为表现出预测性的SCP。一般取代//知识//。
+**[/system:page-tags/tag/概率性 概率性]//(probability)//** - 能更改或操纵某些活动或结果的概率的SCP。
+**[/system:page-tags/tag/放射性 放射性]//(radioactive)//** - 释放辐射或造成放射性影响的SCP。
+**[/system:page-tags/tag/蛙类 蛙类]//(ranine)//** -本身为蛙类或带有蛙类特性，或类蛙类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/复活 复活]//(reanimation)//** - 自身具有从临床死亡中复活的特性或者能使其他对象复活的SCP，不管是整体或部份。
+**[/system:page-tags/tag/记录 记录]//(recording)//** - 本身是或包含音频或图像记录的SCP。不同于//媒体//。
+**[/system:page-tags/tag/宗教 宗教]//(religious)//** - 与一个或以上的宗教有关或具有重要意义的SCP。
+**[/system:page-tags/tag/生殖性 生殖性]//(reproductive)//** - 以异常效应影响生殖过程（包括马类）的SCP，以及具有//自我复制//、//寄生//以外的异常生殖特性的SCP。
+**[/system:page-tags/tag/爬行类动物 爬行类动物]//(reptilian)//** - 本身为爬行类或带有爬行类特性，或类爬行类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/仪式性 仪式性]//(ritual)//** - 通过仪式性行为触发或激活的SCP。
+
++++ S
+
+**[/system:page-tags/tag/智能 智能]//(sapient)//** - 具有智能（像拥有把握哲学概念的能力）特性的SCP。经常但不一定与//感知力//配合使用。
+**[/system:page-tags/tag/卫星 卫星]//(satellite)//** - 环绕星体的天然或马造卫星的SCP。
+**[/system:page-tags/tag/松鼠 松鼠]//(sciurine)//** - 本身为松鼠或带有松鼠特性，或类松鼠动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/雕塑 雕塑]//(sculpture)//** - 该SCP为三维的艺术作品。该项目需已成型、被雕刻或被模塑才能被视为//雕塑//。取代//艺术性//并能完全被//雕像//取代。
+**[/system:page-tags/tag/鲨鱼 鲨鱼]//(selachian)//** - 本身为鲨鱼或带有鲨鱼特性，或类松鲨鱼动物的SCP。同时包括鳐鱼及魟鱼。必须配合//鱼类//使用，可以与//动物//配合使用。
+**[/system:page-tags/tag/自我修复 自我修复]//(self-repairing)//** - 展现了异常的自我修复能力的SCP。
+**[/system:page-tags/tag/自我复制 自我复制]//(self-replicating)//** - SCP通过生殖以外的方式进行异常复制。
+**[/system:page-tags/tag/感知影响 感知影响]//(sensory)//** - 影响感知的SCP。通常与//听觉影响//，//味觉影响//，//嗅觉影响//，//触觉影响//，与/或//视觉性//配合使用。
+**[/system:page-tags/tag/感知力 感知力]//(sentient)//** - 拥有感知能力，包括自我意识和认以及演绎等的SCP。
+**[/system:page-tags/tag/性 性]//(sexual)//** - 带有或会影响性器官，性行为，或与性相关概念的SCP。
+**[/system:page-tags/tag/阴影 阴影]//(shadow)//** - 受对象的阴影激活或被影响的SCP。
+**[/system:page-tags/tag/猿类 猿类]//(simian)//** -本身为猿类或带有猿类特性，或类猿类动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/骨骼 骨骼]//(skeletal)//** -由骨骼组成或者影响骨骼的SCP。“骷髅”被定义为一个由多细胞生物体结构支撑的组织，并包括骨骼和软骨。
+**[/system:page-tags/tag/睡眠 睡眠]//(sleep)//** - 与被影响对象的睡眠活动相关的SCP。
+**[/system:page-tags/tag/时空 时空]//(spacetime)//** - 能翘曲时空，或者违背或影响时空定律的SCP。
+**[/system:page-tags/tag/种群 种群]//(species)//** - 该SCP涵盖整个种群，并非一个或多个个体。根据基金会的世界观，只有当该SCP是活物，能进行生殖且保持其异常性质的情况下才能使用此标签。
+**[/system:page-tags/tag/球体 球体]//(sphere)//** - 球形的SCP。只用于整体是球体或者完全由球体组成时使用而不是用在只有一个或以上的组件是球体的SCP。
+**[/system:page-tags/tag/体育 体育]//(sport)//** - 本身是体育活动，或透过体育活动激活，或和一个或多个体育活动有关的SCP。体育活动即涉及体力消耗以及一个或多个个体对抗其他个体或团队的技巧的活动。 体育活动本身应与//游戏//配合使用，而特别或专门用于体育活动的装备或器械可以与//衣服//或//工具//配合使用。
+**[/system:page-tags/tag/雕像 雕像]//(statue)//** - 该SCP是或曾是一尊雕像。雕像指能独自站立的全身马型或动物//雕塑//。 //雕像// 能完全取代//雕塑//；而且不应同时使用这两个标签。
+**[/system:page-tags/tag/石质 石质]//(stone)//** - 主要由以泥土和矿物质组成的石头或岩石组成的SCP。
+**[/system:page-tags/tag/建筑 建筑]//(structure)//** - 不供马类活动的天然或马工建筑SCP。在中文Wiki中此标签与//building//合并。
+**[/system:page-tags/tag/地下 地下]//(subterranean)//** - 位于地球地表以下或于地下运作的SCP。不包括为安全和方便起见而单纯收容于地下的项目。
+**[/system:page-tags/tag/恒星 恒星]//(sun)//** - 本身是一颗恒星或者与恒星关联或能影响恒星的SCP。
+**[/system:page-tags/tag/群体性 群体性]//(swarm)//** - 具有群体性行为的SCP。
+
++++ T-X
+
+**[/system:page-tags/tag/触觉影响 触觉影响]//(tactile)//** -由触觉触发或激活，或者能影响触觉的SCP。要注意此标签特指触觉，并非单指能透过碰触什么东西激活的东西。
+**[/system:page-tags/tag/隔地促动 隔地促动]//(telekinetic)//** - 能以异常方式操纵物体，或产生或影响反应的SCP。
+**[/system:page-tags/tag/心灵感应 心灵感应]//(telepathic)//** - 能透过异常方式传递信息的SCP
+**[/system:page-tags/tag/传送 传送]//(teleportation)//** - 能够在不占据两地之间的空间移动，或能透过不进行正常移动的特殊方式位移自身的SCP。
+**[/system:page-tags/tag/时间影响 时间影响]//(temporal)//** - 影响时间或者与时间流逝相关的SCP。
+**[/system:page-tags/tag/热量影响 热量影响]//(thermal)//** - 受温度改变影响或者通过其传播的SCP。
+**[/system:page-tags/tag/热力学 热力学]//(thermodynamic)//** - 影响或者明显与热力学定律相关的SCP。取代 //反物理定律//。
+**[/system:page-tags/tag/时钟 时钟]//(timepiece)//** - 该SCP是，或其主要部分是一个测量时间的仪器或机械，如闹钟、日晷、手表等。取代//马造物品//并可以与//发条//或//机械//配合使用。
+**[/system:page-tags/tag/工具 工具]//(tool)//** - 本身是，或主要作为工具之用的SCP。取代//马造物品//。
+**[/system:page-tags/tag/毒性 毒性]//(toxic)//** - 会在对象体内诱发化学毒性的SCP。
+**[/system:page-tags/tag/玩具 玩具]//(toy)//** - 本身是，或主要作为玩具之用的SCP。取代//马造物品//。
+**[/system:page-tags/tag/变形 变形]//(transfiguration)//** - 能以异常方式改变受影响物的形状的SCP。
+**[/system:page-tags/tag/通讯 通讯]//(transmission)//** - 透过无线电波或其他电磁波方式传递信息的SCP。
+**[/system:page-tags/tag/未收容 未收容]//(uncontained)//** - 部分或完全未收容的SCP。只适用于尚未收容所有实体的SCP，并不适用于基金会成功收容了一些个体的情况。
+**[/system:page-tags/tag/熊类 熊类]//(ursine)//** -本身为熊类或带有熊类特性，或类熊类动物的SCP。应与//动物//配合使用。
+**[/system:page-tags/tag/载具 载具]//(vehicle)//** - 本身是，或主要作为交通工具之用的SCP。取代//马造物品//。
+**[/system:page-tags/tag/蠕虫 蠕虫]//(vermian)//** - 本身为蠕虫或带有蠕虫特性，或类蠕虫动物的SCP。应与//动物//配合使用。
+**[/system:page-tags/tag/震动 震动]//(vibration)//** - 产生异常震动或其他重复运动的SCP。不同于//声音//。
+**[/system:page-tags/tag/病毒 病毒]//(virus)//** - 拥有病毒原体特性的SCP。与//生物性//或//电脑//配合使用。取代//传染性//。
+**[/system:page-tags/tag/视觉性 视觉性]//(visual)//** - 由视觉触发或者影响视觉的SCP。通常与//认知危害//或//感知影响//配合使用。
+**[/system:page-tags/tag/狐狸 狐狸]//(vulpine)//** - 本身为狐狸或带有狐狸特性，或类狐狸动物的SCP。可以与//动物//配合使用。
+**[/system:page-tags/tag/武器 武器]//(weapon)//** - 本身是，或主要作为武器之用的SCP。取代//马造物品//。
+**[/system:page-tags/tag/木质 木质]//(wooden)//** - 由木头或者类似木头材料构成的SCP，不能用于形容活的植物。
+**[/system:page-tags/tag/异关节目 异关节目]//(xenarthran)//** - 本身为异关节目或带有异关节目特性的SCP，包括食蚁兽、犰狳和树懒。可以与//动物//配合使用。
+[[/tab]]
+[[tab 小马国分部专用标签]]
+++ 小马国分部专用标签
+
+这些标签是SCP基金会小马国分部特有并专用的标签，总部并没有这些标签。
+
++++ 主要标签
+
+**[/system:page-tags/tag/条目 条目]//(entry)//** - 在所有的数据库条目项目页面使用的标签，包括SCP项目、文档等。
+**[/system:page-tags/tag/来自总部 来自总部]//(from-headquarters)//** - 来自基金会总部的文档。与//条目//配合使用。
+**[/system:page-tags/tag/讲座 讲座]//(lecture)//** - 讲座的抄录、转写等。与//条目//和//文章//配合使用，部分情况可与//研究//配合使用。
+**[/system:page-tags/tag/研究 研究]//(research)//** - 研究的独立成果报告，包含综述、论文、讲座等。与//条目//和//文章//配合使用，部分情况可与//讲座//配合使用。
+**[/system:page-tags/tag/推荐 推荐]//(recommended)//** - 被指定为推荐文档的文档会由管理马员加上这一标签。这些具有此标签的文档被认为拥有良好的格式与内容，并被推荐给所有员工阅读。建议新入职的员工通过阅读这些文档，在实际体验中了解基金会文档的写作风格与内容格式。请注意：该标签只能由管理马员或得到管理马员授权的马员添加在被评选推荐文档的文档中，私自在文档中添加该标签可能受到惩罚。
+**[/system:page-tags/tag/成马内容 成马内容]//(mature-contents)//** - 含有不适于未成年马匹阅读的内容的文档会由管理马员或作者添加该标签。具有此标签的文档被认为含有不适于未成年马匹阅读的内容，例如对性行为的非学术化描写、露骨且极为血腥的暴力行为等。取代//成人内容//。
+
++++ 特性标签
+
+**[/system:page-tags/tag/幻型灵 幻型灵]//(changelings)//** - 与幻型灵相关的SCP，与//昆虫//及//无脊椎动物//冲突。
+**[/system:page-tags/tag/斑马 斑马]//(zebra)//** - 与斑马相关的SCP，应与//马形生物//配合使用，与//动物//冲突。
+**[/system:page-tags/tag/亚克 亚克]//(yak)//** - 与亚克牦牛相关的SCP，与//牛类//及//动物//冲突。
+**[/system:page-tags/tag/鹰马 鹰马]//(hippogriff)//** - 与鹰马相关的SCP，与//鸟类//及//鱼类//冲突。
+**[/system:page-tags/tag/狮鹫 狮鹫]//(griffin)//** - 与狮鹫和/或狮鹫政权相关的SCP，与//鸟类//冲突。
+**[/system:page-tags/tag/龙 龙]//(dragon)//** - 与龙相关的SCP。
+**[/system:page-tags/tag/野牛 野牛]//(buffalo)//** - 与苹果鲁萨野牛相关的SCP，与//牛类//及//动物//冲突。
+**[/system:page-tags/tag/钻石狗 钻石狗]//(diamond-dogs)//** - 与钻石狗相关的SCP，与//犬类//及//动物//冲突。
+**[/system:page-tags/tag/驴 驴]//(donkey)//** - 与驴和骡子相关的SCP，应与//马形生物//配合使用，与//动物//冲突。
+**[/system:page-tags/tag/海妖 海妖]//(siren)//** - 与海妖相关的SCP，可以与//水生//配合使用。
+**[/system:page-tags/tag/麒麟 麒麟]//(kirin)//** - 与麒麟相关的SCP，应与//马形生物//配合使用，与//动物//冲突。
+**[/system:page-tags/tag/马造物品 马造物品]//(artifact)//** - 代替//人造物品//。
+**[/system:page-tags/tag/机器马 机器马]//(automation)//** - 代替//机器人//。
+**[/system:page-tags/tag/超形上学 超形上学]//(pataphysic)//**-该SCP具有叙事性，或者与上层叙事等超形上学性质相关。建议与//叙事者//配合使用。
+**[/system:page-tags/tag/叙事者 叙事者]//(authorcharacter)//** - 该SCP具有极为严重的超形上学性质。建议与//超形上学//和/或//meta//配合使用。
+**[/system:page-tags/小马国魔法 小马国魔法]//(equestria-magic)//**-该SCP和小马国当地的魔法体系相关。通常与//人类奇术//冲突。详情请参考[[[foundation-thaumaturgy-hub|]]]。
+**[/system:page-tags/人类奇术 人类奇术]//(humans-thaumatology)//**-SCP和人类的奇术体系（即基金会总部所在区域的奇术体系）相关。通常与//小马国魔法//冲突。详情请参考[[[foundation-thaumaturgy-hub|]]]。
+**[/system:page-tags/tag/标签名字 魔法异常]//(anomaly-of-magic)//** - 违背了小马国魔法学以及人类奇术学理论的SCP。通常与//人类奇术//和//小马国魔法//冲突。详情请参考[[[foundation-thaumaturgy-hub|]]]。
+[[/tab]]
+[[/tabview]]

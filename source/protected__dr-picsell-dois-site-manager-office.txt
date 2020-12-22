@@ -1,0 +1,825 @@
+[[module css]]
+@import url(http://scp-eq-draftsvc.wikidot.com/component:metro-design-theme/code/1);
+
+/* HEADER */
+#header {
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 30px; /* FOR MENU */
+    background: url(http://scp-equestria.wdfiles.com/local--files/site-eq-25/SITE-EQ-25-FIN-Transp-100px.png) 10px 40px no-repeat;
+}
+ 
+#header h1 a {
+    display: block;
+    content: "Site-EQ-25";
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0px;
+    max-height: 0px;
+    color: transparent;
+    background: transparent;
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    font-size: 150%;
+    text-decoration: none;
+    text-shadow: none;
+}
+ 
+#header h1 a::before {
+    content: "站点主管办公室";
+    color: #ffffff;
+}
+ 
+#header h1 a span{
+    display: block;
+    content: "";
+    visibility: hidden;
+}
+ 
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+#header h2 span::before {
+    content: "Site-EQ-25";
+    display: block;
+    margin: 0;
+    padding: 0px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* For FireFox */
+@-moz-document url-prefix() {
+.emph {
+    /* For the environments which comply with CSS3. */
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    background-image: url(http://www.scp-wiki.net/local--files/component%3Atheme/dot.png), none;
+    background-repeat: repeat-x;
+    padding: 0.5em 0 0;
+    background-color:transparent;
+    background-clip: padding-box, content-box;
+    background-size: 1em 1.3em, auto;
+}
+}
+ 
+/* For IE10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.emph {
+    /* For the environments which comply with CSS3. */
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    background-image: url(http://www.scp-wiki.net/local--files/component%3Atheme/dot.png), none;
+    background-repeat: repeat-x;
+    padding: 0.5em 0 0;
+    background-color:transparent;
+    background-clip: padding-box, content-box;
+    background-size: 1em 1.3em, auto;
+}
+}
+ 
+/* viewport */
+ 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* IE viewport */
+@-ms-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* opera viewport */
+@-o-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* chrome viewport - maybe it isn't work... */
+@-webkit-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* firefox viewport - maybe it isn't work too... */
+@-moz-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* webkit scrollbar */
+::-webkit-scrollbar
+{
+    width: 9px;    /* for vertical scrollbars */
+    height: 9px; /* for horizontal scrollbars */
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-round: 0.5px;
+}
+ 
+::-webkit-scrollbar-track
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+ 
+::-webkit-scrollbar-thumb
+{
+    background: rgba(50, 50, 50, 0.3);
+}
+ 
+.page-source {
+word-break: break-all;
+}
+ 
+/* Responsive Web Design */
+img, embed, video, object, iframe, table {
+    max-width: 100%;
+}
+ 
+#page-content div, #page-content div table {
+    max-width: 100%;
+}
+ 
+#edit-page-comments {
+    width: 100%;
+}
+ 
+/* basic Query for mobile devices */
+ 
+@media (max-width: 767px) {
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div a.btn-primary {
+    width: 100%;
+    float: left;
+}
+ 
+span, a {
+word-break: break-all;
+}
+}
+ 
+/* Mobile Media Query */
+@media (max-width: 479px) {
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+#header h1 a {
+    font-size: 100%;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+ 
+#header {
+    background-position: 0 5.5em;
+    background-size: 55px 55px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+ 
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) {
+/*
+#search-top-box-input {
+    width: 7em;
+}
+*/
+ 
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+#header h1 a {
+    font-size: 120%;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header {
+    background-position: 0.5em 4.5em;
+    background-size: 66px 66px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) {
+/*
+#search-top-box-input {
+    width: 8em;
+}
+*/
+ 
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+#header h1 a {
+    font-size: 140%;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 77px 77px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 1240px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+#header h1 a {
+    font-size: 160%;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 88px 88px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: #e0e0e0;
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;f
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.1) 1px 1px repeat;
+    z-index: -1;
+}
+[[/module]]
+
+[[module css]]
+.side-block .menu-item > .image {
+    filter: hue-rotate(-155deg);
+}
+#side-bar .collapsible-block-folded {
+    background-image: none;
+}
+[[/module]]
+
+[[module css]]
+.toast {
+   background: #ffffff;
+   border: 0;
+   box-shadow: 0 4.5px 10px rgba(0,0,0,.5);
+   width: 100%;
+   padding: 10px;
+}
+
+.toast:hover {
+   background: #ffffff;
+   border: 0;
+   box-shadow: 0 4.5px 10px rgba(0,0,0,.75);
+   width: 100%;
+   padding: 10px;
+}
+[[/module]]
+
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[module CSS]]
+.content-panel .content-type-title > p {
+  margin: 0;
+}
+.content-panel .content-type-title {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: #666;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.8),
+    inset 0 15px 1px rgba(255,255,255,.2),
+    inset 0 15px 10px rgba(255,255,255,.2);
+}
+.content-panel .content-type-description {
+padding: 0 20px;
+text-align: justify;
+}
+.content-panel.content-row .content-type-description {
+padding: 5px 20px;
+}
+.content-panel.content-row .content-type-description-2 {
+padding: 0 20px;
+text-align: justify;
+}
+
+td.wanderers img.wanderers {
+display: block !important;
+width: 16px;
+height: 11px;
+box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+[[/module]]
+
+[[=]]
+蹄声回荡在Site-EQ-25空旷而悠长的回廊之中，你在一扇朴素的铁门前站定，这门和周围的门没什么区别。
+
+不等你的动作，那门兀自开了，露出一间朴素的办公室。
+
+一张纸片飘落在地上。
+[[/=]]
+
+> 不论您为何造访，都先欢迎您的光临。办公室里有热水和茶，如果需要的话请随意取用。
+> 
+> 这里有些资料并没有加上安保，您也大可随意翻阅，但是请不要随意涂改或做出超越您职权的事情。毕竟，基金会的律令，是谁都知道的。
+> 
+> //祝好//
+> //Dr.Picsell Dois 敬上//
+
+[[div class="content-panel centered standalone" ]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+
+++ 办公桌上的文件
+
+[[tabview]]
+[[tab 没有标签的页面]]
+[[module ListPages category="_default" separate="no" tags="-" perPage="50" order="name" prependLine="||~ 页面名称 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% ||  [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 没有分级的SCP文档]]
+[[module ListPages category="*" separate="no" tags="+scp -safe -euclid -keter -无效化 -机密分级 -已解明 -搞笑 -thaumiel -待删除" perPage="50" order="name" prependLine="||~ 页面名称 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 有分级但没有"SCP"标签的文档]]
+[[module ListPages category="*" parent="-" separate="no" tags="safe euclid keter 机密分级 无效化 已解明 被废除 搞笑 -scp -文章 -待删除" perPage="50" order="name" prependLine="||~ 页面名称 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 已进入删除序列页面]]
+[[module ListPages category="-fragment" separate="no" tags="待删除" perPage="50" order="ratingAsc" prependLine="||~ 页面名称 ||~ 评分 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% || %%rating%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 应进入删除序列页面]]
+[[module ListPages category="-fragment" separate="no" perPage="50" order="ratingAsc" rating="<=-2" prependLine="||~ 页面名称 ||~ 评分 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% || %%rating%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 应移出删除序列页面]]
+[[module ListPages category="-fragment" separate="no" tags="待删除" perPage="50" order="ratingAsc" rating=">-2" prependLine="||~ 页面名称 ||~ 评分 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% || %%rating%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 较低分页面（仅条目）]]
+[[module ListPages category="-fragment" separate="no" tags="条目 -来自总部" perPage="50" order="ratingAsc" rating="<=0" prependLine="||~ 页面名称 ||~ 评分 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% || %%rating%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 较低分页面（所有）]]
+[[module ListPages category="-fragment" separate="no" tags="-来自总部" perPage="50" order="ratingAsc" rating="<=0" prependLine="||~ 页面名称 ||~ 评分 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% || %%rating%% || [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 隐藏的页面]]
+[[module ListPages pagetype="hidden" category="*" separate="no" perPage="50" order="name" prependLine="||~ 页面名称 ||~ 作者 ||~ 创建日期 ||"]]
+|| %%title_linked%% ||  [[user %%created_by%%]] || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 所有条目]]
+[[module ListPages category="*" tags="条目" separate="no" perPage="50" order="rating desc" prependLine="||~ 页面名称 ||~ 作者 ||~ 评分 ||~ 讨论数 ||~ 创建日期 ||"]]
+|| %%title_linked%% ||  [[user %%created_by%%]] || %%rating%% || %%comments%% || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 来自总部的文档]]
+[[module ListPages category="*" separate="no" perPage="50" tags="来自总部" order="name" prependLine="||~ 页面名称 ||~ 创建日期 ||"]]
+|| %%title_linked%% || %%created_at%% ||
+[[/module]]
+[[/tab]]
+
+[[tab 孤立页面]]
+[[module OrphanedPages]]
+[[/tab]]
+
+[[tab 待创建页面]]
+[[module WantedPages]]
+[[/tab]]
+[[/tabview]]
+
+++ 电脑的屏幕
+
+[[tabview]]
+[[tab 最近的更新]]
+[[module SiteChanges]] 
+[[/tab]]
+
+[[tab 最近发表的帖子]]
+[[module RecentPosts]]
+[[/tab]]
+
+[[tab 最近新增的条目]]
+[[module ListPages category="*" order="created_at desc" prependLine="[[include component:listpages-table]]" perPage="30" appendLine="[[/table]]" category="*" separate="false" tag="+条目 -段落 -来自总部"]]
+[[row]]
+[[cell style="vertical-align: top;"]]
+%%title_linked%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: center;"]]
+%%created_at%%
+[[/cell]]
+[[cell style="vertical-align: top; text-align: center;"]]
+%%rating%%
+[[/cell]]
+[[/row]]
+[[/module]]
+[[/tab]]
+
+[[tab 所有页面分类]]
+[[module Categories includehidden="true"]]
+[[/tab]]
+
+[[tab 倒计时工具]]
+[*http://aelanna.com/Tools/deletion-time.html 倒计时工具]
+[*http://pc-dos.scp-eq.org/local--files/scp-wiki-deletion-time-tool/deletion-time.html 倒计时工具（镜像）]
+[*http://home.helenbot.com/tools/timerSelector.html 新款倒计时工具]
+
+-----
+
+删帖公报格式：
+
+**评分委员会通报**
+
+[[code]]
+由于该条目评分到达-2，该条目将在3天后被删除，如果评分重新大于-2，则该指令废止。
+
+预计的删除时间: XXXX年XX月XX日 YY:YY:YY
+
+如果您想要重写该条目，请与站点负责马或管理马联系。
+
+[[iframe http://aelanna.com/Tools/deletion-time.html?timestamp=1536825961839&type=0 style="width: 400px; height: 50px;"]]
+[[/code]]
+[[/tab]]
+[[/tabview]]

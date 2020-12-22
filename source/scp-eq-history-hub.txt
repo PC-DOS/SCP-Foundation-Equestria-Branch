@@ -1,0 +1,150 @@
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[!-- 英文用 --]
+[[module css]]
+.page-en {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+    font-size: 125%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.page-en p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[!-- 中文用 --]
+[[module css]]
+.page-cn {
+    display: block;
+    overflow: hidden;
+    font-family: DFKai-SB,Kaiti,SimSun,"Microsoft YaHei UI Light";
+    [!-- *font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;* --]
+    font-style: normal;
+    font-size: 125%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.page-cn p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[[div class="content-panel centered standalone" style="font-size:50%;background-color:rgb(100,50,0)"]]
+@@ @@
+[[=]]
+[[image Header_New_Comp.jpg style="width:95%"]]
+[[/=]]
+@@ @@
+[[/div]]
+
+[[div class="content-panel centered standalone"]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+
+[[div class="page-cn"]]
+[[=]]
+//翻开被刻意隐匿的书页//
+@@ @@
+//恐惧的暗流涌动于平静的幻梦//
+@@ @@
+//晦暗的故事埋葬于无名彼方//
+@@ @@
+//一切可曾会天日昭昭//
+@@ @@
+//当音律的琴弦被无情断绞//
+@@ @@
+//那未闻的历史正如黑月般号啕//
+@@ @@
+//和谐的华光是这样代价高昂//
+@@ @@
+//远离那深渊，不要去凝想//
+[[/=]]
+[[>]]
+——佚名，《无题》，摘自《███编年史·序》
+[[/>]]
+[[/div]]
+[[=]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[size 125%]]是谁，在这无所有之时，叩响那巉岩？[[/size]]
+@@@@
+@@@@
+[[size 125%]]唔……是稀客呢……在这时节前来这故纸堆，想必也是耽于求索呢……[[/size]]
+@@@@
+@@@@
+[[size 125%]]至于我是谁呢……呵呵……不过是守着这些将腐的文字，与它们一并灭去罢了……[[/size]]
+@@@@
+@@@@
+[[size 125%]]不过啊……若是真要翻动那些破纸烂简的……还是莫忘了丢下那些您以为真实的东西哦……[[/size]]
+@@@@
+@@@@
+[[size 125%]]只是啊……据我所知……那老纸堆里，也有些虚伪不实的文饰呢……[[/size]]
+@@@@
+@@@@
+@@@@
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+[[size 150%]]那，唤作%%title%%的行旅者啊，且随我来吧……[[/size]]
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+[[size 150%]]那，欲往暗穴深处去的行旅者啊，且随我来吧……[[/size]]
+[[/div]]
+[[/div]]
+[[/=]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div class="content-panel centered standalone"]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+@@@@
+@@@@
+[[=]]
+[[size 125%]]便是此地，且随意捡些破烂纸来看看吧……[[/size]]
+[[/=]]
+[[div class="content-panel standalone series"]]
+[[[scp-eq-history-unknown-notes | 观□□录摘 ]]]
+[[[scp-eq-history-rti-hub | 《趋增精神错乱》系列：谐律元素的陨落 ]]]
+[[/div]]

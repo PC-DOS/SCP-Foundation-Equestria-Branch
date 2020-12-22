@@ -1,0 +1,333 @@
+[[module CSS]]
+.fake-blackbar-black {
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 12px;
+color: #333;
+line-height: 141%;
+background: #333;
+}
+.fake-blackbar-black:hover {
+color: #FFF;
+}
+.fake-blackbar-transp {
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 12px;
+color: #333;
+line-height: 141%;
+background: #333;
+}
+.fake-blackbar-transp:hover {
+color: transparent;
+}
+
+
+[[/module]]
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+[[size 125%]]**项目编号：**SCP-EQ-069[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**4级**##[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[size 125%]]**项目等级：**Safe[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]###990000|**机密**##[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+[[tabview]]
+[[tab 档案EQ0-069-C]]
+**特殊收容措施：**描述该异常性质的文档应作为标准机密文档储存，该异常性质的任何描述受到4级保密措施保护；任何涉及该异常且尚未出版的出版物应阻止其出版，已出版的出版物由##darkred|MTF-忠诚-02“惊奇闪电”##进行回收并掩盖出版记录，并对所有书籍持有者施以三级记忆删除；有关异常的多种非事实性传闻经由##darkred|MTF-忠诚-05“失色彩虹”##施行散布，包括白胡子魔法说，CM影响说等，以掩盖真实异常性质或混淆大众视听。
+
+**描述：**SCP-EQ-069-1和SCP-EQ-069-2为两匹受EQ-069异常性质影响的小马，其名字分别为[数据删除]及[数据删除]，[[span class="fake-blackbar-black"]]目前EQ-069-1与EQ-069-2作为O5任职于基金会[[/span]]。
+EQ-069的异常性质仅确定在EQ-069-1与EQ-069-2身上显现，尚未发现其他受异常效应影响的小马个体。
+该异常并非奇术或魔法所致，而是受到未知异常效应的影响。
+异常影响发生时，受影响对象将被明亮的光芒包围，光芒消散后，初级异常效应就已经显现。
+对象无论此前生理结构如何，受影响后必定获得角和翅膀，
+二级异常效应在异常发生后的两周内发生，使对象发生二次发育，导致身高、翅展与角长远大于正常陆马、天马与独角兽。
+三级异常效应为鬓毛的不自然飘动，不受风向与风力大小影响，鬓毛的理化性质与一般鬓毛无异，尚未在鬓毛中发现奇术效应，脱离个体的鬓毛将失去异常效应。
+
+**附录：**
+##darkred|访谈记录069-1-1##
+> **受访者：**SCP-EQ-069-1
+>
+> **采访者：**研究助理Ly████
+>
+> **前言：**对异常发生时的情况进行基本了解，受访者对访谈十分配合。
+>
+> **<记录开始>**
+>
+> **研究助理Ly████：**您...您好。
+>
+> **SCP-EQ-069-1：**不要紧张，放轻松，就把这当做一次标准的访谈。
+>
+> **研究助理Ly████：**好...好的，感谢您能抽出时间来接受我的访谈，冒犯了。[查看访谈计划]您与您的妹妹受到异常影响是在什么时间发生的？
+>
+> **SCP-EQ-069-1：**那是在马历[数据删除]年，异常性质在我尝试[数据删除]成功后不超过两秒种的时间内显现，与我的可爱标记同时出现。而我的妹妹则是在我受到异常性质影响后的当天晚上，距我受到异常性质影响只有不到30分钟。
+>
+> **研究助理Ly████：**那么...您当时有什么感觉？
+>
+> **SCP-EQ-069-1：**我感觉到有一道庞大的的魔力流向我的角和身体各处，以及我当时并未得到的翅膀，虽然那时我尚未获得翅膀，但我已经能感受到它。当我尝试挥动翅膀时，它们已经在我的身体上了。
+>
+> **研究助理Ly████：**您能描述一下您的妹妹受到异常效应影响时的情景吗？
+>
+> **SCP-EQ-069-1：**我看到我的妹妹身体被柔和的银白色光包裹，光的颜色接近月光。
+>
+> **研究助理Ly████：**除此之外您还有更多基金会不知道的信息可以提供吗？
+>
+> **SCP-EQ-069-1：**抱歉，**这些**已经是是我所知的一切。
+>
+> **研究助理Ly████：**谢谢您的配合。
+>
+> **SCP-EQ-069-1：**没什么，我应做的。
+>
+> **<记录结束>**
+>
+> **结语：**基金会通过访谈对异常效应发生时的情况有了基本了解，后续访谈并未获得更多有效信息，基金会已经停止尝试通过访谈了解更多信息。利用奇术与魔法对069-1进行更多实验的提案--正在讨论可行性-- 已被否决[2赞成/3反对]
+
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]] **来自O5议会的最终决议** [[/size]]
+
+我们研究那些异常的目的是为了更好的收容它们，保护小马们不再受到那些未知存在的威胁，而不是为了知晓真相。
+##red|停止和禁止任何与069有关的实验计划，即刻生效。
+我们已经付出了够多的代价。##
+--O5-2，███年7月1日。
+[[/=]]
+[[/div]]
+[[/tab]]
+[[tab 档案EQ-069-A]]
+**特殊收容措施：**描述该异常性质的文档应作为标准机密文档储存，该异常性质的任何描述受到4级保密措施保护；任何涉及该异常且尚未出版的出版物应阻止其出版，已出版的出版物由##darkred|MTF-忠诚-02“惊奇闪电”##进行回收并掩盖出版记录，并对所有书籍持有者施以三级记忆删除；##darkblue|收容失效致潜在K级情景发生时，将启动断角协议，允许####darkred|MTF-魔法-18“闪光骑士”##、##darkred|MTF-忠诚-01“破碎天马”####darkblue|参与行动##；有关异常的多种非事实性传闻经由##darkred|MTF-忠诚-05“失色彩虹”##施行散布，包括白胡子魔法说，CM影响说等，以掩盖真实异常性质或混淆大众视听。
+
+**描述：**SCP-EQ-069-1和SCP-EQ-069-2为两匹受EQ-069异常性质影响的小马，其名字分别为[数据删除]及[数据删除]，[[span class="fake-blackbar-black"]]目前EQ-069-1与EQ-069-2作为O5任职于基金会[[/span]]。
+该异常并非奇术或魔法所致，而是受到未知异常效应的影响。
+异常影响发生时，受影响对象将被明亮的光芒包围，光芒消散后，初级异常效应就已经显现。
+对象无论此前生理结构如何，受影响后必定获得角和翅膀，
+二级异常效应在异常发生后的两周内发生，使对象二次发育，导致身高、翅展与角长远大于正常陆马、天马与独角兽。
+三级异常效应为鬓毛的不自然飘动，不受风向与风力大小影响，鬓毛的理化性质与一般鬓毛无异，尚未在鬓毛中发现奇术效应，脱离个体的鬓毛将失去异常效应。
+
+**附录：**
+##darkred|访谈记录069-1-1##
+> **受访者：**SCP-EQ-069-1
+>
+> **采访者：**研究助理Ly████
+>
+> **前言：**对异常发生时的情况进行基本了解，受访者对访谈十分配合。
+>
+> **<记录开始>**
+>
+> **研究助理Ly████：**您...您好。
+>
+> **SCP-EQ-069-1：**不要紧张，放轻松，就把这当做一次标准的访谈。
+>
+> **研究助理Ly████：**好...好的，感谢您能抽出时间来接受我的访谈，冒犯了。[查看访谈计划]您与您的妹妹受到异常影响是在什么时间发生的？
+>
+> **SCP-EQ-069-1：**那是在马历[数据删除]年，异常性质在我尝试[数据删除]成功后不超过两秒种的时间内显现，与我的CM同时出现。而我的妹妹则是在我受到异常性质影响后的当天晚上，距我受到异常性质影响只有不到30分钟。
+>
+> **研究助理Ly████：**那么...您当时有什么感觉？
+>
+> **SCP-EQ-069-1：**我感觉到有一道庞大的的魔力流向我的角和身体各处，以及我当时并未得到的翅膀，虽然那时我尚未获得翅膀，但我已经能感受到它。当我尝试挥动翅膀时，它们已经在我的身体上了。
+>
+> **研究助理Ly████：**您能描述一下您的妹妹受到异常效应影响时的情景吗？
+>
+> **SCP-EQ-069-1：**我看到我的妹妹身体被柔和的银白色光包裹，光的颜色接近月光。
+>
+> **研究助理Ly████：**除此之外您还有更多基金会不知道的信息可以提供吗？
+>
+> **SCP-EQ-069-1：**抱歉，**这些**已经是是我所知的一切。
+>
+> **研究助理Ly████：**谢谢您的配合。
+>
+> **SCP-EQ-069-1：**没什么，我应做的。
+>
+> **<记录结束>**
+>
+> **结语：**基金会通过访谈对异常效应发生时的情况有了基本了解，后续访谈并未获得更多有效信息，基金会已经停止尝试通过访谈了解更多信息。##darkblue|利用奇术与魔法对069-1进行实验调查异常性质的提案--正在讨论-- 经O5议会投票通过[3赞成/2反对]，详见实验记录069-1-A。##
+
+##darkred|实验记录069-1-A##
+[[table  style="border-collapse:collapse; width: 600px;"]]
+[[row]]
+[[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
+实验069-1-A-01
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+对象
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-EQ-069-1
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+协议
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+利用[数据删除]将行动小队派遣至异常发生时进行隐秘观察，小队配备标准反魔法潜入装备及奇术目镜。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+结果
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+异常效应显现时奇术目镜对处于初级异常过程中对象的显示为蓝色。
+[[/cell]]
+[[/row]]
+[[/table]]
+##darkred|注备##：如果我们只是小心翼翼的去看的话，那我们永远都别想了解真相了，下次的实验激进一些。
+[[table  style="border-collapse:collapse; width: 600px;"]]
+[[row]]
+[[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
+实验069-1-A-02
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+对象
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-EQ-069-1
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+协议
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+对对象进行"身体检查"程序。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+结果
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+检测结果未发现异常
+[[/cell]]
+[[/row]]
+[[/table]]
+##darkred|注备##：我料到了。下次我们直接来点刺激的。我们得去现场直接实地考察。
+[[table  style="border-collapse:collapse; width: 600px;"]]
+[[row]]
+[[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
+实验069-1-A-03
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+对象
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+SCP-EQ-069-1
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+协议
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+利用[数据删除]将##darkred|MTF-忠诚-02“惊奇闪电”##与##darkred|MTF-魔法-18“闪光骑士”##派遣至异常发生时执行"身体检查"程序，小队配备标准反魔法侵入装备、记忆消除设备与奇术目镜。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; border: 1px solid black"]]
+结果
+[[/cell]]
+[[cell style="border: 1px solid black; padding: .3em .7em;"]]
+[数据删除]
+[[/cell]]
+[[/row]]
+[[/table]]
+##darkred|注备##：该死，我们麻烦大了。
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]] **来自O5议会的通知** [[/size]]
+
+够了，我们研究那些异常的目的是为了更好的收容它们，保护小马们不再受到那些未知存在的威胁，而不是为了知晓真相。
+我们已经付出了太多的代价。
+我们的国家、人民与基金会不应承担这样的苦痛，我的姐姐更不应如此。
+对████博士的降级处分已下达。
+##red|重启协议已通过投票[1赞成/3弃权]##
+--O5-2，███年7月1日。
+[[/=]]
+[[/div]]
+[[/tab]]
+[[tab 档案EQ0-069-B]]
+**特殊收容措施：**描述该异常性质的文档应作为标准机密文档储存，该异常性质的任何描述受到4级保密措施保护；任何涉及该异常且尚未出版的出版物应阻止其出版，已出版的出版物由##darkred|MTF-忠诚-02“惊奇闪电”##进行回收并掩盖出版记录，并对所有书籍持有者施以三级记忆删除；有关异常的多种非事实性传闻经由##darkred|MTF-忠诚-05“失色彩虹”##施行散布，包括白胡子魔法说，CM影响说等，以掩盖真实异常性质或混淆大众视听。
+
+**描述：**##darkblue|SCP-EQ-069-1为一匹受EQ-069异常性质影响的小马，其名为[数据删除]##，[[span class="fake-blackbar-black"]]目前EQ-069-1作为O5任职于基金会[[/span]]。
+EQ-069的异常性质仅确定在EQ-069-1身上显现，尚未发现其他受异常效应影响的小马个体。
+该异常并非奇术或魔法所致，而是受到未知异常效应的影响。
+异常影响发生时，受影响对象将被明亮的光芒包围，光芒消散后，初级异常效应就已经显现。
+对象无论此前生理结构如何，受影响后必定获得角和翅膀，
+二级异常效应在异常发生后的两周内发生，使对象发生二次发育，导致身高、翅展与角长远大于正常陆马、天马与独角兽。
+三级异常效应为鬓毛的不自然飘动，不受风向与风力大小影响，鬓毛的理化性质与一般鬓毛无异，尚未在鬓毛中发现奇术效应，脱离个体的鬓毛将失去异常效应。
+
+**附录：**
+##darkred|访谈记录069-1-1##
+> **受访者：**SCP-EQ-069-1
+>
+> **采访者：**研究助理Ly████
+>
+> **前言：**对异常发生时的情况进行基本了解，受访者对访谈较为配合。
+>
+> **<记录开始>**
+>
+> **研究助理Ly████：**您...您好。
+>
+> **SCP-EQ-069-1：**别紧张，放松，这只是一次标准访谈而已。
+>
+> **研究助理Ly████：**好...好的，感谢您能抽出时间来接受我的访谈，冒犯了。[查看访谈计划]您受到异常影响是在什么时间发生的？
+>
+> **SCP-EQ-069-1：**那是在马历[数据删除]年，异常性质在我尝试[数据删除]成功后大约两秒种左右的时间内显现，几乎就在我得到CM的同时。
+>
+> **研究助理Ly████：**那么...您当时有什么感觉？
+>
+> **SCP-EQ-069-1：**我感觉到有一股的魔力暖流流向我的身体各处，那种魔力暖流感觉就像日月交相辉映。虽然那时我还没长出翅膀，但我已经能感受到它。当我尝试挥动翅膀时，它们已经在我的身体上了。
+>
+> **研究助理Ly████：**除此之外您还有更多基金会不知道的信息可以提供吗？
+>
+> **SCP-EQ-069-1：**抱歉，**这些**已经是是我所知的一切。
+>
+> ##darkblue|**研究助理Ly████：**冒味的问一下，根据基金会的资料，您曾有一位姐姐[[footnote]]据相关资料，其名为塞拉斯蒂亚，已于[数据删除]年去世。[[/footnote]]，她没有受到异常效应影响，是吗？##
+>
+> ##darkblue|**SCP-EQ-069-1：**是的，[受访者停顿了三秒]，我很欣慰姐姐没有像我一样被异常性质影响，她得以像其他小马一样恋爱、结婚、生子并过完正常小马的一生...[受访者停顿了三秒]我的姐姐跟这个异常无关，我们应该结束这个话题了。##
+>
+> **研究助理Ly████：**谢谢您的配合。
+>
+> **SCP-EQ-069-1：**没什么，我应做的。
+>
+> **<记录结束>**
+>
+> **结语：**基金会通过访谈对异常效应发生时的情况有了基本了解，后续访谈并未获得更多有效信息，基金会已经停止尝试通过访谈了解更多信息。##darkblue|利用奇术与魔法对069-1进行更多实验的提案--正在讨论可行性-- 已被否决[1赞成/3反对]##
+[[div style="border:solid 1px #999999; background:#f2f2c2; padding:5px; margin-bottom: 10px;"]]
+[[=]]
+[[size larger]] **来自O5议会的通知** [[/size]]
+
+##red|我们已确认发生了CK级情景。
+寻路协议已通过投票[4赞成]##
+--O5-1，███年7月1日。
+[[/=]]
+[[/div]]
+[[footnoteblock]]
+[[/tab]]
+[[/tabview]]

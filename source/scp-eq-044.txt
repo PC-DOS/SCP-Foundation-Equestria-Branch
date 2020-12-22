@@ -1,0 +1,41 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+[[div class="meta-title"]]
+%%title%%
+[[/div]]
+[[/module]]
+
+[[include component:recommended-rating]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div style="display:none"]]
+段落页面地址如下：
+http://scp-equestria.wikidot.com/fragment:scp-eq-044-1
+http://scp-equestria.wikidot.com/fragment:scp-eq-044-2
+http://scp-equestria.wikidot.com/fragment:scp-eq-044-3
+http://scp-equestria.wikidot.com/fragment:scp-eq-044-4
+[[/div]]
+[[=]]
+<< [[[SCP-EQ-043]]] | SCP-EQ-044 | [[[SCP-EQ-045]]] >>
+[[/=]]

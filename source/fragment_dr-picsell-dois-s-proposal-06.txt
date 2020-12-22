@@ -1,0 +1,266 @@
+[[module css]]
+#header {
+    visibility: collapse;
+    height: 0px;
+}
+#header h1{
+    visibility: collapse;
+    height: 0px;
+}
+#header h2{
+    visibility: collapse;
+    height: 0px;
+}
+#side-bar{
+    visibility: collapse;
+    height: 0px;
+    width: 0px;
+}
+#main-content{
+    margin: 0px;
+}
+.page-tags{
+    visibility: collapse;
+    height: 0px;
+}
+#page-options-container{
+    visibility: collapse;
+    height: 0px;
+}
+div#container-wrap {
+    background: none;
+}
+a {
+    color: #01a4bc;
+}
+.meta-title{
+    visibility: collapse !important;
+    height: 0px !important;
+}
+[[/module]]
+
+[[module css]]
+.fake-wikidot-message-top-item {
+    color: #01a4bc;
+    padding: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background: transparent;
+    text-decoration: none;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.fake-wikidot-message-top-item:hover {
+    color: #f24747 !important;
+    padding: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background: #eeeeee;
+    text-decoration: none !important;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.fake-wikidot-message-left-item {
+    color: #01a4bc;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 1px;
+    background: transparent;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.fake-wikidot-message-left-item:hover {
+    color: #f24747 !important;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 1px;
+    background: #eeeeee;
+    text-decoration: none !important;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.fake-wikidot-message-left-selected-item {
+    color: #ffffff;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 1px;
+    background: #428bca;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.fake-wikidot-message-left-selected-item:hover {
+    color: #ffffff;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 1px;
+    background: #428bca;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.fake-wikidot-message-botton{
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+}
+.fake-wikidot-message-botton:hover{
+    color: #333333;
+    text-decoration: none !important;
+    background-color: #ebebeb;
+    border: 1px solid #adadad;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+}
+.fake-wikidot-message-botton:active{
+    color: #333333;
+    text-decoration: none !important;
+    background-color: #ebebeb;
+    border: 1px solid #adadad;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    border-radius: 3px;
+}
+[[/module]]
+
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[div style="width=100%; border-bottom: 1px solid #e8e8e8;"]]
+[[table style="width: auto; margin-top: 5px;"]]
+[[row style="width:100%;"]]
+[[cell style="width:auto; "]]
+[[a href="https://www.wikidot.com/account/activity" class="fake-wikidot-message-top-item"]]✿活动(beta)[[/a]]
+[[/cell]]
+[[cell style="width:auto; border: 1px solid #e8e8e8; border-bottom: 1px solid #ffffff; padding: 10px; border-top-left-radius:5px; border-top-right-radius:5px;"]]
+✉消息
+[[/cell]]
+[[cell style="width:auto;"]]
+[[a href="https://www.wikidot.com/account/sites" class="fake-wikidot-message-top-item"]]▦网站[[/a]]
+[[/cell]]
+[[cell style="width:auto;"]]
+[[a href="https://www.wikidot.com/account/recent" class="fake-wikidot-message-top-item"]]⏱最近的活动[[/a]]
+[[/cell]]
+[[cell style="width:auto;"]]
+[[a href="https://www.wikidot.com/account/settings" class="fake-wikidot-message-top-item"]]⚙设置[[/a]]
+[[/cell]]
+[[cell style="width:auto;"]]
+[[a href="https://www.wikidot.com/account/upgrade" class="fake-wikidot-message-top-item"]]$升级[[/a]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="textchange" style="margin-top: 10px;"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+[[table style="width: 100%; vertical-align:top;"]]
+[[row style="width: 100%;"]]
+[[cell style="width: 20%; vertical-align:top;"]]
+[[a href="https://www.wikidot.com/account/messages#/inbox" class="fake-wikidot-message-left-selected-item"]]✉收件箱[[/a]]
+[[a href="https://www.wikidot.com/account/messages#/sent" class="fake-wikidot-message-left-item"]]➦已发送[[/a]]
+[[a href="https://www.wikidot.com/account/messages#/invitations" class="fake-wikidot-message-left-item"]]⇩邀请函[[/a]]
+[[a href="https://www.wikidot.com/account/messages#/applications" class="fake-wikidot-message-left-item"]]⬆申请书[[/a]]
+[[a href="https://www.wikidot.com/account/messages#/settings" class="fake-wikidot-message-left-item"]]⚙设置[[/a]]
+[[/cell]]
+[[cell style="width:80%; vertical-align:top; padding-left: 4em;"]]
+[[a href="https://www.wikidot.com/account/messages#/inbox/p1" class="fake-wikidot-message-botton"]]«返回消息列表[[/a]]
+
+##red|尝试获取站内信发送者时发生错误: 用户名“Dr.Picsell Dois”不存在。用户可能已经删除了账号。##
+###aaaaaa|给：## [http://www.wikidot.com/user:info/%%title%% %%title%%]
+###aaaaaa|来自云之都的问候##
+[[size smaller]]//###aaaaaa|系统提示：侦测到该站内信未使用您的惯用语言书写，已套用自动翻译系统。##//[[/size]]
+
+[[div style="border-bottom: 1px solid #dcdcdc; margin-bottom:1px; width: 100%"]]
+[[/div]]
+
+尊敬的 %%title%%：
+
+不太清楚应该如何称呼您，如果有冒犯，还请见谅。
+
+实在是幸会，想不到我们竟然以这样的方式相见了，但是不管怎样，还是向您先问个好吧。
+
+一个下层叙事实体和上层叙事实体对话，严格来说应该也不算是什么新鲜事了吧，毕竟这是一种常用的写虚构作品的方法，不是吗？毕竟文字制导很难覆盖下层叙事的方方面面，留下的那些空白，便就是我们的自由国土了。
+
+如您所知，我是[[user PC-DOS]]先生在这一层的投影，不过说实在的，我也没法说明白到底是他创造了我，又或者是我先前存在、而如今为他制导呢？
+
+您可能还是有些好奇，我是怎么在这个页面上面写下这些的呢？哈哈，不过就是些老掉牙的套路罢了。既然我是投影实体，只要想办法联系到我的投影者不就行了嘛。而[[user PC-DOS]]先生在投影的时候也确实允许我做到这一点：听说这在您这里叫做“打破第四面墙”？哼哼，我觉得叫做打破天花板更好，您觉得呢？不过我记得在叙事层没分离的时候，Pinkie Pie小姐是最擅长这一行的了。
+
+今天先聊到这吧，改天再会。 ;)
+
+祝好。
+
+Picsell Dois
+
+2018年9月6日于云之都，Site-EQ-25
+
+对了，塞拉斯蒂亚公主托我捎一封信给您，不过我觉得您可能已经在另一篇文档看过这封信了。
+[[collapsible show="Wikidot提示：这封站内信迭代了一封站内信，请点击此处以查看。" hide="收起迭代站内信"]]
+##red|尝试获取站内信发送者时发生错误: 用户名“O5-Equestria-1”不存在。用户可能已经删除了账号。##
+###aaaaaa|给：## [http://www.wikidot.com/user:info/%%title%% %%title%%]
+[[size smaller]]//###aaaaaa|系统提示：侦测到该站内信未使用您的惯用语言书写，已套用自动翻译系统。##//[[/size]]
+
+[[div style="border-bottom: 1px solid #dcdcdc; margin-bottom:1px; width: 100%"]]
+[[/div]]
+
+> 尊敬的%%title%%：
+>
+> 不知收到这封信的您可否有些惊讶呢？哈哈，原谅我在设想您看到这封信时的表情的时候有些不厚道地笑了。 ;)
+> 是的，我们被您所在的叙事层创造出来，您又使我们发生叙事分裂……不过想起我们所在的叙事层也有下层叙事，我却不禁觉得有些意思呢。一层又一层，想想还挺有趣呢，不是吗？
+> 不过说真的，当Picsell Dois博士告诉我这一切的时候，我对于您和您的同侪们是有些怨恨的，[[[scp-eq-020|毕竟我可以把我的得意门生，暮光闪闪小姐，还有另外五位谐律元素的死归咎于你们]]]，但是现在我也释然了，权当是世事无常、因缘聚散罢。
+> 无论如何，谢谢您创造了我们。谢谢您帮我们收容那些异常，也谢谢您让我的子民们能够生活在一个和平而理性的世界之中。
+> 余下的日子，也请您多多关照了。
+> @@@@
+> @@@@
+> 祝一切安好
+> @@@@
+> @@@@
+> @@@@
+> 您真诚的
+> O5-EQ-1
+> 或者说，塞拉斯蒂亚公主
+>
+> 2018年8月28日夜，于Site-EQ-01，坎特拉城堡
+> [[f>image http://scp-equestria.wdfiles.com/local--files/scp-eq-403/O5-1%28Celestia%29%27s%20Seal%20-%20Tilt.png width="125px"]]
+>
+> **我们控制，我们收容，我们保护**
+> @@@@
+> @@@@
+> @@@@
+> @@@@
+> @@@@
+> @@@@
+> @@@@
+> @@@@
+> @@@@
+> @@@@
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+//发生错误：您尚未登入，请先[*https://www.wikidot.com/default--flow/login__LoginPopupScreen?originSiteId=3104068&openerUri=http://scp-equestria.wikidot.com 登入到Wikidot]再执行此操作。//
+[[/div]]
+[[/div]]

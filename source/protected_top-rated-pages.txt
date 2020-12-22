@@ -1,0 +1,122 @@
+以下是本站点评分最高的条目，目前，只有本站的马员可以参与投票。
+
+对于代为发布的条目，作者信息可能不正确。
+
+点击[[[system:join | 此处]]]以加入本站。
+
+[[div class="content-panel centered standalone" ]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+最高评分的SCP文档
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="-被归档 -被废除 -旧页面 -竞赛 -草稿 +SCP -来自总部" order="rating desc" separate="false" limit="100" perPage="20"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分：%%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+最高评分的研究
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="-被归档 -被废除 -旧页面 -竞赛 -草稿 讲座 研究 -来自总部" order="rating desc" separate="false" limit="100" perPage="20"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分：%%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+最高评分的故事
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="-被归档 -被废除 -旧页面 -竞赛 -草稿 +故事 -来自总部" order="rating desc" separate="false" limit="100" perPage="20"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分: %%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel centered standalone" ]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+过去一个月内发布的最高评分的SCP文档
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="-被归档 -被废除 -旧页面 -竞赛 -草稿 +SCP -来自总部" order="rating desc" separate="false" limit="100" perPage="20" created_at="last 1 month"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分: %%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+过去一个月内发布的最高评分的研究
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="-被归档 -被废除 -旧页面 -竞赛 -草稿 研究 讲座 -来自总部" order="rating desc" separate="false" limit="100" perPage="20" created_at="last 1 month"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分: %%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+过去一个月内发布的最高评分的故事
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="-被归档 -被废除 -旧页面 -竞赛 -草稿 +故事 -来自总部" order="rating desc" separate="false" limit="100" perPage="20" created_at="last 1 month"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分: %%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+过去一个月内发布的最高评分的条目
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="-被归档 -被废除 -旧页面 -竞赛 -草稿 +条目 -来自总部" order="rating desc" separate="false" limit="100" perPage="20" created_at="last 1 month"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分: %%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]
+
+[[div class="content-panel centered standalone" ]]
+[!-- * 致技术部: 这个空白的Content Panel被用来创造一个带有阴影的粗分隔线效果，请不要在里面添加内容。 * --]
+[[/div]]
+
+
+[[div class="content-panel"]]
+[[div class="panel-heading"]]
+最高评分的条目
+[[/div]]
+[[div class="panel-body"]]
+[[module ListPages category="*" rating=">0" tag="+条目 -来自总部" order="rating desc" separate="false" limit="100" perPage="50"]]
+%%title_linked%% (作者：[[user %%created_by%%]]；评分：%%rating%%；讨论： %%comments%%)
+[[/module]]
+[[/div]]
+[[div class="panel-footer" style="text-align: center; height: 16px;"]]
+[[/div]]
+[[/div]]

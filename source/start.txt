@@ -1,0 +1,6 @@
+[[=]]
+[[size 125%]]请稍候，正在将您转到[[/size]]
+[[size 125%]]SCP基金会小马国分部[[/size]]
+[[/=]]
+
+[[module Redirect destination="/"]]

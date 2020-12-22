@@ -1,0 +1,815 @@
+[[module css]]
+.css-typing p {
+  border-right: 0.1em solid  transparent;;
+  font-family: "Courier";
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing p:nth-child(1) {
+  width: 50.3em;
+  -webkit-animation: type 1s steps(400, end);
+  animation: type 1s steps(400, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 61.5em;
+  opacity: 0;
+  -webkit-animation: type3 4s steps(400, end);
+  animation: type3 4s steps(400, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 61.5em;
+  opacity: 0;
+  -webkit-animation: type3 4s steps(400, end);
+  animation: type3 4s steps(400, end);
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+  width: 61.5em;
+  opacity: 0;
+  -webkit-animation: type4 4s steps(400, end);
+  animation: type4 4s steps(400, end);
+  -webkit-animation-delay: 10.8s;
+  animation-delay: 10.8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(5) {
+  width: 60.5em;
+  opacity: 0;
+  -webkit-animation: type4 4s steps(400, end);
+  animation: type4 4s steps(400, end);
+  -webkit-animation-delay: 18.6s;
+  animation-delay: 18.6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(6) {
+  width: 54em;
+  opacity: 0;
+  -webkit-animation: type3 5s steps(200, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(200, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 23s;
+  animation-delay: 23s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid lightgreen;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+
+.containercontainer {
+position: relative;
+width: auto;
+height: auto;
+border: 2px solid #666;
+background: #141212;
+color: #3F3;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.containercontainer .container .overlay {
+background: rgba(51, 255, 51, 0.9);
+color: #121010;
+position: absolute;
+width: auto;
+height: 50px;
+top: 0;
+right: 0;
+bottom: 0;
+left: 2;
+margin: auto;
+line-height: 50px;
+display: inline;
+vertical-align: middle;
+text-align: left;
+font-family: "Courier New";
+font-size: 30px;
+letter-spacing: 5px;
+font-weight: bolder;
+z-index: 3;
+animation: overlay-anim 10s linear;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+}.overlayback {
+background: rgba(187, 187, 187, 0.5);
+z-index: 3;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: auto;
+height: auto;
+animation: overlay-anim 10s linear;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+}
+
+.containercontainer .container {
+text-align: left;
+width: inherit;
+height: inherit;
+position: relative;
+overflow: hidden;
+}
+
+.containercontainer .container::after {
+content: " ";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(21, 19, 19, 0.2);
+opacity: 0;
+z-index: 2;
+animation: flicker 0.15s infinite;
+}
+
+.containercontainer .container::before {
+content: " ";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: linear-gradient(rgba(18, 16, 16, 0.03) 50%, rgba(0, 0, 0, 0.45) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.22), rgba(0, 255, 0, 0.11), rgba(0, 0, 255, 0.22));
+z-index: 2;
+background-size: 100% 2px, 3px 100%;
+}
+
+.no-unfold {
+text-align: left;
+}
+
+.container h1,.container h2,.container h3,.container h5,.container h6 {
+color: #3F3;
+}
+
+.container hr {
+border-top: 1px dotted #3F3;
+border-bottom: none;
+}
+
+.container hr {
+border-top: 1px solid #3F3;
+border-bottom: 1px solid #3F3;
+color: transparent;
+background-color: transparent;
+}
+
+.container hr:after {
+display: block;
+margin-top: 2px;
+border-top: 1px solid #3F3;
+border-bottom: 1px solid #3F3;
+}
+
+.blinkbar {
+animation: blink 1.5s infinite;
+ letter-spacing: -0.13em;
+}
+
+@keyframes blink{
+to{
+opacity: .0;
+}
+}
+
+@keyframes flicker {
+0% {
+opacity: 0.9890;
+}
+5% {
+opacity: 0.5842;
+}
+10% {
+opacity: 0.9865;
+}
+15% {
+opacity: 0.0412;
+}
+20% {
+opacity: 0.6255;
+}
+25% {
+opacity: 0.3157;
+}
+30% {
+opacity: 0.7328;
+}
+35% {
+opacity: 0.4654;
+}
+40% {
+opacity: 0.9128;
+}
+45% {
+opacity: 0.2449;
+}
+50% {
+opacity: 0.5485;
+}
+55% {
+opacity: 0.6438;
+}
+60% {
+opacity: 0.1180;
+}
+65% {
+opacity: 0.9085;
+}
+70% {
+opacity: 0.0266;
+}
+75% {
+opacity: 0.6795;
+}
+80% {
+opacity: 0.7812;
+}
+85% {
+opacity: 0.0117;
+}
+90% {
+opacity: 0.2239;
+}
+95% {
+opacity: 0.8897;
+}
+100% {
+opacity: 0.2260;
+}
+}
+
+@keyframes overlay-anim {
+0% {
+visibility: hidden;
+}
+10% {
+visibility: hidden;
+}
+11% {
+visibility: visible;
+}
+50% {
+visibility: hidden;
+}
+100% {
+visibility: hidden;
+}
+}
+
+[[/module]]
+
+[[module ListUsers users="."]]
+[[module css]]
+ .textchange div.sitemember:nth-child(2) {
+ display:none;
+ }
+[[/module]] 
+
+[[module css]]
+.footnoteref{
+color: #FF5555;
+}
+.danke{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+width: 100%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.agent{
+background-color:#002200;
+border: 3px solid #55AA55;
+color: #77CC77;
+}
+
+.site{
+background-color:#222200;
+border: 3px solid #AAAA55;
+color: #DDDD77;
+}
+[[/module]]
+
+[[module css]]
+/*css3 desktop*/
+#desktop > * {
+  display: inline-block;
+}
+#desktop,#bgWindow,#frontWindow,#winInput,#winContent,#startmenu,#winflag,#toolBtn{visibility:visible;}
+#desktop {
+  -moz-box-shadow: inset 0 -200px 100px #032b5c, inset -100px 100px 100px #2073b5, inset 100px 200px 100px #1f9bb1;
+  -webkit-box-shadow: inset 0 -200px 100px #032b5c, inset -100px 100px 100px #2073b5, inset 100px 200px 100px #1f9bb1;
+  background: #2c609b;
+  width: 800px;
+  height: 600px;
+  margin: 25px auto 30px 200px;
+  font: 12px "Segoe UI", Tahoma,sans-serif;
+  position: relative;
+  box-shadow: inset 0 -200px 100px #032b5c, inset -100px 100px 100px #2073b5, inset 100px 200px 100px #1f9bb1;
+  overflow: hidden;
+}
+
+#startmenu {
+  -webkit-box-shadow: 0 -2px 20px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 -2px 20px rgba(0,0,0,0.25), inset 0 1px #042754, inset 0 2px #5785b0;
+
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background: rgba(178,215,255,0.25);
+  box-shadow: 0 -2px 20px rgba(0,0,0,0.25), inset 0 1px #042754, inset 0 2px #5785b0;
+  overflow: hidden;
+}
+
+#startmenu button {
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 1px 2px 2px #00294b;
+}
+
+#startmenu #winflag {
+  -webkit-border-radius: 40px;
+  -webkit-box-shadow: 0 0 1px #fff, 0 0 3px #000, 0 0 3px #000;
+  -moz-border-radius: 40px;
+  -moz-box-shadow: 0 0 1px #fff, 0 0 3px #000, 0 0 3px #000, inset 0 1px #fff, inset 0 12px rgba(255,255,255,0.15), inset 0 4px 10px #cef, inset 0 22px 5px #0773b4, inset 0 -5px 10px #0df;
+
+  float: left;
+  margin: 2px;
+  height: 34px;
+  width: 80px;
+  margin-right: 10px;
+  border-radius: 40px;
+  border: none;
+  background: #034a76;
+  box-shadow: 0 0 1px #fff, 0 0 3px #000, 0 0 3px #000, inset 0 1px #fff, inset 0 12px rgba(255,255,255,0.15), inset 0 4px 10px #cef, inset 0 22px 5px #0773b4, inset 0 -5px 10px #0df;
+}
+
+#startmenu .application {
+  -o-transition: .3s all;
+  -webkit-border-radius: 4px;
+  -webkit-transition: .3s all;
+  -moz-border-radius: 4px;
+  -moz-box-shadow: inset 0 0 1px #fff, inset 4px 4px 20px rgba(255,255,255,0.33), inset -2px -2px 10px rgba(255,255,255,0.25);
+  -moz-transition: .3s all;
+
+  height: 38px;
+  width: 52px;
+  border: 1px solid rgba(0,0,0,0.8);
+  border-radius: 4px;
+  background: rgba(14,59,103,0.25);
+  box-shadow: inset 0 0 1px #fff, inset 4px 4px 20px rgba(255,255,255,0.33), inset -2px -2px 10px rgba(255,255,255,0.25);
+  position: relative;
+  bottom: 1px;
+}
+
+#startmenu .application:hover {
+  background-color: rgba(255,255,255,0.25);
+}
+
+.window {
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: 0 2px 16px #000, 0 0 1px #000, 0 0 1px #000;
+  -moz-border-radius: 8px;
+  -moz-box-shadow: 0 2px 16px #000, 0 0 1px #000, 0 0 1px #000;
+  padding: 0px 7px 7px 7px;
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.6);
+  background: rgba(178,215,255,0.75);
+  border-radius: 8px;
+  box-shadow: 0 2px 16px #000, 0 0 1px #000, 0 0 1px #000;
+  text-shadow: 0 0 15px #fff, 0 0 15px #fff;
+}
+
+.window span {
+  display: block;
+}
+
+.window input {
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0 0 2px #fff, 0 0 1px #fff;
+  -moz-border-radius: 2px;
+  -moz-box-shadow: 0 0 2px #fff, 0 0 1px #fff, inset 0 0 3px #fff;
+
+  font-size: 1em;
+  display: inline-block;
+  margin: 50px 0 10px 0;
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.75);
+  width: 44%;
+  box-shadow: 0 0 2px #fff, 0 0 1px #fff, inset 0 0 3px #fff
+}
+
+
+.window input + input {
+  margin-left: 12px;
+}
+
+.window.secondary {
+  left: 300px;
+  top: 125px;
+  opacity: 0.66;
+}
+
+.window.secondary span {margin-bottom: 85px;}
+
+.window .content {
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 1px #fff;
+  -moz-border-radius: 2px;
+  -moz-box-shadow: 0 0 5px #fff, 0 0 1px #fff, inset 0 1px 2px #aaa;
+
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 0px 10px 10px 10px;
+  box-shadow: 0 0 5px #fff, 0 0 1px #fff, inset 0 1px 2px #aaa;
+  text-shadow: none; 
+}
+[[/module]]
+
+早上，六点整。
+
+Picsell Dois博士床头的闹钟准时响起，每天早起，是他自在天马基础学院开始就养成的习惯，比较有趣的是，哪怕他半个小时前刚刚睡着，此刻也已经不想再睡了。
+
+洗好脸，简单吃了早饭，披上常穿的白大褂，Dois便走出了伪装成教师公寓的Site-EQ-25宿舍楼，往站点管理层的办公区走去。一路上没见多少匹马，偶尔有一匹睡眼惺忪的小天马打着哈欠，步履有些蹒跚地走过。
+
+“估计快要考试了……”Dois如是想道。
+
+白地黑边的卡片轻轻扫过读卡器，伴着一声清脆的滴音，安保检查点的铁门缓缓向左滑开，又在Dois经过之后迅速地关上。
+
+办公室不大，Dois如往日一样坐在电脑前，按下电源，输入密码，开机。
+
+[[collapsible show="Dois博士电脑的登录画面，要看一看吗？" hide="您已经看到了，似乎不太好看呢"]]
+[[div class="containercontainer"]]
+[[div class="container"]]
+[[size 150%]]**早上好**[[/size]]
+
+正在初始化系统……##green|成功！##
+
+TERMINAL_NAME = "TERM_SEQ25_SITE_MANAGER_01";
+
+DOMAIN = "SCP_EQ_CENTRAL\SITE_EQ_25\SECTOR_00";
+
+IP_ADDRESS = "192.168.2.1";
+
+正在连线到SCP基金会中央数据库……##green|成功！##
+
+您当前的登录状态：##red|未登录##
+
+##red|警告：未经授权的访问者将被监控、定位并处理。##
+
+##red|请在5分钟内登录或关闭系统，否则自动安保系统将锁定您的终端机TERM_SEQ25_SITE_MANAGER_01所在的区域。##
+
+SCP FOUNDATION COMMAND-BASED OPERATING SYSTEM (SCP-CBOS)
+
+Version 2.0.50254.9122
+
+DEFAULT_UNKNOWN@TERM_SEQ25_SITE_MANAGER_01 ~0 : C:\ > usrlogin -mode AccessCard -interact on
+
+登入：身份识别卡模式
+
+请将您的身份识别卡置于读卡器上以进行验证。
+
+检测到身份识别卡。
+
+正在读取身份识别卡信息……##green|成功！##
+
+正在与SCP基金会授权服务器通讯以验证您的身份和权限……##green|成功！##
+
+LOGIN INFORMATION:
+
+USER_NAME = "Picsell Dois";
+
+GROUP = "SITE_EQ_25\SITE_MANAGER";
+
+SECURITY_CLEARANCE = "SC_5";
+
+LEVEL = "LV_A";
+
+登录成功。
+
+Picsell Dois@TERM_SEQ25_SITE_MANAGER_01 ~5 : C:\ > [[span class="blinkbar" ]] _[[/span]]
+[[/div]]
+[[/div]]
+[[/collapsible]]
+
+Dois熟练地在控制台敲下{{desktop}}指令，不久之后，单调的控制台画面被图形化的桌面取代。在基金会里，“控制台派”和“桌面派”几乎总是在争论谁应该被抛弃，系统发布更新的时候尤甚，就像有些C/C++程序员总在争论左大括号到底该不该换行一样。
+
+想到这里，Dois不禁笑了笑。
+
+-----
+
+[[div class="content-panel standalone series" style="color:white;background-color:rgb(0,175,245)"]]
+**待办事项管理程序**
+
+系统已从您的收件箱中自动整理了10项待办事项，请点击此处查看。
+[[/div]]
+
+看着弹出来的通知，Dois无奈地摇了摇头，按了一下。
+@@@@
+@@@@
+[[div class="window"]]
+[[span]]待办事项（0/10）[[/span]]
+[[div class="content"]]
++* ##0096f5|待办事项管理程序##
+
+此处列出系统根据您的收件箱自动整理的待办事项。
+
+-----
+
+[[div class="content"]]
+**来自：**Dr. Minkie Dash，Site-EQ-26
+**内容：**yee，pd博士能帮我把两篇文档上传到数据库吗？
+**附件：**
+__##007df5|SCP-EQ-022.docx##__
+__##007df5|SCP-EQ-001-MinkieDash.docx##__
+[[/div]]
+[[size 1px]] [[/size]]
+[[div class="content"]]
+**来自：**Dr. Minkie Dash，Site-EQ-26
+**内容：**哟哒，pd博士能帮忙看看这篇文档的草稿吗？
+**附件：**
+__##007df5|SCP-EQ-编号待定.docx##__
+[[/div]]
+[[size 1px]] [[/size]]
+[[div class="content"]]
+**来自：**Dr. Minkie Dash，Site-EQ-26
+**内容：**又有四个GoI要输入数据库呐……
+**附件：**
+__##007df5|GoI-EQ-0004.docx##__
+__##007df5|GoI-EQ-0005.docx##__
+__##007df5|GoI-EQ-0006.docx##__
+__##007df5|GoI-EQ-0007.docx##__
+[[/div]]
+[[size 1px]] [[/size]]
+[[div class="content"]]
+**来自：**Dr. Ayis Kyrin，Site-EQ-25
+**内容：**麻烦Dois博士把这些写在纸上的文稿转成电子稿传到数据库哈~一共有2份~
+**附件：**
+__##007df5|纸质文稿_共2份.zip##__
+[[/div]]
+[[size 1px]] [[/size]]
+[[div class="content"]]
+**来自：**Dr. SparkleOwO
+**内容：**能麻烦给GoI-EQ-00008建立个中心页吗？
+**附件：**
+__##007df5|GoI-EQ-00008说明.rar##__
+[[/div]]
+[[/div]]
+[[/div]]
+@@@@
+看着排得满满的日程，Dois博士苦笑着摇了摇头。
+
+-----
+
+待办事项计数终于归零，窗外的云之都已被金黄色的灯光映照得繁华无比。
+
+“真是天街华灯呢……”Dois起身，抖了抖因久坐而有些僵硬的四肢。
+
+[[collapsible show="请输入演绎部员工编号或验证叙事者权限以检视剩余内容" hide="身份认证已通过"]]
+
+> [[size 125%]]**SCP-TLLink 基于反投影纠缠原理的跨叙事层沟通程序（内部测试版）**[[/size]]
+> [[size 110%]]**版本：0.1.15.214**[[/size]]
+> 
+> **登录身份：**Dr. Picsell Dois (1990-00011-00245)
+> **对应关系：**PC-DOS（PRJ-19900001100245-PoI-EQ-ST-000001）
+> **连线质量：**##green|196 ms （TimeDelta = 0%）##
+> 
+> -----
+> 
+> **Dr. Picsell Dois：**PC-DOS先生，我希望您在将您在您所在的叙事层之中遭遇的事情投影到本层的时候稍稍注意一些，Site-EQ-25是综合站点而不是文书站点，我的身份是站点主管而不是数据库录入员。我作为Site-EQ-25站点主管正式向您提出抗议，谢谢。
+> 
+> **PC-DOS：**啊啊……对不起哈Dois博士，可是您不确定一下啊Site-EQ-25真的不是文书站点吗？
+> 
+> **##red|警告，侦测到由上层叙事实体制导的现实扭曲事件。叙事实体“Site-EQ-25”的“类型”属性被修改为“文书站点”。##**
+> 
+> **##darkred|警告，侦测到叙事模板替换。当前叙事域模板部分被更新为“不正经/略微搞笑”。##**
+> 
+> **Dr. Picsell Dois：**//传送文件：扶额.jpg//
+> 
+> **Dr. Picsell Dois：**您到底遭遇什么了……
+> 
+> **Dr. Picsell Dois：**不管怎样，请放过那些无辜的小马们好吗……我知道您可能只是想要调皮一下吧……
+> 
+> **##red|警告，侦测到由上层叙事实体制导的现实扭曲事件。叙事实体“Site-EQ-25”的“类型”属性被修改为“综合站点”。##**
+> 
+> **##darkred|警告，侦测到叙事模板替换。当前叙事域模板部分被更新为“较严肃/严谨冷酷”。##**
+> 
+> **PC-DOS：**唉……真是对不起……最近事情太多了……我想您是知道的，您待办事项里的那些事情都是我的待办事项……
+> 
+> **Dr. Picsell Dois：**//传送文件：怪我咯.jpg//
+> 
+> **PC-DOS：**不怪您不怪您……
+[[/collapsible]]
+
+昨天又是Site-EQ-25平凡的一天。
+
+没有收容失效。
+
+没有新异常。
+
+没有敌对组织捣乱。
+
+没有事故。
+
+希望今天也是Site-EQ-25平凡的一天吧……
+
+时针指向凌晨一点，Dois博士冲了个澡，拖着有些疲惫的身子上了床。
+
+Dois博士又度过了平凡的一天。
+
+-----
+
+> **控制编辑**
+> 
+> **收容文字**
+> 
+> **保护数据**
+> 
+> ——**欢迎来到SCP基金会小马国分部文书站点Site-EQ-25**
+
+闹钟响起的时候，Dois博士正好梦到这张传单。
+
+清晨的学校依旧空落落的。Dois如惯常一样，走进了他的办公室。不过，走进办公室前，他特地看了一眼门口的标牌。
+
+[[div class="content-panel standalone" style="font-family: Impact, Courier New, Courier, monospace; width: 85%; padding: 10px 30px; margin: 20px auto; background: url(http://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/bg-marble.png) repeat; text-shadow: 1px 1px 1px rgba(0,0,0,.25)"]]
+[[=]]
+**[[size 250%]]SITE-EQ-25[[/size]]**
+@@@@
+[[size 200%]]综合站点[[/size]]
+[[/=]]
+[[/div]]
+
+-----
+@@@@
+[[div class="window"]]
+[[span]]待办事项（0/1）[[/span]]
+[[div class="content"]]
++* ##0096f5|待办事项管理程序##
+
+此处列出系统根据您的收件箱自动整理的待办事项。
+
+-----
+
+[[div class="content"]]
+**来自：**Site-EQ-25
+**内容：**Site-EQ-25 例行每周工作总结会议，今天上午10:00
+**附件：**
+（无）
+[[/div]]
+[[/div]]
+[[/div]]
+@@@@
+
+-----
+
+今天上午，有一个网络型SCP项目突破了收容，导致两个Sector的电脑只要一联网就不断弹出具有模因危害的网页。
+
+中午，一盒[[[SCP-EQ-028|彩虹饼干]]]被以Dois博士的名义送到了Site-EQ-25，随后又被Site-EQ-15派来的特工收走了。
+
+今天下午，[[[SCP-EQ-108|一位研究员在实验的时候变成了一沓纸]]]。
+
+Site-EQ-57遭到“Rainbow解放者”的骚扰，Site-EQ-25不得不派了一支MTF去支援。
+
+但是今天仍然是Site-EQ-25平凡的一天。
+
+也是Dois博士平凡的一天。

@@ -1,0 +1,5 @@
+[[=]]
+[[size 125%]]**请稍候，正在为您跳转到SCP基金会小马国分部主资料库。**[[/size]]
+[[/=]]
+
+[[module Redirect destination="/"]]

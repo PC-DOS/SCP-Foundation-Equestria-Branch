@@ -1,0 +1,6 @@
+[[=]]
+[[size 125%]]請稍候，正在將您導覽到[[/size]]
+[[size 125%]]SCP基金會小馬國分部繁體中文資料庫[[/size]]
+[[/=]]
+
+[[module Redirect destination="/cht:scp-eq-database"]]

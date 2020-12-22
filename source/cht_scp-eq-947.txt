@@ -1,0 +1,801 @@
+[[module css]]
+@import url(/component:theme/code/1);
+
+#header h1 {
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+}
+#header h2 {
+    margin-left: 120px;
+    padding: 0;
+    clear: left;
+    float: left;
+    font-size: 105%;
+    max-height: 38px;
+}
+
+#header h1 a {
+    display: block;
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0px;
+    max-height: 0px;
+    color: #eee;
+    background: transparent;
+    font-family: BauhausLTDemi, Arial, sans-serif;
+    font-size: 180%;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 0.9px;
+}
+
+#header h1 a::before{
+    content: "SCP基金會小馬國分部";
+    color: #eee;
+}
+
+#header h1 a span{
+    display: block;
+    content: "";
+    visibility: hidden;
+}
+
+#header h2 span {
+    display: block;
+    margin: 0;
+    padding: 19px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: none;
+}
+
+#header h2 span::before {
+    content: "控制 · 收容 · 保護";
+    display: block;
+    margin: 0;
+    padding: 0px 0;
+    line-height: 0px;
+    max-height: 0px;
+    font-weight: bold;
+    color: #f0f0c0;
+    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+/* viewport */
+ 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* IE viewport */
+@-ms-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* opera viewport */
+@-o-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* chrome viewport - maybe it isn't work... */
+@-webkit-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* firefox viewport - maybe it isn't work too... */
+@-moz-viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+ 
+/* webkit scrollbar */
+::-webkit-scrollbar
+{
+    width: 9px;    /* for vertical scrollbars */
+    height: 9px; /* for horizontal scrollbars */
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-round: 0.5px;
+}
+ 
+::-webkit-scrollbar-track
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+ 
+::-webkit-scrollbar-thumb
+{
+    background: rgba(50, 50, 50, 0.3);
+}
+ 
+.page-source {
+word-break: break-all;
+}
+ 
+/* Responsive Web Design */
+img, embed, video, object, iframe, table {
+    max-width: 100%;
+}
+ 
+#page-content div, #page-content div table {
+    max-width: 100%;
+}
+ 
+#edit-page-comments {
+    width: 100%;
+}
+ 
+/* basic Query for mobile devices */
+ 
+@media (max-width: 767px) {
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div a.btn-primary {
+    width: 100%;
+    float: left;
+}
+ 
+.mobile-top-bar ul li:last-of-type ul {
+    right: 0;
+}
+ 
+span, a {
+word-break: break-all;
+}
+}
+ 
+/* Mobile Media Query */
+@media (max-width: 479px) { 
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+
+#page-content {
+    font-size: 0.9em;
+}
+ 
+#main-content {
+    margin: 0;
+}
+ 
+#recent-posts-category {
+width: 100%;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+    padding: 0;
+}
+ 
+.page-options-bottom a {
+    padding: 0 4px;
+}
+ 
+#header h1 a {
+    font-size: 100%;
+}
+ 
+blockquote {
+    margin: 1em 0;
+}
+ 
+.license-area {
+    font-size: 0.8em;
+}
+ 
+#header {
+    background-position: 0 5.5em;
+    background-size: 55px 55px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 66px;
+}
+ 
+table.form td, table.form th {
+    float: left;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+td.name {
+    width: 15em;
+}
+ 
+table.form td, table.form th {
+    padding: 0;
+}
+ 
+#edit-page-title {
+    max-width: 90%;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+}
+ 
+/* Note Media Query */
+@media (min-width: 480px) and (max-width: 580px) { 
+/*
+#search-top-box-input {
+    width: 7em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#main-content {
+    margin: 0 2em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+.top-bar {
+    display:none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 5px;
+}
+ 
+#header h1 a {
+    font-size: 120%;
+}
+ 
+blockquote {
+    margin: 0.5em;
+}
+ 
+.license-area {
+    font-size: 0.85em;
+}
+ 
+#header {
+    background-position: 0.5em 4.5em;
+    background-size: 66px 66px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 80px;
+}
+ 
+/*
+td.title {
+    width: 30%;
+}
+*/
+ 
+#page-content div.title {
+word-break: keep-all;
+}
+ 
+td.name {
+    width: 15em;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Mini Tablet Media Query */
+@media (min-width: 581px) and (max-width: 767px) { 
+/*
+#search-top-box-input {
+    width: 8em;
+}
+*/
+
+#search-top-box-input {
+    display: none;
+}
+ 
+#search-top-box-form input[type=submit] {
+    display: none
+}
+ 
+#side-bar {
+    width: 80%;
+    position: relative;
+}
+ 
+#main-content {
+    margin: 0 3em 0 2em;
+}
+ 
+#header, .mobile-top-bar {
+    max-width: 90%;
+}
+ 
+.top-bar {
+    display: none;
+}
+ 
+.mobile-top-bar {
+    display: block;
+}
+ 
+.page-options-bottom a {
+    padding: 0 6px;
+}
+ 
+#header h1 a {
+    font-size: 140%;
+}
+ 
+.license-area {
+    font-size: 0.9em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 77px 77px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 93px;
+}
+}
+ 
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 979px) {
+#main-content {
+    margin: 0 4em 0 20em;
+}
+ 
+#header, #top-bar #side-bar {
+    max-width: 100%;
+}
+ 
+.top-bar li {
+    margin: 0;
+}
+ 
+#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+    width: 110px;
+}
+ 
+.page-options-bottom a {
+    padding: 0 7px;
+}
+ 
+#header h1 a {
+    font-size: 160%;
+}
+ 
+.license-area {
+    font-size: 0.95em;
+}
+ 
+#header {
+    background-position: 1em 4em;
+    background-size: 88px 88px;
+}
+ 
+#header h1, #header h2 {
+    margin-left: 106px;
+}
+ 
+.content-panel.left-column, .content-panel.right-column  {
+width: 99%;
+float: left;
+}
+ 
+#page-content div, #page-content div table {
+clear: both;
+}
+}
+ 
+/* Desktop Media Query -----------
+@media (min-width: 980px) and (max-width: 1399px) {
+ 
+}
+------------------------------------------ */
+ 
+/* Wide Monitor Media Query -----
+@media (min-width: 1400px) {
+ 
+}
+------------------------------------------ */
+ 
+/* off-canvas */
+ 
+.close-menu {
+    display: none;
+}
+ 
+@media (max-width: 767px) {
+ 
+.page-history tbody tr td:last-child {
+width: 35%;
+}
+ 
+.owindow {
+    min-width: 80%;
+    max-width: 99%;
+}
+ 
+.modal-body .table, .modal-body .table ~ div {
+    float: left;
+}
+ 
+.owindow .button-bar {
+    float: right;
+}
+ 
+.owindow div .btn-primary {
+width: 100%;
+float: left;
+}
+ 
+.owindow div .btn-primary ~ div {
+width: 100%;
+}
+ 
+.yui-navset {
+z-index: 1;
+}
+ 
+#navi-bar, #navi-bar-shadow {
+    display: none;
+}
+ 
+.open-menu a {
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+}
+ 
+.open-menu a:hover {
+    text-decoration: none !important;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    -o-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
+}
+ 
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: 0.5s ease-in-out 0.1s;
+    -moz-transition: 0.5s ease-in-out 0.1s;
+    -ms-transition: 0.5s ease-in-out 0.1s;
+    -o-transition: 0.5s ease-in-out 0.1s;
+    transition: 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -25em;
+    width: 17em;
+    height: 100%;
+    background-color: rgb(184, 134, 134);
+    overflow-y: auto;
+    z-index: 10;
+    padding: 1em 1em 0 1em;
+    -webkit-transition: left 0.5s ease-in-out 0.1s;
+    -moz-transition: left 0.5s ease-in-out 0.1s;
+    -ms-transition: left 0.5s ease-in-out 0.1s;
+    -o-transition: left 0.5s ease-in-out 0.1s;
+    transition: left 0.5s ease-in-out 0.1s;
+}
+ 
+#side-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+#side-bar:target {
+    display: block;
+    left: 0;
+    width: 17em;
+    margin: 0;
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+ 
+#side-bar:target + #main-content {
+    left: 0;
+}
+ 
+#side-bar:target .close-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3) 1px 1px repeat;
+    z-index: -1;
+}
+}
+[[/module]]
+
+[!-- 英文用 --]
+[[module css]]
+.page-en {
+    display: block;
+    overflow: hidden;
+    font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;
+    font-style: normal;
+    font-size: 125%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+.page-en p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[!-- 中文用 --]
+[[module css]]
+.page-cn {
+    display: block;
+    overflow: hidden;
+    font-family: DFKai-SB,Kaiti,SimSun,"Microsoft YaHei UI Light";
+    [!-- *font-family: "Monotype Corsiva", "Bradley Hand ITC", sans-serif;* --]
+    font-style: normal;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+    background-origin: padding-box;
+    background-position: 0px 8px;
+    background-repeat: repeat;
+    background-size: 100% 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2)
+    }
+
+.page-cn p {
+    line-height: 20px;
+    margin: 0;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+**項目編號：**SCP-EQ-947
+
+**項目等級：**Euclid
+
+**特殊收容措施：**項目被收容在Site-EQ-15低威脅性現實扭曲型馬形异常收容區Sector 54的一個標準舒適型馬形收容間中。考慮到項目的相對較低實際威脅等級以及項目的身心健康，除標準收容間配寘外，收容間內配寘了以下物品：
+
+* 一些文學及哲學類書籍。禁止向項目提供與蹄語、殘疾馬匹護理等方面有關的書籍。
+* 彩虹電力RainVision 5240型電視機一臺，可以接收小馬利亞國家廣播電視臺（EQTV）、小馬視訊（EVBS）等基金會指定的電視臺，對於項目提出的新增頻道的請求需經Sector 54收容管理團隊稽核。
+* 標準調頻收音機一臺，暫未限制其頻道接收能力。
+* 一臺臺式電腦，通過專用的受控線路與外網連接，項目可在被監視的情况下獲權瀏覽互聯網。
+* 一部經過改造並安裝了偵聽、自動錄音和資訊過濾裝置的固定電話。項目被允許自由通話，但其通話內容將被偵聽、錄音並存檔。
+* 紙、筆、信封等，項目寄出的信件必須經Sector 54收容管理團隊審查，項目的收發件地址將被修改為前臺公司“[[span class="ruby"]]星光文化出版社[[span class="rt"]]Starlight Culture Press[[/span]][[/span]]”。
+
+允許項目每天07:00~09:00期間、15:00~17:00期間在至少兩名便裝安保馬員的陪同下在Site-EQ-15周邊區域區域散步。但是禁止向項目提供定位裝置、攝錄設備等可能導致基金會資訊洩露的設備。禁止存在聽力障礙的個體進入Sector 54和/或與項目接觸。項目應被告知其异常性質與這項性質的潜在危害並被建議避免使用蹄語。
+
+所有异常出現在項目收容間內的項目將被強制回收並執行標準异常性質檢疫程式。
+
+接觸項目或對項目進行實驗需要三級及以上許可權並經Sector 54收容管理團隊準予，實驗過程應被知曉項目資訊的安保馬員全程監視且實驗間內應配備至少兩臺斯克蘭頓現實穩定錨和/或現實穩定魔法發生儀。
+
+**描述：**項目表現為一匹2█歲的成年雌性天馬，原名█████████████████。身高1.45 m，毛色為粉紫色，鬃毛和尾巴呈淺藍色，可愛標誌為淺綠色雙箭頭，身體健康，無生理缺陷。被收容前，項目持有完整且自洽的身份資訊和履歷[[footnote]]現時對項目親屬散佈的消息為項目前往██國留學並定居，其他知曉項目存在的對象已接受記憶消除。[[/footnote]]。精神狀況檢測表明項目精神狀況良好，心態積極樂觀。
+
+個體的主要异常性質异常表現為：當項目通過小馬利亞標準蹄語表達一個仿形或象徵的手勢時，其所做姿勢會立刻根據詞義轉變成為一個實體。轉變的實體通常在項目周邊約1 m範圍內出現，出現的實體後會立刻呈現出相應的物理、化學及生物内容。
+
+休謨指數測定表明項目體內的休謨指數約為215，項目周圍約1 m範圍內的環境休謨指數在68至74之間。推測項目具有無法自製的現實扭曲能力且該現實扭曲能力是導致項目异常性質產生的主要原因。
+
+[[collapsible show="展開SCP-EQ-947實驗報告摘錄" hide="SCP-EQ-947實驗報告摘錄"]]
+
+> **實驗報告SCP-EQ-947-1**
+> 
+> **實驗時間：**20██年█月██日10:24
+> 
+> **實驗員：**Dr.Jixiangniao Manhua
+> 
+> -----
+> 
+> **描述對象：**咖啡
+> 
+> **所用蹄勢：**左蹄蹄尖朝上；右蹄畫出字母“K”的軌跡，隨後左蹄蹄間向下做攪拌狀。
+> 
+> **結果：**項目做完姿勢後，在項目左蹄邊出現了一杯熱咖啡。
+
+> **實驗報告SCP-EQ-947-2**
+> 
+> **實驗時間：**20██年█月██日10:37
+> 
+> **實驗員：**Dr.Jixiangniao Manhua
+>  
+> -----
+> 
+> **描述對象：**電話
+> 
+> **所用蹄勢：**右蹄蹄底抵住右耳做打電話狀。
+> 
+> **結果：**項目右蹄與右耳之間出現了一個電話聽筒，受重力作用落向地面。檢測表明該聽筒與Telestar TS-08型固定電話聽筒型號一致，未見異常現象。
+
+> **實驗報告SCP-EQ-947-3**
+> 
+> **實驗時間：**20██年█月██日10:41
+> 
+> **實驗員：**Dr.Jixiangniao Manhua
+> 
+> -----
+> 
+> **描述對象：**馬哈頓
+> 
+> **所用蹄勢：**右前蹄朝上指向天花板，左前蹄朝上並微向右傾斜。
+> 
+> **結果：**無明顯現象。
+
+> **實驗報告SCP-EQ-947-4**
+> 
+> **實驗時間：**20██年█月██日11:13 
+> 
+> **實驗員：**Dr.Jixiangniao Manhua
+> 
+> -----
+> 
+> **描述對象：**電話
+>
+> **所用蹄勢：**右蹄蹄底抵住右耳做打電話狀。
+> 
+> **結果：**在開始本次實驗前，調取了一臺斯克蘭頓現實穩定錨並開機，項目的行為未產生明顯現象。
+[[/collapsible]]
+
+**附錄：**項目第一次被發現異常現象是在20██年█月█日，當時項目正在[數據删除]參與志願者活動，在進行蹄語相關活動時突然啟動了异常性質並導致大量物品在其周圍產生，基金會特工隨後偽裝為警詧趕到，在疏散無關馬匹並對他們進行記憶消除後將項目帶至Site-EQ-15接受審問。基金會隨後與項目達成了現行收容協定。
+
+背景調查表明，項目被收容前在雲之都[數據删除]學院就讀研究生。與其母親同居，住家地址為雲之都███區████路███號，其母親健在。項目的父親██████████████據調查患有先天性耳聾並於20██年██月█日失踪，調閱雲之都警詧總署的案卷發現██████████████失踪一案至今未果。
+
+20██年█月██日，在對原“彩虹工廠”的內部資料庫進行調查時，在一名為“RES級馬匹進貨記錄”的表單中，發現了索引號為“RES-██-013”的記錄，該記錄“姓名“一欄的資料顯示為██████████████，“入庫原因”一欄數據為“無益\肢體殘缺\盲聾啞”，“狀態”一欄顯示為“已消耗”，照片被删除。部分恢復的相片呈現的面部特徵經辨認與██████████████相似。
+
+項目被收容後，Dr.Jixiangniao Manhua曾對項目進行過一次訪談。此次訪談的摘要見下。
+
+[[collapsible show="展開訪談記錄摘要SCP-EQ-947-INTERVIEW-1" hide="訪談記錄摘要SCP-EQ-947-INTERVIEW-1"]]
+
+> **訪談記錄摘要SCP-EQ-947-INTERVIEW-1**
+> 
+> **時間：**20██年█月██日14:04
+> 
+> **地點：**Site-EQ-15低威脅性現實扭曲型馬形异常收容區Sector 54，項目收容間
+> 
+> **採訪者：**Dr.Jixiangniao Manhua
+> 
+> -----
+> 
+> **Dr.Jixiangniao Manhua:**下午好，███████████小姐，我是Myopia博士[[footnote]]Dr.Jixiangniao Manhua慣用的自稱。[[/footnote]]。我想問您幾個問題，希望您不要介意。
+> 
+> **SCP-EQ-947:**博士下午好，沒什麼事的，儘管問吧。（輕鬆地笑）不過這裡還是有些氣悶的。
+> 
+> //（寒暄等無關內容略去，確認項目身份與已證實的背景資料的部分已被略過。）//
+> 
+> **Dr.Jixiangniao Manhua:**能麻煩您說說您的父親嗎？
+> 
+> **SCP-EQ-947:**（情緒明顯低落）爸爸……自我小時候，爸爸就聽不見聲音……結果……生活是處處碰壁……還經常被別的馬……嘲笑……所以……呃……（抽泣）爸爸……為了爸爸，我才去學蹄語的……我真的不想……讓爸爸永遠聽不見我說話……可是……我……我還是沒等到那一天……（哭泣）那天……那群黑色的蒙面馬……把爸爸推上一輛車帶走了……從此以後……就……我就……爸爸……對不起……為什麼你要走得這麼早啊……
+> 
+> **Dr.Jixiangniao Manhua:**（走上前輕拍項目背脊）抱歉……我……
+> 
+> **SCP-EQ-947:**沒……沒什麼……我只是……
+> 
+> **SCP-EQ-947:**爸爸走了之後，我就立下願望，希望能讓整個小馬國裏聽不見聲音的馬，都不會再生活在那些磕磕絆絆裡面……
+> 
+> **Dr.Jixiangniao Manhua:**所以……這就是您能通過蹄語創造東西的原因？
+> 
+> **SCP-EQ-947:**興許吧……我也說不清……以前也沒這樣奇怪過……
+> 
+> **Dr.Jixiangniao Manhua:**好吧，謝謝您。
+[[/collapsible]]
+
+[[footnoteblock title="蹄註"]]
+
+[[=]]
+<< [[[SCP-EQ-946]]] | SCP-EQ-947 | [[[SCP-EQ-948]]] >>
+[[/=]]

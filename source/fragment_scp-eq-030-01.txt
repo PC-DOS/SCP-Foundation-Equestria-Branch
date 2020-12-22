@@ -1,0 +1,17 @@
+[[=]]
+[[div style="background: url(http://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png) center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+##ff5c48|[[size 150%]] **警告：下列文件为Thaumiel级机密** [[/size]]##
+----
+[[size larger]] **无O5议会批准时进行访问将被立即处决。**[[/size]]
+[[/div]]
+[[/=]]
+
+**项目编号：**SCP-EQ-030
+
+**项目等级：**Keter
+
+**特殊收容措施：**SCP-EQ-030当前无法收容。
+
+**描述：**SCP-EQ-030是一种自AD7世纪左右开始出现的现象，表现为SCP-EQ-030-2，即小马国传说中的“暖心之火”，及相关物品，出现了认知危害的效应。认知危害的效果为忘记与SCP-EQ-030-2相关的一切信息，包括SCP-EQ-030-2存在的任何证据。这意味着，对于观察者而言，SCP-EQ-030-2已经消失，并且会看到在SCP-EQ-030创建的一个平行宇宙下SCP-EQ-030-2消失时出现的情景。
+
+[[footnoteblock title="蹄注"]]

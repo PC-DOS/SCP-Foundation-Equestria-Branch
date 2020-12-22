@@ -1,0 +1,246 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+The page scp-eq-404 you want to access does not exist.
+
+
+* [[[scp-eq-404|建立页面]]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[span style="color:white"]]Dr.White:怎么回事？这玩意儿为什么是空的？[[/span]]
+[[span style="color:white"]]特工Voctor:这货不本来就是空的吗？[[/span]]
+[[span style="color:white"]]Dr.White:那为什么一份空白的报告会出现在数据库里？[[/span]]
+[[span style="color:white"]]特工Voctor:哦，也是，那我查查。[[/span]]
+[[span style="color:white"]]特工Voctor:不行，我查不到它之前的编辑啊......[[/span]]
+[[span style="color:white"]]特工Voctor:博士，你还在吗？[[/span]]
+[[span style="color:white"]]特工Voctor:博士，请回答......[[/span]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[collapsible show="              " hide="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"]]
+SCP-EQ-404是一类似meta的会修改记录它的文档的东西。
+有感知。
+SCP-EQ-404不是删除了记录它文档的文字，而是抹消了文档的存在！
+我们也不知道它是什么，反正就是一个会修改文档的东西。
+它的等级是Keuh21lq813nq9
+这篇文档本来有26行介绍它的，但现在不行。
+我只能希望这篇不被删了。
+我不知道它会不会把这篇文档给抹消，但请你记住，我的名字是
+[[/collapsible]]
+
+[!--
+我注释掉了您的代码
+[[html]]
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("");  
+    } 
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("怎么样");  
+    } 
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("看够了吗");  
+    } 
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("你迟早会死在我的手里");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("如今我也在努力学习了");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("等着吧");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("警告：系统已侦测到权限不足人员访问，MTF破碎天马已经看见你了，请束手就擒，您无处可逃。");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("啊");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("MTF来了呢");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("那么");  
+    } 
+
+Help()
+
+</script>
+
+Help()
+
+</script>
+
+<script language="JavaScript">
+
+function Help() {  
+    alert("拜拜啦");  
+    } 
+
+Help()
+
+</script>
+[[/html]]
+--]
+
+[[html]]
+<script language="JavaScript">
+function Help() {  
+    alert("");  
+    alert("怎么样");  
+    alert("看够了吗");  
+    alert("你迟早会死在我的手里");  
+    alert("如今我也在努力学习了");  
+    alert("等着吧");  
+    alert("");  
+    alert("警告：系统已侦测到权限不足马员访问，MTF破碎天马已经看见你了，请束手就擒，您无处可逃。");  
+    alert("啊"); 
+    alert("MTF来了呢");  
+    alert("那么");  
+    alert("拜拜啦");  
+} 
+window.setTimeout(Help, 20000); //通过window.setTimeout(Function, DelayByMileseconds)指定20000毫秒(20秒)后调用Help()函数
+</script>
+[[/html]]

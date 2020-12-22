@@ -1,0 +1,100 @@
+[[module CSS]]
+@import url(/component:russian-theme/code/1);
+[[/module]]
+
+[[=]]
+[[size 150%]]
+**##darkred|注意##**
+[[/size]]
+[[/=]]
+基于保密考量，此处提供的信息可能不符合事实：某些部门可能没有在此处列出，某些在此处列出的部门可能并不存在，且对于部分部门的描述可能不符合实际情况。
+------
+
+基金会的成功运作主要取决于各个部门之间的划分职责。尽管出于保密原因，某些基金会部门可能不会被列在本文中。但是，为了效率起见，所有部门都是紧密合作的。
+
+[[toc]]
+
+[[div style="float:left;width:85%;"]]
+++ 管理部门[Administrative Department]
+管理部门由O5议会领导。它指导基金会各个层次上的行动。部门包括所有通信节点和指挥中心；每个此类节点和中心都有为了应对故障冗余准备的后备。管理部门同时还负责基金会的所有财务调派，诸如资金处理，估算，预算编制等等。由于该部门的重要性，忠诚检查比其他部门更为频繁。数据记录办公室属于该部门。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/admin.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 外交事务部门[Department of External Affairs (DEA)]
+DEA的行动范围相当大：放出虚假情报，消灭SCP的（包括项目和基金会的）活动踪迹，征募D级马匹，从军队和平民机构中招募新雇员。DEA负责在马口密集地区掩盖基金会特工和设施。DEA本质上来说处于基金会的最前线，因为其负责筛选潜在雇员并负责保证招募马员的高水准-就是所谓的马力资源管理。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/ecd.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 工程和技术服务部门[Engineering and Technical Service Department]
+E&TS负责基金会每日所有设施以及活动中装备的维护和运转。该部门负责设计和建造新设施以及通信线路的修理和维护。E&TS部门基于权限等级和拨款划分为数个子部门；拥有较高权限的雇员设计和建造Keter级收容隔间并在重要战略设施内工作。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/eng.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 伦理委员会[Ethics Committee]
+伦理委员会是一个小型部门，负责评估收容措施和检查实行的实验是否有过度浪费或在D级马匹和其他资源上是否有不适当的使用，并在基金会的工作中起到保护基金会员工基本尊严的作用。该部门的存在对某些马来说只是个蹩脚的笑话，不过其在基金会活动中有重大作用并很有影响力。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-equestria.wdfiles.com/local--files/about-the-scp-foundation/Ethics%20Committee.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 情报机构[Intelligence Agency]
+情报机构的作用是搜索，追踪和捕获未收容的SCP项目并收集敌对相关组织的情报。潜伏的IA单位存在于每个主要马口区域并伪装成平民目标和机构。情报特工一般从国防，法律以及特勤机构中招收。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/int.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 内部安保部门[Internal Security Department]
+ISD是一个隐蔽的“基金会里的基金会”，一个负责找出叛徒并在基金会序列中运作信息安全风险的秘密警察力量。该部门等级森严，并附有明确定义的多级调查协议。成为ISD特工必须拥有完美的服务记录以及在基金会中服务超过一年。通常，每个ISD特工都保留其“官方”职位以向其上级特工某一指定部门的第一手资料。ISD本身的存在就是一个传说。ISD的“官方”职责是调查和审讯捕捉的GOI（相关组织）特工，尽管ISD的此部分功能为了保密考虑事实上属于安保部门。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/isd.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 后勤部门[Logistics Department]
+后勤部门负责在基金会设施之间运送普通，财务，以及马力资源。运送方式包括使用汽运，水运，铁运，空运，空间运送和其他运送方法。有一套复杂的系统负责分派不同优先度和重要等级的运输；SCP项目以及其必要的收容资源通常拥有最高优先权。处理运输期间出现的障碍同样是高优先度行动。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/log.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 生产部门[Manufacturing Department]
+在捕获，收容，或其他基金会程序中可能出现的任何材料需求，由生产部门负责满足。生产部门拥有数个完全用于生产各种不同的定制或量产物品的设施。为了安全理由，设计和生产通常全部在设施内完成。为了同样的理由，无论生产马员还是设计文件都从没离开设施范围外。这些设施一般都配备有现代化设备并有重兵守卫。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/ind.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 医疗部门[Medical Department]
+基金会的医疗部门负责让雇员们维持健康。由于基金会的工作性质，医生们经常遭遇难以治愈和极度不寻常的伤口，创伤，感染和失常。因此，MD坚持要求极高的马员标准。某些基金会医疗专家在本职工作之外还能治疗受特定类型影响的病马，诸如模因。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/med.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 机动特遣队[Mobile Task Forces]
+基金会的工作需要大量高水准专业的特殊马才。这一般与那些需要大量工作以及非常收容方法的SCP有关。为此，机动特遣队被建立起来。MTF都是由特殊领域的专家组成，或为了应对特殊情况而编制的小组（一般15到20名作业员，尽管也出现过超过150名作业员的组）。每个小组都有一个包括希腊字母和数字的代号；某些例子中还会有说明用前缀和/或绰号。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/mtf.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 科学部门[Scientific Department]
+有效的科学工作是基金会存在和运作的基石。科学部门负责研究所有已收容和新的SCP项目，研发反制措施以应对收容失效事件并设计各种设备和医学产品并交由生产部门生产。ScD雇员从各个领域中那些最好和最有名望的科学家中招募而来。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/sd.png]]
+[[/div]]
+[[div style="float:left;width:85%;"]]
+++ 安保部门[Security Department]
+该部门负责为所有基金会设施和项目提供安全和保护，无论其优先级。SD雇员被训练应对收容失效事件，侵入，破坏，自然灾害，和其他紧急情况。该部门的新马一般会在指派给某个项目或设施前会接受基础训练。为了应对某一项目而进行的特殊训练则在指派后在设施内进行。
+[[/div]]
+[[div style="float:left;width:15%;"]]
+[[image http://scp-ru.wdfiles.com/local--files/list-of-foundation-s-internal-departments/sec.png]]
+[[/div]]

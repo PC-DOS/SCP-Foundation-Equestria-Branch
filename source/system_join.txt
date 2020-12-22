@@ -1,0 +1,46 @@
+[[module ListUsers users="."]]
+[[module css]]
+.textchange div.sitemember:nth-child(2) {
+display:none;
+}
+[[/module]]
+
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+[[size 125%]]
+尊敬的%%title%%:
+[[/size]]
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+[[size 125%]]
+您好，远道而来的访者:
+[[/size]]
+[[/div]]
+[[/div]]
+
+[[size 125%]]
+您好!
+您是否厌倦了千篇一律的生活? 您是否希望在平静的生活之中寻找刺激? 那么您这就来对地方了! SCP基金会，这是会是您闻所未闻的神秘组织! 在这里，您将要用智慧、科学和魔法来面对世间最神秘、最黑暗的部分! 想要体验血脉喷张的感觉吗? 加入我们吧!
+只需在页面下方填写一份申请书并点击 [应用] 按钮，您即可立即将您的资料登录到我们的数据库中。接下来只要等待管理马员通过您的申请就可以啦！通过申请之后，别忘了来[[[*http://scp-equestria.wikidot.com/forum/c-4786597 | 这里]]]报个到，然后读一读[[[about-the-scp-foundation|我们的简介]]]和[[[welcome-to-scp-equestria|常见问题与解答]]]。接下来您就可以开始您在SCP基金会小马国分部神秘、惊险、刺激的旅程了!
+您将先作为D级马匹体验一个月，若不满意，随时离开。在这一个月里，您将享受到基金会优厚的待遇。一个月试好了留下来，更有希望获得晋升哦!
+[[/size]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[div style="text-align: right;"]]
+[[div class="unmargined" style="font-size: 100%]]
+SCP基金会小马国分部 D级马匹招募委员会全体 敬上
+[[/div]]
+[[/div]]
+
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[size 115%]]您可以在此处填写申请书，该申请书仅为避免恶意破坏而设立，您可以随意填写。强烈建议您前往[*http://scp-wiki-cn.wikidot.com/guide-hub 人类世界的基金会指导中心的镜像站]，熟悉一下相关的规矩、守则和建议。[[/size]]
+[[module MembershipApply]]

@@ -1,0 +1,139 @@
+[[module CSS]]
+#page-title {
+  display: none;
+}
+[[/module]]
+
+[[module CSS]]
+.scp-eq-datacenter-menu {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.scp-eq-datacenter-menu a {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100%;
+   font-size: 125%;
+   font-weight: bold; 
+   text-decoration: none !important;
+   color: #555 !important;
+   background: transparent;
+}
+.scp-eq-datacenter-menu a:hover {
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100%;
+   font-size: 125%;
+   font-weight: bold; 
+   text-decoration: none !important;
+   color: #555 !important;
+   background: #eee;
+}
+[[/module]]
+
+[[div class="unmargined" style="visibility: collapse; height: 0px;"]]
++ PAGE TOP
+[[/div]]
+
+[[=image http://scp-equestria.wdfiles.com/local--files/about-the-scp-foundation/SCPLogo_Grey_Resize.png width="125px;"]]
+
+[[div style="text-align: center; color: #555; margin-bottom: 15px;"]]
+[[div class="unmargined" style="font-size: 200%; font-weight: bold; margin: 2px 0 0px;"]]
+SCP基金会小马国分部
+[[/div]]
+[[div class="unmargined" style="font-size: 225%; font-weight: bold; margin: 2px 0 5px;"]]
+文献与档案数据中心
+[[/div]]
+[[div class="unmargined" style="font-size: 125%; font-weight: bold; margin: 2px 0 5px;"]]
+SCP FOUNDATION EQUESTRIA BRANCH DATACENTER
+[[/div]]
+[[/div]]
+
+[[div style="border-bottom:2px solid #555; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #555;"]]
+[[/div]]
+
+[[table style="width: 100%; margin-top: 0px; margin-bottom: 0px;"]]
+[[row style="width: 100%;"]]
+[[cell style="width: 25%;" class="scp-eq-datacenter-menu"]]
+[#toc1 研究与报告]
+[[/cell]]
+[[cell style="width: 25%;" class="scp-eq-datacenter-menu"]]
+[#toc2 故事与记录]
+[[/cell]]
+[[cell style="width: 25%;" class="scp-eq-datacenter-menu"]]
+[#toc3 总部的文档]
+[[/cell]]
+[[cell style="width: 25%;" class="scp-eq-datacenter-menu"]]
+[#toc4 所有的条目]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div style="border-bottom:1px solid #555; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:2px solid #555;"]]
+[[/div]]
+
++ 研究与报告
+
+**[[[protected:datacenter-researches | >> 独立页面版本]]]**
+
+[[module ListPages category="*" separate="yes" tags="讲座 研究 -来自总部" perPage="25" order="updated_at desc"]]
+**%%title_linked%%**
+[[size 90%]]###555|作者：[[user %%created_by%%]]##[[/size]]
+[[/module]]
+
+**[#toc0 ⇪返回到页首]**
+
+[[div style="border-bottom:1px solid #555; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:2px solid #555;"]]
+[[/div]]
+
++ 故事与记录
+
+**[[[protected:datacenter-tales | >> 独立页面版本]]]**
+
+[[module ListPages category="*" separate="yes" tags="+条目 +故事" perPage="25" order="updated_at desc"]]
+**%%title_linked%%**
+[[size 90%]]###555|作者：[[user %%created_by%%]]##[[/size]]
+[[/module]]
+
+**[#toc0 ⇪返回到页首]**
+
+[[div style="border-bottom:1px solid #555; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:2px solid #555;"]]
+[[/div]]
+
++ 总部的文档
+
+**[[[protected:datacenter-from-headquarters | >> 独立页面版本]]]**
+
+[[module ListPages category="*" separate="yes" tags="+来自总部" perPage="25" order="updated_at desc"]]
+**%%title_linked%%**
+[[size 90%]]###555|转存者：[[user %%created_by%%]]##[[/size]]
+[[/module]]
+
+**[#toc0 ⇪返回到页首]**
+
+[[div style="border-bottom:1px solid #555; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:2px solid #555;"]]
+[[/div]]
+
++ 所有的条目
+
+**[[[protected:datacenter-all | >> 独立页面版本]]]**
+
+[[module ListPages category="*" separate="yes" tags="+条目" perPage="25" order="updated_at desc"]]
+**%%title_linked%%**
+[[size 90%]]###555|作者：[[user %%created_by%%]]##[[/size]]
+[[/module]]
+
+**[#toc0 ⇪返回到页首]**

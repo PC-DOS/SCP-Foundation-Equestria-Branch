@@ -1,0 +1,63 @@
+[[module CSS]]
+.siteIcon {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 30px;
+  height: 17px;
+  vertical-align: bottom;
+  background-color: #999;
+  border: solid 2px #000;
+  border-radius: 0 6px 0 6px;
+  color: #fff;
+}
+.siteIcon img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+}
+.siteIcon .number {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  line-height: 100%;
+  font-size: 60%;
+  font-weight: bold;
+  text-shadow: #333 1px 1px;
+}
+
+.areaIcon {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 30px;
+  height: 17px;
+  vertical-align: bottom;
+  background-color: #333;
+  border: solid 2px #000;
+  border-radius: 0 6px 0 6px;
+  color: #fe3;
+}
+.areaIcon img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+}
+.areaIcon .number {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  line-height: 100%;
+  font-size: 60%;
+  font-weight: bold;
+  text-shadow: #333 1px 1px;
+}
+[[/module]]
+
+[[span class="areaIcon" style="background: linear-gradient(to bottom right, #333,{$c0});"]][[image http://scp-wiki.wdfiles.com/local--files/component:site/facility-texture.png]][[span class="number"]]{$number}[[/span]][[/span]] [[size 110%]]**{$name}** {$subtitle}[[/size]]

@@ -1,0 +1,194 @@
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
+[[div style="font-size: 350%; font-weight: bold; margin: 2px 0 5px;"]]
+[[=]]
+{{小马利亚相关组织}}
+[[/=]]
+----
+[[/div]]
+[[div class="content-panel standalone" style="font-family: Courier New, Courier, monospace; width: auto; padding: 10px 30px; margin: 20px auto; background: url(http://www.scp-wiki.net/local--files/about-the-scp-foundation/bg-marble.png) repeat; text-shadow: 1px 1px 1px rgba(0,0,0,.25)"]]
+**文件概览：**基金会并不是唯一存在于小马利亚的对异常物品有研究的组织，事实上在这个国度存在着其它的异常组织。它们可能是基金会的朋友亦或是敌马，下面列出小马利亚境内的部分基金会同行组织。
+
+需要注意的是，尽管基金会已经知晓了很多位于小马利亚境内的同行组织的存在并可能对它们进行不同程度的观察和研究，但是通常而言，仅在已有与该同行组织相关的SCP项目在基金会数据库中登记的情况下，才会将该同行组织的相关信息记录于此处。
+[[/div]]
+
+----
+[[=]]
+[[toc]]
+[[/=]]
+[[/div]]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ [[[rainobw-liberators|Rainbow解放者]]]
+
+[[f>image LOGO-RainbowLibrators.png]]
+
+**概述：**该组织最早由从基金会对彩虹工厂的突袭行动中逃脱的工厂员工建立，之后组织规模迅速膨胀，甚至于目前组织的控制权都无法由最初的工厂员工全部掌握。
+
+该组织的成员绝大部分是“Rainbow”的信仰者。该信仰群体存在已久，具体时间已不可考，推测于小马利亚建国后不久出现。这一群体数量庞大，遍布小马利亚并且从不在公众面前露面。对于所谓“Rainbow”到底为何物，目前基金会尚不知悉。
+
+该组织的成员组成广泛造成内部分化严重，目前该组织由七大部分组成，名义上各大组织各司其职、互相协助，但实质上相互之间也存在着权力上的明争暗斗。
+
+该组织的具体实力尚不明确，不过可以确定的是至少能够与基金会正面对抗甚至超过基金会。该组织掌握制造异常物品并利用的能力，与人类世界也保持着密切联系。组织的据点遍布全国各地，其总部据推测位于云之都。
+
+由八位经理马组成的最高理事会掌握组织最高权力，组织的一切战略决定必须获得最高理事会半数以上投票才能通过。
+
+该组织的宣称对Rainbow、小马利亚和宇宙公主效忠，对基金会抱有强烈敌意，组织宗旨是：消灭基金会代表的人类势力，带来小马利亚的解放。
+
+根据《基金会小马国分部员工基本守则》，当基金会员工遭遇该组织成员时要在第一时间向附近站点汇报，避免与其发生正面冲突。总之，Rainbow解放者是目前基金会的最大威胁。 
+
+[/system:page-tags/tag/rainbow%E8%A7%A3%E6%94%BE%E8%80%85#pages 点击此处]查阅所有标记有//Rainbow解放者//的页面。 
+[[div style="text-align:right"]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ [[[drcravel | Cravel博士]]]
+
+[[f>image LOGO-DrCravel.png]]
+
+**概述：**Cravel博士是一尚未确定的生产商家，是一个团体或一匹马目前未知。根据目前已收容的由其制造的一场项目推测其为了自己的利益大量制造异常物品，并高价卖出。目前Cravel博士的位置尚未确定，对其展开的研究进展甚少。根据目前发现的与Cravel博士相关的文档及从SCP基金会总部获得的相关资料推测Cravel博士可能与Wondertainment博士存在某种联系。
+
+[[[/system:page-tags/tag/cravel%E5%8D%9A%E5%A3%AB#pages|点击此处]]]查阅所有标记有//Cravel博士//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ EPSI
+
+[[f>image LOGO-EPSI(1).png]]
+
+**概述：**EPSI是小马国建国初期建立的研究组织。该组织会对小马世界所有异常项目进行研究，其目的是为了避免马国陷入水深火热之中。
+
+该组织因为“避免马国陷入水深火热之中”的原因，与基金会保持长期合作关系。该组织成员会在每月的██日将他们所研究的项目通过█████的方式提交给基金会，以便基金会进行收容。
+
+EPSI提交一种被称为“S I N”的档案给基金会。与一般基金会项目记录不同，EPSI的项目等级会以一种名为███的形式评价，其提供的资料图片多为替代图。
+
+EPSI并不是完全与基金会合作。在某些项目上，EPSI会以“不利于马国的和谐稳定”为由阻止基金会进行收容。
+
+EPSI保密性极高，目前基金会几乎没能得到任何有效信息。除了几个一开始被EPSI公布的信息。
+# 其核心内容为：观察，记录，传达。观察非常事物，记录非常档案，传达非常信息。
+# 其全名至今仍未可知，推测是Equestria Pony Special Institute（小马国小马特别协会）
+# 该组织仅有小马成员，且组织成员渗透与小马国各处。
+# EPSI完全具有收容项目的能力，但在不到万不得已时，全部交给SCP-EQ基金会或者马国政府处理。
+
+EPSI与Ranibow解放者和Cravel博士等组织保持敌对关系。
+
+“任何企图威胁马国和平稳定的行为必须铲除。”
+
+[[[/system:page-tags/tag/epsi#pages|点击此处]]]查阅所有标记有//EPSI//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+
+[!--
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ EEA
+
+[[f>image LOGO-EEA.png]]
+
+**概述：**EEA(小马利亚教育委员会)是小马国建国初期成立的组织。该组织原本是用来管理小马国的各个学校的事务与教育事业的普通组织。后因被ESPI查出其利用异常影响教育事业发展并与其他教育组织进行不公平竞争而被列为“不利于小马国和谐与稳定”的组织。基金会埋伏在EEA的特工成功收容了该组织的大量异常，其中包括[数据删除]。
+
+该组织拥有大量异常物品，并知道如何使用它，同时给小马国大部分学校提供异常，并利用异常维持其在小马国教育事业的垄断地位。
+
+由于小马国大部分学校都属于EEA，考虑到EEA在小马国的地位，以及其所拥有的异常被公开的危险性，不建议对该组织进行过大的干涉。
+
+目前该组织对基金会抱有较大的敌意，多次对基金会进行攻击，为了对付基金会而与Rainbow解放者保持合作关系，利用其权力为大量Rainbow解放者成员提供保护。其动机为“夺回被万恶的基金会夺走的圣物，光复小马国教育事业，唤醒被迷惑的塞拉斯蒂亚公主，清除所有非EEA章程学校。”
+
+该组织与基金会和ESPI等类似组织保持敌对敌对关系。
+
+[[[/system:page-tags/tag/eea#pages|点击此处]]]查阅所有标记有//EEA//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+--]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ “地狱之子”
+
+[[f>image LOGO-DYZZ.png]]
+
+**概述：**该组织是一个非常危险的组织，已经导致基金会数次收容失效。基金会对于该组织的了解不是很多，组织规模、成员数量、内部结构、持有的异常总数等均为未知。唯一能获取的可靠的相关信息是关于该组织对异常表示崇拜与尊重，首领一个名叫提雷克的不明智能生物。该组织成员自称为“地狱之子”，所有的这些成员都可能使用疑似或是已经被证实的异常进行他们的不为马知的秘密活动来达成某种不为马知的目的。
+
+该组织的主要根据地可能位于一个处于异常地点，通过世界各地被称为“地狱之门”的传送门进入的，被称为“地狱”的地方。目前只有一处被称为“地狱之门”的传送门被基金会发现，收容并编号为[数据删除]。
+
+该组织成员对于隔离或摧毁异常特别是Safe级别异常的行为表现出强烈的厌恶，对被收容的项目特别是马形项目表现出同情，同时会不择蹄段地解放被收容的异常。根据O5议会和小马利亚分会的指令，任何检测到该组织活动行踪的基金会马员必须上报给总部并跟踪该组织的行踪，深入调查该组织的底细。
+
+该组织对基金会以及ESPI表现出强烈的敌意，同时因为某种不明原因，似乎与EEA和Cravel博士也保持敌对关系，与Rainbow解放者似乎在某些方面保持一定的合作。
+
+[[[/system:page-tags/tag/%E5%9C%B0%E7%8B%B1%E4%B9%8B%E5%AD%90#pages|点击此处]]]查阅所有标记有//地狱之子//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+
+[!--
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ CMC
+
+[[f>image LOGO-CMC.png]]
+
+**概述：**CMC的全称是可爱标志童子军(Cutie Mark Crusaders)，第一代CMC据悉于谐律元素持有者打败梦魇之月的几个月后在小马镇甜苹果农场的一间小树屋里成立，最初成员为3匹未获得可爱标记的小幼驹，后来发展为一个遍布全国各地的庞大的组织，其主要目的是不择蹄段得到可爱标志（Cutie Mark）。部分未证实的资料显示SCP-EQ-004是由第一代CMC释放的。
+
+第二代CMC是第一代CMC的延续，由PoI-00075 “巴布西”在马哈顿创立，具体成立时间不明，其成员以未获得可爱标志的幼驹为主，同时也有少数未获得可爱标志的成年马加入，CMC的每一个成员都患有一种被称为“光屁股诅咒”的疾病，根据可靠的资料显示，这种疾病的发病率为1％，治疗这种疾病唯一的方法是加入不少于三匹患有该疾病小马的团队，通过团队成员之间的VER辐射相互影响来消除病原体（只是推测）。
+
+CMC第三代开始利用异常物品辅助获得可爱标志，同时由于意见分歧分成了多个流派，有的流派与基金会和ESPI保持合作关系，有的流派与基金会以及ESPI保持中立关系，有的则保持敌对关系。但是出于某种特殊的原因，无论是哪个流派都使用同一个工作网站。
+
+CMC内部结构一直保持类似于一个民主专制政府的体系，除了特定流派外，领导者均可以由成员选拔。第三代CMC在分成多个流派之前的总部在甜苹果园的一间利用空间异常改造过的小树屋内。
+
+考虑到某项与CMC相关的异常，不建议基金会非自卫行为攻击CMC
+
+[[[CMC派系介绍|点击此处]]]查看部分CMC的流派。
+
+[[[/system:page-tags/tag/cmc#pages|点击此处]]]查阅所有标记有//CMC//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+--]
+
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ FOEC
+
+[[f>image LOGO-FOEC.png]]
+
+**概述：**该组织是一个被称为“FOE（Fallout Equestria）”的不明文学作品的粉丝团体，该组织内部结构比较散乱，没有固定的领导者，也没有固定的基地。该组织的宗旨是：“创作出顶尖水平的艺术作品以及FOE周边作品”。
+
+该组织拥有大量异常物品，并知道如何使用它们，同时也知道如何制造异常物品，其制造的异常大多数与FOE以及小马国艺术有关。
+
+该组织制造的异常通常会在市场上以不明商标的形式出现，同时商品标注的生产厂家均为FOEC。
+
+该组织会定期在不定点地举办一次大型秘密集会，集会被称之为FOEC（Fallout EquestriaCon），基金会最近一次监测到该组织的活动是在马哈顿一家大型商场的负三楼展会中心，展会被伪装成秘密商业访谈会。
+
+[[[/system:page-tags/tag/foec#pages|点击此处]]]查阅所有标记有//FOEC//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+
+[[/div]][[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ “电子娱乐之马会”
+
+**概述：**“电子娱乐之马会”是一个通常在媒体文件或娱乐游戏中寻找异常项目的组织，其总部设立于Site-EQ-51站点内。该组织的前身为“游戏马厩”，后来与“万能之马”组织合并后成为“电子娱乐之马会”，并由Dr.Bacon和Dr.Coinber共同引领。
+
+[[[/system:page-tags/tag/%E7%94%B5%E5%AD%90%E5%A8%B1%E4%B9%90%E4%B9%8B%E9%A9%AC%E4%BC%9A#pages|点击此处]]]查阅所有标记有//“电子娱乐之马会”//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+
+[!--
+[[div class="content-panel standalone series" style="background-color: #FFFFFF;"]]
++ TBC
+
+**概述：**TBC即The Bugs Camps（虫虫集中营）。是SCP基金会小马国分部的一敌对组织。这个组织旨在制造异常虫子，维护世界治安。SCP基金会小马国分部尚未发现该组织行踪。已知该组织主要领导者为Plo博士。
+
+[[[http://scp-eq.org/system:page-tags/tag/tbc#pages|点击此处]]]查阅所有标记有//TBC//的页面。
+[[div style="text-align:right"]][[f<image [[image http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png ]]]]
+,,[#toc 回到顶部],,
+[[/div]]
+[[/div]]
+--]

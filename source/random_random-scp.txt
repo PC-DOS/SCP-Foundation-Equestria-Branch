@@ -1,0 +1,4 @@
+[[module ListPages category="*" order="random" limit="1" tag="scp -001提案"]]
+正在为您随机选择一篇SCP条目，取消请按ESC键。
+[[include :snippets:redirect url=%%link%%]]
+[[/module]]
