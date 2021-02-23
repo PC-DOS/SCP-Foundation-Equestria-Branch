@@ -608,7 +608,7 @@ z-index: 1;
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
-__[[[http://scp-equestria.wikidot.com/scp-eq-202-ex | 简体中文]]]__ | [[[http://scp-equestria.wikidot.com/cht:scp-eq-202-ex | 繁體中文]]] | English
+[[[http://scp-equestria.wikidot.com/scp-eq-202-ex | 简体中文]]] | [[[http://scp-equestria.wikidot.com/cht:scp-eq-202-ex | 繁體中文]]] | __English__
 [[/cell]]
 [[cell style="text-align: right;"]]
 Please rate the original one. 
@@ -679,13 +679,13 @@ SCP-EQ-202-1, after a certain but undetermined point of changes, show anomalous 
 * Generation of --temporal-- nonpersistent saptial anomalies. 
 (Details are displayed in supplementary File EQ-202-A03)
 @@@@
-**Appendum EQ-202.1:** 
+**Addendum EQ-202.1:** 
 The gender ration (F:M) of instances of SCP-EQ-202 is 2.71:1, which is slightly higher than average of population (2.48:1). 
 [FOLLOWING CONTENTS ARE REDACTED PER //PROTOCOL VoR-202//]
 @@@@
 @@@@
 @@@@
-[[collapsible show="Access Appendum EQ-202ex.0 [LEVEL 5 CLEARANCE REQUIRED]" hide="Appendum EQ-202ex.0: "]]
+[[collapsible show="Access Addendum EQ-202ex.0 [LEVEL 5 CLEARANCE REQUIRED]" hide="Addendum EQ-202ex.0: "]]
 [[=]]
 @@@@
 {{**COUNCIL VOTE SUMMARY, REGARDING THE EXECUTION OF //PROTOCOL VoR-202//**}}

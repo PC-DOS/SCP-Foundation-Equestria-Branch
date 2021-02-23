@@ -237,7 +237,7 @@ SCP-EQ-044-3被确定具有扭曲现实的作用，且项目拥有理解自然�
 
 纯粹现实扭曲理论是早期的与SCP-EQ-044-3相关的文献中常用的说法，该理论认为SCP-EQ-044-3本质上是一个具有极高体休谟指数的高阶现实扭曲实体，项目通过解析书写在其上的文句来进行现实扭曲。然而，该理论尚无法完美解释历次基于该理论对项目进行的实验均表明项目自身的休谟指数几乎与环境休谟相同的现象。该理论对此的解释为项目自身休谟指数超出了康德计数器的量程，也有一些学者认为项目可能来自其他平行宇宙并因为这些宇宙自身的“某些特性”[[footnote]]此处定义极为模糊。[[/footnote]]使得其休谟指数无法被测定。
 
-[[include component:image-block name=http://scp-equestria.wikidot.com/local--files/fragment:scp-eq-044-3/SCP-EQ-044-Demo.png |caption=“抽象叙事域”理论草图（已简化） |link="http://scp-equestria.wikidot.com/local--files/fragment:scp-eq-044-3/SCP-EQ-044-Demo.png"|width=500px]]
+[[include component:image-block name=http://scp-equestria.wikidot.com/local--files/fragment:scp-eq-044-3/SCP-EQ-044-Demo.png |caption=“抽象叙事域”理论草图（已简化） |link="*http://scp-equestria.wikidot.com/local--files/fragment:scp-eq-044-3/SCP-EQ-044-Demo.png"|width=500px]]
 
 基于叙事的现实扭曲理论提出的时间较为新近，该理论是在总结SCP-EQ-044-3的已有实验并将其与SCP-EQ-044-1和SCP-EQ-044-2进行对比研究之后得出的。该理论的主要观点为SCP-EQ-044-3的性质与SCP-EQ-044-1和SCP-EQ-044-2相似，即是“抽象叙事层”提供给本叙事层（域）的与位于本层上方的“抽象叙事层”、乃至位于上层的物理叙事层之间进行交互的接口的物化表现。该理论提出，“抽象叙事层”提供了跨越叙事层的“叙事互操作”框架，除了传统认知中上层叙事操作下层叙事的接口之外，“抽象叙事层”还给下层叙事预留了与上层叙事交互、甚至操作上层叙事的接口。该观点的主要论据在于，目前包括总部在内的基金会各分支机构、以及已知的位于其他位面的平行组织已经收容了数个拥有跨叙事层特性、甚至具有改变叙事实体所在叙事层级的能力的涉叙事异常[[footnote]]Dr. Justajar.浅论涉叙事异常的跨叙事特性[J].超形上学学报,2015(1):12-19.[[/footnote]][[footnote]]Dr. Picsell Dois.叙事实体层级移位现象的一种可能原因[J].超形上学学报,2013(4):23-33.[[/footnote]]。同时，叙事总基调稳定爪的研发以及SCP-TLLink[[footnote]]一种基于反投影纠缠原理的跨叙事层沟通程序。[[/footnote]]程序的开发和数次成功应用也为该理论在一定程度上提供了实践层面上的支持。该理论的支持者分析，SCP-EQ-044-3通过解析写入的描述性语句和/或结构化文本，并将其提交给承担叙事自填充功能的相关结构，进而实现本层叙事对控制自身的文字制导的操作。还有观点认为，藉由适当的语句，可以实现对上层，乃至更高层叙事的操作和/或交互。
 

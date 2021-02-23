@@ -1,3 +1,7 @@
+[[module CSS]]
+@import url(/component:theme-blue/code/1);
+[[/module]]
+
 [[code type="css"]]
 
 @import url(/local--files/component:theme/font-bauhaus.css);

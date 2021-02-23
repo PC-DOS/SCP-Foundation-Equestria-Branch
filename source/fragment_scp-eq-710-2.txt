@@ -1,4 +1,4 @@
-[[include :scp-wiki-cn:component:pataphysics-theme]]
+[[include :scp-wiki-cn:theme:pataphysics]]
 [[module css]]
 .footnoteref{
 color: #FF5555;

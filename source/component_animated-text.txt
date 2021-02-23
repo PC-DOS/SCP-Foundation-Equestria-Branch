@@ -1,0 +1,168 @@
+[[iftags +样板]]
++ 如何使用这个样版
+
+这个样板通过CSS动画代码结合Wikidot的{{@@[[span]]@@}}行内标签，提供了一个可以自动改变内容的行内元素。这个样板提供了最多10个文本内容槽位。
+
+[[*user PC-DOS]]制作，鸣谢[[*user Dr Hormress]]提供的参考，其出处[*http://scp-wiki-mc.wikidot.com/scp-mc-309 在此]。
+
+++ 怎么使用它
+
+请在需要使用这个模块的地方使用这样的代码：
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:animated-text@@
+@@    |ID=动态文本样式的编号，不同的动态文本应具有独立的编号，建议使用非负整数，默认值是0@@
+@@    |Interval=完成一个文本变化周期所需的时间，默认值是5s（五秒）@@
+@@    |Text1="文本槽位1"@@
+@@    |Text2="文本槽位2"@@
+@@    |Text3="文本槽位3"@@
+@@    |Text4="文本槽位4"@@
+@@    |Text5="文本槽位5"@@
+@@    |Text6="文本槽位6"@@
+@@    |Text7="文本槽位7"@@
+@@    |Text8="文本槽位8"@@
+@@    |Text9="文本槽位9"@@
+@@    |Text10="文本槽位10"@@
+@@    |Prefix=动态文本前显示的内容，支持Wikidot语法@@
+@@    |Suffix=动态文本后显示的内容，支持Wikidot语法@@
+@@    |SpanStyle=动态文本所在的行内元素的自定义样式，默认是空@@
+@@    |SpanBeforeStyle=动态文本所在的自定义样式，默认是空@@
+@@]]@@
+[[/div]]
+
+请注意：
+
+* 所有“文本槽位”两段需使用半角引号（{{"}}）括起。
+* {{SpanStyle}}和{{SpanBeforeStyle}}中均可输入多个样式，样式之间使用半角分号（{{;}}）分隔，样式行的末尾使用半角分号（{{;}}）结束。
+
+由于这个{{@@[[include]]@@}}块会引入一个样式定义，因此，对于具有相同内容的动态文本，使用一次这个{{@@[[include]]@@}}块后，即可在需要这个动态文本的地方使用下面的代码直接引用：
+
+[[code]]
+[[span class="animated-text-{ID}"]][[span]]DEF_TEXT[[/span]][[/span]]
+[[/code]]
+
+其中，{{@@{ID}@@}}为{{@@[[include]]@@}}块的{{ID}}内定义的ID，{{DEF_TEXT}}为占位文本。这个引用不会在引用区域引入{{@@[[include]]@@}}块内{{Prefix}}和{{Suffix}}定义的上下文。
+
+++ 功能增强
+
+如果您希望扩充文字槽位等功能，请参考[[[component:animated-text-base|]]]中提供的源代码。
+
++ 使用范例
+
+下面的范例演示了一个编号和项目等级无法确定的SCP项目。
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:animated-text@@
+@@    |ID=0@@
+@@    |Interval=2.5s@@
+@@    |Text1="SCP-EQ-000"@@
+@@    |Text2="SCP-EQ-???"@@
+@@    |Text3="SCP-EQ-100"@@
+@@    |Text4="SCP-EQ-001"@@
+@@    |Text5="SCP-EQ-"@@
+@@    |Text6="SCP-EQ--1"@@
+@@    |Text7="SCP-EQ-i"@@
+@@    |Text8="SCP-EQ-EQ"@@
+@@    |Text9="SCP-EQ-π"@@
+@@    |Text10="SCP-EQ-SCP"@@
+@@    |Prefix=**项目编号：**@@
+@@    |Suffix=@@@@@@
+@@    |SpanStyle=text-decoration: underline;@@
+@@    |SpanBeforeStyle=text-decoration: underline;@@
+@@]]@@
+@@@@
+@@[[include :scp-equestria:component:animated-text@@
+@@    |ID=1@@
+@@    |Interval=2.5s@@
+@@    |Text1="Safe"@@
+@@    |Text2="Euclid"@@
+@@    |Text3="Keter"@@
+@@    |Text4="Thaumiel"@@
+@@    |Text5="Apollyon"@@
+@@    |Text6="Neutralized"@@
+@@    |Text7="Explained"@@
+@@    |Text8="Zurvan"@@
+@@    |Text9="Eparch"@@
+@@    |Text10="None"@@
+@@    |Prefix=**项目等级：**@@
+@@    |Suffix=@@@@@@
+@@    |SpanStyle=text-decoration: underline;@@
+@@    |SpanBeforeStyle=text-decoration: underline;@@
+@@]]@@
+@@[[footnote]]由于[[span class="animated-text-0"]][[span]]SCP[[/span]][[/span]]的性质，其项目等级无法被确定。[[/footnote]]@@
+@@@@
+@@**特殊收容措施：**试图将一个有效的SCP项目编号和/或项目等级给予[[span class="animated-text-0"]][[span]]SCP[[/span]][[/span]]是无效的。[[span class="animated-text-0"]][[span]]SCP[[/span]][[/span]]仅需在SCP基金会数据库中存档，不需制定额外的收容措施。@@
+@@@@
+@@**描述：**[[span class="animated-text-0"]][[span]]SCP[[/span]][[/span]]是一个[[span class="animated-text-1"]][[span]]CLS[[/span]][[/span]]等级的SCP项目。试图将一个唯一确定的SCP项目分级，以及一个唯一确定的SCP项目编号给予[[span class="animated-text-0"]][[span]]SCP[[/span]][[/span]]是无意义的。@@
+@@@@
+@@[[footnoteblock title="蹄注"]]@@
+[[/div]]
+
+它看起来像这样：
+
+[[div style="border: 1px solid black; margin-top: 10px; margin-bottom: 10px; padding: 5px;"]]
+[[include :scp-equestria:component:animated-text-base
+    |ID=1
+    |Interval=2.5s
+    |Text1="SCP-EQ-000"
+    |Text2="SCP-EQ-???"
+    |Text3="SCP-EQ-100"
+    |Text4="SCP-EQ-001"
+    |Text5="SCP-EQ-"
+    |Text6="SCP-EQ--1"
+    |Text7="SCP-EQ-i"
+    |Text8="SCP-EQ-EQ"
+    |Text9="SCP-EQ-π"
+    |Text10="SCP-EQ-SCP"
+    |Prefix=**项目编号：**
+    |Suffix=@@@@
+    |SpanStyle=text-decoration: underline;
+    |SpanBeforeStyle=text-decoration: underline;
+]]
+
+[[include :scp-equestria:component:animated-text-base
+    |ID=2
+    |Interval=2.5s
+    |Text1="Safe"
+    |Text2="Euclid"
+    |Text3="Keter"
+    |Text4="Thaumiel"
+    |Text5="Apollyon"
+    |Text6="Neutralized"
+    |Text7="Explained"
+    |Text8="Zurvan"
+    |Text9="Eparch"
+    |Text10="None"
+    |Prefix=**项目等级：**
+    |Suffix=@@@@
+    |SpanStyle=text-decoration: underline;
+    |SpanBeforeStyle=text-decoration: underline;
+]]
+[[footnote]]由于[[span class="animated-text-1"]][[span]]SCP[[/span]][[/span]]的性质，其项目等级无法被确定。[[/footnote]]
+
+**特殊收容措施：**试图将一个有效的SCP项目编号和/或项目等级给予[[span class="animated-text-1"]][[span]]SCP[[/span]][[/span]]是无效的。[[span class="animated-text-1"]][[span]]SCP[[/span]][[/span]]仅需在SCP基金会数据库中存档，不需制定额外的收容措施。
+
+**描述：**[[span class="animated-text-1"]][[span]]SCP[[/span]][[/span]]是一个[[span class="animated-text-2"]][[span]]CLS[[/span]][[/span]]等级的SCP项目。试图将一个唯一确定的SCP项目分级，以及一个唯一确定的SCP项目编号给予[[span class="animated-text-1"]][[span]]SCP[[/span]][[/span]]是无意义的。
+
+[[footnoteblock title="蹄注"]]
+[[/div]]
+[[/iftags]]
+
+[[include :scp-equestria:component:animated-text-base
+    |ID={$ID}|ID=0
+    |Interval={$Interval}|Interval=5s
+    |Text1={$Text1}|Text1=""
+    |Text2={$Text2}|Text2=""
+    |Text3={$Text3}|Text3=""
+    |Text4={$Text4}|Text4=""
+    |Text5={$Text5}|Text5=""
+    |Text6={$Text6}|Text6=""
+    |Text7={$Text7}|Text7=""
+    |Text8={$Text8}|Text8=""
+    |Text9={$Text9}|Text9=""
+    |Text10={$Text10}|Text10=""
+    |Prefix={$Prefix}|Prefix=@@@@
+    |Suffix={$Suffix}|Suffix=@@@@
+    |SpanStyle={$SpanStyle}|SpanStyle=/* */
+    |SpanBeforeStyle={$SpanBeforeStyle}|SpanBeforeStyle=/* */
+]]

@@ -45,15 +45,6 @@ display:none;
 [[/div]]
 [[/div]]
 
-[[div class="content-panel centered standalone" style="padding-top: 10px; padding-bottom: 10px;"]]
-[[collapsible show="展开疫情统计信息" hide="收起疫情统计信息"]]
-[[html]]
-<div class="bingwidget" data-type="covid19" data-market="zh-cn" data-language="zh-cn"></div>
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-[[/html]]
-[[/collapsible]]
-[[/div]]
-
 [[div class="content-panel centered standalone"]]
 [[size 120%]]D级马匹火热招募中! 待遇优厚，更有希望成为研究员哦! [[[system:join|有意者请点击此处]]]。[[/size]]
 

@@ -608,7 +608,7 @@ z-index: 1;
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
-__[[[http://scp-equestria.wikidot.com/scp-eq-426 | 简体中文]]]__ | [[[http://scp-equestria.wikidot.com/cht:scp-eq-426 | 繁體中文]]] | English
+[[[http://scp-equestria.wikidot.com/scp-eq-426 | 简体中文]]] | [[[http://scp-equestria.wikidot.com/cht:scp-eq-426 | 繁體中文]]] | __English__
 [[/cell]]
 [[cell style="text-align: right;"]]
 Please rate the original one. 
@@ -638,7 +638,7 @@ As of Incident SCP-EQ-426-ACD-01 and researches following it, you are contained 
 
 You were first recovered from ██████████'s table. Foundation Agent ██████ noticed her neighbour's long stay indoor and later discovered that ██████████ was //being sharpened// by his mother with a peeling knife. Agent ██████ discovered you later and reported you to Foundation. Foundation later developed a spell for countering your anomaly and contained you. However, Foundation cannot counter your secondary effect as of yet. 
 
-**APPENDUM:** 
+**ADDENDUM:** 
 [[collapsible show="+ Incident SCP-426-ACD-01" hide="- Fold Incident SCP-426-ACD-01"]]
 [[div style="display: inline-block; border-radius: 10px; border:dashed 1px #444444; background:#F5F5F5; float:top; width:96.5%; padding:10px"]]
 **Video Log:** Vicinity of vault for containment of you, Site-EQ-51

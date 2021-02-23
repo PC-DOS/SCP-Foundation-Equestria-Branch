@@ -1,0 +1,31 @@
+[[module css]]
+.pictures4mobile {
+    height: 0px;
+    overflow: hidden;
+}
+
+.pictures4desk {
+    height: auto;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .pictures4mobile {
+        height: auto;
+    }
+
+    .pictures4desk {
+        height: 0px;
+        overflow: hidden;
+    }
+
+}
+
+[[/module]]
+
+[[div class="pictures4mobile"]]
+[[include component:image-block-base name={$name}|caption={$caption}|width={$width}|width=300px|link={$link}|link=#|align=center]]
+[[/div]]
+[[div class="pictures4desk"]]
+[[include component:image-block-base name={$name}|caption={$caption}|width={$width}|width=300px|link={$link}|link=#|align=right]]
+[[/div]]

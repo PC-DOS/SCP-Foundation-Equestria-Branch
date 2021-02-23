@@ -1,5 +1,5 @@
 [[module CSS]]
-@import url(/component:pataphysics-theme/code/1);
+@import url(/theme:pataphysics/code/1);
 [[/module]]
 
 [[code type="css"]]

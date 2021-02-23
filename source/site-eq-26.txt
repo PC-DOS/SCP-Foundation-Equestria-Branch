@@ -123,12 +123,14 @@ r.Rika是一等外交专家，雌驹，种族为独角兽，精通伪装术，�
 [[tab 站点部分收容项目]]
 
 ||~ 项目编号||~ 威胁等级||~ 作者||
-||[[[scp-eq-008|SCP-EQ-008]]]||##orange|Eucild##||[[*user Minkie Dash]]||
-||[[[scp-eq-286|SCP-EQ-286]]]||##blue|Thaumiel##||[[*user Minkie Dash]]||
-||[[[scp-eq-022|SCP-EQ-022]]]||##red|Keter##||[[*user Minkie Dash]]||
-||[[[scp-eq-044|SCP-EQ-044-2]]]||##blue|Thaumiel##||[[*user PC-DOS]]||
-||[[[scp-eq-417|SCP-EQ-417]]]||##orange|Eucild##||[[*user PC-DOS]]||
-||[[[scp-eq-071|SCP-EQ-071-2和SCP-EQ-071-3]]]||##green|Safe##||[[*user PC-DOS]]||
+|| [[[scp-eq-008|SCP-EQ-008]]] || ##orange|Eucild## || [[*user Minkie Dash]] || 
+|| [[[scp-eq-286|SCP-EQ-286]]] || ##blue|Thaumiel## || [[*user Minkie Dash]] || 
+|| [[[scp-eq-022|SCP-EQ-022]]] || ##red|Keter## || [[*user Minkie Dash]] || 
+|| [[[scp-eq-036|SCP-EQ-036]]] || ##red|Keter## || [[*user Minkie Dash]] || 
+|| [[[scp-eq-044|SCP-EQ-044-2]]] || ##blue|Thaumiel## || [[*user PC-DOS]] || 
+|| [[[scp-eq-417|SCP-EQ-417]]] || ##orange|Eucild## || [[*user PC-DOS]] || 
+|| [[[scp-eq-071|SCP-EQ-071-2和SCP-EQ-071-3]]] || ##green|Safe## || [[*user PC-DOS]] || 
+|| [[[scp-eq-036|SCP-EQ-036]]] || ##grey|Nutralized## || [[*user Solomon Edwards]] || 
 [[/tab]]
 [[tab 站点资料库]]
 [[[foundation-thaumaturgy-hub|基金会魔法学中心页]]]

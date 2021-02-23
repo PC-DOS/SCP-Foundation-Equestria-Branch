@@ -1,0 +1,65 @@
+[[iftags +样板]]
++ 如何使用这个样板
+
+这是一个虚假的Wikidot用户框，支持在一行内显示并自定义前后文本。
+
+++ 怎么使用它
+
+请在需要这个模块的地方使用这样的代码：
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:fake-wikidot-user@@
+@@    |AvatarImage=用户头像图片的直接链接@@
+@@    |AvatarLink=点击用户头像时跳转到的页面@@
+@@    |KarmaLevel=Karma值@@
+@@    |Username=用户名@@
+@@    |UsernameLink=点击用户名时跳转到的页面，在链接前加星号可以指定在新页面打开@@
+@@    |Prefix=用户块前显示的内容，支持Wikidot语法@@
+@@    |Suffix=用户块前显示的内容，支持Wikidot语法@@
+@@]]@@
+[[/div]]
+
+参数可以留空，此时会使用默认数据。
+
++ 使用范例
+
+下面的范例演示了一个虚假的用户。[[*user PC-DOS]]对这个虚假用户的头像图片保留所有权利。
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:fake-wikidot-user@@
+@@    |AvatarImage=https://ftp.bmp.ovh/imgs/2021/02/6c55fe39822df3d2.png@@
+@@    |AvatarLink=http://scp-eq.org@@
+@@    |KarmaLevel=5@@
+@@    |Username=Dr. Picsell Dois@@
+@@    |UsernameLink=*http://scp-eq.org@@
+@@    |Prefix=> * [[image http://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/scp-logo-signature.png width="10px" height="10px"]]@@ @@[*http://scp-eq.org SCP基金会小马国分部]的@@ @@@@
+@@    |Suffix=说道：我是一个//下层叙事//实体。我**不存在**于本层叙事。@@
+@@]]@@
+[[/div]]
+
+它看起来像这样：
+
+[[include :scp-equestria:component:fake-wikidot-user-base
+    |AvatarImage=https://ftp.bmp.ovh/imgs/2021/02/6c55fe39822df3d2.png
+    |AvatarLink=http://scp-eq.org
+    |KarmaLevel=5
+    |Username=Dr. Picsell Dois
+    |UsernameLink=*http://scp-eq.org
+    |Prefix=> * [[image http://scp-wiki.wdfiles.com/local--files/about-the-scp-foundation/scp-logo-signature.png width="10px" height="10px"]]@@ @@[*http://scp-eq.org SCP基金会小马国分部]的@@ @@
+    |Suffix=说道：我是一个//下层叙事//实体。我**不存在**于本层叙事。
+]]
+
++ 模块执行体
+
+这个执行体同时演示了默认参数。
+[[/iftags]]
+
+[[include :scp-equestria:component:fake-wikidot-user-base
+    |AvatarImage={$AvatarImage}|AvatarImage=http://d2qhngyckgiutd.cloudfront.net/default_avatar
+    |AvatarLink={$AvatarLink}|AvatarLink=http://www.wikidot.com
+    |KarmaLevel={$KarmaLevel}|KarmaLevel=0
+    |Username={$Username}|Username=Default User
+    |UsernameLink={$UsernameLink}|UsernameLink=*http://www.wikidot.com
+    |Prefix={$Prefix}|Prefix=@@@@
+    |Suffix={$Suffix}|Suffix=@@@@
+]]

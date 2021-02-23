@@ -1,0 +1,3 @@
+[[div]]
+{$Prefix}[[span class="printuser avatarhover"]][[a href="{$AvatarLink}"]][[image {$AvatarImage} class="small" style="background-image:url(http://www.wikidot.com/common--theme/base/images/karma/karma_{$KarmaLevel}.png)"]][[/a]][[a href="{$UsernameLink}"]]{$Username}[[/a]][[/span]]{$Suffix}
+[[/div]]

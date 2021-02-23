@@ -1,0 +1,117 @@
+[[module css]]
+
+/* Original CSS by Dr Hormress */
+/* Edited by PC-DOS */
+
+/* Span Styles */
+span.animated-text-{$ID} {
+    {$SpanStyle}
+}
+
+/* Hides the Placeholder */
+span.animated-text-{$ID} span {
+    display: none;
+}
+
+/* Animated Text */
+span.animated-text-{$ID}::before {
+    content: {$Text1};
+    animation: animated-text-{$ID}-animate {$Interval} infinite;
+    -webkit-animation: animated-text-{$ID}-animate {$Interval} infinite;
+    /* Additional Styles */
+    {$SpanBeforeStyle}
+}
+
+/* Animation Definitions */
+@keyframes animated-text-{$ID}-animate {
+
+0 {
+    content: {$Text1};
+}
+
+10% {
+    content: {$Text2};
+}
+
+20% {
+    content: {$Text3};
+}
+
+30% {
+    content: {$Text4};
+}
+
+40% {
+    content: {$Text5};
+}
+
+50% {
+    content: {$Text6};
+}
+
+60% {
+    content: {$Text7};
+}
+
+70% {
+    content: {$Text8};
+}
+
+80% {
+    content: {$Text9};
+}
+
+90% {
+    content: {$Text10};
+}
+
+}
+
+/* Animation Definitions for WebKit-based Browsers */
+@-webkit-keyframes animated-text-{$ID}-animate {
+
+0 {
+    content: {$Text1};
+}
+
+10% {
+    content: {$Text2};
+}
+
+20% {
+    content: {$Text2};
+}
+
+30% {
+    content: {$Text3};
+}
+
+40% {
+    content: {$Text4};
+}
+
+50% {
+    content: {$Text5};
+}
+
+60% {
+    content: {$Text6};
+}
+
+70% {
+    content: {$Text8};
+}
+
+80% {
+    content: {$Text9};
+}
+
+90% {
+    content: {$Text10};
+}
+
+}
+
+[[/module]]
+
+{$Prefix}[[span class="animated-text-{$ID}"]][[span]]{$Text1}[[/span]][[/span]]{$Suffix}

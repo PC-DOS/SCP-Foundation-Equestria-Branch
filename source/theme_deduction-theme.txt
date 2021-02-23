@@ -1,5 +1,5 @@
 [[module CSS]]
-@import url(/component:deduction-theme/code/1);
+@import url(/theme:deduction-theme/code/1);
 [[/module]]
 
 [[code type="css"]]
@@ -90,7 +90,7 @@
 }
 
 div#container-wrap {
-    background: url(http://scp-equestria.wdfiles.com/local--files/component%3Adeduction-theme/dd_body_bg.png) top left repeat-x;
+    background: url(http://scp-equestria.wdfiles.com/local--files/theme%3Adeduction-theme/dd_body_bg.png) top left repeat-x;
 }
 
 /* SIDEBAR */

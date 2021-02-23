@@ -72,6 +72,7 @@ display:none;
 * [[[thaumatology-and-sra |]]]
 * [[[the-lecture-of-quantum-thaumatology |]]]
 * [[[array-thaumatology-lecture |]]]
+* [[[computational-thaumatology-pre |]]]
 ++ 现实扭曲术与休谟理论部分
 * [[[dr-clef-reality-benders-and-you |]]]
 * [[[clef-excerpts |]]]

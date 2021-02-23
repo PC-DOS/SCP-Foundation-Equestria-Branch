@@ -9,10 +9,11 @@
 + 与Cravel博士有关的SCP
 
 [[[SCP-EQ-012]]] - Cravel博士的小马制造器！ 作者 - （用户已删除）
-[[[SCP-EQ-019]]] - Cravel博士的神奇玩偶！  作者 - [[*user HE Entar Liu]]
 [[[SCP-EQ-006]]] - Cravel博士的痒痒水！  作者 - [[*user PC-DOS]]
 [[[SCP-EQ-104]]] - Cravel博士的炫彩喷绘罐！ & Cravel博士的迷幻电子喷雾！  作者 - [[*user PC-DOS]]
 
 + 与Cravel博士有关的条目
 
-**暂无-_-**
+[[module ListPages category="_default" separate="no" tags="+cravel博士 +条目 -中心" perPage="50" order="created_at desc"]]
+**%%title_linked%%** by [[*user %%created_by%%]]
+[[/module]]

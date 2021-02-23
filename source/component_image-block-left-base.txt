@@ -1,0 +1,6 @@
+[[div class="scp-image-block block-left" style="width:{$width};"]]
+[[image {$name} style="width:{$width};"]]
+[[div class="scp-image-caption" style="width:{$width};"]]
+{$caption}
+[[/div]]
+[[/div]]

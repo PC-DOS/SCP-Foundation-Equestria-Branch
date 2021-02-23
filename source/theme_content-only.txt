@@ -1,0 +1,77 @@
+[[module css]]
+@import url("http://scp-equestria.wikidot.com/theme:content-only/code/1");
+[[/module]]
+
+[[iftags +版式]]
++ 说明
+
+这个版式隐藏了页面上所有的其他元素（包括标题页面），并使内容区域扩展到全屏，适合仅保留内容区域的需求（例如全屏幕的[[html]]块）。
+
+由于隐藏了页面底部的功能区域，因此您可能需要通过在页面地址后加入“{{/norender/true}}”的方式来编辑/管理页面。您也可以按{{Ctrl+E}}组合键来编辑页面。
+
+您可以通过在您的作品的开头添加如下语法的方式来应用此版式：
+
+[[div class="code"]]
+@@[[include :scp-equestria:theme:content-only]]@@
+[[/div]]
+
++ 源代码
+
+[[code type="css"]]
+/*
+    Content-only Theme
+    Created for the SCP Foundation by Aelanna
+    Edited for SCP基金会 by MScarlet and Devanos
+    Edited for SCP基金会小马国分部 by PC-DOS
+*/
+
+#header {
+    display: none;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#side-bar {
+    display: none;
+}
+
+div#container-wrap {
+    background: unset;
+}
+
+#content-wrap {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+#main-content {
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#page-title {
+    display: none;
+}
+
+.page-tags{
+    dispaly: none;
+}
+
+#page-info-break {
+    display: none;
+}
+
+#page-options-container {
+    display: none;
+}
+
+#main-content .page-tags {
+    display: none;
+}
+[[/code]]
+[[/iftags]]
