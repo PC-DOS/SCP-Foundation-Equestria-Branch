@@ -1,1 +1,3 @@
-[[include component:multi-language-base pagename={$pagename} | align={$align} | align=left]]
+[[module ListPages name="=" limit="1"]]
+[[include component:multi-language-base pagename=%%name%% | align={$align} | align=left]]
+[[/module]]

@@ -74,6 +74,9 @@ SCP基金会小马国分部资料库
 [[div class="menu-item sub-item"]]
 [[image series.png]][[[tag-guide|标签]]]
 [[/div]]
+[[div class="menu-item sub-item"]]
+[[image series.png]][[[search:site|数据库搜索]]]
+[[/div]]
 
 [[div class="heading"]]
 写作相关资料
@@ -149,6 +152,9 @@ SCP基金会小马国分部资料库
 [[/div]]
 [[div class="menu-item"]]
 [[image default.png]][*http://scp-wiki-cn.wikidot.com SCP基金会(-CN)]
+[[/div]]
+[[div class="menu-item"]]
+[[image default.png]][*http://scp-zh-tr.wikidot.com SCP基金會(-ZH-TR)]
 [[/div]]
 [[div class="menu-item"]]
 [[image default.png]][*http://scp-ru.wikidot.com Russian Branch(-RU)]

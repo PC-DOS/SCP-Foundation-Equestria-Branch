@@ -1,0 +1,16 @@
+[[module css]]
+/* Adapted from Nanimono Demonai's http://scp-jp-sandbox2.wikidot.com/inc:headsubtitle */
+/* Included code from Sigma-9 theme */
+/* Component by PC-DOS for SCP-EQ */
+
+#header h2 span {
+  font-size: 0px;
+}
+
+#header h2 span::before {
+  content: "{$HeaderSubtitle}";
+  color: #f0f0c0;
+  font-size: 15px;
+  {$HeaderSubtitleStyles}
+}
+[[/module]]

@@ -1,0 +1,15 @@
+[[module css]]
+/* Adapted from C-take's http://scp-jp-sandbox2.wikidot.com/inc:changepagetitle */
+/* Included code from Sigma-9 theme */
+/* Component by PC-DOS for SCP-EQ */
+
+#header h1 a span {
+  font-size: 0px;
+  letter-spacing: 0px;
+}
+
+#header h1 a::after {
+  content: "{$HeaderTitle}";
+  {$HeaderTitleStyles}
+}
+[[/module]]

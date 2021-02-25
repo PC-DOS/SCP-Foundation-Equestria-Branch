@@ -1,0 +1,40 @@
+[[iftags +样板]]
++ 如何使用这个样版
+
+这个样板通过一个经典的方式修改当前页面的标志，也就是位于页首且通常显示SCP基金会标志的图像。
+
+由[[*user PC-DOS]]基于日本分部的[[*user C-take]]的[*http://scp-jp-sandbox2.wikidot.com/inc:changelogo Change Logo]组件修改。
+
+++ 怎么使用它
+
+请在需要使用这个模块的地方使用这样的代码：
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:change-header-logo@@
+@@     |HeaderLogoURL=页面的标志，默认为标准样式的基金会Logo，字符串两端不需要引号@@
+@@     |HeaderLogoStyles=页面标志的附加样式，可以留空或不填写@@
+@@]]@@
+[[/div]]
+
+请注意：
+
+* {{HeaderLogoStyles}}中可输入多个样式，样式之间使用半角分号（{{;}}）分隔，样式行的末尾使用半角分号（{{;}}）结束。
+
+++ 功能增强
+
+如果您希望增强此组件的功能，请参考[[[component:change-header-logo-base|]]]中提供的源代码。
+
++ 更多相关组件
+
+这里列出了一些与此组件功能相关的组件。
+
+* [[[component:change-header-title|]]] - 修改页首的大标题
+* [[[component:change-header-subtitle|]]] - 修改页首的小标题
+* [[[component:change-header-logo|]]] - 修改页首的标志
+* [[[component:change-header-responsive-config|]]] - 调整页首响应式设计参数
+[[/iftags]]
+
+[[include :scp-equestria:component:change-header-logo-base
+     |HeaderLogoURL={$HeaderLogoURL}|HeaderLogoURL=http://scp-equestria.wdfiles.com/local--files/component%3Atheme/logo.png
+     |HeaderLogoStyles={$HeaderLogoStyles}|HeaderLogoStyles=/* */
+]]

@@ -1,0 +1,26 @@
+[[module css]]
+@import url(/component:theme-cht/code/1);
+[[/module]]
+
+[[code type="css"]]
+@import url(/component:theme/code/1);
+
+#header h1 a span {
+  font-size: 0px;
+  letter-spacing: 0px;
+}
+ 
+#header h1 a::after {
+  content: "SCP基金會小馬國分部";
+}
+
+#header h2 span {
+  font-size: 0px;
+}
+ 
+#header h2 span::before {
+  content: "控制 · 收容 · 保護";
+  color: #f0f0c0;
+  font-size: 15px;
+}
+[[/code]]

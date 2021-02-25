@@ -761,12 +761,6 @@ box-shadow: 0 1px 3px rgba(0,0,0,.5);
 [[/module]]
 [[/tab]]
 
-[[tab 没有父页面的段落页]]
-[[module ListPages category="fragment" parent="-" separate="no" perPage="50" order="name" prependLine="||~ 页面名称 ||~ 作者 ||~ 创建日期 ||"]]
-|| %%title_linked%% ||  [[user %%created_by%%]] || %%created_at%% ||
-[[/module]]
-[[/tab]]
-
 [[tab 孤立页面]]
 [[module OrphanedPages]]
 [[/tab]]

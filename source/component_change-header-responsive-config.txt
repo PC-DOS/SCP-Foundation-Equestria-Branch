@@ -1,0 +1,52 @@
+[[iftags +样板]]
++ 如何使用这个样版
+
+这个样板修改当前页面顶部的“响应式布局”配置，用于适应不同设备宽度下的自定义标题文本，通常会和修改页面标题文本的组件结合使用。
+
+由[[*user PC-DOS]]制作，引用了[[[component:theme|Sigma-9主题版式]]]中关于响应式布局的代码。
+
+++ 怎么使用它
+
+请在需要使用这个模块的地方使用这样的代码：
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:change-header-responsive-config@@
+@@     |FontSizeDefault=默认情况下的页面大标题字号，推荐使用百分比，默认为180%@@
+@@     |FontSize479px=页面宽度小于等于479px下的页面大标题字号，推荐使用百分比，默认为100%@@
+@@     |FontSize580px=页面宽度小于等于580px下的页面大标题字号，推荐使用百分比，默认为120%@@
+@@     |FontSize767px=页面宽度小于等于767px下的页面大标题字号，推荐使用百分比，默认为140%@@
+@@     |FontSize1240px=页面宽度小于等于1240px下的页面大标题字号，推荐使用百分比，默认为160%@@
+@@     |SubFontSizeDefault=默认情况下的页面小标题字号，推荐使用px，默认为15px@@
+@@     |SubFontSize479px=页面宽度小于等于479px下的页面小标题字号，推荐使用px，默认为15px@@
+@@     |SubFontSize580px=页面宽度小于等于580px下的页面小标题字号，推荐使用px，默认为15px@@
+@@     |SubFontSize767px=页面宽度小于等于767px下的页面小标题字号，推荐使用px，默认为15px@@
+@@     |SubFontSize1240px=页面宽度小于等于1240px下的页面小标题字号，推荐使用px，默认为15px@@
+@@]]@@
+[[/div]]
+
+++ 功能增强
+
+如果您希望增强此组件的功能，请参考[[[component:change-header-responsive-config-base|]]]中提供的源代码。
+
++ 更多相关组件
+
+这里列出了一些与此组件功能相关的组件。
+
+* [[[component:change-header-title|]]] - 修改页首的大标题
+* [[[component:change-header-subtitle|]]] - 修改页首的小标题
+* [[[component:change-header-logo|]]] - 修改页首的标志
+* [[[component:change-header-responsive-config|]]] - 调整页首响应式设计参数
+[[/iftags]]
+
+[[include :scp-equestria:component:change-header-responsive-config-base
+     |FontSizeDefault={$FontSizeDefault}|FontSizeDefault=180%
+     |FontSize479px={$FontSize479px}|FontSize479px=100%
+     |FontSize580px={$FontSize580px}|FontSize580px=120%
+     |FontSize767px={$FontSize767px}|FontSize479px=140%
+     |FontSize1240px={$FontSize1240px}|FontSize1240px=160%
+     |SubFontSizeDefault={$SubFontSizeDefault}|SubFontSizeDefault=105%
+     |SubFontSize479px={$SubFontSize479px}|SubFontSize479px=105%
+     |SubFontSize580px={$SubFontSize580px}|SubFontSize580px=105%
+     |SubFontSize767px={$SubFontSize767px}|SubFontSize479px=105%
+     |SubFontSize1240px={$SubFontSize1240px}|SubFontSize1240px=105%
+]]

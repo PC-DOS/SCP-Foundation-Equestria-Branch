@@ -1,7 +1,7 @@
 [[table style="border: none; width: 100%;"]]
 [[row]]
 [[cell]]
-__简体中文__ | [[[http://scp-equestria.wikidot.com/cht:scp-eq-202-ex | 繁體中文]]] | [[[http://scp-equestria.wikidot.com/eng:scp-eq-202-ex | English]]]
+__简体中文__ | [[[cht:scp-eq-202-ex | 繁體中文]]] | [[[eng:scp-eq-202-ex | English]]]
 [[/cell]]
 [[cell style="text-align: right;"]]
 [[module Rate]]

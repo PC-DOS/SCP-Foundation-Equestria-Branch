@@ -1,0 +1,40 @@
+[[iftags +样板]]
++ 如何使用这个样版
+
+这个样板通过一个经典的方式修改当前页面的大标题，也就是位于页首且通常显示为“SCP基金会”的文本。
+
+由[[*user PC-DOS]]基于日本分部的[[*user C-take]]的[*http://scp-jp-sandbox2.wikidot.com/inc:changepagetitle Change Page Title]组件修改。
+
+++ 怎么使用它
+
+请在需要使用这个模块的地方使用这样的代码：
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:change-header-title@@
+@@     |HeaderTitle=页面的大标题，默认为“SCP Foundation”，字符串两端不需要引号@@
+@@     |HeaderTitleStyles=页面大标题的附加样式，可以留空或不填写@@
+@@]]@@
+[[/div]]
+
+请注意：
+
+* {{HeaderTitleStyles}}中可输入多个样式，样式之间使用半角分号（{{;}}）分隔，样式行的末尾使用半角分号（{{;}}）结束。
+
+++ 功能增强
+
+如果您希望增强此组件的功能，请参考[[[component:change-header-title-base|]]]中提供的源代码。
+
++ 更多相关组件
+
+这里列出了一些与此组件功能相关的组件。
+
+* [[[component:change-header-title|]]] - 修改页首的大标题
+* [[[component:change-header-subtitle|]]] - 修改页首的小标题
+* [[[component:change-header-logo|]]] - 修改页首的标志
+* [[[component:change-header-responsive-config|]]] - 调整页首响应式设计参数
+[[/iftags]]
+
+[[include :scp-equestria:component:change-header-title-base
+     |HeaderTitle={$HeaderTitle}|HeaderTitle=SCP Foundation
+     |HeaderTitleStyles={$HeaderTitleStyles}|HeaderTitleStyles=/* */
+]]

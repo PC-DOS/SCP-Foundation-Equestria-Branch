@@ -1,22 +1,14 @@
 +++ 默认多语言模块
-[[module ListPages name="="]]
-[[include component:multi-language pagename=%%name%%]]
-[[/module]]
+[[include component:multi-language]]
 
 +++ 位于左边的多语言模块
-[[module ListPages name="="]]
-[[include component:multi-language pagename=%%name%% | align=left]]
-[[/module]]
+[[include component:multi-language align=left]]
 
 +++ 位于右边的多语言模块
-[[module ListPages name="="]]
-[[include component:multi-language pagename=%%name%% | align=right]]
-[[/module]]
+[[include component:multi-language align=right]]
 
 +++ 位于中间的多语言模块
-[[module ListPages name="="]]
-[[include component:multi-language pagename=%%name%% | align=center]]
-[[/module]]
+[[include component:multi-language align=center]]
 
 -----
 
@@ -24,22 +16,14 @@
 
 [[div class="code"]]
 @@+++ 默认多语言模块@@
-@@[[module ListPages name="="]]@@
-@@[[include component:multi-language pagename=%%name%%]]@@
-@@[[/module]]@@
+@@[[include component:multi-language]]@@
 @@ @@
 @@+++ 位于左边的多语言模块@@
-@@[[module ListPages name="="]]@@
-@@[[include component:multi-language pagename=%%name%% | align=left]]@@
-@@[[/module]]@@
+@@[[include component:multi-language align=left]]@@
 @@ @@
 @@+++ 位于右边的多语言模块@@
-@@[[module ListPages name="="]]@@
-@@[[include component:multi-language pagename=%%name%% | align=right]]@@
-@@[[/module]]@@
+@@[[include component:multi-language align=right]]@@
 @@ @@
 @@+++ 位于中间的多语言模块@@
-@@[[module ListPages name="="]]@@
-@@[[include component:multi-language pagename=%%name%% | align=center]]@@
-@@[[/module]]@@
+@@[[include component:multi-language align=center]]@@
 [[/div]]

@@ -56,6 +56,8 @@
 }
 [[/module]]
 
+[[include component:multi-language]]
+
 [[>]]
 [[module Rate]]
 [[/>]]
