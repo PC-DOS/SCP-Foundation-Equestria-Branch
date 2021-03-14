@@ -1,3 +1,15 @@
+[[include :scp-equestria:component:change-header-title
+     |HeaderTitle=Site-EQ-57
+]]
+
+[[include :scp-equestria:component:change-header-subtitle
+     |HeaderSubtitle=SCP基金会小马国分部第57号武装收容站点
+]]
+
+[[include :scp-equestria:component:change-header-logo
+     |HeaderLogoURL=http://scp-equestria.wdfiles.com/local--files/site-eq-57/SITE-EQ-57-Logo.png
+]]
+
 [[tabview]]
 [[tab 站点信息]]
 [[div style="center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; margin: 10px 10px 10px 40px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
@@ -7,7 +19,7 @@
 + SCP基金会小马国分部站点设施
 
 [[image SITE-EQ-57.jpg]]
-**全称：**SCP基金会小马国分部第57号收容站点
+**全称：**SCP基金会小马国分部第57号武装收容站点
 @@@@
 **站点识别代号：**Site-EQ-57
 [[/=]]
@@ -23,7 +35,7 @@
 
 **站点主管：**Dr.White
 
-**站点类型：**武装/Armed
+**站点类型：**武装，收容/Armed，Containment
 
 **站点规模：**中型
 
@@ -69,7 +81,7 @@ Dr.Black是一等收容专家，性别男，种族天马，现为站点收容部
 特工XMlulu原为基金会的外勤特工，性别女，种族天马。现今为站点安保部门主管，同时也是MTF-忠诚-01“破碎天马”的最高负责马。马员编级C级，安保许可等级3级。
 
 [[collapsible show="非4级权限马员禁止访问" hide="权限通过"]]
-XMlulu的身份我们一无所知，事实上正是她找到我们告诉了我们彩虹工厂的事情，并且组建了MTF-忠诚-01“破碎天马”，亲手策划指挥了突袭工厂的行动，可我们却对她一无所知？我们当前还不不知道她到底是为了什么来帮助我们，她对基金会是否有害，所以Site-EQ-57的全体负责马员须时刻监视她，暗地里我们也会调查她的底细。还有一点，一旦我们要对XMlulu做些什么的话，我们无法保证MTF-忠诚-01“破碎天马”的忠诚，所以要一点一点的废除掉XMlulu对MTF-忠诚-01“破碎天马”的负责权。明白吗，Dr.White。——O5-█
+XMlulu的身份我们一无所知，事实上正是她找到我们告诉了我们彩虹工厂的事情，并且组建了MTF-忠诚-01“破碎天马”，亲蹄策划指挥了突袭工厂的行动，可我们却对她一无所知？我们当前还不不知道她到底是为了什么来帮助我们，她对基金会是否有害，所以Site-EQ-57的全体负责马员须时刻监视她，暗地里我们也会调查她的底细。还有一点，一旦我们要对XMlulu做些什么的话，我们无法保证MTF-忠诚-01“破碎天马”的忠诚，所以要一点一点的废除掉XMlulu对MTF-忠诚-01“破碎天马”的负责权。明白吗，Dr.White。——O5-█
 [[/collapsible]]
 
 ------

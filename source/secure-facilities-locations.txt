@@ -159,7 +159,7 @@ Site-EQ-51位于███森林的█████区域，对外伪装为护林�
 +++ Site-EQ-53 （Containment Site-EQ-53）
 Site-EQ-53位于███森林的██区域，是--收容大部分雾状气体或有感知的SCP项目的站点。--由于受[[[scp-eq-015|SCP-EQ-015]]]异常效应的影响，目前Site-EQ-53被评估为“不适合继续使用”并被分配专用于收容SCP-EQ-015。该站点一般不允许马员进入，且在合适情形下可将该站点编号释放以分配给其它设施使用。
 
-+++ [[[site-eq-57|Site-EQ-57]]] （Armed Site-EQ-57）
++++ [[[site-eq-57|Site-EQ-57]]] （Armed Containment Site-EQ-57）
 Site-EQ-57位于云之都，为原小马利亚天气部门的彩虹工厂，专门为收容[[[scp-eq-010|SCP-EQ-010]]]而建立，同时收容有大量的非智能型异常。因其处于基金会与“Rainbow解放者”对抗的最前沿，故驻扎有大量的安保马员。
 
 +++ Site-EQ-95 （Provisional Site-EQ-95）

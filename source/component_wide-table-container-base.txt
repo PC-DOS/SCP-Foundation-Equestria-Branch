@@ -1,0 +1,10 @@
+[[module css]]
+/* Code by Dr Hormress */
+/* Adapted by PC-DOS */
+
+@media (max-width: {$MaxCapableWidth}) {
+.wide-table-container {
+    overflow-x: auto;
+}
+}
+[[/module]]

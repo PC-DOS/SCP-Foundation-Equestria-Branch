@@ -1,0 +1,27 @@
+[[iftags +样板]]
++ 如何使用这个样板
+
+这个样板提供了一个CSS模板，用于容纳较宽的表格，使其在移动端版式中可以横向滑动来浏览。
+
+[[*user PC-DOS]]制作，鸣谢[[*user Dr Hormress]]提供的参考，其出处[*http://scp-wiki-cn.wikidot.com/forum/t-13642016/rigil-kentaurus-s-proposal#post-4747813 在此]。
+
+++ 怎么使用它
+
+请在需要使用这个模块的地方使用这样的代码：
+
+[[div class="code"]]
+@@[[include :scp-equestria:component:wide-table-container-base MaxCapableWidth=开始使用移动端样式的屏幕宽度最大值，可以省略，默认值为767px]]@@
+[[/div]]
+
+然后，请用下面的格式创建表格：
+
+[[code]]
+[[div class="wide-table-container"]]
+||~ 表头1 ||~ 表头2 ||
+|| 表格内容 || 表格内容 ||
+[[/div]]
+[[/code]]
+
+[[/iftags]]
+
+[[include :scp-equestria:component:wide-table-container-base MaxCapableWidth={$MaxCapableWidth}|MaxCapableWidth=767px]]

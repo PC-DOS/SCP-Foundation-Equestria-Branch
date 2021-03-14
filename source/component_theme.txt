@@ -1,5 +1,4 @@
 [[code type="css"]]
-
 @import url(/local--files/component:theme/font-bauhaus.css);
 @import url(/css:base/code/1);
 @import url(/css:main/code/1);

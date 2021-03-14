@@ -59,7 +59,7 @@
 創建新頁面
 [[/div]]
 [[div class="panel-body"]]
-您可以在這裡創建一個新頁面。在下面輸入新頁面的名字，然後按一下 [創建新頁面] 的按鈕。
+您可以在這裡創建一個新頁面。在下面輸入新頁面的名字 (不需要“cht:”標識)，然後按一下 [創建新頁面] 的按鈕。
 [[module NewPage size="50" category="cht" tags="cht" button="​​創建新頁面"]]
 [[/div]]
 [[div class="panel-footer" style="text-align: center; height: 16px;"]]

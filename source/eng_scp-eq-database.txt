@@ -33,7 +33,7 @@ PERPETRATORS WILL BE TRACKED, LOCATED, AND DETAINED
 
 **Introduction:** This database is designed for staff prefer English. And can only be used to store the English version of exist entries. In order to avoid bad data organization, please upload your entry to the [[[scp-series-eq|Main Database]]] even if you have written it in English. Thank you for your cooperation.
 
-If you have translated an entry, please add its link to this page. Add an “eng:” prefix to the original page name to mark it as an English translation.
+If you have translated an entry, please add its link to this page. Add an "eng:" prefix to the original page name to mark it as an English translation.
 
 -----
 
@@ -44,7 +44,7 @@ If you have translated an entry, please add its link to this page. Add an “eng
 [[div class="content-panel standalone series"]]
 + Pages Marked as English Translations
 
-Pages have an “eng:” prefix will be listed here automatically.
+Pages have an "eng:" prefix will be listed here automatically.
 
 -----
 
@@ -59,7 +59,7 @@ Pages have an “eng:” prefix will be listed here automatically.
 Creating New Pages
 [[/div]]
 [[div class="panel-body"]]
-You can create a new page using this. Put the name of the new page here and click on the [Create] button. 
+You can create a new page using this. Put the name of the new page (the "eng:" prefix is not required) here and click on the [Create] button. 
 [[module NewPage size="50" category="eng" tags="eng" button="​​Create"]]
 [[/div]]
 

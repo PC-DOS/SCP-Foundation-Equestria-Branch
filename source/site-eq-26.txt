@@ -1,3 +1,15 @@
+[[include :scp-equestria:component:change-header-title
+     |HeaderTitle=Site-EQ-26
+]]
+
+[[include :scp-equestria:component:change-header-subtitle
+     |HeaderSubtitle=SCP基金会小马国分部第26号综合站点
+]]
+
+[[include :scp-equestria:component:change-header-logo
+     |HeaderLogoURL=http://scp-equestria.wdfiles.com/local--files/site-eq-26/Site-EQ-26-Logo.png
+]]
+
 [[tabview]]
 [[tab 站点信息]]
 [[div style="center no-repeat ; float: center; border: solid 2px #000000; padding: 1px 15px; margin: 10px 10px 10px 40px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]

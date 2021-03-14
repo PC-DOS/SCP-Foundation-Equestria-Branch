@@ -1,0 +1,601 @@
+[[iftags +版式]]
+[[module css]]
+.scp-image-block.block-right {
+    padding: 1em !important;
+    background: var(--gradient-header);
+}
+
+.scp-image-block img {
+    padding-bottom: 1em;
+}
+
+.status {
+    font-family: var(--title-font);
+    font-weight: 900;
+    font-size: 200%;
+    display: flex:
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.status span.active {
+    color: rgb(var(--white-monochrome));
+    -webkit-box-shadow:
+        inset 100vw 0 0 0 rgb(var(--rating-module-button-plus-color)),
+        0.25rem 0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+        -0.25rem -0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+        -0.25rem 0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+        0.25rem -0.25rem 0 rgb(var(--rating-module-button-plus-color));
+        -moz-box-shadow:
+            inset 100vw 0 0 0 rgb(var(--rating-module-button-plus-color)),
+            0.25rem 0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+            -0.25rem -0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+            -0.25rem 0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+            0.25rem -0.25rem 0 rgb(var(--rating-module-button-plus-color));
+                box-shadow:
+                    inset 100vw 0 0 0 rgb(var(--rating-module-button-plus-color)),
+                    0.25rem 0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+                    -0.25rem -0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+                    -0.25rem 0.25rem 0 rgb(var(--rating-module-button-plus-color)),
+                    0.25rem -0.25rem 0 rgb(var(--rating-module-button-plus-color));
+}
+[[/module]]
+
+[[image http://scp-wiki.wdfiles.com/local--files/theme%3Ablack-highlighter-theme/black-highlighter-logo.svg]]
+
+[[=]]
+[[div_ class="status"]]
+此组件目前 [[span class="active"]]已启用[[/span]]
+[[/div]]
+[[/=]]
+ _
+[[div style="border: 1px solid #ddd; padding: 1em;"]]
+
++ 这是什么
+
+一个将[*http://scptestwiki.wikidot.com/ 黑色标记笔]版式应用于您的作品的组件。
+
+这个组件将应用一个稳定版本的黑色标记笔版式，但更新时有可能会出现故障。
+
++ 报告问题
+
+如果您拥有 Github 帐户，请在[*https://github.com/Nu-SCPTheme/Black-Highlighter/issues 这里]创建一个 Issue，详细说明您的问题（无论是技术、外观还是其他任何的问题）。
+
+如果您没有 Github 帐户，或者您更希望直接与某人讨论，请加入 SynIRC 上的 {{#black-highlighter}} 频道，或者向 [[*user Woedenaz]] 或 [[*user Croquembouche]] 发送私人讯息。
+
++ 著作信息
+
+[*http://scp-wiki-cn.wikidot.com/theme:black-highlighter-theme 适用于SCP基金会中国分部的黑色标记笔]版式由[[*user Woedenaz]]与[[*user Croquembouche]]制作基底版本，[[*user Sekai_s]]与[[*user Jochoi]]翻译和维护。
+
+由于SCP基金会小马国分部网站使用的基底Sigma-9版本较低，因此由[[*user PC-DOS]]进行了小幅修改。
+
++ 使用方法
+
+在任何维基网站上：
+
+[[div class="code"]]
+@@[[include :scp-equestria:theme:black-highlighter-theme-eq]]@@
+[[/div]]
+
+++ 自定义
+
+以下自定义代码参考了[[*user Sekai_s]]的帖子[*http://scp-wiki-cn.wikidot.com/forum/t-12228627 制作自定义黑色标记笔（Black Highlighter）版式基础入门]。
+
+[[code]]
+[[module css]]
+:root {
+            /*↓ S-CSS-P 集成 ↓ */
+            /*↓ 如果您正在制作一个新的CSS主题版式，请至少添加以下三个变量。 ↓ */
+            /*↓ 每一个变量的说明在其下方 ↓ */
+
+                  --theme-base: "黑色标记笔";
+            /*↑ 必须为“黑色标记笔”或者“sigma9” ↑*/
+                  --theme-id: "black-highlighter-theme-eq";
+            /*↑ 您的版式页面的URL地址 - 例如“component:ar-theme”，则设置为“ar-theme” ↑*/
+                  --theme-name: "适用于SCP基金会小马国分部的黑色标记笔版式";
+            /*↑ 您的版式的名字 ↑*/
+
+            /*↓ 页眉 ↓ */
+
+                  --logo-image: url("https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg");
+            /*↑ 页眉Logo ↑*/
+                  --header-title: "SCP基金会小马国分部";
+            /*↑ 大标题 ↑*/
+                  --header-subtitle: "控制 · 收容 · 保护";
+            /*↑ 副标题 ↑*/
+
+            /*↓ 字体 - 字体的数量可以任意增加，之间以半角逗号隔开，系统会根据设备是否安装了该字体从前往后依次渲染 ↓ */
+
+                  --body-font: "Noto Sans SC", sans-serif;
+            /*↑ 正文字体 ↑*/
+                  --header-font: "Noto Sans SC", sans-serif;
+            /*↑ 页眉字体 ↑*/
+                  --title-font: "Noto Sans SC", sans-serif;
+            /*↑ 标题字体 ↑*/
+                  --mono-font: "ZCOOL QingKe HuangYou", "Andale Mono", "Courier New", Courier, monospace;
+            /*↑ 等宽字 ↑*/
+
+            /*↓ 标准颜色 ↓ */
+            /*↓ 颜色格式为 RGB 红、绿、蓝 ↓ */
+
+                  --white-monochrome: 252, 252, 252;
+            /*↑ 白色 ↑*/
+                  --pale-gray-monochrome: 244, 244, 244;
+            /*↑ 非常浅的灰色，用于引用块 ↑*/
+                  --light-pale-gray-monochrome: 244, 244, 244;
+            /*↑ 浅灰色 ↑*/
+                  --very-light-gray-monochrome: 215, 215, 215;
+            /*↑ 浅灰色 ↑*/
+                  --light-gray-monochrome: 160, 160, 160;
+            /*↑ 浅灰色 ↑*/
+                  --gray-monochrome: 66, 66, 72;
+            /*↑ 灰色 ↑*/
+                  --dark-gray-monochrome: 48, 48, 52;
+            /*↑ 深灰色 ↑*/
+                  --black-monochrome: 12, 12, 12;
+            /*↑ 黑色 ↑*/
+                  --pale-accent: 230, 40, 60;
+            /*↑ 浅色，链接颜色 ↑*/
+                  --bright-accent: 133, 0, 5;
+            /*↑ 亮色 ↑*/
+                  --medium-accent: 41, 89, 101;
+            /*↑ 基准颜色 ↑*/
+                  --dark-accent: 51, 51, 102;
+            /*↑ 深色 ↑*/
+                  --alt-accent: 221, 102, 17;
+            /*↑ 页面不存在的链接颜色 ↑*/
+
+            /*↓ 背景及页眉颜色 ↓ */
+
+                  --background-gradient-color: var(--very-light-gray-monochrome);
+                  --header-gradient-color-bottom: var(--medium-accent);
+            /*↑ 页眉渐变 - 底端 ↑*/
+                  --header-gradient-color-middle: var(--black-monochrome);
+            /*↑ 页眉渐变 - 中间 ↑*/
+                  --header-gradient-color-top: var(--black-monochrome);
+            /*↑ 页面渐变 - 顶端 ↑*/
+
+            /*↓ 主要版式颜色 - 一般无需修改 ↓ */
+
+                  --swatch-background: var(--white-monochrome);
+                  --swatch-primary: var(--bright-accent);
+                  --swatch-primary-darker: var(--medium-accent);
+                  --swatch-primary-darkest: var(--dark-accent);
+
+            /*↓ 主要文字颜色 - 一般无需修改 ↓ */
+
+                  --swatch-text-dark: var(--black-monochrome);
+                  --swatch-text-light: var(--white-monochrome);
+                  --swatch-important-text: var(--bright-accent);
+
+            /*↓ 主要菜单颜色 - 一般无需修改 ↓ */
+
+                  --swatch-menubg-color: var(--white-monochrome);
+                  --swatch-menubg-light-color: var(--pale-gray-monochrome);
+                  --swatch-menubg-medium-color: var(--light-gray-monochrome);
+                  --swatch-menubg-medium-dark-color: var(--gray-monochrome);
+                  --swatch-menubg-dark-color: var(--dark-gray-monochrome);
+                  --swatch-menubg-black-color: var(--black-monochrome);
+                  --swatch-menubg-hover-color: var(--black-monochrome);
+                  --swatch-menutxt-dark-color: var(--black-monochrome);
+                  --swatch-menutxt-light-color: var(--white-monochrome);
+                  --swatch-border-color: var(--black-monochrome);
+
+            /*↓ 主要页眉颜色 ↓ */
+
+                  --swatch-headerh1-color: var(--white-monochrome);
+            /*↑ 大标题颜色 ↑*/
+                  --swatch-headerh2-color: var(--white-monochrome);
+            /*↑ 副标题颜色 ↑*/
+                  --swatch-topmenu-border-color: var(--black-monochrome);
+            /*↑ 顶栏的边框颜色 ↑*/
+                  --swatch-topmenu-bg-color: var(--gray-monochrome);
+            /*↑ 顶栏的背景颜色 ↑*/
+
+            /*↓ 链接颜色 ↓ */
+                  --link-color: var(--pale-accent);
+            /*↑ 一般链接颜色 ↑*/
+                  --visited-link-color: var(--swatch-primary);
+            /*↑ 已访问的链接颜色 ↑*/
+                  --hover-link-color: var(--swatch-primary);
+            /*↑ 高亮的链接颜色 - 鼠标悬停时 ↑*/
+                  --newpage-color: var(--alt-accent);
+            /*↑ 页面不存在的链接颜色 ↑*/
+                  --sidebar-links-text: var(--swatch-menutxt-dark-color);
+            /*↑ 侧边栏的链接颜色 ↑*/
+
+            /*↓ 评分模块颜色 ↓ */
+
+                  --rating-module-button-color: var(--black-monochrome);
+            /*↑ 评分模块字体颜色 ↑*/
+                  --rating-module-button-plus-color: 0, 200, 0;
+            /*↑ 好评背景颜色 - 绿色 ↑*/
+                  --rating-module-button-negative-color: 200, 0, 0;
+            /*↑ 差评背景颜色 - 红色 ↑*/
+                  --rating-module-button-cancel-color: 200, 200, 200;
+            /*↑ 取消评分背景颜色 - 白色 ↑*/
+                  --rating-module-button-credit-color: 50, 50, 50;
+            /*↑ 著作信息模块中字母“i”的颜色 ↑*/
+                  --rating-module-text-color: var(--swatch-menutxt-dark-color);
+            /*↑ 评分模块字体颜色 ↑*/
+                  --rating-module-text-hover-color: var(--swatch-menutxt-light-color);
+            /*↑ 评分模块字体鼠标悬停时颜色 ↑*/
+
+            /*↓ 页眉渐变 - 一般无需修改 ↓ */
+                  --gradient-header: linear-gradient(
+                  to top,
+                        rgb(var(--header-gradient-color-bottom)) 0%,
+                        rgb(var(--header-gradient-color-middle)) 90%,
+                        rgb(var(--header-gradient-color-top)) 100%
+            );
+                  --gradient-topmenu: linear-gradient(
+                  to bottom,
+                  rgba(255, 255, 255, 0) 0%,
+                        rgba(255, 255, 255, 0) var(--header-height-on-desktop),
+                        rgba(var(--swatch-topmenu-border-color),1) var(--header-height-on-desktop),
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(var(--header-height-on-desktop) + 0.125rem),
+                        rgba(var(--swatch-topmenu-bg-color), 0.95) calc(100% - 0.125rem),
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(100% - 0.125rem),
+                        rgba(var(--swatch-topmenu-border-color), 1) 100%);
+                  --gradient-topmenu-mobile: linear-gradient(
+                  to bottom,
+                        rgba(var(--swatch-topmenu-border-color),1) 0,
+                        rgba(var(--swatch-topmenu-bg-color), 1) 0.125rem,
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(var(--topbar-height-on-mobile) - 0.125rem),
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(var(--topbar-height-on-mobile) - 0.125rem),
+                        rgba(var(--swatch-topmenu-border-color),1) var(--topbar-height-on-mobile));
+                  --diagonal-stripes: repeating-linear-gradient(
+                  45deg,
+                  hsla(0, 0%, 100%, 0),
+                  hsla(0, 0%, 100%, 0) 0.25vh,
+                  rgba(88, 88, 88, 0.1) 0.35vh,
+                  rgba(88, 88, 88, 0.2) 0.5vh
+            );
+                  --gradient-sidemenu-header: linear-gradient(10deg,
+                        rgba(var(--medium-accent), 0.45) 0%,
+                        rgba(var(--medium-accent), 0.55) 100%
+            );
+                  --background-gradient-distance: 40rem;
+                  --gradient-background: linear-gradient(
+                  to bottom,
+                        rgba(var(--background-gradient-color),1) 0,
+                        rgba(var(--background-gradient-color),0.987) calc(0.008 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.951) calc(0.029 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.896) calc(0.064 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.825) calc(0.110 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.741) calc(0.166 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.648) calc(0.231 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.550) calc(0.304 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.450) calc(0.383 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.352) calc(0.467 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.259) calc(0.554 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.175) calc(0.644 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.104) calc(0.735 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.049) calc(0.825 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.013) calc(0.914 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0) var(--background-gradient-distance));
+
+            /*↓ 页面排版 - 一般无需修改 ↓ */
+
+            /*↓ 页眉排版 - 一般无需修改 ↓ */
+                 --header-height-on-desktop: 7.5rem;
+                 --header-height-on-mobile: 7.5rem;
+                 --topbar-height-on-desktop: 1.875rem;
+                 --topbar-height-on-mobile: 3rem;
+                 --header-background-image-size: 100% var(--header-height-on-desktop);
+                 --body-width-on-desktop: 44.25rem;
+                  --sidebar-width-on-desktop: calc((var(--base-font-size) * (14/15)) * 19);
+                  --sidebar-width-on-mobile: calc((var(--base-font-size) * (14/15)) * 16);
+                  --scrollbar-width: 1rem;
+                  --border-styling: solid 0.0625rem rgb(var(--swatch-border-color));
+                  --border-radius-width: 0.0625rem;
+
+            /*↓ 阴影 - 一般无需修改 ↓ */
+                  --box-border-bottom: 0 0.0625rem 0 0 rgb(var(--swatch-border-color));
+                  --box-border-top: 0 -0.0625rem 0 0 rgb(var(--swatch-border-color));
+                  --box-border-left: -0.0625rem 0 0 0 rgb(var(--swatch-border-color));
+                  --box-border-right: 0.0625rem 0 0 0 rgb(var(--swatch-border-color));
+                  --box-border-all: 0 0 0 0.0625rem rgb(var(--swatch-border-color));
+
+            /*↓ 侧边栏 ↓ */
+                  --sidebar-transition-timing: 0.5s ease-in-out 0.1s;
+            /*↑ 侧边栏动画效果 - 持续时间、速度曲线、延迟时间 ↑*/
+                  --sidebar-internal-border-thickness: 0.125rem;
+            /*↑ 侧边栏项目的高度 ↑*/
+
+            /*↓ 杂项 ↓ */
+                  --base-font-size: 0.9375rem;
+            /*↑ 基准字体大小 ↑*/
+                  --base-line-height: 1.313rem;
+                  --final-header-height-on-desktop: calc(var(--header-height-on-desktop) + var(--topbar-height-on-desktop));
+                  --final-header-height-on-mobile: calc(var(--header-height-on-mobile) + var(--topbar-height-on-mobile));
+}
+[[/module]]
+[[/code]]
+[[/div]]
+[[/iftags]]
+
+[[module CSS]]
+/* BHL by Woedenaz & Croquembouche */
+/* Translated for SCP-CN by Sekai_S */
+/* :root redef by Sekai_S @ http://scp-wiki-cn.wikidot.com/forum/t-12228627 */
+/* Edited for SCP基金会小马国分部 by PC-DOS */
+
+@import url("https://cdn.jsdelivr.net/gh/scp-cn-tech/black-highlighter@gh-pages/stable/styles/normalize.min.css");
+@import url("https://cdn.jsdelivr.net/gh/scp-cn-tech/black-highlighter@gh-pages/stable/styles/chinese/black-highlighter_ch.min.css");
+
+/* Top-Bar fix */
+.top-bar {
+             position: static;
+             z-index: 50;
+             right: auto;
+             margin: 0;
+}
+
+/* Edit-Page window fix */
+html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area div form#edit-page-form table.form tbody tr td{
+             word-break: keep-all;
+}
+
+#edit-page-title{
+             max-width: 75%;
+}
+
+/* Page-Tags fix */
+html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area form table.form tbody tr td{
+             word-break: keep-all;
+}
+
+#page-tags-input{
+             max-width: 80%;
+}
+
+/* Side-Bar fix */
+#side-bar div.menu-item a[href*="scp-series"] {
+    text-align: left;
+}
+
+#side-bar div.menu-item a[href*="scp-series"]::before {
+    width: 125%;
+}
+
+#side-bar div.menu-item .sub-text {
+    display: none;
+}
+
+/* Multilanguage Module fix */
+html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#header div#top-bar div.top-bar div.list-pages-box{
+     display: none;
+}
+
+:root {
+            /*↓ S-CSS-P 集成 ↓ */
+            /*↓ 如果您正在制作一个新的CSS主题版式，请至少添加以下三个变量。 ↓ */
+            /*↓ 每一个变量的说明在其下方 ↓ */
+
+                  --theme-base: "黑色标记笔";
+            /*↑ 必须为“黑色标记笔”或者“sigma9” ↑*/
+                  --theme-id: "black-highlighter-theme-eq";
+            /*↑ 您的版式页面的URL地址 - 例如“component:ar-theme”，则设置为“ar-theme” ↑*/
+                  --theme-name: "适用于SCP基金会小马国分部的黑色标记笔版式";
+            /*↑ 您的版式的名字 ↑*/
+
+            /*↓ 页眉 ↓ */
+
+                  --logo-image: url("https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg");
+            /*↑ 页眉Logo ↑*/
+                  --header-title: "SCP基金会小马国分部";
+            /*↑ 大标题 ↑*/
+                  --header-subtitle: "控制 · 收容 · 保护";
+            /*↑ 副标题 ↑*/
+
+            /*↓ 字体 - 字体的数量可以任意增加，之间以半角逗号隔开，系统会根据设备是否安装了该字体从前往后依次渲染 ↓ */
+
+                  --body-font: "Noto Sans SC", sans-serif;
+            /*↑ 正文字体 ↑*/
+                  --header-font: "Noto Sans SC", sans-serif;
+            /*↑ 页眉字体 ↑*/
+                  --title-font: "Noto Sans SC", sans-serif;
+            /*↑ 标题字体 ↑*/
+                  --mono-font: "ZCOOL QingKe HuangYou", "Andale Mono", "Courier New", Courier, monospace;
+            /*↑ 等宽字 ↑*/
+
+            /*↓ 标准颜色 ↓ */
+            /*↓ 颜色格式为 RGB 红、绿、蓝 ↓ */
+
+                  --white-monochrome: 252, 252, 252;
+            /*↑ 白色 ↑*/
+                  --pale-gray-monochrome: 244, 244, 244;
+            /*↑ 非常浅的灰色，用于引用块 ↑*/
+                  --light-pale-gray-monochrome: 244, 244, 244;
+            /*↑ 浅灰色 ↑*/
+                  --very-light-gray-monochrome: 215, 215, 215;
+            /*↑ 浅灰色 ↑*/
+                  --light-gray-monochrome: 160, 160, 160;
+            /*↑ 浅灰色 ↑*/
+                  --gray-monochrome: 66, 66, 72;
+            /*↑ 灰色 ↑*/
+                  --dark-gray-monochrome: 48, 48, 52;
+            /*↑ 深灰色 ↑*/
+                  --black-monochrome: 12, 12, 12;
+            /*↑ 黑色 ↑*/
+                  --pale-accent: 230, 40, 60;
+            /*↑ 浅色，链接颜色 ↑*/
+                  --bright-accent: 133, 0, 5;
+            /*↑ 亮色 ↑*/
+                  --medium-accent: 41, 89, 101;
+            /*↑ 基准颜色 ↑*/
+                  --dark-accent: 51, 51, 102;
+            /*↑ 深色 ↑*/
+                  --alt-accent: 221, 102, 17;
+            /*↑ 页面不存在的链接颜色 ↑*/
+
+            /*↓ 背景及页眉颜色 ↓ */
+
+                  --background-gradient-color: var(--very-light-gray-monochrome);
+                  --header-gradient-color-bottom: var(--medium-accent);
+            /*↑ 页眉渐变 - 底端 ↑*/
+                  --header-gradient-color-middle: var(--black-monochrome);
+            /*↑ 页眉渐变 - 中间 ↑*/
+                  --header-gradient-color-top: var(--black-monochrome);
+            /*↑ 页面渐变 - 顶端 ↑*/
+
+            /*↓ 主要版式颜色 - 一般无需修改 ↓ */
+
+                  --swatch-background: var(--white-monochrome);
+                  --swatch-primary: var(--bright-accent);
+                  --swatch-primary-darker: var(--medium-accent);
+                  --swatch-primary-darkest: var(--dark-accent);
+
+            /*↓ 主要文字颜色 - 一般无需修改 ↓ */
+
+                  --swatch-text-dark: var(--black-monochrome);
+                  --swatch-text-light: var(--white-monochrome);
+                  --swatch-important-text: var(--bright-accent);
+
+            /*↓ 主要菜单颜色 - 一般无需修改 ↓ */
+
+                  --swatch-menubg-color: var(--white-monochrome);
+                  --swatch-menubg-light-color: var(--pale-gray-monochrome);
+                  --swatch-menubg-medium-color: var(--light-gray-monochrome);
+                  --swatch-menubg-medium-dark-color: var(--gray-monochrome);
+                  --swatch-menubg-dark-color: var(--dark-gray-monochrome);
+                  --swatch-menubg-black-color: var(--black-monochrome);
+                  --swatch-menubg-hover-color: var(--black-monochrome);
+                  --swatch-menutxt-dark-color: var(--black-monochrome);
+                  --swatch-menutxt-light-color: var(--white-monochrome);
+                  --swatch-border-color: var(--black-monochrome);
+
+            /*↓ 主要页眉颜色 ↓ */
+
+                  --swatch-headerh1-color: var(--white-monochrome);
+            /*↑ 大标题颜色 ↑*/
+                  --swatch-headerh2-color: var(--white-monochrome);
+            /*↑ 副标题颜色 ↑*/
+                  --swatch-topmenu-border-color: var(--black-monochrome);
+            /*↑ 顶栏的边框颜色 ↑*/
+                  --swatch-topmenu-bg-color: var(--gray-monochrome);
+            /*↑ 顶栏的背景颜色 ↑*/
+
+            /*↓ 链接颜色 ↓ */
+
+                  --link-color: var(--pale-accent);
+            /*↑ 一般链接颜色 ↑*/
+                  --visited-link-color: var(--swatch-primary);
+            /*↑ 已访问的链接颜色 ↑*/
+                  --hover-link-color: var(--swatch-primary);
+            /*↑ 高亮的链接颜色 - 鼠标悬停时 ↑*/
+                  --newpage-color: var(--alt-accent);
+            /*↑ 页面不存在的链接颜色 ↑*/
+                  --sidebar-links-text: var(--swatch-menutxt-dark-color);
+            /*↑ 侧边栏的链接颜色 ↑*/
+
+            /*↓ 评分模块颜色 ↓ */
+
+                  --rating-module-button-color: var(--black-monochrome);
+            /*↑ 评分模块字体颜色 ↑*/
+                  --rating-module-button-plus-color: 0, 200, 0;
+            /*↑ 好评背景颜色 - 绿色 ↑*/
+                  --rating-module-button-negative-color: 200, 0, 0;
+            /*↑ 差评背景颜色 - 红色 ↑*/
+                  --rating-module-button-cancel-color: 200, 200, 200;
+            /*↑ 取消评分背景颜色 - 白色 ↑*/
+                  --rating-module-button-credit-color: 50, 50, 50;
+            /*↑ 著作信息模块中字母“i”的颜色 ↑*/
+                  --rating-module-text-color: var(--swatch-menutxt-dark-color);
+            /*↑ 评分模块字体颜色 ↑*/
+                  --rating-module-text-hover-color: var(--swatch-menutxt-light-color);
+            /*↑ 评分模块字体鼠标悬停时颜色 ↑*/
+
+            /*↓ 页眉渐变 - 一般无需修改 ↓ */
+
+                  --gradient-header: linear-gradient(
+                  to top,
+                        rgb(var(--header-gradient-color-bottom)) 0%,
+                        rgb(var(--header-gradient-color-middle)) 90%,
+                        rgb(var(--header-gradient-color-top)) 100%
+            );
+                  --gradient-topmenu: linear-gradient(
+                  to bottom,
+                  rgba(255, 255, 255, 0) 0%,
+                        rgba(255, 255, 255, 0) var(--header-height-on-desktop),
+                        rgba(var(--swatch-topmenu-border-color),1) var(--header-height-on-desktop),
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(var(--header-height-on-desktop) + 0.125rem),
+                        rgba(var(--swatch-topmenu-bg-color), 0.95) calc(100% - 0.125rem),
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(100% - 0.125rem),
+                        rgba(var(--swatch-topmenu-border-color), 1) 100%);
+                  --gradient-topmenu-mobile: linear-gradient(
+                  to bottom,
+                        rgba(var(--swatch-topmenu-border-color),1) 0,
+                        rgba(var(--swatch-topmenu-bg-color), 1) 0.125rem,
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(var(--topbar-height-on-mobile) - 0.125rem),
+                        rgba(var(--swatch-topmenu-bg-color), 1) calc(var(--topbar-height-on-mobile) - 0.125rem),
+                        rgba(var(--swatch-topmenu-border-color),1) var(--topbar-height-on-mobile));
+                  --diagonal-stripes: repeating-linear-gradient(
+                  45deg,
+                  hsla(0, 0%, 100%, 0),
+                  hsla(0, 0%, 100%, 0) 0.25vh,
+                  rgba(88, 88, 88, 0.1) 0.35vh,
+                  rgba(88, 88, 88, 0.2) 0.5vh
+            );
+                  --gradient-sidemenu-header: linear-gradient(10deg,
+                        rgba(var(--medium-accent), 0.45) 0%,
+                        rgba(var(--medium-accent), 0.55) 100%
+            );
+                  --background-gradient-distance: 40rem;
+                  --gradient-background: linear-gradient(
+                  to bottom,
+                        rgba(var(--background-gradient-color),1) 0,
+                        rgba(var(--background-gradient-color),0.987) calc(0.008 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.951) calc(0.029 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.896) calc(0.064 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.825) calc(0.110 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.741) calc(0.166 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.648) calc(0.231 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.550) calc(0.304 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.450) calc(0.383 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.352) calc(0.467 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.259) calc(0.554 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.175) calc(0.644 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.104) calc(0.735 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.049) calc(0.825 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0.013) calc(0.914 * var(--background-gradient-distance)),
+                        rgba(var(--background-gradient-color),0) var(--background-gradient-distance));
+
+            /*↓ 页面排版 - 一般无需修改 ↓ */
+
+            /*↓ 页眉排版 - 一般无需修改 ↓ */
+                 --header-height-on-desktop: 7.5rem;
+                 --header-height-on-mobile: 7.5rem;
+                 --topbar-height-on-desktop: 1.875rem;
+                 --topbar-height-on-mobile: 3rem;
+                 --header-background-image-size: 100% var(--header-height-on-desktop);
+                 --body-width-on-desktop: 44.25rem;
+                  --sidebar-width-on-desktop: calc((var(--base-font-size) * (14/15)) * 19);
+                  --sidebar-width-on-mobile: calc((var(--base-font-size) * (14/15)) * 16);
+                  --scrollbar-width: 1rem;
+                  --border-styling: solid 0.0625rem rgb(var(--swatch-border-color));
+                  --border-radius-width: 0.0625rem;
+
+            /*↓ 阴影 - 一般无需修改 ↓ */
+                  --box-border-bottom: 0 0.0625rem 0 0 rgb(var(--swatch-border-color));
+                  --box-border-top: 0 -0.0625rem 0 0 rgb(var(--swatch-border-color));
+                  --box-border-left: -0.0625rem 0 0 0 rgb(var(--swatch-border-color));
+                  --box-border-right: 0.0625rem 0 0 0 rgb(var(--swatch-border-color));
+                  --box-border-all: 0 0 0 0.0625rem rgb(var(--swatch-border-color));
+
+            /*↓ 侧边栏 ↓ */
+                  --sidebar-transition-timing: 0.5s ease-in-out 0.1s;
+            /*↑ 侧边栏动画效果 - 持续时间、速度曲线、延迟时间 ↑*/
+                  --sidebar-internal-border-thickness: 0.125rem;
+            /*↑ 侧边栏项目的高度 ↑*/
+
+            /*↓ 杂项 ↓ */
+                  --base-font-size: 0.9375rem;
+            /*↑ 基准字体大小 ↑*/
+                  --base-line-height: 1.313rem;
+                  --final-header-height-on-desktop: calc(var(--header-height-on-desktop) + var(--topbar-height-on-desktop));
+                  --final-header-height-on-mobile: calc(var(--header-height-on-mobile) + var(--topbar-height-on-mobile));
+}
+[[/module]]
